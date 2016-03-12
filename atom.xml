@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://alanjui.github.io/blog/"/>
-  <updated>2016-03-12T12:52:24.000Z</updated>
+  <updated>2016-03-12T14:25:58.000Z</updated>
   <id>http://alanjui.github.io/blog/</id>
   
   <author>
@@ -20,12 +20,11 @@
     <link href="http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/</id>
     <published>2016-03-12T08:14:11.000Z</published>
-    <updated>2016-03-12T12:52:24.000Z</updated>
+    <updated>2016-03-12T14:25:58.000Z</updated>
     
     <content type="html">&lt;p&gt;習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。&lt;/p&gt;
 &lt;p&gt;GitHub官網推薦：以Jekyll來架設Static網站。&lt;/p&gt;
-&lt;p&gt;不過……&lt;/p&gt;
-&lt;p&gt;Jekyll的核心技術用的是Ruby，不是個人所熟悉的NodeJS。&lt;/p&gt;
+&lt;p&gt;不過……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;Jekyll的核心技術用的是Ruby，不是個人所熟悉的NodeJS。&lt;/p&gt;
 &lt;p&gt;還好……&lt;/p&gt;
 &lt;p&gt;現在有了Hexo，我就可以在熟悉的NodeJS環境，運用比較順手的技術，在GitHub網站，建立Static網站；把這個Static網站，化身成個人的「部落格」！  ^^y&lt;/p&gt;
 </content>
@@ -34,8 +33,7 @@
     
       &lt;p&gt;習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。&lt;/p&gt;
 &lt;p&gt;GitHub官網推薦：以Jekyll來架設Static網站。&lt;/p&gt;
-&lt;p&gt;不過……&lt;/p&gt;
-&lt;p&gt;Jekyll的核心技術用的是Ruby，不是個人所熟悉的NodeJ
+&lt;p&gt;不過……&lt;br&gt;
     
     </summary>
     
@@ -53,26 +51,38 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>Hello Hexo</title>
     <link href="http://alanjui.github.io/blog/2016/03/12/hello-world/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/hello-world/</id>
     <published>2016-03-11T16:00:00.000Z</published>
-    <updated>2016-03-12T12:53:01.000Z</updated>
+    <updated>2016-03-12T15:02:25.000Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;使用&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;，可以快速架設個人部落格。 &lt;/p&gt;
+&lt;p&gt;不過，要能操控它，有些「操作細節」還是得參考&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文件&lt;/a&gt;，才能真正運用自如。&lt;/p&gt;
+&lt;p&gt;若是不幸，遇到了一些操作上的疑難雜症，可還得參考其&lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;茶包射擊（troubleshooting）指南&lt;/a&gt;；不然，也可以上&lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;「放話」請益！&lt;/p&gt;
+&lt;p&gt;記憶力不算好的我，做些小抄，以備不時之需！&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;新建一則Blog&quot;&gt;&lt;a href=&quot;#新建一則Blog&quot; class=&quot;headerlink&quot; title=&quot;新建一則Blog&quot;&gt;&lt;/a&gt;新建一則Blog&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;yyyy-mm-dd-My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;撰寫Blog文章&quot;&gt;&lt;a href=&quot;#撰寫Blog文章&quot; class=&quot;headerlink&quot; title=&quot;撰寫Blog文章&quot;&gt;&lt;/a&gt;撰寫Blog文章&lt;/h3&gt;&lt;p&gt;撰寫Blog文章時，可以為文章來個「前情提要」，令文章的內容可以有個「切割」；讓文章的前半段內容，像是個「「內容摘要」」；而讀者可藉由這個「摘要」，決定是否要進一步閱讀文章的內容細節。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;更多參考資訊：&lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;預覽Blog文章&quot;&gt;&lt;a href=&quot;#預覽Blog文章&quot; class=&quot;headerlink&quot; title=&quot;預覽Blog文章&quot;&gt;&lt;/a&gt;預覽Blog文章&lt;/h3&gt;&lt;p&gt;在Local端啟動Web伺服器，預覽輸出，確認顯示的結果是否符合自己的意。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;更多參考資訊：&lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;製作Blog網頁&quot;&gt;&lt;a href=&quot;#製作Blog網頁&quot; class=&quot;headerlink&quot; title=&quot;製作Blog網頁&quot;&gt;&lt;/a&gt;製作Blog網頁&lt;/h3&gt;&lt;p&gt;已寫好的Blog文章，需要Hexo依據樣版，產出HTML網頁／製作Blog標籤。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate (--watch)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;更多參考資訊：&lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;發佈Blog文章&quot;&gt;&lt;a href=&quot;#發佈Blog文章&quot; class=&quot;headerlink&quot; title=&quot;發佈Blog文章&quot;&gt;&lt;/a&gt;發佈Blog文章&lt;/h3&gt;&lt;p&gt;將已寫好的Blog文章，發佈到GitHub Pages網站。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy（-g）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;【註】：上述工作要能正常運作，當然GitHub儲存器要先建立；還有_config.yml該有的「設定」內容，也得先完成才行。&lt;/p&gt;
+&lt;p&gt;更多參考資訊：&lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;使用&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;，可以快速架設個人部落格。 &lt;/p&gt;
+&lt;p&gt;不過，要能操控它，有些「操作細節」還是得參考&lt;a href=&quot;https://hexo.io/docs/&quot;&gt;文件&lt;/a&gt;，才能真正運用自如。&lt;/p&gt;
+&lt;p&gt;若是不幸，遇到了一些操作上的疑難雜症，可還得參考其&lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;茶包射擊（troubleshooting）指南&lt;/a&gt;；不然，也可以上&lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;「放話」請益！&lt;/p&gt;
+&lt;p&gt;記憶力不算好的我，做些小抄，以備不時之需！&lt;/p&gt;
     
     </summary>
     
@@ -88,10 +98,9 @@
     <link href="http://alanjui.github.io/blog/2016/03/09/ng-md-2015/"/>
     <id>http://alanjui.github.io/blog/2016/03/09/ng-md-2015/</id>
     <published>2016-03-09T08:39:00.000Z</published>
-    <updated>2016-03-12T12:53:17.000Z</updated>
+    <updated>2016-03-12T15:04:56.000Z</updated>
     
-    <content type="html">&lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!&lt;/p&gt;
-&lt;p&gt;在 Angular Material 官網的「Getting Started」，看到名為：&lt;a href=&quot;https://github.com/angular/material-start/tree/es5-tutorial&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Learn with Material－Start: 8-step Tutorial (es5)》&lt;/a&gt;的教程，可供「入門者」開始學著用 Angular Material 。&lt;/p&gt;
+    <content type="html">&lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;在 Angular Material 官網的「Getting Started」，看到名為：&lt;a href=&quot;https://github.com/angular/material-start/tree/es5-tutorial&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Learn with Material－Start: 8-step Tutorial (es5)》&lt;/a&gt;的教程，可供「入門者」開始學著用 Angular Material 。&lt;/p&gt;
 &lt;p&gt;不過……&lt;/p&gt;
 &lt;p&gt;個人嘴挑，想把 AngularJS 1.x 預設的 JavaScript ES5，改成 ES2015 (ES6) ，一方面是覺得 ES2015 的 JavaScript 程式碼，比較結構化，所以易讀、易懂，當然後續的程式維護／變更，可以比較容易些；另外，想藉由多用 ES2015 ，熟悉其語法、特性，將來升級到 Angular 2 ，改用 TypeScript 時，可以快速上手。&lt;/p&gt;
 &lt;p&gt;於是「九怪」的自己，在入門學著用 Angular Material 的教程，改挑 Angular Material 官網提供的教學：&lt;a href=&quot;https://github.com/angular/material-start/tree/es6-tutorial&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Learn with Material－Start: Completed (es6)》&lt;/a&gt;。&lt;/p&gt;
@@ -111,7 +120,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應
+      &lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!&lt;br&gt;
     
     </summary>
     
@@ -133,11 +142,11 @@
     <link href="http://alanjui.github.io/blog/2015/04/22/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/22/post-01/</id>
     <published>2015-04-22T00:00:00.000Z</published>
-    <updated>2016-03-12T12:54:08.000Z</updated>
+    <updated>2016-03-12T15:06:16.000Z</updated>
     
     <content type="html">&lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
 &lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
-&lt;p&gt;為什麼？&lt;/p&gt;
+&lt;p&gt;為什麼？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;因為容易老人家，容易「跌倒」！&lt;/p&gt;
 &lt;p&gt;何以「容易跌倒」？是因為腿、腳無力走不動嗎？&lt;/p&gt;
 &lt;p&gt;影片中的蔡醫師，經長期對老人家的觀察，及問題的分析、歸納……&lt;/p&gt;
@@ -152,10 +161,7 @@
     
       &lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
 &lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
-&lt;p&gt;為什麼？&lt;/p&gt;
-&lt;p&gt;因為容易老人家，容易「跌倒」！&lt;/p&gt;
-&lt;p&gt;何以「容易跌倒」？是因為腿、腳無力走不動嗎？&lt;/p&gt;
-&lt;p&gt;影片中的蔡醫師，經長期對老人家
+&lt;p&gt;為什麼？&lt;br&gt;
     
     </summary>
     
@@ -171,18 +177,24 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-02/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-02/</id>
     <published>2015-04-20T07:57:27.000Z</published>
-    <updated>2016-03-12T12:54:37.000Z</updated>
+    <updated>2016-03-12T15:08:54.000Z</updated>
     
     <content type="html">&lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
-&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;/p&gt;
+&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;逼不得已，只好邊學、邊勤作筆記。&lt;/p&gt;
-&lt;p&gt;只是…… 人龜毛，又曾是：文書處理軟體的開發工程師 + Word 大師 (這是別人給的封號，不是我太臭屁，這可不甘我的事哦！) 。&lt;br&gt;我還是希望：「筆記的內容，能呈現文章的層次結構；可以標示重點；程式碼或是終端機指令，可用醒目的方式表達……」&lt;br&gt;當然啦！有這種需求，請出 Word 文書處理軟體就可搞定。可是 Word 得花銀兩買；再來，文字編輯時的格式設定，不論是使用「樣式、快捷鍵」，即便我們這種使用慣的熟手，也是要耗用不少時間。 ^^!!&lt;br&gt;這個需求的解法，曾花去不少時間來探詢答案。&lt;/p&gt;
+&lt;p&gt;只是…… 人龜毛，又曾是：文書處理軟體的開發工程師 + Word 大師 (這是別人給的封號，不是我太臭屁，這可不甘我的事哦！) 。&lt;/p&gt;
+&lt;p&gt;我還是希望：「筆記的內容，能呈現文章的層次結構；可以標示重點；程式碼或是終端機指令，可用醒目的方式表達……」&lt;/p&gt;
+&lt;p&gt;當然啦！有這種需求，請出 Word 文書處理軟體就可搞定。可是 Word 得花銀兩買；再來，文字編輯時的格式設定，不論是使用「樣式、快捷鍵」，即便我們這種使用慣的熟手，也是要耗用不少時間。 ^^!!&lt;/p&gt;
+&lt;p&gt;這個需求的解法，曾花去不少時間來探詢答案。&lt;/p&gt;
 &lt;p&gt;後來發覺，採用「Markdown語法」，作為筆記的記錄工具，是個不錯的解法。&lt;/p&gt;
-&lt;p&gt;於是開始利用「GitBook網站」 ，直接在連網的狀態下，使用 Markdown語法 作筆記；這個作法，的確幫了我不少忙；不再將寶貴的時間耗用在格式的調整、設定上；可以將心力更專注於技術的學習，及筆記內容的精準表達。&lt;br&gt;後來，因為需求長大了，希望在網路出狀況的時候；或是連網不便的時候，也能使用 Markdown 作筆記，於是在我的 Mac 筆電上安裝 GitBook Editor ，以便無法連網的時候，還是可以作筆記、寫東西。&lt;/p&gt;
+&lt;p&gt;於是開始利用「GitBook網站」 ，直接在連網的狀態下，使用 Markdown語法 作筆記；這個作法，的確幫了我不少忙；不再將寶貴的時間耗用在格式的調整、設定上；可以將心力更專注於技術的學習，及筆記內容的精準表達。&lt;/p&gt;
+&lt;p&gt;後來，因為需求長大了，希望在網路出狀況的時候；或是連網不便的時候，也能使用 Markdown 作筆記，於是在我的 Mac 筆電上安裝 GitBook Editor ，以便無法連網的時候，還是可以作筆記、寫東西。&lt;/p&gt;
 &lt;p&gt;但是……….&lt;/p&gt;
 &lt;p&gt;人的慾望無窮，我的需求又再長大了。&lt;/p&gt;
 &lt;p&gt;因為我又想：「身為 IBM (Internet Big Mouth) 的終身會員，本來就有強烈的發表慾。更何況近來許多學習的心得，經常都是在網上爬文、看YouTube影片得來。既然，取之於網路；當然，也要回饋點什麼在網路。」&lt;/p&gt;
-&lt;p&gt;可是，原先在 Google Blog 的部落格，寫東西得用 HTML 格式。&lt;br&gt;懶惰的我，不禁又開始幻想我的需求：「要是我用 Markdown 寫下的筆記，能夠直接 Copy &amp;amp; Past ，放進部落格的貼文中，那該多好？！」&lt;br&gt;為了這個需求，我又再度踏上尋求解答的路途。&lt;/p&gt;
+&lt;p&gt;可是，原先在 Google Blog 的部落格，寫東西得用 HTML 格式。&lt;/p&gt;
+&lt;p&gt;懶惰的我，不禁又開始幻想我的需求：「要是我用 Markdown 寫下的筆記，能夠直接 Copy &amp;amp; Past ，放進部落格的貼文中，那該多好？！」&lt;/p&gt;
+&lt;p&gt;為了這個需求，我又再度踏上尋求解答的路途。&lt;/p&gt;
 &lt;p&gt;結果……&lt;/p&gt;
 &lt;p&gt;在網路上發現了「Jekyll」這玩意；更令人興奮的是「使用 Jekyll 技術架設的部落格，不用花錢、花時間架設網站，直接放上 GitHub ，使用 Markdown 寫文章的部落格就啟動了」。&lt;/p&gt;
 &lt;p&gt;所以……&lt;/p&gt;
@@ -200,8 +212,7 @@
     <summary type="html">
     
       &lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
-&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;/p&gt;
-&lt;p&gt;逼不得已，只好邊學、邊勤作
+&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;
     
     </summary>
     
@@ -219,10 +230,10 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-01/</id>
     <published>2015-04-20T01:00:00.000Z</published>
-    <updated>2016-03-12T12:55:27.000Z</updated>
+    <updated>2016-03-12T15:09:20.000Z</updated>
     
     <content type="html">&lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
-&lt;p&gt;結果……&lt;/p&gt;
+&lt;p&gt;結果……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;這個「Explore MEAN Stack at 2015」的標題，立即吸引了我的目光。&lt;/p&gt;
 &lt;p&gt;「嘩～！不得了，這影片不僅是在談 MEAN Stack ；而且還是『2015年』的觀點耶！」 ( 熊熊間，有點大清早，撿到寶的 ful!! ^^y )&lt;/p&gt;
 &lt;div style=&quot;text-align:center&quot;&gt;&lt;br&gt;&lt;!-- &lt;div class=&quot;youtube-video&quot;&gt; --&gt;&lt;br&gt;  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jh0er2pRcq8?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
@@ -242,9 +253,7 @@
     <summary type="html">
     
       &lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
-&lt;p&gt;結果……&lt;/p&gt;
-&lt;p&gt;這個「Explore MEAN Stack at 2015」的標題，立即吸引了我的目光。&lt;/p&gt;
-&lt;p&gt;
+&lt;p&gt;結果……&lt;br&gt;
     
     </summary>
     
@@ -260,18 +269,17 @@
     <link href="http://alanjui.github.io/blog/2015/04/15/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/15/post-01/</id>
     <published>2015-04-14T22:36:00.000Z</published>
-    <updated>2016-03-12T12:56:17.000Z</updated>
+    <updated>2016-03-12T15:09:54.000Z</updated>
     
     <content type="html">&lt;p&gt;你寫程式嗎？&lt;/p&gt;
-&lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;/p&gt;
+&lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;div style=&quot;text-align:center&quot;&gt;&lt;br&gt;  &lt;a href=&quot;http://www.inside.com.tw/2015/04/14/stackoverflow-2015-dev-survey#/&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://static.inside.com.tw/wp-content/uploads/2015/04/programmer-198x198.jpg&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;br&gt;  &lt;/a&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;a href=&quot;http://www.inside.com.tw/2015/04/14/stackoverflow-2015-dev-survey#/&quot; title=&quot;GitHub Repo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Stack Overflow 揭秘程式開發者15 個不為人知的秘密》&lt;/a&gt;  &lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;你寫程式嗎？&lt;/p&gt;
-&lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;/p&gt;
-&lt;p&gt;&lt;div style=&quot;text-align:center&quot;&gt;&lt;br&gt;  &lt;a href=&quot;http://www.inside.com.tw/2015/04/14/stackoverf
+&lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;br&gt;
     
     </summary>
     
@@ -287,10 +295,10 @@
     <link href="http://alanjui.github.io/blog/2015/04/14/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/14/post-01/</id>
     <published>2015-04-14T10:23:00.000Z</published>
-    <updated>2016-03-12T12:57:12.000Z</updated>
+    <updated>2016-03-12T15:10:28.000Z</updated>
     
     <content type="html">&lt;p&gt;昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ &lt;/p&gt;
-&lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;/p&gt;
+&lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;因為好奇，試玩了一下下，完成了這個成品！ ^^y&lt;/p&gt;
 &lt;div style=&quot;text-align:center&quot;&gt;&lt;br&gt;  &lt;img src=&quot;/assets/img/2015-04-14-01.jpg&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -301,8 +309,7 @@
     <summary type="html">
     
       &lt;p&gt;昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ &lt;/p&gt;
-&lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;/p&gt;
-&lt;p&gt;因為好奇，試玩了一下
+&lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;br&gt;
     
     </summary>
     
@@ -320,10 +327,10 @@
     <link href="http://alanjui.github.io/blog/2015/01/27/emmet/"/>
     <id>http://alanjui.github.io/blog/2015/01/27/emmet/</id>
     <published>2015-01-27T03:30:27.000Z</published>
-    <updated>2016-03-12T13:19:30.000Z</updated>
+    <updated>2016-03-12T15:11:08.000Z</updated>
     
     <content type="html">&lt;p&gt;使用「Emmet」，可讓HTML的編輯工作簡化，瞬間加速。&lt;/p&gt;
-&lt;p&gt;真有這麼神奇嗎？&lt;/p&gt;
+&lt;p&gt;真有這麼神奇嗎？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我們可以用個簡短的小例子來示範它的妙絕之處。&lt;/p&gt;
 &lt;p&gt;以下的這段HTML:&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -335,10 +342,7 @@
     <summary type="html">
     
       &lt;p&gt;使用「Emmet」，可讓HTML的編輯工作簡化，瞬間加速。&lt;/p&gt;
-&lt;p&gt;真有這麼神奇嗎？&lt;/p&gt;
-&lt;p&gt;我們可以用個簡短的小例子來示範它的妙絕之處。&lt;/p&gt;
-&lt;p&gt;以下的這段HTML:&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;
+&lt;p&gt;真有這麼神奇嗎？&lt;br&gt;
     
     </summary>
     
