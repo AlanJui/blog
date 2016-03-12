@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://alanjui.github.io/blog/"/>
-  <updated>2016-03-12T14:25:58.000Z</updated>
+  <updated>2016-03-12T17:28:35.000Z</updated>
   <id>http://alanjui.github.io/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/</id>
     <published>2016-03-12T08:14:11.000Z</published>
-    <updated>2016-03-12T14:25:58.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。&lt;/p&gt;
 &lt;p&gt;GitHub官網推薦：以Jekyll來架設Static網站。&lt;/p&gt;
@@ -55,7 +55,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/12/hello-world/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/hello-world/</id>
     <published>2016-03-11T16:00:00.000Z</published>
-    <updated>2016-03-12T15:02:25.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;使用&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;，可以快速架設個人部落格。 &lt;/p&gt;
 &lt;p&gt;不過，要能操控它，有些「操作細節」還是得參考&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文件&lt;/a&gt;，才能真正運用自如。&lt;/p&gt;
@@ -98,7 +98,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/09/ng-md-2015/"/>
     <id>http://alanjui.github.io/blog/2016/03/09/ng-md-2015/</id>
     <published>2016-03-09T08:39:00.000Z</published>
-    <updated>2016-03-12T15:04:56.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;在 Angular Material 官網的「Getting Started」，看到名為：&lt;a href=&quot;https://github.com/angular/material-start/tree/es5-tutorial&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Learn with Material－Start: 8-step Tutorial (es5)》&lt;/a&gt;的教程，可供「入門者」開始學著用 Angular Material 。&lt;/p&gt;
 &lt;p&gt;不過……&lt;/p&gt;
@@ -139,37 +139,10 @@
   
   <entry>
     <title>大雄與奶奶</title>
-    <link href="http://alanjui.github.io/blog/2015/04/29/%E5%A4%A7%E9%9B%84%E8%88%87%E5%A5%B6%E5%A5%B6/"/>
-    <id>http://alanjui.github.io/blog/2015/04/29/大雄與奶奶/</id>
-    <published>2015-04-29T11:48:49.000Z</published>
-    <updated>2016-03-12T17:02:56.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.kagaminelen.org/tearing/big/1315084575038.jpg&quot; alt=&quot;大雄與奶奶&quot;&gt;&lt;br&gt;小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;小學時，我們班上有個胖嘟嘟的男同學，家境不錯，父母也疼他，有什麼最新出版的漫畫都會買給他，他也挺大方的，常會將漫畫書帶到班上來跟我們分享。一票的同學們，個個都會巴結他，這樣才有機會跟他「借」來看。&lt;/p&gt;
-&lt;p&gt;只是班上同學有36個，排起來也不少人，每次輪流都要等好久，等到望穿秋水，感覺好累！&lt;br&gt;《大雄與奶奶》很早以前，已在小叮噹的漫畫書看過。不過那時的感覺，只是溫馨而已。&lt;/p&gt;
-&lt;p&gt;今夜，再次觀賞卡通的版本，竟覺裡面塞了好大一顆的洋蔥……&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/LtX4psb4m-Y?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://www.kagaminelen.org/tearing/big/1315084575038.jpg&quot; alt=&quot;大雄與奶奶&quot;&gt;&lt;br&gt;小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
-    
-    
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大雄與奶奶</title>
     <link href="http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/"/>
     <id>http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/</id>
     <published>2015-04-29T11:48:49.000Z</published>
-    <updated>2016-03-12T17:24:02.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.kagaminelen.org/tearing/big/1315084575038.jpg&quot; alt=&quot;大雄與奶奶&quot;&gt;&lt;br&gt;小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;小學時，我們班上有個胖嘟嘟的男同學，家境不錯，父母也疼他，有什麼最新出版的漫畫都會買給他，他也挺大方的，常會將漫畫書帶到班上來跟我們分享。一票的同學們，個個都會巴結他，這樣才有機會跟他「借」來看。&lt;/p&gt;
@@ -188,44 +161,6 @@
     
     
       <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>油麻菜籽</title>
-    <link href="http://alanjui.github.io/blog/2015/04/26/%E6%B2%B9%E9%BA%BB%E8%8F%9C%E7%B1%BD/"/>
-    <id>http://alanjui.github.io/blog/2015/04/26/油麻菜籽/</id>
-    <published>2015-04-26T08:07:39.000Z</published>
-    <updated>2016-03-12T17:12:48.000Z</updated>
-    
-    <content type="html">&lt;img src=&quot;http://t.douban.com/lpic/s3746269.jpg&quot;&gt;
-&lt;h3 id=&quot;【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot;&gt;&lt;a href=&quot;#【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot; class=&quot;headerlink&quot; title=&quot;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&quot;&gt;&lt;/a&gt;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&lt;/h3&gt;&lt;p&gt;——引自電影海報標題&lt;/p&gt;
-&lt;p&gt;閩南人用「油麻菜籽」比喻女人的命運，說她們像油麻菜籽一樣隨風飄散，落到哪裡長到哪裡。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  
-&lt;p&gt;秀琴出身於台灣有錢人家，是嬌生慣養的小姐，嫁給李世俊後卻經常遭到丈夫的冷落和打罵。李世俊在外玩女人，還將她的嫁妝拿出去賣錢揮霍。她只能忍氣吞聲，操持家務、生兒育女。&lt;/p&gt;
-&lt;p&gt;在家中，秀琴的兒子阿雄，得到父親的嬌慣，吃喝、玩耍、不幹活；女兒阿惠卻得不到父親的憐愛。一次，丈夫引誘別人妻子的醜事敗露，秀琴變賣全部家當，為其平息糾紛。後來全家遷到台北，另謀生路。自此，夫妻在家裡的地位顛倒了過來，秀琴成了家庭的主宰。&lt;/p&gt;
-&lt;p&gt;但秀琴她同樣重男輕女，兒子受到縱容，阿惠雖聯考時成績優秀，考上第一志願北一女，仍要做許多家務活計。這時，父親對阿惠的態度變好，給予她許多疼愛。&lt;/p&gt;
-&lt;p&gt;在台北經過一段困窘的生活，家境逐漸好轉。秀琴變得講究衣飾打扮，追求享樂。她對阿惠交男朋友進行干涉，不讓女兒嫁給她所愛的戀人沈立偉。但大學畢業的阿惠，不再接受像油麻菜籽一樣的命運安排，終於同相愛的立偉結為夫妻。最終，秀琴承認了阿惠的選擇。&lt;/p&gt;
-&lt;p&gt;可是，七撿八挑才算到的「好日子」，卻又因為秀琴屬虎，有相冲互剋的問題，女兒出嫁當天，不能到場主持婚禮。秀琴因為看不到阿惠穿上白紗禮服，感到很不甘心。阿惠說可以在出嫁前，先穿新娘裝給秀琴看。&lt;/p&gt;
-&lt;p&gt;這個婚前的試裝，母、女之間的心結問題，終於在阿惠跪拜秀琴，感謝扶養之恩時化解了。那場面的背景音樂，正是這首《油麻菜籽》…………&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/85cQRWaQn7c?rel=0&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;blockquote&gt;&lt;p&gt;你從那些艱苦的日子走來，是怎樣莫可奈何的忍耐；&lt;br&gt;而從前未曾給我的愛和關懷，今天在你帶淚的笑裡找來。&lt;/p&gt;
-&lt;p&gt;誰說我的命運好像那油麻菜，只是你不知將它往哪裡栽；&lt;br&gt;就算我的命運好像那油麻菜，但是我知道了怎樣去愛。&lt;/p&gt;
-&lt;p&gt;才盼望你將我抱個滿懷，日子就已蕩呀蕩的來到現在；&lt;br&gt;經過了那些無奈和期待，我好高興有了自己的將來。&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;img src=&quot;http://t.douban.com/lpic/s3746269.jpg&quot;&gt;
-&lt;h3 id=&quot;【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot;&gt;&lt;a href=&quot;#【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot; class=&quot;headerlink&quot; title=&quot;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&quot;&gt;&lt;/a&gt;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&lt;/h3&gt;&lt;p&gt;——引自電影海報標題&lt;/p&gt;
-&lt;p&gt;閩南人用「油麻菜籽」比喻女人的命運，說她們像油麻菜籽一樣隨風飄散，落到哪裡長到哪裡。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="音樂藝術" scheme="http://alanjui.github.io/blog/categories/%E9%9F%B3%E6%A8%82%E8%97%9D%E8%A1%93/"/>
-    
-    
-      <category term="老歌" scheme="http://alanjui.github.io/blog/tags/%E8%80%81%E6%AD%8C/"/>
     
   </entry>
   
@@ -234,7 +169,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/"/>
     <id>http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/</id>
     <published>2015-04-26T08:07:39.000Z</published>
-    <updated>2016-03-12T17:23:34.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;img src=&quot;http://t.douban.com/lpic/s3746269.jpg&quot;&gt;
 &lt;h3 id=&quot;【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot;&gt;&lt;a href=&quot;#【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot; class=&quot;headerlink&quot; title=&quot;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&quot;&gt;&lt;/a&gt;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&lt;/h3&gt;&lt;p&gt;——引自電影海報標題&lt;/p&gt;
@@ -272,7 +207,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/"/>
     <id>http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/</id>
     <published>2015-04-25T16:00:00.000Z</published>
-    <updated>2016-03-12T16:20:49.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;使用Hexo寫Blog文章，基本上就是用Markdown的「語法」來編輯文章。&lt;/p&gt;
@@ -308,45 +243,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/"/>
     <id>http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/</id>
     <published>2015-04-25T13:00:00.000Z</published>
-    <updated>2016-03-12T17:23:06.000Z</updated>
-    
-    <content type="html">&lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;早上起來拖著疲累的身體，用「三氯沙」牙膏刷牙，開始了這一天。&lt;/p&gt;
-&lt;p&gt;騎著機車上班，呼吸著含有「 PM 2.5」的空氣。&lt;/p&gt;
-&lt;p&gt;大清早，分秒必爭，時間寶貴，喝杯「三氰輕氨」的新鮮牛奶填飽肚子是最快的方法。&lt;/p&gt;
-&lt;p&gt;公司上班壓力大，工作常被主管盯，因為時間不夠用，中午用餐隨便買個「瘦肉精」豬排，加「碳酸氫銨」海帶便當來吃。當然，要配一杯添加「11項農藥」的英國藍「玫瑰花瓣冰茶」飲料，助消化。&lt;/p&gt;
-&lt;p&gt;到了下午時段，感覺腸胃不太舒服時，趕緊服用老牌的「鄭杏泰胃藥粉」，靠「工業級碳酸鈣」來療癒身體。&lt;/p&gt;
-&lt;p&gt;下班回家，路過夜市時，飢腸飢腸轆轆，先買塊香噴噴的「地溝油」炸雞排；請老闆多加些「工業用碳酸鎂」胡椒粉，這樣吃起來才夠味。&lt;/p&gt;
-&lt;p&gt;一塊雞排吃不飽，再買些容易有飽足感的「甲醛」春捲。春捲好吃的秘訣在「花生粉」，當然也要拜託老板多加點「黃麴毒素」花生粉。&lt;/p&gt;
-&lt;p&gt;晚餐剛用完，看到手機，有老板 Line 來，明天上午得完成的工作，此時，再也沒有心情在街上閒逛，還是趕快回家忙工作，卡實在。&lt;/p&gt;
-&lt;p&gt;工作到晚上12點，才想起澡還沒洗，匆匆進入浴室，使用「綠膿桿菌」沐浴乳洗澎澎。換下來的衣服，丟進洗衣機，倒入摻有「農藥殺蟲劑」的洗衣精清洗，確保每天都有防螨、抗敏的乾淨衣服可穿。&lt;/p&gt;
-&lt;p&gt;洗完了舒服的熱水澡後，大概是因為有些脫水，感覺有點渴。於是，從寶特瓶倒杯溶有「銻毒」的瓶裝水飲用，為這辛勤、忙碌的一天，劃下完美的句點。&lt;/p&gt;
-&lt;p&gt;聽專家說音樂有助於睡眠，就用蔡琴低沈、富有磁性的歌聲，伴我入眠吧！&lt;/p&gt;
-&lt;p&gt;「毒你千遍也不厭倦…………」&lt;/p&gt;
-&lt;p&gt;ZZZ zzz zzz zzz ………………&lt;/p&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FxCAjDkWKw4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
-    
-    
-      <category term="青菜公公" scheme="http://alanjui.github.io/blog/tags/%E9%9D%92%E8%8F%9C%E5%85%AC%E5%85%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>金鋼不壞之身，台灣人的一天</title>
-    <link href="http://alanjui.github.io/blog/2015/04/25/%E9%87%91%E9%8B%BC%E4%B8%8D%E5%A3%9E%E4%B9%8B%E8%BA%AB%EF%BC%8C%E5%8F%B0%E7%81%A3%E4%BA%BA%E7%9A%84%E4%B8%80%E5%A4%A9/"/>
-    <id>http://alanjui.github.io/blog/2015/04/25/金鋼不壞之身，台灣人的一天/</id>
-    <published>2015-04-25T13:00:00.000Z</published>
-    <updated>2016-03-12T16:14:29.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
@@ -384,7 +281,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/"/>
     <id>http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/</id>
     <published>2015-04-25T04:05:01.000Z</published>
-    <updated>2016-03-12T16:08:43.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;試著使用 Hexo 架設個人部落格。&lt;/p&gt;
@@ -413,7 +310,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/22/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/22/post-01/</id>
     <published>2015-04-22T00:00:00.000Z</published>
-    <updated>2016-03-12T15:06:16.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
 &lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
@@ -448,7 +345,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-02/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-02/</id>
     <published>2015-04-20T07:57:27.000Z</published>
-    <updated>2016-03-12T15:08:54.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
 &lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -501,7 +398,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-01/</id>
     <published>2015-04-20T01:00:00.000Z</published>
-    <updated>2016-03-12T15:09:20.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
 &lt;p&gt;結果……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -540,7 +437,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/18/Toast-the-earth/"/>
     <id>http://alanjui.github.io/blog/2015/04/18/Toast-the-earth/</id>
     <published>2015-04-18T12:48:00.000Z</published>
-    <updated>2016-03-12T16:07:38.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;晚上看有線電視台，重播電影《2012》，那些地球毀滅的畫面，看起來仍讓人驚心動魄！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://tw.ent.yimg.com/mpho/22/71/22271.jpg&quot; alt=&quot;電影 2012 場景一&quot;&gt;&lt;/p&gt;
@@ -569,7 +466,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/17/Life-is-not-easy/"/>
     <id>http://alanjui.github.io/blog/2015/04/17/Life-is-not-easy/</id>
     <published>2015-04-17T05:37:00.000Z</published>
-    <updated>2016-03-12T16:07:02.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;人生，不簡單！&lt;/p&gt;
 &lt;p&gt;我們有許多的責任要擔，總想要給家人，最多、最大的幸福，於是我們在工作努力、打拚！&lt;/p&gt;
@@ -602,7 +499,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/15/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/15/post-01/</id>
     <published>2015-04-14T22:36:00.000Z</published>
-    <updated>2016-03-12T15:09:54.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;你寫程式嗎？&lt;/p&gt;
 &lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -628,7 +525,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/14/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/14/post-01/</id>
     <published>2015-04-14T10:23:00.000Z</published>
-    <updated>2016-03-12T15:10:28.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ &lt;/p&gt;
 &lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -660,7 +557,7 @@
     <link href="http://alanjui.github.io/blog/2015/01/27/emmet/"/>
     <id>http://alanjui.github.io/blog/2015/01/27/emmet/</id>
     <published>2015-01-27T03:30:27.000Z</published>
-    <updated>2016-03-12T15:11:08.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;使用「Emmet」，可讓HTML的編輯工作簡化，瞬間加速。&lt;/p&gt;
 &lt;p&gt;真有這麼神奇嗎？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -693,7 +590,7 @@
     <link href="http://alanjui.github.io/blog/2014/12/11/cook/"/>
     <id>http://alanjui.github.io/blog/2014/12/11/cook/</id>
     <published>2014-12-11T10:44:00.004Z</published>
-    <updated>2016-03-12T16:06:32.000Z</updated>
+    <updated>2016-03-12T17:28:35.000Z</updated>
     
     <content type="html">&lt;p&gt;曾在臉書，看過朋友分享的「蕃茄飯」烹調方法。這種烹調法的持性，只需使用煮飯的電鍋就可搞定，省事、省時。昨天也來一試。&lt;/p&gt;
 &lt;p&gt;晚餐時候，才剛完成料理，正要食用之時，沒想到，自台北市區返家回來的太座及小祖宗，也剛好開門進來。&lt;/p&gt;
@@ -743,6 +640,94 @@
     
     
       <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Maps 基本用法簡介（HD 1080P）</title>
+    <link href="http://alanjui.github.io/blog/2014/11/17/google-maps-hd-1080p/"/>
+    <id>http://alanjui.github.io/blog/2014/11/17/google-maps-hd-1080p/</id>
+    <published>2014-11-17T07:35:00.001Z</published>
+    <updated>2016-03-12T17:28:35.000Z</updated>
+    
+    <content type="html">&lt;p&gt;想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;只要能掌握「Google 地圖（Google Maps）」的操作用法，以上與地理相關的資訊，都能輕輕鬆鬆，垂手可得。&lt;/p&gt;
+&lt;p&gt;花點時間來學學怎麼操作「Google 地圖」，享受現代人特有，因科技所帶來的便利吧！ ^^y&lt;/p&gt;
+&lt;iframe allowfullscreen frameborder=&quot;0&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/YHRS9kNwAmM?rel=0&quot; width=&quot;640&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;【附註】：記得把影片放大，免得看到眼睛脫窗哦！若操作細節不清楚，可先參考這影片的操作用法。&lt;/p&gt;
+&lt;iframe allowfullscreen frameborder=&quot;0&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/3ZkvZ4rY-Nk?rel=0&quot; width=&quot;640&quot;&gt;&lt;/iframe&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」&lt;br&gt;
+    
+    </summary>
+    
+      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+    
+    
+      <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公車站的一個小故事</title>
+    <link href="http://alanjui.github.io/blog/2013/12/21/Zhuo-Ying-Bus-Station/"/>
+    <id>http://alanjui.github.io/blog/2013/12/21/Zhuo-Ying-Bus-Station/</id>
+    <published>2013-12-21T04:00:00.000Z</published>
+    <updated>2016-03-12T17:28:35.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg&quot; alt=&quot;公車左營北站&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左營北站、5號公車、19號公車，我在左中的日子，刻骨銘心深切的記憶。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;今天，因為臉書上，校友分享的一張公車相片，掀開了記憶的時光寶盒，那個積沈已久的美好記憶，再度想起……&lt;/p&gt;
+&lt;p&gt;很久、很久……以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！&lt;/p&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gJoUnF7IN28?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg&quot; alt=&quot;公車左營北站&quot;&gt;&lt;/p&gt;
+&lt;p&gt;左營北站、5號公車、19號公車，我在左中的日子，刻骨銘心深切的記憶。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+    
+    
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
+    
+      <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>左中回憶剪貼簿</title>
+    <link href="http://alanjui.github.io/blog/2013/06/19/My-High-School-Memory/"/>
+    <id>http://alanjui.github.io/blog/2013/06/19/My-High-School-Memory/</id>
+    <published>2013-06-19T04:00:00.000Z</published>
+    <updated>2016-03-12T17:28:35.000Z</updated>
+    
+    <content type="html">&lt;p&gt;老相片，剪剪貼貼，七拚八湊。&lt;/p&gt;
+&lt;p&gt;補捉早已褪色，幾近遺忘古老而遙遠的早記憶…..！ ^^”&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/68667663&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen&gt;&lt;/iframe&gt; &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vimeo.com/68667663&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;左中回憶剪貼簿&lt;/a&gt; from &lt;a href=&quot;https://vimeo.com/user19001121&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;居正中&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;【註】：省左高中17屆校友（民國68年畢業）&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;老相片，剪剪貼貼，七拚八湊。&lt;/p&gt;
+&lt;p&gt;補捉早已褪色，幾近遺忘古老而遙遠的早記憶…..！ ^^”&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+    
+    
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
+    
+      <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
     
   </entry>
   
