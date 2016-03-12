@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "客製 Jekyll "
+date:   2015-04-20 15:57:27
+categories: {{IT技術}}
+tags:
+- Jekyll
+- Markdown
+---
+開始有了「老人初呆症」！ =..=  
+
+學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )
+<!-- more -->
+
+逼不得已，只好邊學、邊勤作筆記。
+
+只是...... 人龜毛，又曾是：文書處理軟體的開發工程師 + Word 大師 (這是別人給的封號，不是我太臭屁，這可不甘我的事哦！) 。
+
+我還是希望：「筆記的內容，能呈現文章的層次結構；可以標示重點；程式碼或是終端機指令，可用醒目的方式表達......」
+
+當然啦！有這種需求，請出 Word 文書處理軟體就可搞定。可是 Word 得花銀兩買；再來，文字編輯時的格式設定，不論是使用「樣式、快捷鍵」，即便我們這種使用慣的熟手，也是要耗用不少時間。 ^^!!
+
+這個需求的解法，曾花去不少時間來探詢答案。
+
+後來發覺，採用「Markdown語法」，作為筆記的記錄工具，是個不錯的解法。
+
+於是開始利用「GitBook網站」 ，直接在連網的狀態下，使用 Markdown語法 作筆記；這個作法，的確幫了我不少忙；不再將寶貴的時間耗用在格式的調整、設定上；可以將心力更專注於技術的學習，及筆記內容的精準表達。
+
+後來，因為需求長大了，希望在網路出狀況的時候；或是連網不便的時候，也能使用 Markdown 作筆記，於是在我的 Mac 筆電上安裝 GitBook Editor ，以便無法連網的時候，還是可以作筆記、寫東西。
+
+但是..........
+
+人的慾望無窮，我的需求又再長大了。
+
+因為我又想：「身為 IBM (Internet Big Mouth) 的終身會員，本來就有強烈的發表慾。更何況近來許多學習的心得，經常都是在網上爬文、看YouTube影片得來。既然，取之於網路；當然，也要回饋點什麼在網路。」
+
+可是，原先在 Google Blog 的部落格，寫東西得用 HTML 格式。
+
+懶惰的我，不禁又開始幻想我的需求：「要是我用 Markdown 寫下的筆記，能夠直接 Copy & Past ，放進部落格的貼文中，那該多好？！」
+
+為了這個需求，我又再度踏上尋求解答的路途。
+
+結果......
+
+在網路上發現了「Jekyll」這玩意；更令人興奮的是「使用 Jekyll 技術架設的部落格，不用花錢、花時間架設網站，直接放上 GitHub ，使用 Markdown 寫文章的部落格就啟動了」。
+
+所以......
+
+從此王子與公主就過著幸福、快樂的日子了嗎？
+
+沒有！
+
+因為 Jekyll 預設的「版面」，非常的中庸、平實，沒什麼看頭；「功能」沒有提供幾個，祂等著有本事的人自己客製化！ =..= !!!
+
+最近......
+
+不甘心、不死心，再次祭出古狗大神，以「Jekyll 客製化」為關鍵字，上網搜尋可能的解法之道。
+
+總算......
+
+皇天不負苦心人，在以下的這個網址，找到一個可用的「Jekyll 版型」，耶！！ ^^y
+
+[LONG HAUL 版型](https://github.com/brianmaierjr/long-haul/ "GitHub Repo")  
+<a href="https://github.com/brianmaierjr/long-haul/" target="_blank">
+  <img src="http://jekyllrb.com/img/logo-2x.png" alt="展示網站" width="240" height="180" />
+</a>
+
+
+《展示網站》  
+<a href="http://brianmaierjr.com/long-haul/" target="_blank">
+  <img src="https://github.com/brianmaierjr/long-haul/blob/master/assets/img/touring.jpg?raw=true" alt="展示網站" width="240" height="180" />
+</a>

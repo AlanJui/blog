@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Explore MEAN Stack at 2015 教學影片"
+date:   2015-04-20 09:00:00
+categories: {{IT技術}}
+tags:
+- MEAN
+---
+早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。
+
+結果......
+<!-- more -->
+
+這個「Explore MEAN Stack at 2015」的標題，立即吸引了我的目光。
+
+「嘩～！不得了，這影片不僅是在談 MEAN Stack ；而且還是『2015年』的觀點耶！」 ( 熊熊間，有點大清早，撿到寶的 ful!! ^^y )
+
+<div style="text-align:center">
+<!-- <div class="youtube-video"> -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Jh0er2pRcq8?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+播映影片後，吃了一「斤」驚......
+
+「嚇～～～！影片係『MVA（微軟虛擬學院）』製作滴」！ @@a
+
+再觀影片的教學內容：
+
+＊瀏覽器－用的是「Chrome」，不是「IE」；
+＊編輯器－用的是「Sublime」，不是「Visual Studio」；
+＊版本控管工具－用的是「 GitHub」，不是「TFS」。
+
+Wow~~~!! 微軟真的是越來越擁抱 Open Source ！
+
+可是.......
+
+還是很好奇，有了「Node + Express」之後，歷史悠久的「IIS」還會繼續往下發展嗎？系統採用了「MongoDB」後，那「MS SQL Server」的市場要怎麼定位？
+
+《三國演義》的開頭如是說......
+
+「話說天下大勢。分久必合，合久必分」
+
+IT 資訊界的技術，一直是百家爭嗚；群雄併起。莫非 Web 前端這一塊，會走向「天下一統」的結局嗎？
+有趣了，咱們且繼續看下去嘿！ ^^y

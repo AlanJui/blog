@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "上載到臉書的圖片，如何使用「貼圖」功能進行修飾"
+date:   2015-04-14 18:23:00
+categories: {{IT技術}}
+tags:
+- Facebook
+- YouTube
+---
+昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ 
+
+現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的
+「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！
+<!-- more -->
+
+因為好奇，試玩了一下下，完成了這個成品！ ^^y
+
+<div style="text-align:center">
+  <img src="/assets/img/2015-04-14-01.jpg" />
+</div>
+
+有興趣，也想使用這新功能的朋友，可參考以下這放在 YouTube 的教學影片，
+學習功能用法的操作細節。
+
+<div style="text-align:center">
+<iframe width="640" height="480" src="https://www.youtube.com/embed/RX8RF50AL0I?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
