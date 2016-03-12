@@ -1,0 +1,13 @@
+---
+layout: post
+title: 在Ubuntu Server 10.10自己開設認證中心(CA)
+date: '2011-03-29T22:44:00.001+08:00'
+author: 居正中
+tags: 
+modified_time: '2011-03-29T22:44:42.797+08:00'
+thumbnail: http://lh3.ggpht.com/_40BYSx3mIfk/TZHwU2dysRI/AAAAAAAABGo/A2LB3q6sRaw/s72-c/image_thumb.png?imgmax=800
+blogger_id: tag:blogger.com,1999:blog-1068034375721560223.post-8553575286851615669
+blogger_orig_url: http://blog.ccc99.tw/2011/03/ubuntu-server-1010ca.html
+---
+
+<h3><font color="#9b00d3">CA.pl檔案在Ubuntu的藏身之處</font></h3> <p>為了研究如何在Web Server與Mail Server，使用SSL/TLS資料加密的技術。我需要在自家開設認證中心(CA)。要將CA架設在Ubuntu Server 10.10的作業系統之上。</p> <p>手中原本有篇文章，教我如何運用 openssl 指令，從基礎做起，完成個人CA的架設。耐何，我就是懶蟲，實在不想從那麼底層的工作開始做起。</p> <p>後來，在翻閱家中的藏書《LINUX SERVER HACKS駭客一百招》，書上說：「CA.pl這個檔案，可令自行開設CA的開業程序，變得極其簡單」。</p> <p>看到這裡，眼睛發亮，嘴角笑歪，一付樂不可支的模樣。急急忙忙，將畫本攤開，壓平，擺到桌上。接著就眼睛盯著書，讓指尖在鍵盤上輕快地飛舞，打出如下的指令：</p> <p><font style="background-color: #00ff00">/usr/share/ssl/misc/CA.pl -newca</font></p> <p>我的Ubuntu Server也非常老實不客氣地回應我：「…No such file or directory」</p> <p><a href="http://lh3.ggpht.com/_40BYSx3mIfk/TZHwUI1dq9I/AAAAAAAABGk/ZBSMGcVbUmQ/s1600-h/image%5B2%5D.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lh3.ggpht.com/_40BYSx3mIfk/TZHwU2dysRI/AAAAAAAABGo/A2LB3q6sRaw/image_thumb.png?imgmax=800" width="244" height="162"></a></p> <p>「蝦米！那尼！怎會這樣？！」「會不會是作者，寫錯了？」</p> <p>不干願，再換一本書《Apache錦囊妙技》來查，結果…….，那書也支持這個講法。 = = !!!</p> <p>&nbsp;</p> <p>沒法度，只好又上網Google去。七找八找，結果在這篇網路文章《<a href="http://www.amagob.com/wpmu/?p=575">Postfix SMTP through GmAiL: Ubuntu 10.10</a>》，找到了CA.pl檔案在Ubuntu的藏身之處「<strong><font color="#ff0000">/usr/lib/ssl/misc/</font></strong>」</p> <p><a href="http://lh4.ggpht.com/_40BYSx3mIfk/TZHwVso4dmI/AAAAAAAABGs/KkOxBDh28nI/s1600-h/image%5B5%5D.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://lh5.ggpht.com/_40BYSx3mIfk/TZHwWeDmelI/AAAAAAAABGw/rekRHM02fD0/image_thumb%5B1%5D.png?imgmax=800" width="244" height="162"></a></p> <p>學習真是條漫漫長路，總有卡卡女神來做伴，連個簡單的指令，都可以被卡住個大半天！ Q-Q</p>  

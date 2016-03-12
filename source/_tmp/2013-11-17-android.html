@@ -1,0 +1,16 @@
+---
+layout: post
+title: 如何在Android平台進行測試的好文章
+date: '2013-11-17T22:51:00.000+08:00'
+author: 居正中
+tags:
+- APP
+- 測試
+- Android
+modified_time: '2013-11-17T22:51:32.323+08:00'
+thumbnail: http://2.bp.blogspot.com/-Ot9K9bTuvzU/UojLhx4o3pI/AAAAAAAAWR0/aMxuEyFPvTQ/s72-c/2013-11-17_21-56-16.png
+blogger_id: tag:blogger.com,1999:blog-1068034375721560223.post-2306323206125623984
+blogger_orig_url: http://blog.ccc99.tw/2013/11/android.html
+---
+
+雖然不是什麼 TDD（Test Development Driven）的忠實擁護者，但在 2011 年，連續接手兩個失敗的軟體開發案，使我堅信：系統功能的開發，一旦需求釐清後，緊接著就該想好，要如何驗證，以確保系統的功能，可以正常的運作；真正符合需求規格中的要求。<div></div><div><br /></div><div>最近，Android App 開發的研究工作，進展到「如何進行單元測試、整合及功能測試」的部份。上網爬文找資料，看來看去，發覺還是 Android 官網，如下網址處的文章，寫得最好。</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"></div>&nbsp;<a href="http://developer.android.com/tools/testing/index.html">http://developer.android.com/tools/testing/index.html</a><br /><br /><div class="separator" style="clear: both; text-align: left;"><a href="http://developer.android.com/tools/testing/index.html" target="_blank"><img border="0" height="342" src="http://2.bp.blogspot.com/-Ot9K9bTuvzU/UojLhx4o3pI/AAAAAAAAWR0/aMxuEyFPvTQ/s640/2013-11-17_21-56-16.png" width="640" /></a></div><div><br /></div><div>這篇論述測試 (Testing) 的章節，由以下 10 個單元所構成：</div><div><ol><li>Fundamentals</li><li>From Eclipse</li><li>From Other IDEs</li><li>Activity Testing</li><li>Service testing</li><li>Content Provider Testing</li><li>Accessibility Testing</li><li>UI Testing</li><li>What To Test</li><li>Activity Testing Tutorial</li></ol><div>一開始的「1. Fundamentals」談的是架構性、理論性的東東，看起來容易 ZZZzzz...... 。</div><div><br /></div><div>接著下來的兩個單元「2. From Eclipse；3. From Other IDEs」，則是比較實務性的指引。在「2. From Eclipse」單元，告訴你如何透過 Eclipse IDE 工具：建立測試專案、建立測試類別及測試個案、設定測試的執行環境、如何執行測試、如何檢視測試的結果。</div></div><div><br /></div><div>不是使用 Eclipse IDE 工具的開發者，則可參考「3. From Other IDEs」單元的內容，如何透過「下指令」的方式 ，達成在「2. From Eclipse」單元所論述的種種應用。</div><div><br /></div><div>在「4. Activity Testing ～ 9. What to test」的 6 個單元，針對各種不同的「目的」，解說 Test Framework 下的那個類別（Class），有些什麼樣的方法（Method），適用於進行什麼樣的測試。因為，又是一大堆的文字描述，我在閱讀的時候，也是一直猛點頭......，ZZZzzz......</div><div><br /></div><div>自「10. Activity Testing Tutorial」這個單元開始，終於有了 Step by Step 逐步的實際操作指引，這時候就比較有「實際的 Ful」，可以真正體驗感受：「如何在 Android 平台，進行單元測試、整合測試、功能測試」 。最讓我驚訝及感動的地方，原來在 Android 平台，屬於使用者介面的&nbsp;UI 操作測試，一樣可在 Android 的 Test Framework 環境下，以程式碼控制及進行。</div><div><br /></div><div>如下圖所示之 Android App Life Cycle 各種 State 的轉換，一樣可以透過 Android Test Framework 的類別、方法進行測試。所以，想要知道突然有電話進到手機；使用者突然按了 Home 鍵；突然切換到別的 App 然後再回來，你的 App 是否能正常運作，一樣可以在這個測試框架下進行。</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-xJ6dTWMu4nE/UojWSLfHlQI/AAAAAAAAWSE/QWwDsh7pdeQ/s1600/Android-activity-Life-cycle.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="492" src="http://3.bp.blogspot.com/-xJ6dTWMu4nE/UojWSLfHlQI/AAAAAAAAWSE/QWwDsh7pdeQ/s640/Android-activity-Life-cycle.png" width="640" /></a></div><div>&nbsp;</div><div>如何在 Android 平台進行「單元測試（UT）、整合測試（IT）、功能測試（ST／FT）」，這時是一篇值得參考的好文章。</div><div><br /></div>
