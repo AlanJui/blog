@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh_TW"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 分享 Angular Material + ES2015 + JSPM 範本 · 我的Hexo部落客</title><meta name="description" content="分享 Angular Material + ES2015 + JSPM 範本 - 居正中"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/blog/favicon.png"><link rel="stylesheet" href="/blog/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><header><a href="/blog/" class="logo-link"><img src="favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="./archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://www.weibo.com/u/5661797831" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/AlanJui" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">分享 Angular Material + ES2015 + JSPM 範本</h1><div class="post-time">2016年3月9日</div><div class="post-content"><p>一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!</p>
+<p>在 Angular Material 官網的「Getting Started」，看到名為：<a href="https://github.com/angular/material-start/tree/es5-tutorial" target="_blank" rel="external">《Learn with Material－Start: 8-step Tutorial (es5)》</a>的教程，可供「入門者」開始學著用 Angular Material 。</p>
+<p>不過……</p>
+<p>個人嘴挑，想把 AngularJS 1.x 預設的 JavaScript ES5，改成 ES2015 (ES6) ，一方面是覺得 ES2015 的 JavaScript 程式碼，比較結構化，所以易讀、易懂，當然後續的程式維護／變更，可以比較容易些；另外，想藉由多用 ES2015 ，熟悉其語法、特性，將來升級到 Angular 2 ，改用 TypeScript 時，可以快速上手。</p>
+<p>於是「九怪」的自己，在入門學著用 Angular Material 的教程，改挑 Angular Material 官網提供的教學：<a href="https://github.com/angular/material-start/tree/es6-tutorial" target="_blank" rel="external">《Learn with Material－Start: Completed (es6)》</a>。</p>
+<p>結果……<br>郎九怪，必定沒有好下場。 T__T</p>
+<p>在 Angular Material 官方提供的 Source Code 範例，它用的 Transpiler 是 Traceur ；而非我比較慣用的 Babel …… 0rz</p>
+<p>另外，為了解決 module 及 import 的用法， Angular Material 官網給的範例，採用 JSPM 來解決這個「用」的需求。然而，對於 JSPM ，我是所知不多；幾近「無知」…… 0rz<br>最後，看到 Angular Material 官網提供的 Source Code 範例，雖然「號稱」是 ES6 的 JavaScript ，可是在 Controller, Service 程式的寫法，根本都沒用到 class ；而 Call Back Function 用的更不是 Fat Arrow Functions 的寫法。</p>
+<p>因為覺得官網提供的範例－不到的；感覺上 Very 不 Song ，所以，想自己動手，試著改寫。</p>
+<p>可是……</p>
+<p>剛把 Controller ，自 function 改寫成 Class 後，開始就會碰上大問題： Controller 中需要 Inject 的 Service 要怎麼放進去；宣告 angular.module(…) 時， Controller 要如何 Inject 到 module 中？</p>
+<p>哈！哈！</p>
+<p>沒事跟自己找事，惹了一堆麻煩。</p>
+<p>自己的捅的樓子，得自己收拾。 0rz</p>
+<p>寫到痣瘡舊疾快要爆發，總算才將事情搞定，可以給自己一個交待。</p>
+<p>有人用 Angular Material V1.0.6 ，也想改用 ES2015 JavaScript 嗎？</p>
+<p>放在 GitHub 這裡的<a href="https://github.com/AlanJui/ng-md-2015" target="_blank" rel="external">參考範例</a>，請笑衲！ ^^y</p>
+</div></article></div></section><footer><div class="paginator"><a href="/blog/2016/03/12/hello-world/" class="prev">PRVE</a><a href="/blog/2015/04/22/post-01/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'ccc99';
+var disqus_identifier = '2016/03/09/ng-md-2015/';
+var disqus_title = '分享 Angular Material + ES2015 + JSPM 範本';
+var disqus_url = 'http://alanjui.github.io/blog/2016/03/09/ng-md-2015/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//ccc99.disqus.com/count.js" async></script><div class="copyright"><p>© 2015 - 2016 <a href="http://alanjui.github.io/blog">居正中</a>, unless otherwise noted.</p></div></footer><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-62038067-3",'auto');ga('send','pageview');</script><script src="https://cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
