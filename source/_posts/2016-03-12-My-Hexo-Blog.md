@@ -1,7 +1,7 @@
 ---
 title: 我的Hexo部落格
 date: 2016-03-12 16:14:11
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - Hexo
 - Blog

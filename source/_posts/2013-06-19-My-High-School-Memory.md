@@ -1,7 +1,9 @@
+---
 title: "左中回憶剪貼簿"
 date: 2013-06-19 12:00:00
-categories: Blog 
-tags: [生活點滴, 音樂]
+categories: "生活點滴"
+tags:
+- 音樂
 ---
 
 老相片，剪剪貼貼，七拚八湊。

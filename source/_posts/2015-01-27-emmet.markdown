@@ -2,7 +2,7 @@
 layout: post
 title:  "HTML編輯加速器：Emmet"
 date:   2015-01-27 11:30:27
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - HTML
 - Emmet

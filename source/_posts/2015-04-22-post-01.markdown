@@ -2,9 +2,9 @@
 layout: post
 title:  "解決老人家「不良於行」的健身方法"
 date:   2015-04-22 08:00:00
-categories: Blog
+categories: "IT技術"
 tags:
-- {{身體保健}}
+- 身體保健
 ---
 想要長壽，活得健康能動是首要。
 

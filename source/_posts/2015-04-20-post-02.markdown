@@ -2,7 +2,7 @@
 layout: post
 title:  "客製 Jekyll "
 date:   2015-04-20 15:57:27
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - Jekyll
 - Markdown

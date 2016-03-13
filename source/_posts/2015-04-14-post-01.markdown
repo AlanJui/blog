@@ -2,7 +2,7 @@
 layout: post
 title:  "上載到臉書的圖片，如何使用「貼圖」功能進行修飾"
 date:   2015-04-14 18:23:00
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - Facebook
 - YouTube

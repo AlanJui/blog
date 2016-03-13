@@ -2,9 +2,9 @@
 layout: post
 title:  "Stack Overflow 揭秘程式開發者15 個不為人知的秘密"
 date:   2015-04-15 06:36:00
-categories: Blog
+categories: "IT技術"
 tags:
-- {{青菜公公}}
+- 青菜公公
 ---
 你寫程式嗎？
 

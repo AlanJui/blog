@@ -1,7 +1,9 @@
+---
 title: "公車站的一個小故事"
 date: 2013-12-21 12:00:00
-categories: Blog 
-tags: [生活點滴, 音樂]
+categories: "生活點滴"
+tags:
+- 音樂
 ---
 
 ![公車左營北站](https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg)

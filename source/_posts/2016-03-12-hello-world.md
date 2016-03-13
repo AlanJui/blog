@@ -1,6 +1,6 @@
 ---
 title: Hello Hexo
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - Hexo
 ---

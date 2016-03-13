@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Google Maps 基本用法簡介（HD 1080P）
-date: '2014-11-17T15:35:00.001+08:00'
-author: 居正中
-categories: {{IT技術}}
+date: 2014-11-17 15:35:00
+categories: "IT技術"
 tags:
-- {{知識}}
+- "Google Maps"
 ---
 
 想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」
-<!-- more --> 
+<!-- more -->
 
 只要能掌握「Google 地圖（Google Maps）」的操作用法，以上與地理相關的資訊，都能輕輕鬆鬆，垂手可得。
 

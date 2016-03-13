@@ -2,7 +2,7 @@
 layout: post
 title:  "Explore MEAN Stack at 2015 教學影片"
 date:   2015-04-20 09:00:00
-categories: {{IT技術}}
+categories: "IT技術"
 tags:
 - MEAN
 ---

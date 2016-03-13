@@ -1,7 +1,9 @@
+---
 title:  "如何在Hexo文章放入圖片"
-date:   2015-04-26
-categories: IT資訊
-tag: Hexo
+date:   2015-04-26 10:00:00
+categories: "IT技術"
+tags:
+- Hexo
 ---
 
 ![Hexo](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee)

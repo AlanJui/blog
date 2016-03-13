@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的Hexo部落客
+title: 阿中的生活札記
 subtitle: 分享世界
 description:
 author: 居正中
-language: zh_TW
+language: zh-TW
 timezone: Asia/Taipei
 
 # URL
@@ -47,7 +47,16 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  IT技術: InfoTech
+  生活點滴: Life
+  美的世界: WonderfulWorld
 tag_map:
+# default_category: IT技術
+# category_map:
+#   IT技術: InfoTech
+#   生活點滴: Life
+#   美的世界: BeautifulWorld
+# tag_map:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -64,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+#theme: apollo
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -73,7 +83,7 @@ deploy:
   repo: git@github.com:AlanJui/blog.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  
+
 # 在归档页面显示所有文章
 # 需要上面安装的 hexo-generator-archive 插件支持
 archive_generator:
@@ -81,3 +91,6 @@ archive_generator:
     yearly: false
     monthly: false
     daily: false
+
+# Disqus
+disqus_shortname: ccc99

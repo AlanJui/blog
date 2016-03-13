@@ -1,7 +1,10 @@
+---
 title: "油麻菜籽"
 date: 2015-04-26 16:07:39
-categories: 音樂藝術
-tags: [老歌]
+categories: "美的世界"
+tags:
+- 音樂
+- 老歌
 ---
 
 {% img "http://t.douban.com/lpic/s3746269.jpg" %}
