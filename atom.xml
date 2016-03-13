@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>我的Hexo部落客</title>
+  <title>阿中的生活札記</title>
   <subtitle>分享世界</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://alanjui.github.io/blog/"/>
-  <updated>2016-03-12T17:28:35.000Z</updated>
+  <updated>2016-03-13T07:41:50.000Z</updated>
   <id>http://alanjui.github.io/blog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/My-Hexo-Blog/</id>
     <published>2016-03-12T08:14:11.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:41:50.000Z</updated>
     
     <content type="html">&lt;p&gt;習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。&lt;/p&gt;
 &lt;p&gt;GitHub官網推薦：以Jekyll來架設Static網站。&lt;/p&gt;
@@ -37,7 +37,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
@@ -55,7 +55,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/12/hello-world/"/>
     <id>http://alanjui.github.io/blog/2016/03/12/hello-world/</id>
     <published>2016-03-11T16:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:41:39.000Z</updated>
     
     <content type="html">&lt;p&gt;使用&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;，可以快速架設個人部落格。 &lt;/p&gt;
 &lt;p&gt;不過，要能操控它，有些「操作細節」還是得參考&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文件&lt;/a&gt;，才能真正運用自如。&lt;/p&gt;
@@ -86,7 +86,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
@@ -98,7 +98,7 @@
     <link href="http://alanjui.github.io/blog/2016/03/09/ng-md-2015/"/>
     <id>http://alanjui.github.io/blog/2016/03/09/ng-md-2015/</id>
     <published>2016-03-09T08:39:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:41:25.000Z</updated>
     
     <content type="html">&lt;p&gt;一直籌劃著要用 AngularJS 來開發自己想要的 Web App。另外，對於 UI 介面想採 Angular Material ，一來為的是：畫面賞心悅目好看；另外盤算的是 Google 的 Angular Material 對 Google 的 AngularJS 應該會有比較好的支援，不會有太多「不相容」的問題吧？！ ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;在 Angular Material 官網的「Getting Started」，看到名為：&lt;a href=&quot;https://github.com/angular/material-start/tree/es5-tutorial&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Learn with Material－Start: 8-step Tutorial (es5)》&lt;/a&gt;的教程，可供「入門者」開始學著用 Angular Material 。&lt;/p&gt;
 &lt;p&gt;不過……&lt;/p&gt;
@@ -124,7 +124,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Angular Material" scheme="http://alanjui.github.io/blog/tags/Angular-Material/"/>
@@ -142,7 +142,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/"/>
     <id>http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/</id>
     <published>2015-04-29T11:48:49.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:58:10.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.kagaminelen.org/tearing/big/1315084575038.jpg&quot; alt=&quot;大雄與奶奶&quot;&gt;&lt;br&gt;小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;小學時，我們班上有個胖嘟嘟的男同學，家境不錯，父母也疼他，有什麼最新出版的漫畫都會買給他，他也挺大方的，常會將漫畫書帶到班上來跟我們分享。一票的同學們，個個都會巴結他，這樣才有機會跟他「借」來看。&lt;/p&gt;
@@ -157,10 +157,10 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
     
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
+      <category term="心情筆記" scheme="http://alanjui.github.io/blog/tags/%E5%BF%83%E6%83%85%E7%AD%86%E8%A8%98/"/>
     
   </entry>
   
@@ -169,7 +169,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/"/>
     <id>http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/</id>
     <published>2015-04-26T08:07:39.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:40:24.000Z</updated>
     
     <content type="html">&lt;img src=&quot;http://t.douban.com/lpic/s3746269.jpg&quot;&gt;
 &lt;h3 id=&quot;【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot;&gt;&lt;a href=&quot;#【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot; class=&quot;headerlink&quot; title=&quot;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&quot;&gt;&lt;/a&gt;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&lt;/h3&gt;&lt;p&gt;——引自電影海報標題&lt;/p&gt;
@@ -195,8 +195,10 @@
     
     </summary>
     
-      <category term="音樂藝術" scheme="http://alanjui.github.io/blog/categories/%E9%9F%B3%E6%A8%82%E8%97%9D%E8%A1%93/"/>
+      <category term="美的世界" scheme="http://alanjui.github.io/blog/categories/BeautifulWorld/"/>
     
+    
+      <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
     
       <category term="老歌" scheme="http://alanjui.github.io/blog/tags/%E8%80%81%E6%AD%8C/"/>
     
@@ -207,7 +209,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/"/>
     <id>http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/</id>
     <published>2015-04-25T16:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:39:49.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;使用Hexo寫Blog文章，基本上就是用Markdown的「語法」來編輯文章。&lt;/p&gt;
@@ -231,7 +233,7 @@
     
     </summary>
     
-      <category term="IT資訊" scheme="http://alanjui.github.io/blog/categories/IT%E8%B3%87%E8%A8%8A/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
@@ -243,7 +245,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/"/>
     <id>http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/</id>
     <published>2015-04-25T13:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:57:19.000Z</updated>
     
     <content type="html">&lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
@@ -269,7 +271,7 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
     
       <category term="青菜公公" scheme="http://alanjui.github.io/blog/tags/%E9%9D%92%E8%8F%9C%E5%85%AC%E5%85%AC/"/>
@@ -281,7 +283,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/"/>
     <id>http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/</id>
     <published>2015-04-25T04:05:01.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:39:30.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
 &lt;p&gt;試著使用 Hexo 架設個人部落格。&lt;/p&gt;
@@ -298,7 +300,7 @@
     
     </summary>
     
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
@@ -310,7 +312,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/22/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/22/post-01/</id>
     <published>2015-04-22T00:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:57:06.000Z</updated>
     
     <content type="html">&lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
 &lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
@@ -333,10 +335,10 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+      <category term="身體保健" scheme="http://alanjui.github.io/blog/tags/%E8%BA%AB%E9%AB%94%E4%BF%9D%E5%81%A5/"/>
     
   </entry>
   
@@ -345,7 +347,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-02/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-02/</id>
     <published>2015-04-20T07:57:27.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:38:07.000Z</updated>
     
     <content type="html">&lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
 &lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -384,7 +386,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Jekyll" scheme="http://alanjui.github.io/blog/tags/Jekyll/"/>
@@ -398,7 +400,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/20/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/20/post-01/</id>
     <published>2015-04-20T01:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:37:38.000Z</updated>
     
     <content type="html">&lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
 &lt;p&gt;結果……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -425,7 +427,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="MEAN" scheme="http://alanjui.github.io/blog/tags/MEAN/"/>
@@ -437,7 +439,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/18/Toast-the-earth/"/>
     <id>http://alanjui.github.io/blog/2015/04/18/Toast-the-earth/</id>
     <published>2015-04-18T12:48:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:37:20.000Z</updated>
     
     <content type="html">&lt;p&gt;晚上看有線電視台，重播電影《2012》，那些地球毀滅的畫面，看起來仍讓人驚心動魄！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://tw.ent.yimg.com/mpho/22/71/22271.jpg&quot; alt=&quot;電影 2012 場景一&quot;&gt;&lt;/p&gt;
@@ -454,7 +456,7 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="美的世界" scheme="http://alanjui.github.io/blog/categories/BeautifulWorld/"/>
     
     
       <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
@@ -466,7 +468,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/17/Life-is-not-easy/"/>
     <id>http://alanjui.github.io/blog/2015/04/17/Life-is-not-easy/</id>
     <published>2015-04-17T05:37:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:56:51.000Z</updated>
     
     <content type="html">&lt;p&gt;人生，不簡單！&lt;/p&gt;
 &lt;p&gt;我們有許多的責任要擔，總想要給家人，最多、最大的幸福，於是我們在工作努力、打拚！&lt;/p&gt;
@@ -487,10 +489,12 @@
     
     </summary>
     
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
     
       <category term="青菜公公" scheme="http://alanjui.github.io/blog/tags/%E9%9D%92%E8%8F%9C%E5%85%AC%E5%85%AC/"/>
+    
+      <category term="心情筆記" scheme="http://alanjui.github.io/blog/tags/%E5%BF%83%E6%83%85%E7%AD%86%E8%A8%98/"/>
     
   </entry>
   
@@ -499,7 +503,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/15/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/15/post-01/</id>
     <published>2015-04-14T22:36:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:35:57.000Z</updated>
     
     <content type="html">&lt;p&gt;你寫程式嗎？&lt;/p&gt;
 &lt;p&gt;來看看，你跟其他的同行，有何異、同？！ ^^y&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -513,10 +517,10 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+      <category term="青菜公公" scheme="http://alanjui.github.io/blog/tags/%E9%9D%92%E8%8F%9C%E5%85%AC%E5%85%AC/"/>
     
   </entry>
   
@@ -525,7 +529,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/14/post-01/"/>
     <id>http://alanjui.github.io/blog/2015/04/14/post-01/</id>
     <published>2015-04-14T10:23:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:35:17.000Z</updated>
     
     <content type="html">&lt;p&gt;昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ &lt;/p&gt;
 &lt;p&gt;現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的&lt;br&gt;「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -543,7 +547,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="Facebook" scheme="http://alanjui.github.io/blog/tags/Facebook/"/>
@@ -557,7 +561,7 @@
     <link href="http://alanjui.github.io/blog/2015/01/27/emmet/"/>
     <id>http://alanjui.github.io/blog/2015/01/27/emmet/</id>
     <published>2015-01-27T03:30:27.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:35:03.000Z</updated>
     
     <content type="html">&lt;p&gt;使用「Emmet」，可讓HTML的編輯工作簡化，瞬間加速。&lt;/p&gt;
 &lt;p&gt;真有這麼神奇嗎？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -576,7 +580,7 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
       <category term="HTML" scheme="http://alanjui.github.io/blog/tags/HTML/"/>
@@ -590,7 +594,7 @@
     <link href="http://alanjui.github.io/blog/2014/12/11/cook/"/>
     <id>http://alanjui.github.io/blog/2014/12/11/cook/</id>
     <published>2014-12-11T10:44:00.004Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:56:34.000Z</updated>
     
     <content type="html">&lt;p&gt;曾在臉書，看過朋友分享的「蕃茄飯」烹調方法。這種烹調法的持性，只需使用煮飯的電鍋就可搞定，省事、省時。昨天也來一試。&lt;/p&gt;
 &lt;p&gt;晚餐時候，才剛完成料理，正要食用之時，沒想到，自台北市區返家回來的太座及小祖宗，也剛好開門進來。&lt;/p&gt;
@@ -636,10 +640,10 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+      <category term="素食" scheme="http://alanjui.github.io/blog/tags/%E7%B4%A0%E9%A3%9F/"/>
     
   </entry>
   
@@ -648,7 +652,7 @@
     <link href="http://alanjui.github.io/blog/2014/11/17/google-maps-hd-1080p/"/>
     <id>http://alanjui.github.io/blog/2014/11/17/google-maps-hd-1080p/</id>
     <published>2014-11-17T07:35:00.001Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:52:01.000Z</updated>
     
     <content type="html">&lt;p&gt;想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;p&gt;只要能掌握「Google 地圖（Google Maps）」的操作用法，以上與地理相關的資訊，都能輕輕鬆鬆，垂手可得。&lt;/p&gt;
@@ -664,10 +668,10 @@
     
     </summary>
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/categories/object-Object/"/>
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/IT-Tech/"/>
     
     
-      <category term="[object Object]" scheme="http://alanjui.github.io/blog/tags/object-Object/"/>
+      <category term="Google Maps" scheme="http://alanjui.github.io/blog/tags/Google-Maps/"/>
     
   </entry>
   
@@ -676,7 +680,7 @@
     <link href="http://alanjui.github.io/blog/2013/12/21/Zhuo-Ying-Bus-Station/"/>
     <id>http://alanjui.github.io/blog/2013/12/21/Zhuo-Ying-Bus-Station/</id>
     <published>2013-12-21T04:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:56:19.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg&quot; alt=&quot;公車左營北站&quot;&gt;&lt;/p&gt;
 &lt;p&gt;左營北站、5號公車、19號公車，我在左中的日子，刻骨銘心深切的記憶。&lt;/p&gt;
@@ -692,10 +696,8 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
-    
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
     
       <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
     
@@ -706,7 +708,7 @@
     <link href="http://alanjui.github.io/blog/2013/06/19/My-High-School-Memory/"/>
     <id>http://alanjui.github.io/blog/2013/06/19/My-High-School-Memory/</id>
     <published>2013-06-19T04:00:00.000Z</published>
-    <updated>2016-03-12T17:28:35.000Z</updated>
+    <updated>2016-03-13T07:54:31.000Z</updated>
     
     <content type="html">&lt;p&gt;老相片，剪剪貼貼，七拚八湊。&lt;/p&gt;
 &lt;p&gt;補捉早已褪色，幾近遺忘古老而遙遠的早記憶…..！ ^^”&lt;/p&gt;
@@ -722,10 +724,8 @@
     
     </summary>
     
-      <category term="Blog" scheme="http://alanjui.github.io/blog/categories/Blog/"/>
+      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
     
-    
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/tags/%E7%94%9F%E6%B4%BB%E9%BB%9E%E6%BB%B4/"/>
     
       <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
     

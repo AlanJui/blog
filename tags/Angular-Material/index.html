@@ -1,1 +1,328 @@
-<!DOCTYPE html><html lang="zh_TW"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 我的Hexo部落客</title><meta name="description" content="A Blog Powered By Hexo"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/blog/favicon.png"><link rel="stylesheet" href="/blog/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><header><a href="/blog/" class="logo-link"><img src="/blog/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/blog" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/blog/archives" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://www.weibo.com/u/5661797831" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/AlanJui" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><section class="container"><div class="archive"><h2 class="archive-year">2016</h2><div class="post-item"><div class="post-time">2016年3月9日</div><a href="/blog/2016/03/09/ng-md-2015/" class="post-title-link">分享 Angular Material + ES2015 + JSPM 範本</a></div></div></section><footer><div class="paginator"></div><div class="copyright"><p>© 2015 - 2016 <a href="http://alanjui.github.io/blog">居正中</a>, unless otherwise noted.</p></div></footer><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-62038067-3",'auto');ga('send','pageview');</script><script src="https://cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script></body></html>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Angular Material | 阿中的生活札記</title>
+  <meta name="author" content="居正中">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="阿中的生活札記"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/blog/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/blog/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/blog/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62038067-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/blog/">阿中的生活札記</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/blog/archives" title="依時間排序歸檔的文章">
+			  <i class="fa fa-archive"></i>時序
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/categories" title="依「類別」歸檔的文章">
+			  <i class="fa fa-folder"></i>類別
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/tags" title="依「標籤」歸檔的文章">
+			  <i class="fa fa-tags"></i>標籤
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+<!-- title -->
+<div class="page-header page-header-inverse ">
+  <h1 class="archive-title-tag title title-inverse ">Angular Material</h1>
+</div>
+
+<div class="row page">
+  <!-- cols -->
+  
+  <div class="col-md-9">
+	
+
+	  <div id="top_search"></div>
+
+	  <div class="archive">
+		
+		
+		
+			
+			
+			<h4 class="archive-ul" data-toggle="collapse" data-target="#2016">2016<b class="caret"></b></h4>
+			<ul id="2016" class="collapse in">
+			
+		
+		<li class="listing-item">
+		<span class="date_class"> 2016-03-09 </span> &raquo;
+		
+		   <span class="title"><a href="/blog/2016/03/09/ng-md-2015/" >分享 Angular Material + ES2015 + JSPM 範本</a></span>
+		
+		</li>			
+		
+		</ul>
+		</div>
+
+</div> <!-- col-md-9/col-md-12 -->
+
+
+<div class="col-md-3">
+	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="搜尋" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
+		
+			
+	<div class="widget">
+		<h4>分類</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/blog/categories/Blog/">Blog<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/IT/">IT<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/IT技/">IT技<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/IT-Tech/">IT技術<span>11</span></a></li>
+		
+			<li><a href="/blog/categories/IT技術/">IT技術}}<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/IT資訊/">IT資訊<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/object-Object/">[object Object]<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/生/">生<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/生活/">生活<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/生活點/">生活點<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/Life/">生活點滴<span>7</span></a></li>
+		
+			<li><a href="/blog/categories/美的世/">美的世<span>0</span></a></li>
+		
+			<li><a href="/blog/categories/BeautifulWorld/">美的世界<span>2</span></a></li>
+		
+			<li><a href="/blog/categories/音樂藝術/">音樂藝術<span>0</span></a></li>
+		
+		</ul>
+	</div>
+
+		
+			
+	<div class="widget">
+		<h4>標籤雲</h4>
+		<ul class="tag_box inline list-unstyled">		
+		
+			<li><a href="/blog/tags/Google-Maps/">Google Maps<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/回憶/">回憶<span>0</span></a></li>
+		
+			<li><a href="/blog/tags/素/">素<span>0</span></a></li>
+		
+			<li><a href="/blog/tags/YouTube/">YouTube<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Emmet/">Emmet<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Angular-1-x/">Angular 1.x<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/陳年往事/">陳年往事<span>0</span></a></li>
+		
+			<li><a href="/blog/tags/回/">回<span>0</span></a></li>
+		
+			<li><a href="/blog/tags/JSPM/">JSPM<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Angular-Material/">Angular Material<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/ES2015/">ES2015<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/MEAN/">MEAN<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Hexo/">Hexo<span>4</span></a></li>
+		
+			<li><a href="/blog/tags/NodeJS/">NodeJS<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Jekyll/">Jekyll<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/Markdown/">Markdown<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/陳年往/">陳年往<span>0</span></a></li>
+		
+			<li><a href="/blog/tags/HTML/">HTML<span>1</span></a></li>
+		
+			<li><a href="/blog/tags/心情筆記/">心情筆記<span>2</span></a></li>
+		
+			<li><a href="/blog/tags/object-Object/">[object Object]<span>0</span></a></li>
+		
+		
+		   <li><a href="/tags">...<span>33</span></a></li>
+		 
+		</ul>
+	</div>
+
+
+		
+			
+<div class="widget">
+  <h4>最新文章</h4>
+  <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/blog/2016/03/12/My-Hexo-Blog/" ><i class="fa fa-file-o"></i>我的Hexo部落格</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/03/12/hello-world/" ><i class="fa fa-file-o"></i>Hello Hexo</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2016/03/09/ng-md-2015/" ><i class="fa fa-file-o"></i>分享 Angular Material + ES201...</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2015/04/29/Da-Xong-and-Grand-Mom/" ><i class="fa fa-file-o"></i>大雄與奶奶</a>
+      </li>
+    
+      <li>
+        <a href="/blog/2015/04/26/Yuo-Ma-Cai-Zi/" ><i class="fa fa-file-o"></i>油麻菜籽</a>
+      </li>
+    
+  </ul>
+</div>
+
+		
+			
+<div class="widget">
+	<h4>鏈接</h4>
+	<ul class="blogroll list-unstyled">
+	
+		<li><i class="fa fa-github"></i><a href="http://www.github.com/AlanJui" title="我在Github的家" target="_blank"]);">我的Github</a></li>
+	
+		<li><i class="fa fa-facebook"></i><a href="http://www.facebook.com/AlanJui" title="我在Facebook的家" target="_blank"]);">我的Facebook</a></li>
+	
+		<li><i class="fa fa-linkedin"></i><a href="http://tw.linkedin.com/in/AlanJui" title="我在LinkedIn的家" target="_blank"]);">我的LinkedIn</a></li>
+	
+		<li><i class="fa fa-weibo"></i><a href="http://www.weibo.com/5661797831" title="我在WeiBo的家" target="_blank"]);">我的微博</a></li>
+	
+	</ul>
+</div>
+
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 居正中
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+<script src="/blog/js/bootstrap.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="/blog/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/blog/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>
