@@ -88,7 +88,8 @@
 <blockquote><p>你從那些艱苦的日子走來，是怎樣莫可奈何的忍耐；<br>而從前未曾給我的愛和關懷，今天在你帶淚的笑裡找來。</p>
 <p>誰說我的命運好像那油麻菜，只是你不知將它往哪裡栽；<br>就算我的命運好像那油麻菜，但是我知道了怎樣去愛。</p>
 <p>才盼望你將我抱個滿懷，日子就已蕩呀蕩的來到現在；<br>經過了那些無奈和期待，我好高興有了自己的將來。</p>
-</blockquote>]]></content>
+</blockquote>
+]]></content>
     </entry>
     
     <entry>
@@ -106,6 +107,7 @@
 <p>可顯示如下所示之圖片檔：<br></p>
 <h2 id="置入圖片檔的「連結位置」"><a href="#置入圖片檔的「連結位置」" class="headerlink" title="置入圖片檔的「連結位置」"></a>置入圖片檔的「連結位置」</h2><p>使用語法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_link touring.jpg 單車旅遊 %&#125;</span><br></pre></td></tr></table></figure></p>
 <p>等同 HTML Tag<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"touring.jpg"</span> <span class="attr">alt</span>=<span class="string">"單車旅遊"</span>&gt;</span>單車旅遊<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+
 ]]></content>
     </entry>
     
@@ -127,7 +129,8 @@
 <p>聽專家說音樂有助於睡眠，就用蔡琴低沈、富有磁性的歌聲，伴我入眠吧！</p>
 <p>「毒你千遍也不厭倦…………」</p>
 <p>ZZZ zzz zzz zzz ………………</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/FxCAjDkWKw4?rel=0" frameborder="0" allowfullscreen></iframe>]]></content>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/FxCAjDkWKw4?rel=0" frameborder="0" allowfullscreen></iframe>
+]]></content>
     </entry>
     
     <entry>
@@ -224,7 +227,8 @@
 <p>目前公認地球的年齡約為 45 億 6700 萬年。根據科學家的講法，地球形成後，長達數億年之久的期間，遭受隕石密集的轟炸，致使地球誕生初期，當年在地表上形成的物質，早已摧毀殆盡，若想採樣，得鑽到地心去取！ U_U !!</p>
 <p>疑似人類祖先的物種，直到 600 萬年前，才在地球上出現。人類學家認定可考的人類文明歷史，頂多不會超過七八千年；而今年，也不過才公元 2015 年……</p>
 <p>聽著這影片壯闊的音樂，看著那美麗的山川大海風光，不禁感歎地球真是顆美麗的星球。祈禱人類能珍惜、愛護祂，學會如何與祂共榮共存，讓生命生生不息、永世不絕！</p>
-<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/W09ZGfZIMP8?rel=0" frameborder="0" allowfullscreen></iframe>]]></content>
+<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/W09ZGfZIMP8?rel=0" frameborder="0" allowfullscreen></iframe>
+]]></content>
     </entry>
     
     <entry>
@@ -239,7 +243,8 @@
 <p>待喝下第二口時，沈思了一下，改說：「苦中帶點甜……」</p>
 <p>在第三口後，抬起頭後，又偏著頭想了想，然後又再喝一口，如是好幾回。</p>
 <p>最後，仰起頭來笑著說：「其實……還是甜的啦！」 ^^y</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etqoMuMqk2s?rel=0" frameborder="0" allowfullscreen></iframe>]]></content>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/etqoMuMqk2s?rel=0" frameborder="0" allowfullscreen></iframe>
+]]></content>
     </entry>
     
     <entry>
@@ -319,13 +324,14 @@
     <entry>
       <title><![CDATA[Google Maps 基本用法簡介（HD 1080P）]]></title>
       <url>http://alanjui.github.io/blog/blog/2014/11/17/google-maps-hd-1080p/</url>
-      <content type="html"><![CDATA[<p>想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」<br><a id="more"></a> </p>
+      <content type="html"><![CDATA[<p>想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」<br><a id="more"></a></p>
 <p>只要能掌握「Google 地圖（Google Maps）」的操作用法，以上與地理相關的資訊，都能輕輕鬆鬆，垂手可得。</p>
 <p>花點時間來學學怎麼操作「Google 地圖」，享受現代人特有，因科技所帶來的便利吧！ ^^y</p>
 <iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/YHRS9kNwAmM?rel=0" width="640"></iframe>
 
 <p>【附註】：記得把影片放大，免得看到眼睛脫窗哦！若操作細節不清楚，可先參考這影片的操作用法。</p>
-<iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/3ZkvZ4rY-Nk?rel=0" width="640"></iframe>]]></content>
+<iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/3ZkvZ4rY-Nk?rel=0" width="640"></iframe>
+]]></content>
     </entry>
     
     <entry>
@@ -336,7 +342,8 @@
 <a id="more"></a>
 <p>今天，因為臉書上，校友分享的一張公車相片，掀開了記憶的時光寶盒，那個積沈已久的美好記憶，再度想起……</p>
 <p>很久、很久……以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" frameborder="0" allowfullscreen></iframe>]]></content>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" frameborder="0" allowfullscreen></iframe>
+]]></content>
     </entry>
     
     <entry>
