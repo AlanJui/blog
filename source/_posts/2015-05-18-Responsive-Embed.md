@@ -104,8 +104,6 @@ tags:
 
 **成果：**
 
-<div class="youtube-video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{% youtube "8ChCu6ivL5o" %}
 
 試著在「電腦螢幕」、「平板螢幕」及「手機螢幕」各種不同寬度的畫面瀏覽，驗證一下效果吧！
