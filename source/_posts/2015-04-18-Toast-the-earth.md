@@ -7,9 +7,9 @@ tags:
 ---
 
 晚上看有線電視台，重播電影《2012》，那些地球毀滅的畫面，看起來仍讓人驚心動魄！
-<!-- more -->  
 
 ![電影 2012 場景一](http://tw.ent.yimg.com/mpho/22/71/22271.jpg)
+<!-- more -->  
 
 ![電影 2012 場景二](http://pic.pimg.tw/lannacheer/4b17bc644e2ed.jpg)
 
@@ -23,4 +23,5 @@ tags:
 聽著這影片壯闊的音樂，看著那美麗的山川大海風光，不禁感歎地球真是顆美麗的星球。祈禱人類能珍惜、愛護祂，學會如何與祂共榮共存，讓生命生生不息、永世不絕！
 
 ### 《地球に乾杯 Toast The Earth》
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W09ZGfZIMP8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+{% iframe "https://www.youtube.com/embed/2neYEpmUv9A?rel=0" 560 315 %}

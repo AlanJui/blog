@@ -6,7 +6,7 @@ tags:
 - 音樂
 ---
 
-![公車左營北站](https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg)
+{% img "https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg"  560 %}
 
 左營北站、5號公車、19號公車，我在左中的日子，刻骨銘心深切的記憶。
 
@@ -15,4 +15,4 @@ tags:
 
 很久、很久......以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" frameborder="0" allowfullscreen></iframe>
+{% iframe "https://www.youtube.com/embed/gJoUnF7IN28?rel=0" 560 %}
