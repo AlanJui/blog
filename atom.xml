@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://alanjui.github.io/blog/"/>
-  <updated>2016-03-14T09:18:20.000Z</updated>
+  <updated>2016-03-13T11:16:19.000Z</updated>
   <id>http://alanjui.github.io/blog/</id>
   
   <author>
@@ -14,31 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>OS X 10-Split Window</title>
-    <link href="http://alanjui.github.io/blog/2016/03/14/OS-X-10-Split-Window/"/>
-    <id>http://alanjui.github.io/blog/2016/03/14/OS-X-10-Split-Window/</id>
-    <published>2016-03-14T08:56:13.000Z</published>
-    <updated>2016-03-14T09:18:20.000Z</updated>
-    
-    <content type="html">&lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。&lt;/p&gt;
-&lt;p&gt;藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！&lt;/p&gt;
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/perKILmQUFM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="OS X" scheme="http://alanjui.github.io/blog/tags/OS-X/"/>
-    
-  </entry>
   
   <entry>
     <title>我的Hexo部落格</title>
@@ -154,11 +129,149 @@
     
       <category term="Angular Material" scheme="http://alanjui.github.io/blog/tags/Angular-Material/"/>
     
+      <category term="ES2015" scheme="http://alanjui.github.io/blog/tags/ES2015/"/>
+    
       <category term="Angular 1.x" scheme="http://alanjui.github.io/blog/tags/Angular-1-x/"/>
     
       <category term="JSPM" scheme="http://alanjui.github.io/blog/tags/JSPM/"/>
     
+  </entry>
+  
+  <entry>
+    <title>MySQL Server 5.7.10 解安裝作業</title>
+    <link href="http://alanjui.github.io/blog/2016/01/18/Uninstall-MySQL-Server-V5-7-10/"/>
+    <id>http://alanjui.github.io/blog/2016/01/18/Uninstall-MySQL-Server-V5-7-10/</id>
+    <published>2016-01-18T04:59:00.000Z</published>
+    <updated>2016-03-14T10:36:12.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;【摘要】：&quot;&gt;&lt;a href=&quot;#【摘要】：&quot; class=&quot;headerlink&quot; title=&quot;【摘要】：&quot;&gt;&lt;/a&gt;【摘要】：&lt;/h3&gt;&lt;p&gt;說明如何在 Mac OS X 作業系統，將已安裝好的 MySQL Server V5.7.10 ，進行「解除安裝」作業。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;【說明】：&quot;&gt;&lt;a href=&quot;#【說明】：&quot; class=&quot;headerlink&quot; title=&quot;【說明】：&quot;&gt;&lt;/a&gt;【說明】：&lt;/h3&gt;&lt;p&gt;新版的MySQL Server V5.7.10，在安裝作業，又有了新的變化。&lt;/p&gt;
+&lt;p&gt;原先完成安裝後，系統管理員帳號『root』，密碼是空的；但現在則是完成安裝時，先給個『臨時密碼』（結束安裝前的畫面會顯示）。&lt;/p&gt;
+&lt;p&gt;安裝時若沒留神，沒將這密碼給記下，一但用 MySQL Client 端的管理軟體時，遭遇「密碼」不正確，無法進入MySQL Server 的大問題。&lt;/p&gt;
+&lt;p&gt;所以，得先來談談：「MySQL Server 如何解除安裝」！&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/a7SCZ-3J5Os&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;【摘要】：&quot;&gt;&lt;a href=&quot;#【摘要】：&quot; class=&quot;headerlink&quot; title=&quot;【摘要】：&quot;&gt;&lt;/a&gt;【摘要】：&lt;/h3&gt;&lt;p&gt;說明如何在 Mac OS X 作業系統，將已安裝好的 MySQL Server V5.7.10 ，進行「解除安裝」作業。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="MySQL" scheme="http://alanjui.github.io/blog/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TypeScript入門起手式（1）</title>
+    <link href="http://alanjui.github.io/blog/2016/01/14/Introduction-for-bingner-of-TypeScript/"/>
+    <id>http://alanjui.github.io/blog/2016/01/14/Introduction-for-bingner-of-TypeScript/</id>
+    <published>2016-01-14T05:36:00.000Z</published>
+    <updated>2016-03-14T10:35:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;開發 Ionic / Angular App ，若原始程式碼自 ES5 JavaScript ，改用 TypeScript ，固然能因其「嚴謹」的特性，帶來諸多好處。但也因此，令 Script 語言原本「便捷」的優點，卻也因此消逝。&lt;/p&gt;
+&lt;p&gt;如何在「嚴謹」與「便捷」之中，做一居中的調整，係此系列影片想探討與分享的 Know-how。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/fsGriWUkifM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;與本影片相關的原始程式碼，及其使用指引，存放在 GitHub 以下網址處：&lt;br&gt;&lt;a href=&quot;https://github.com/AlanJui/ionic1-typescript-min&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/AlanJui/ionic1-typescript-min&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;開發 Ionic / Angular App ，若原始程式碼自 ES5 JavaScript ，改用 TypeScript ，固然能因其「嚴謹」的特性，帶來諸多好處。但也因此，令 Script 語言原本「便捷」的優點，卻也因此消逝。&lt;/p&gt;
+&lt;p&gt;如何在「嚴謹」與「便捷」之中，做一居中的調整，係此系列影片想探討與分享的 Know-how。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="TypeScript" scheme="http://alanjui.github.io/blog/tags/TypeScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CodeSchool STB The Magical Marvels of MongoDB</title>
+    <link href="http://alanjui.github.io/blog/2016/01/04/CodeSchool-STB-The-Magical-Marvels-of-MongoDB/"/>
+    <id>http://alanjui.github.io/blog/2016/01/04/CodeSchool-STB-The-Magical-Marvels-of-MongoDB/</id>
+    <published>2016-01-04T08:21:00.000Z</published>
+    <updated>2016-03-14T10:35:24.000Z</updated>
+    
+    <content type="html">&lt;p&gt;CodeSchool 的訓練課程：《Soup to Bits: The Magical Marvels of MongoDB》很棒的 MongoDB 實作練習課程與非常好的 NodeJS 網站參考範本。&lt;/p&gt;
+&lt;p&gt;可惜的是……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安裝步驟的操作指引，有些地方「缺了」；有些地方講滴「微言大義」，讓我們這種功夫還不到位的初學者，丈二金鋼摸不著腦袋，不知如何是好？！&lt;/p&gt;
+&lt;p&gt;摸索了好久，總算找出解法—–  U_U !!﻿&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/AMoIDpZs9A8&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;CodeSchool 的訓練課程：《Soup to Bits: The Magical Marvels of MongoDB》很棒的 MongoDB 實作練習課程與非常好的 NodeJS 網站參考範本。&lt;/p&gt;
+&lt;p&gt;可惜的是……&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="MongoDB" scheme="http://alanjui.github.io/blog/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES2015開發工具操作指引</title>
+    <link href="http://alanjui.github.io/blog/2015/12/31/Time-to-learn-ES2015/"/>
+    <id>http://alanjui.github.io/blog/2015/12/31/Time-to-learn-ES2015/</id>
+    <published>2015-12-31T03:10:00.000Z</published>
+    <updated>2016-03-14T09:55:56.000Z</updated>
+    
+    <content type="html">&lt;p&gt;該是學 ES2015 (原稱：ES6) ，新版 JavaScript 的時候了。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;這裡準備了一個基礎的學習環境，並存放於如下網址處之 GitHub 容器內。&lt;/p&gt;
+&lt;p&gt;GitHub 網址：&lt;a href=&quot;https://github.com/AlanJui/ES2015&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/AlanJui/ES2015&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;對於這套 ES2015 JavaScript 開發用工具的基本操作使用，將於影片中進行示範及解說。&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/u_9cFWVHPGw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;祝學習愉快！&lt;br&gt;並預祝 2016 新年快樂！   ^^y&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;該是學 ES2015 (原稱：ES6) ，新版 JavaScript 的時候了。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
       <category term="ES2015" scheme="http://alanjui.github.io/blog/tags/ES2015/"/>
+    
+      <category term="ES6" scheme="http://alanjui.github.io/blog/tags/ES6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OS X 10新功能：「畫面切割」</title>
+    <link href="http://alanjui.github.io/blog/2015/12/27/OS-X-10-Split-Window/"/>
+    <id>http://alanjui.github.io/blog/2015/12/27/OS-X-10-Split-Window/</id>
+    <published>2015-12-26T16:17:00.000Z</published>
+    <updated>2016-03-14T09:56:34.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。&lt;/p&gt;
+&lt;p&gt;藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/perKILmQUFM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="OS X" scheme="http://alanjui.github.io/blog/tags/OS-X/"/>
     
   </entry>
   
@@ -187,6 +300,39 @@
       <category term="Swift" scheme="http://alanjui.github.io/blog/tags/Swift/"/>
     
       <category term="iOS" scheme="http://alanjui.github.io/blog/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在YouTube影片顯示中文字幕－電腦</title>
+    <link href="http://alanjui.github.io/blog/2015/07/25/How-to-show-Chinese-titile-on-YouTube/"/>
+    <id>http://alanjui.github.io/blog/2015/07/25/How-to-show-Chinese-titile-on-YouTube/</id>
+    <published>2015-07-25T07:03:00.000Z</published>
+    <updated>2016-03-14T10:35:06.000Z</updated>
+    
+    <content type="html">&lt;p&gt;在YouTube網站，有很多不錯的演講影片。&lt;/p&gt;
+&lt;p&gt;而其中，為數不少的量，都是用英文。&lt;/p&gt;
+&lt;p&gt;對於英語聽力不佳的人而言，這會是一個惱人的困擾。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不過，別難過，有些演講影片雖是以「英語」開講，但影片本身可是附有各種語文翻譯的字幕。&lt;/p&gt;
+&lt;p&gt;對於這種附有字幕的影片，您只要知道「如何打開字幕」，就能使英文演講影片在播放的時候，順帶顯示中文字幕，如此一來，您將不再錯過自好影片吸收「善知識」的機會了。   ^^y&lt;/p&gt;
+&lt;p&gt;【電腦版操作法】&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/bkpqGN_r-So&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;【手機版操作法】&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/S4iTxP5XwXk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在YouTube網站，有很多不錯的演講影片。&lt;/p&gt;
+&lt;p&gt;而其中，為數不少的量，都是用英文。&lt;/p&gt;
+&lt;p&gt;對於英語聽力不佳的人而言，這會是一個惱人的困擾。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="YouTube" scheme="http://alanjui.github.io/blog/tags/YouTube/"/>
     
   </entry>
   
@@ -278,6 +424,35 @@
       <category term="Web" scheme="http://alanjui.github.io/blog/tags/Web/"/>
     
       <category term="CSS" scheme="http://alanjui.github.io/blog/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>將景點資訊的Google地圖，當成導航資訊來用</title>
+    <link href="http://alanjui.github.io/blog/2015/05/18/How-to-Google-Map-as-nagviator/"/>
+    <id>http://alanjui.github.io/blog/2015/05/18/How-to-Google-Map-as-nagviator/</id>
+    <published>2015-05-18T06:17:00.000Z</published>
+    <updated>2016-03-14T10:34:40.000Z</updated>
+    
+    <content type="html">&lt;p&gt;我在部落格文章中介紹的景點－&lt;a href=&quot;http://alanjui.github.io/blog/2015/05/16/WenShan/&quot;&gt;《文山草堂》&lt;/a&gt;，置入的 Google 地圖，其中含有的資訊，可為導航之用。&lt;/p&gt;
+&lt;p&gt;也就是說，在我文章的「Google地圖」，可當成您前往景點的導航資訊來源。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;只是……&lt;/p&gt;
+&lt;p&gt;要怎麼用嘞？！&lt;/p&gt;
+&lt;p&gt;在這影片中將展示，如何利用：手機的GPS定位功能，結合Google Maps App及我文章中提供的景點資訊（Google地圖），讓您的手機搖身一變，成為旅遊專用的導航器！&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/8ivU4cqw4co&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我在部落格文章中介紹的景點－&lt;a href=&quot;http://alanjui.github.io/blog/2015/05/16/WenShan/&quot;&gt;《文山草堂》&lt;/a&gt;，置入的 Google 地圖，其中含有的資訊，可為導航之用。&lt;/p&gt;
+&lt;p&gt;也就是說，在我文章的「Google地圖」，可當成您前往景點的導航資訊來源。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="教學影片" scheme="http://alanjui.github.io/blog/categories/%E6%95%99%E5%AD%B8%E5%BD%B1%E7%89%87/"/>
+    
+    
+      <category term="Google Maps" scheme="http://alanjui.github.io/blog/tags/Google-Maps/"/>
     
   </entry>
   
@@ -524,7 +699,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/30/How-to-charge-your-phone-with-9V-battery/"/>
     <id>http://alanjui.github.io/blog/2015/04/30/How-to-charge-your-phone-with-9V-battery/</id>
     <published>2015-04-30T14:00:36.000Z</published>
-    <updated>2016-03-14T05:51:02.000Z</updated>
+    <updated>2016-03-14T10:43:12.000Z</updated>
     
     <content type="html">&lt;p&gt;當天災發生，手機會是報平安；甚至是求救的最佳工具！&lt;/p&gt;
 &lt;p&gt;但是伴隨天災之後，常有區域性的大停電問題，如果這時候，手機連電也沒了，那該如何是好？&lt;/p&gt;
@@ -548,7 +723,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;有道是「言有盡，而意無窮」，以上的操作，真是「筆墨難以形容」的事，那四道用文字敘述的【操作步驟】，就當它是口訣背，實際的操作細節，請參詳以下的影片吧！&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/Akqcos28R-0?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/Akqcos28R-0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 </content>
     
     <summary type="html">
@@ -572,13 +747,13 @@
     <link href="http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/"/>
     <id>http://alanjui.github.io/blog/2015/04/29/Da-Xong-and-Grand-Mom/</id>
     <published>2015-04-29T11:48:49.000Z</published>
-    <updated>2016-03-13T14:09:37.000Z</updated>
+    <updated>2016-03-14T10:44:48.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.kagaminelen.org/tearing/big/1315084575038.jpg&quot; alt=&quot;大雄與奶奶&quot;&gt;&lt;br&gt;小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;小學時，我們班上有個胖嘟嘟的男同學，家境不錯，父母也疼他，有什麼最新出版的漫畫都會買給他，他也挺大方的，常會將漫畫書帶到班上來跟我們分享。一票的同學們，個個都會巴結他，這樣才有機會跟他「借」來看。&lt;/p&gt;
 &lt;p&gt;只是班上同學有36個，排起來也不少人，每次輪流都要等好久，等到望穿秋水，感覺好累！&lt;br&gt;《大雄與奶奶》很早以前，已在小叮噹的漫畫書看過。不過那時的感覺，只是溫馨而已。&lt;/p&gt;
 &lt;p&gt;今夜，再次觀賞卡通的版本，竟覺裡面塞了好大一顆的洋蔥……&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/LtX4psb4m-Y?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/LtX4psb4m-Y&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 </content>
     
     <summary type="html">
@@ -632,7 +807,7 @@
     <link href="http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/"/>
     <id>http://alanjui.github.io/blog/2015/04/26/Yuo-Ma-Cai-Zi/</id>
     <published>2015-04-26T08:07:39.000Z</published>
-    <updated>2016-03-13T14:09:29.000Z</updated>
+    <updated>2016-03-14T10:45:29.000Z</updated>
     
     <content type="html">&lt;img src=&quot;http://t.douban.com/lpic/s3746269.jpg&quot;&gt;
 &lt;h3 id=&quot;【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot;&gt;&lt;a href=&quot;#【-女人是油麻菜籽命，落在哪裏就長到哪裏……-】&quot; class=&quot;headerlink&quot; title=&quot;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&quot;&gt;&lt;/a&gt;【 女人是油麻菜籽命，落在哪裏就長到哪裏…… 】&lt;/h3&gt;&lt;p&gt;——引自電影海報標題&lt;/p&gt;
@@ -644,7 +819,7 @@
 &lt;p&gt;在台北經過一段困窘的生活，家境逐漸好轉。秀琴變得講究衣飾打扮，追求享樂。她對阿惠交男朋友進行干涉，不讓女兒嫁給她所愛的戀人沈立偉。但大學畢業的阿惠，不再接受像油麻菜籽一樣的命運安排，終於同相愛的立偉結為夫妻。最終，秀琴承認了阿惠的選擇。&lt;/p&gt;
 &lt;p&gt;可是，七撿八挑才算到的「好日子」，卻又因為秀琴屬虎，有相冲互剋的問題，女兒出嫁當天，不能到場主持婚禮。秀琴因為看不到阿惠穿上白紗禮服，感到很不甘心。阿惠說可以在出嫁前，先穿新娘裝給秀琴看。&lt;/p&gt;
 &lt;p&gt;這個婚前的試裝，母、女之間的心結問題，終於在阿惠跪拜秀琴，感謝扶養之恩時化解了。那場面的背景音樂，正是這首《油麻菜籽》…………&lt;/p&gt;
-&lt;iframe src=&quot;https://www.youtube.com/embed/85cQRWaQn7c?rel=0&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/85cQRWaQn7c&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;blockquote&gt;&lt;p&gt;你從那些艱苦的日子走來，是怎樣莫可奈何的忍耐；&lt;br&gt;而從前未曾給我的愛和關懷，今天在你帶淚的笑裡找來。&lt;/p&gt;
 &lt;p&gt;誰說我的命運好像那油麻菜，只是你不知將它往哪裡栽；&lt;br&gt;就算我的命運好像那油麻菜，但是我知道了怎樣去愛。&lt;/p&gt;
 &lt;p&gt;才盼望你將我抱個滿懷，日子就已蕩呀蕩的來到現在；&lt;br&gt;經過了那些無奈和期待，我好高興有了自己的將來。&lt;/p&gt;
@@ -665,269 +840,6 @@
       <category term="音樂" scheme="http://alanjui.github.io/blog/tags/%E9%9F%B3%E6%A8%82/"/>
     
       <category term="老歌" scheme="http://alanjui.github.io/blog/tags/%E8%80%81%E6%AD%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何在Hexo文章放入圖片</title>
-    <link href="http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/"/>
-    <id>http://alanjui.github.io/blog/2015/04/26/How-to-put-pic-in-Hexo/</id>
-    <published>2015-04-26T02:00:00.000Z</published>
-    <updated>2016-03-13T14:12:44.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;使用Hexo寫Blog文章，基本上就是用Markdown的「語法」來編輯文章。&lt;/p&gt;
-&lt;p&gt;當你需要在文章中置入「圖片／相片」時，除了使用標準的Markdown語法外，Hexo還支援了其它進階的用法。&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;顯示圖片路徑位置&quot;&gt;&lt;a href=&quot;#顯示圖片路徑位置&quot; class=&quot;headerlink&quot; title=&quot;顯示圖片路徑位置&quot;&gt;&lt;/a&gt;顯示圖片路徑位置&lt;/h2&gt;&lt;p&gt;使用語法&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% asset_path touring.jpg %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;如下所示，可顯示圖片檔存放所在的路徑位置：&lt;/p&gt;
-
-&lt;h2 id=&quot;顯示圖片&quot;&gt;&lt;a href=&quot;#顯示圖片&quot; class=&quot;headerlink&quot; title=&quot;顯示圖片&quot;&gt;&lt;/a&gt;顯示圖片&lt;/h2&gt;&lt;p&gt;使用語法&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% asset_img touring.jpg Touring %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;等同 HTML Tag&lt;br&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;2014/12/12/figure-with-caption/touring.jpg&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;可顯示如下所示之圖片檔：&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;置入圖片檔的「連結位置」&quot;&gt;&lt;a href=&quot;#置入圖片檔的「連結位置」&quot; class=&quot;headerlink&quot; title=&quot;置入圖片檔的「連結位置」&quot;&gt;&lt;/a&gt;置入圖片檔的「連結位置」&lt;/h2&gt;&lt;p&gt;使用語法&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% asset_link touring.jpg 單車旅遊 %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;等同 HTML Tag&lt;br&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;touring.jpg&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;alt&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;單車旅遊&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;單車旅遊&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;使用Hexo寫Blog文章，基本上就是用Markdown的「語法」來編輯文章。&lt;/p&gt;
-&lt;p&gt;當你需要在文章中置入「圖片／相片」時，除了使用標準的Markdown語法外，Hexo還支援了其它進階的用法。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>金鋼不壞之身，台灣人的一天</title>
-    <link href="http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/"/>
-    <id>http://alanjui.github.io/blog/2015/04/25/Oh-How-Great-We-Are/</id>
-    <published>2015-04-25T13:00:00.000Z</published>
-    <updated>2016-03-13T14:09:00.000Z</updated>
-    
-    <content type="html">&lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;早上起來拖著疲累的身體，用「三氯沙」牙膏刷牙，開始了這一天。&lt;/p&gt;
-&lt;p&gt;騎著機車上班，呼吸著含有「 PM 2.5」的空氣。&lt;/p&gt;
-&lt;p&gt;大清早，分秒必爭，時間寶貴，喝杯「三氰輕氨」的新鮮牛奶填飽肚子是最快的方法。&lt;/p&gt;
-&lt;p&gt;公司上班壓力大，工作常被主管盯，因為時間不夠用，中午用餐隨便買個「瘦肉精」豬排，加「碳酸氫銨」海帶便當來吃。當然，要配一杯添加「11項農藥」的英國藍「玫瑰花瓣冰茶」飲料，助消化。&lt;/p&gt;
-&lt;p&gt;到了下午時段，感覺腸胃不太舒服時，趕緊服用老牌的「鄭杏泰胃藥粉」，靠「工業級碳酸鈣」來療癒身體。&lt;/p&gt;
-&lt;p&gt;下班回家，路過夜市時，飢腸飢腸轆轆，先買塊香噴噴的「地溝油」炸雞排；請老闆多加些「工業用碳酸鎂」胡椒粉，這樣吃起來才夠味。&lt;/p&gt;
-&lt;p&gt;一塊雞排吃不飽，再買些容易有飽足感的「甲醛」春捲。春捲好吃的秘訣在「花生粉」，當然也要拜託老板多加點「黃麴毒素」花生粉。&lt;/p&gt;
-&lt;p&gt;晚餐剛用完，看到手機，有老板 Line 來，明天上午得完成的工作，此時，再也沒有心情在街上閒逛，還是趕快回家忙工作，卡實在。&lt;/p&gt;
-&lt;p&gt;工作到晚上12點，才想起澡還沒洗，匆匆進入浴室，使用「綠膿桿菌」沐浴乳洗澎澎。換下來的衣服，丟進洗衣機，倒入摻有「農藥殺蟲劑」的洗衣精清洗，確保每天都有防螨、抗敏的乾淨衣服可穿。&lt;/p&gt;
-&lt;p&gt;洗完了舒服的熱水澡後，大概是因為有些脫水，感覺有點渴。於是，從寶特瓶倒杯溶有「銻毒」的瓶裝水飲用，為這辛勤、忙碌的一天，劃下完美的句點。&lt;/p&gt;
-&lt;p&gt;聽專家說音樂有助於睡眠，就用蔡琴低沈、富有磁性的歌聲，伴我入眠吧！&lt;/p&gt;
-&lt;p&gt;「毒你千遍也不厭倦…………」&lt;/p&gt;
-&lt;p&gt;ZZZ zzz zzz zzz ………………&lt;/p&gt;
-&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FxCAjDkWKw4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;台灣人像是「金鋼力士」般，用著無畏的精神、勇猛的身軀，這麼樣的渡過每一天……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://blog.sina.com.tw/myimages/249/30713/images/20060928222153244.jpg&quot; alt=&quot;金鋼力士&quot;&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
-    
-    
-      <category term="青菜公公" scheme="http://alanjui.github.io/blog/tags/%E9%9D%92%E8%8F%9C%E5%85%AC%E5%85%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 入門</title>
-    <link href="http://alanjui.github.io/blog/2015/04/25/Markdown-ABC/"/>
-    <id>http://alanjui.github.io/blog/2015/04/25/Markdown-ABC/</id>
-    <published>2015-04-25T04:05:01.000Z</published>
-    <updated>2016-03-14T06:04:27.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;幫自己做個小抄，條列Markdown入門常用的基礎語法！&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;Markdown-語法&quot;&gt;&lt;a href=&quot;#Markdown-語法&quot; class=&quot;headerlink&quot; title=&quot;Markdown 語法&quot;&gt;&lt;/a&gt;Markdown 語法&lt;/h1&gt;&lt;h2 id=&quot;標題&quot;&gt;&lt;a href=&quot;#標題&quot; class=&quot;headerlink&quot; title=&quot;標題&quot;&gt;&lt;/a&gt;標題&lt;/h2&gt;&lt;h3 id=&quot;【語法】：&quot;&gt;&lt;a href=&quot;#【語法】：&quot; class=&quot;headerlink&quot; title=&quot;【語法】：&quot;&gt;&lt;/a&gt;【語法】：&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;# 第一階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;## 第二階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### 第三階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;#### 第四階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;##### 第五階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;###### 第六階標題&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;【輸出】：&quot;&gt;&lt;a href=&quot;#【輸出】：&quot; class=&quot;headerlink&quot; title=&quot;【輸出】：&quot;&gt;&lt;/a&gt;【輸出】：&lt;/h3&gt;&lt;h1 id=&quot;第一階標題&quot;&gt;&lt;a href=&quot;#第一階標題&quot; class=&quot;headerlink&quot; title=&quot;第一階標題&quot;&gt;&lt;/a&gt;第一階標題&lt;/h1&gt;&lt;h2 id=&quot;第二階標題&quot;&gt;&lt;a href=&quot;#第二階標題&quot; class=&quot;headerlink&quot; title=&quot;第二階標題&quot;&gt;&lt;/a&gt;第二階標題&lt;/h2&gt;&lt;h3 id=&quot;第三階標題&quot;&gt;&lt;a href=&quot;#第三階標題&quot; class=&quot;headerlink&quot; title=&quot;第三階標題&quot;&gt;&lt;/a&gt;第三階標題&lt;/h3&gt;&lt;h4 id=&quot;第四階標題&quot;&gt;&lt;a href=&quot;#第四階標題&quot; class=&quot;headerlink&quot; title=&quot;第四階標題&quot;&gt;&lt;/a&gt;第四階標題&lt;/h4&gt;&lt;h5 id=&quot;第五階標題&quot;&gt;&lt;a href=&quot;#第五階標題&quot; class=&quot;headerlink&quot; title=&quot;第五階標題&quot;&gt;&lt;/a&gt;第五階標題&lt;/h5&gt;&lt;h6 id=&quot;第六階標題&quot;&gt;&lt;a href=&quot;#第六階標題&quot; class=&quot;headerlink&quot; title=&quot;第六階標題&quot;&gt;&lt;/a&gt;第六階標題&lt;/h6&gt;&lt;h2 id=&quot;無序號清單（Unordered-List）&quot;&gt;&lt;a href=&quot;#無序號清單（Unordered-List）&quot; class=&quot;headerlink&quot; title=&quot;無序號清單（Unordered List）&quot;&gt;&lt;/a&gt;無序號清單（Unordered List）&lt;/h2&gt;&lt;h3 id=&quot;【語法】：-1&quot;&gt;&lt;a href=&quot;#【語法】：-1&quot; class=&quot;headerlink&quot; title=&quot;【語法】：&quot;&gt;&lt;/a&gt;【語法】：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;* 蘋果&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* 洋蔥&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* 蕃茄&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;【輸出】：-1&quot;&gt;&lt;a href=&quot;#【輸出】：-1&quot; class=&quot;headerlink&quot; title=&quot;【輸出】：&quot;&gt;&lt;/a&gt;【輸出】：&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;蘋果&lt;/li&gt;
-&lt;li&gt;洋蔥&lt;/li&gt;
-&lt;li&gt;蕃茄&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;無序號清單（Ordered-List）&quot;&gt;&lt;a href=&quot;#無序號清單（Ordered-List）&quot; class=&quot;headerlink&quot; title=&quot;無序號清單（Ordered List）&quot;&gt;&lt;/a&gt;無序號清單（Ordered List）&lt;/h2&gt;&lt;h3 id=&quot;【語法】：-2&quot;&gt;&lt;a href=&quot;#【語法】：-2&quot; class=&quot;headerlink&quot; title=&quot;【語法】：&quot;&gt;&lt;/a&gt;【語法】：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1. 關啟電源&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2. 插好音源線&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3. 按「播放」鈕&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;【輸出】：-2&quot;&gt;&lt;a href=&quot;#【輸出】：-2&quot; class=&quot;headerlink&quot; title=&quot;【輸出】：&quot;&gt;&lt;/a&gt;【輸出】：&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;關啟電源&lt;/li&gt;
-&lt;li&gt;插好音源線&lt;/li&gt;
-&lt;li&gt;按「播放」鈕&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;帶有標題的清單（Definition-List）&quot;&gt;&lt;a href=&quot;#帶有標題的清單（Definition-List）&quot; class=&quot;headerlink&quot; title=&quot;帶有標題的清單（Definition List）&quot;&gt;&lt;/a&gt;帶有標題的清單（Definition List）&lt;/h2&gt;&lt;p&gt;&lt;code&gt;《註》：這不是 Markdown 的語法，但在.MD檔案中，可使用的 HTML 語法。&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;【語法】：-3&quot;&gt;&lt;a href=&quot;#【語法】：-3&quot; class=&quot;headerlink&quot; title=&quot;【語法】：&quot;&gt;&lt;/a&gt;【語法】：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;dl&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;dt&amp;gt;驗證（Verification，VER）&amp;lt;/dt&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;dd&amp;gt;發展中的工作產品，能符合「規格」中定義的需求。&amp;lt;/dd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;dt&amp;gt;確認（Validation，VAL）&amp;lt;/dt&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;lt;dd&amp;gt;交付的產品在「上線」的環境中運作，能滿足預期的使用需求。&amp;lt;/dd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;/dl&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;【輸出】：-3&quot;&gt;&lt;a href=&quot;#【輸出】：-3&quot; class=&quot;headerlink&quot; title=&quot;【輸出】：&quot;&gt;&lt;/a&gt;【輸出】：&lt;/h3&gt;&lt;dl&gt;&lt;br&gt;  &lt;dt&gt;驗證（Verification，VER）&lt;/dt&gt;&lt;br&gt;  &lt;dd&gt;發展中的工作產品，能符合「規格」中定義的需求。&lt;/dd&gt;&lt;br&gt;  &lt;dt&gt;確認（Validation，VAL）&lt;/dt&gt;&lt;br&gt;  &lt;dd&gt;交付的產品在「上線」的環境中運作，能滿足預期的使用需求。&lt;/dd&gt;&lt;br&gt;&lt;/dl&gt;
-
-&lt;h2 id=&quot;表格（Table）&quot;&gt;&lt;a href=&quot;#表格（Table）&quot; class=&quot;headerlink&quot; title=&quot;表格（Table）&quot;&gt;&lt;/a&gt;表格（Table）&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;第一欄：靠左排列&lt;/li&gt;
-&lt;li&gt;第二欄：靠中排列&lt;/li&gt;
-&lt;li&gt;第三欄：靠右排列&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;【語法】：-4&quot;&gt;&lt;a href=&quot;#【語法】：-4&quot; class=&quot;headerlink&quot; title=&quot;【語法】：&quot;&gt;&lt;/a&gt;【語法】：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;|Product   |      Spec.          |   Price   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|----------|:-------------------:|----------:|&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|HDD       | 7200 RPM, 540 GB    | $30,000   |&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|Monitor   | 1280 x 1024         | $6,000    |&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;【輸出】：-4&quot;&gt;&lt;a href=&quot;#【輸出】：-4&quot; class=&quot;headerlink&quot; title=&quot;【輸出】：&quot;&gt;&lt;/a&gt;【輸出】：&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Product&lt;/th&gt;
-&lt;th style=&quot;text-align:center&quot;&gt;Spec.&lt;/th&gt;
-&lt;th style=&quot;text-align:right&quot;&gt;Price&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;HDD&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;7200 RPM, 540 GB&lt;/td&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;$30,000&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Monitor&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;1280 x 1024&lt;/td&gt;
-&lt;td style=&quot;text-align:right&quot;&gt;$6,000&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;幫自己做個小抄，條列Markdown入門常用的基礎語法！&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 部落格開站記事</title>
-    <link href="http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/"/>
-    <id>http://alanjui.github.io/blog/2015/04/25/Try-to-use-Hexo-Blog/</id>
-    <published>2015-04-25T04:05:01.000Z</published>
-    <updated>2016-03-13T14:09:07.000Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;試著使用 Hexo 架設個人部落格。&lt;/p&gt;
-&lt;p&gt;為何不跟著潮流用 Jekyll 呢？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;Jekyll 固然是個好東東，但……，它使用了大量我所不熟悉的技術：Ruby, Gem, Liquid…..&lt;/p&gt;
-&lt;p&gt;生命有限、時間不夠用，我需要選擇自己專心投入的「JavaScript 世界」，莫法度，只好跳進這個世界囉！&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee&quot; alt=&quot;Hexo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;試著使用 Hexo 架設個人部落格。&lt;/p&gt;
-&lt;p&gt;為何不跟著潮流用 Jekyll 呢？&lt;br&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="Hexo" scheme="http://alanjui.github.io/blog/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解決老人家「不良於行」的健身方法</title>
-    <link href="http://alanjui.github.io/blog/2015/04/22/post-01/"/>
-    <id>http://alanjui.github.io/blog/2015/04/22/post-01/</id>
-    <published>2015-04-22T00:00:00.000Z</published>
-    <updated>2016-03-14T04:36:13.000Z</updated>
-    
-    <content type="html">&lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
-&lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
-&lt;p&gt;為什麼？&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;因為容易老人家，容易「跌倒」！&lt;/p&gt;
-&lt;p&gt;何以「容易跌倒」？是因為腿、腳無力走不動嗎？&lt;/p&gt;
-&lt;p&gt;影片中的蔡醫師，經長期對老人家的觀察，及問題的分析、歸納……&lt;/p&gt;
-&lt;p&gt;原來，問題出在老人家：（1）腦與身體的協調能力出了問題；（2）身體駝背造成的姿勢問題。這些問題，會使身體的「平衡」能力變差，以致老人家走路容易跌倒。&lt;br&gt;怎麼辦？導致老人家不良於行的問題，有方法能改善嗎？&lt;/p&gt;
-&lt;p&gt;有的！&lt;/p&gt;
-&lt;p&gt;答案就在影片中。&lt;/p&gt;
-&lt;p&gt;祝大家身體健康；讓我們幫助老人家活得健康、快活！ ^^y&lt;/p&gt;
-&lt;div class=&quot;youtube-video&quot;&gt;&lt;br&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kD9vzDkYLiI?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;想要長壽，活得健康能動是首要。&lt;/p&gt;
-&lt;p&gt;可是，上了年紀的老人家，卻常有「不能走動」的大麻煩。&lt;/p&gt;
-&lt;p&gt;為什麼？&lt;br&gt;
-    
-    </summary>
-    
-      <category term="生活點滴" scheme="http://alanjui.github.io/blog/categories/Life/"/>
-    
-    
-      <category term="身體保健" scheme="http://alanjui.github.io/blog/tags/%E8%BA%AB%E9%AB%94%E4%BF%9D%E5%81%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客製 Jekyll </title>
-    <link href="http://alanjui.github.io/blog/2015/04/20/post-02/"/>
-    <id>http://alanjui.github.io/blog/2015/04/20/post-02/</id>
-    <published>2015-04-20T07:57:27.000Z</published>
-    <updated>2016-03-13T11:14:56.000Z</updated>
-    
-    <content type="html">&lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
-&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;逼不得已，只好邊學、邊勤作筆記。&lt;/p&gt;
-&lt;p&gt;只是…… 人龜毛，又曾是：文書處理軟體的開發工程師 + Word 大師 (這是別人給的封號，不是我太臭屁，這可不甘我的事哦！) 。&lt;/p&gt;
-&lt;p&gt;我還是希望：「筆記的內容，能呈現文章的層次結構；可以標示重點；程式碼或是終端機指令，可用醒目的方式表達……」&lt;/p&gt;
-&lt;p&gt;當然啦！有這種需求，請出 Word 文書處理軟體就可搞定。可是 Word 得花銀兩買；再來，文字編輯時的格式設定，不論是使用「樣式、快捷鍵」，即便我們這種使用慣的熟手，也是要耗用不少時間。 ^^!!&lt;/p&gt;
-&lt;p&gt;這個需求的解法，曾花去不少時間來探詢答案。&lt;/p&gt;
-&lt;p&gt;後來發覺，採用「Markdown語法」，作為筆記的記錄工具，是個不錯的解法。&lt;/p&gt;
-&lt;p&gt;於是開始利用「GitBook網站」 ，直接在連網的狀態下，使用 Markdown語法 作筆記；這個作法，的確幫了我不少忙；不再將寶貴的時間耗用在格式的調整、設定上；可以將心力更專注於技術的學習，及筆記內容的精準表達。&lt;/p&gt;
-&lt;p&gt;後來，因為需求長大了，希望在網路出狀況的時候；或是連網不便的時候，也能使用 Markdown 作筆記，於是在我的 Mac 筆電上安裝 GitBook Editor ，以便無法連網的時候，還是可以作筆記、寫東西。&lt;/p&gt;
-&lt;p&gt;但是……….&lt;/p&gt;
-&lt;p&gt;人的慾望無窮，我的需求又再長大了。&lt;/p&gt;
-&lt;p&gt;因為我又想：「身為 IBM (Internet Big Mouth) 的終身會員，本來就有強烈的發表慾。更何況近來許多學習的心得，經常都是在網上爬文、看YouTube影片得來。既然，取之於網路；當然，也要回饋點什麼在網路。」&lt;/p&gt;
-&lt;p&gt;可是，原先在 Google Blog 的部落格，寫東西得用 HTML 格式。&lt;/p&gt;
-&lt;p&gt;懶惰的我，不禁又開始幻想我的需求：「要是我用 Markdown 寫下的筆記，能夠直接 Copy &amp;amp; Past ，放進部落格的貼文中，那該多好？！」&lt;/p&gt;
-&lt;p&gt;為了這個需求，我又再度踏上尋求解答的路途。&lt;/p&gt;
-&lt;p&gt;結果……&lt;/p&gt;
-&lt;p&gt;在網路上發現了「Jekyll」這玩意；更令人興奮的是「使用 Jekyll 技術架設的部落格，不用花錢、花時間架設網站，直接放上 GitHub ，使用 Markdown 寫文章的部落格就啟動了」。&lt;/p&gt;
-&lt;p&gt;所以……&lt;/p&gt;
-&lt;p&gt;從此王子與公主就過著幸福、快樂的日子了嗎？&lt;/p&gt;
-&lt;p&gt;沒有！&lt;/p&gt;
-&lt;p&gt;因為 Jekyll 預設的「版面」，非常的中庸、平實，沒什麼看頭；「功能」沒有提供幾個，祂等著有本事的人自己客製化！ =..= !!!&lt;/p&gt;
-&lt;p&gt;最近……&lt;/p&gt;
-&lt;p&gt;不甘心、不死心，再次祭出古狗大神，以「Jekyll 客製化」為關鍵字，上網搜尋可能的解法之道。&lt;/p&gt;
-&lt;p&gt;總算……&lt;/p&gt;
-&lt;p&gt;皇天不負苦心人，在以下的這個網址，找到一個可用的「Jekyll 版型」，耶！！ ^^y&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/brianmaierjr/long-haul/&quot; title=&quot;GitHub Repo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LONG HAUL 版型&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/brianmaierjr/long-haul/&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;  &lt;img src=&quot;http://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;展示網站&quot; width=&quot;240&quot; height=&quot;180&quot;&gt;&lt;br&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;《展示網站》&lt;br&gt;&lt;a href=&quot;http://brianmaierjr.com/long-haul/&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;  &lt;img src=&quot;https://github.com/brianmaierjr/long-haul/blob/master/assets/img/touring.jpg?raw=true&quot; alt=&quot;展示網站&quot; width=&quot;240&quot; height=&quot;180&quot;&gt;&lt;br&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;開始有了「老人初呆症」！ =..=  &lt;/p&gt;
-&lt;p&gt;學過的技術東東，老是過目即忘，我腦袋的記憶力，不再是「Flash Memory」；而是「Flush Memory」！ (沒錯，就是馬桶上的那個 Flush 沖水鈕！ T__T )&lt;br&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="Jekyll" scheme="http://alanjui.github.io/blog/tags/Jekyll/"/>
-    
-      <category term="Markdown" scheme="http://alanjui.github.io/blog/tags/Markdown/"/>
     
   </entry>
   

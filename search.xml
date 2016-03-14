@@ -4,15 +4,6 @@
   
     
     <entry>
-      <title><![CDATA[OS X 10-Split Window]]></title>
-      <url>http://alanjui.github.io/blog/blog/2016/03/14/OS-X-10-Split-Window/</url>
-      <content type="html"><![CDATA[<p>Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。<br><a id="more"></a><br>本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。</p>
-<p>藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！</p>
-<div class="video-container"><iframe src="//www.youtube.com/embed/perKILmQUFM" frameborder="0" allowfullscreen></iframe></div>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[我的Hexo部落格]]></title>
       <url>http://alanjui.github.io/blog/blog/2016/03/12/My-Hexo-Blog/</url>
       <content type="html"><![CDATA[<p>習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。</p>
@@ -70,11 +61,80 @@
     </entry>
     
     <entry>
+      <title><![CDATA[MySQL Server 5.7.10 解安裝作業]]></title>
+      <url>http://alanjui.github.io/blog/blog/2016/01/18/Uninstall-MySQL-Server-V5-7-10/</url>
+      <content type="html"><![CDATA[<h3 id="【摘要】："><a href="#【摘要】：" class="headerlink" title="【摘要】："></a>【摘要】：</h3><p>說明如何在 Mac OS X 作業系統，將已安裝好的 MySQL Server V5.7.10 ，進行「解除安裝」作業。<br><a id="more"></a></p>
+<h3 id="【說明】："><a href="#【說明】：" class="headerlink" title="【說明】："></a>【說明】：</h3><p>新版的MySQL Server V5.7.10，在安裝作業，又有了新的變化。</p>
+<p>原先完成安裝後，系統管理員帳號『root』，密碼是空的；但現在則是完成安裝時，先給個『臨時密碼』（結束安裝前的畫面會顯示）。</p>
+<p>安裝時若沒留神，沒將這密碼給記下，一但用 MySQL Client 端的管理軟體時，遭遇「密碼」不正確，無法進入MySQL Server 的大問題。</p>
+<p>所以，得先來談談：「MySQL Server 如何解除安裝」！</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/a7SCZ-3J5Os" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[TypeScript入門起手式（1）]]></title>
+      <url>http://alanjui.github.io/blog/blog/2016/01/14/Introduction-for-bingner-of-TypeScript/</url>
+      <content type="html"><![CDATA[<p>開發 Ionic / Angular App ，若原始程式碼自 ES5 JavaScript ，改用 TypeScript ，固然能因其「嚴謹」的特性，帶來諸多好處。但也因此，令 Script 語言原本「便捷」的優點，卻也因此消逝。</p>
+<p>如何在「嚴謹」與「便捷」之中，做一居中的調整，係此系列影片想探討與分享的 Know-how。<br><a id="more"></a></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/fsGriWUkifM" frameborder="0" allowfullscreen></iframe></div>
+<p>與本影片相關的原始程式碼，及其使用指引，存放在 GitHub 以下網址處：<br><a href="https://github.com/AlanJui/ionic1-typescript-min" target="_blank" rel="external">https://github.com/AlanJui/ionic1-typescript-min</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CodeSchool STB The Magical Marvels of MongoDB]]></title>
+      <url>http://alanjui.github.io/blog/blog/2016/01/04/CodeSchool-STB-The-Magical-Marvels-of-MongoDB/</url>
+      <content type="html"><![CDATA[<p>CodeSchool 的訓練課程：《Soup to Bits: The Magical Marvels of MongoDB》很棒的 MongoDB 實作練習課程與非常好的 NodeJS 網站參考範本。</p>
+<p>可惜的是……<br><a id="more"></a></p>
+<p>安裝步驟的操作指引，有些地方「缺了」；有些地方講滴「微言大義」，讓我們這種功夫還不到位的初學者，丈二金鋼摸不著腦袋，不知如何是好？！</p>
+<p>摸索了好久，總算找出解法—–  U_U !!﻿</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/AMoIDpZs9A8" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[ES2015開發工具操作指引]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/12/31/Time-to-learn-ES2015/</url>
+      <content type="html"><![CDATA[<p>該是學 ES2015 (原稱：ES6) ，新版 JavaScript 的時候了。<br><a id="more"></a></p>
+<p>這裡準備了一個基礎的學習環境，並存放於如下網址處之 GitHub 容器內。</p>
+<p>GitHub 網址：<a href="https://github.com/AlanJui/ES2015" target="_blank" rel="external">https://github.com/AlanJui/ES2015</a></p>
+<p>對於這套 ES2015 JavaScript 開發用工具的基本操作使用，將於影片中進行示範及解說。</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/u_9cFWVHPGw" frameborder="0" allowfullscreen></iframe></div>
+<p>祝學習愉快！<br>並預祝 2016 新年快樂！   ^^y</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[OS X 10新功能：「畫面切割」]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/12/27/OS-X-10-Split-Window/</url>
+      <content type="html"><![CDATA[<p>Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。<br><a id="more"></a><br>本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。</p>
+<p>藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/perKILmQUFM" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[CodeSchool 新課程 iOS Development With Swift]]></title>
       <url>http://alanjui.github.io/blog/blog/2015/12/21/iOS-Development-With-Swift/</url>
       <content type="html"><![CDATA[<p>自 Swift 推出以來，一直很想知道，改用 Swift 語言，開發 iOS App 會是什麼樣子?</p>
 <p>因為事情忙，沒能投入時間好好研究，所以心中存在的疑問，一直無解！<br><a id="more"></a></p>
 <p>近日，因為 CodeSchool 推出了「<a href="https://www.codeschool.com/courses/app-evolution-with-swift" target="_blank" rel="external">iOS Development With Swift</a>」訓練課程，長期以來的好奇終於有了答案。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[在YouTube影片顯示中文字幕－電腦]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/07/25/How-to-show-Chinese-titile-on-YouTube/</url>
+      <content type="html"><![CDATA[<p>在YouTube網站，有很多不錯的演講影片。</p>
+<p>而其中，為數不少的量，都是用英文。</p>
+<p>對於英語聽力不佳的人而言，這會是一個惱人的困擾。<br><a id="more"></a></p>
+<p>不過，別難過，有些演講影片雖是以「英語」開講，但影片本身可是附有各種語文翻譯的字幕。</p>
+<p>對於這種附有字幕的影片，您只要知道「如何打開字幕」，就能使英文演講影片在播放的時候，順帶顯示中文字幕，如此一來，您將不再錯過自好影片吸收「善知識」的機會了。   ^^y</p>
+<p>【電腦版操作法】</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/bkpqGN_r-So" frameborder="0" allowfullscreen></iframe></div>
+<p>【手機版操作法】</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/S4iTxP5XwXk" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -123,6 +183,18 @@
 <div class="youtube-video"><br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
 
 <p>試著在「電腦螢幕」、「平板螢幕」及「手機螢幕」各種不同寬度的畫面瀏覽，驗證一下效果吧！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[將景點資訊的Google地圖，當成導航資訊來用]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/18/How-to-Google-Map-as-nagviator/</url>
+      <content type="html"><![CDATA[<p>我在部落格文章中介紹的景點－<a href="http://alanjui.github.io/blog/2015/05/16/WenShan/">《文山草堂》</a>，置入的 Google 地圖，其中含有的資訊，可為導航之用。</p>
+<p>也就是說，在我文章的「Google地圖」，可當成您前往景點的導航資訊來源。<br><a id="more"></a></p>
+<p>只是……</p>
+<p>要怎麼用嘞？！</p>
+<p>在這影片中將展示，如何利用：手機的GPS定位功能，結合Google Maps App及我文章中提供的景點資訊（Google地圖），讓您的手機搖身一變，成為旅遊專用的導航器！</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/8ivU4cqw4co" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -333,7 +405,7 @@
 </li>
 </ol>
 <p>有道是「言有盡，而意無窮」，以上的操作，真是「筆墨難以形容」的事，那四道用文字敘述的【操作步驟】，就當它是口訣背，實際的操作細節，請參詳以下的影片吧！</p>
-<iframe src="https://www.youtube.com/embed/Akqcos28R-0?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/Akqcos28R-0" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -344,7 +416,7 @@
 <p>小學時，我們班上有個胖嘟嘟的男同學，家境不錯，父母也疼他，有什麼最新出版的漫畫都會買給他，他也挺大方的，常會將漫畫書帶到班上來跟我們分享。一票的同學們，個個都會巴結他，這樣才有機會跟他「借」來看。</p>
 <p>只是班上同學有36個，排起來也不少人，每次輪流都要等好久，等到望穿秋水，感覺好累！<br>《大雄與奶奶》很早以前，已在小叮噹的漫畫書看過。不過那時的感覺，只是溫馨而已。</p>
 <p>今夜，再次觀賞卡通的版本，竟覺裡面塞了好大一顆的洋蔥……</p>
-<iframe src="https://www.youtube.com/embed/LtX4psb4m-Y?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/LtX4psb4m-Y" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -375,7 +447,7 @@
 <p>在台北經過一段困窘的生活，家境逐漸好轉。秀琴變得講究衣飾打扮，追求享樂。她對阿惠交男朋友進行干涉，不讓女兒嫁給她所愛的戀人沈立偉。但大學畢業的阿惠，不再接受像油麻菜籽一樣的命運安排，終於同相愛的立偉結為夫妻。最終，秀琴承認了阿惠的選擇。</p>
 <p>可是，七撿八挑才算到的「好日子」，卻又因為秀琴屬虎，有相冲互剋的問題，女兒出嫁當天，不能到場主持婚禮。秀琴因為看不到阿惠穿上白紗禮服，感到很不甘心。阿惠說可以在出嫁前，先穿新娘裝給秀琴看。</p>
 <p>這個婚前的試裝，母、女之間的心結問題，終於在阿惠跪拜秀琴，感謝扶養之恩時化解了。那場面的背景音樂，正是這首《油麻菜籽》…………</p>
-<iframe src="https://www.youtube.com/embed/85cQRWaQn7c?rel=0" width="420" height="315" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/85cQRWaQn7c" frameborder="0" allowfullscreen></iframe></div>
 <blockquote><p>你從那些艱苦的日子走來，是怎樣莫可奈何的忍耐；<br>而從前未曾給我的愛和關懷，今天在你帶淚的笑裡找來。</p>
 <p>誰說我的命運好像那油麻菜，只是你不知將它往哪裡栽；<br>就算我的命運好像那油麻菜，但是我知道了怎樣去愛。</p>
 <p>才盼望你將我抱個滿懷，日子就已蕩呀蕩的來到現在；<br>經過了那些無奈和期待，我好高興有了自己的將來。</p>
@@ -420,7 +492,7 @@
 <p>聽專家說音樂有助於睡眠，就用蔡琴低沈、富有磁性的歌聲，伴我入眠吧！</p>
 <p>「毒你千遍也不厭倦…………」</p>
 <p>ZZZ zzz zzz zzz ………………</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/FxCAjDkWKw4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/FxCAjDkWKw4" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -501,7 +573,7 @@
 <p>有的！</p>
 <p>答案就在影片中。</p>
 <p>祝大家身體健康；讓我們幫助老人家活得健康、快活！ ^^y</p>
-<div class="youtube-video"><br><iframe width="560" height="315" src="https://www.youtube.com/embed/kD9vzDkYLiI?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
+<div class="video-container"><iframe src="//www.youtube.com/embed/kD9vzDkYLiI" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -546,8 +618,7 @@
 <p>結果……<br><a id="more"></a></p>
 <p>這個「Explore MEAN Stack at 2015」的標題，立即吸引了我的目光。</p>
 <p>「嘩～！不得了，這影片不僅是在談 MEAN Stack ；而且還是『2015年』的觀點耶！」 ( 熊熊間，有點大清早，撿到寶的 ful!! ^^y )</p>
-<div style="text-align:center"><br><!-- <div class="youtube-video"> --><br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/Jh0er2pRcq8?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
-
+<div class="video-container"><iframe src="//www.youtube.com/embed/Jh0er2pRcq8" frameborder="0" allowfullscreen></iframe></div>
 <p>播映影片後，吃了一「斤」驚……</p>
 <p>「嚇～～～！影片係『MVA（微軟虛擬學院）』製作滴」！ @@a</p>
 <p>再觀影片的教學內容：</p>
@@ -571,7 +642,7 @@
 <p>目前公認地球的年齡約為 45 億 6700 萬年。根據科學家的講法，地球形成後，長達數億年之久的期間，遭受隕石密集的轟炸，致使地球誕生初期，當年在地表上形成的物質，早已摧毀殆盡，若想採樣，得鑽到地心去取！ U_U !!</p>
 <p>疑似人類祖先的物種，直到 600 萬年前，才在地球上出現。人類學家認定可考的人類文明歷史，頂多不會超過七八千年；而今年，也不過才公元 2015 年……</p>
 <p>聽著這影片壯闊的音樂，看著那美麗的山川大海風光，不禁感歎地球真是顆美麗的星球。祈禱人類能珍惜、愛護祂，學會如何與祂共榮共存，讓生命生生不息、永世不絕！</p>
-<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><iframe src="https://www.youtube.com/embed/2neYEpmUv9A?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><div class="video-container"><iframe src="//www.youtube.com/embed/2neYEpmUv9A" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -587,7 +658,7 @@
 <p>待喝下第二口時，沈思了一下，改說：「苦中帶點甜……」</p>
 <p>在第三口後，抬起頭後，又偏著頭想了想，然後又再喝一口，如是好幾回。</p>
 <p>最後，仰起頭來笑著說：「其實……還是甜的啦！」 ^^y</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etqoMuMqk2s?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/etqoMuMqk2s" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -608,7 +679,7 @@
 <p>因為好奇，試玩了一下下，完成了這個成品！ ^^y</p>
 <img src="https://dl.dropboxusercontent.com/u/45512449/2015-04-14.jpg" width="240">
 <p>有興趣，也想使用這新功能的朋友，可參考以下這放在 YouTube 的教學影片，<br>學習功能用法的操作細節。</p>
-<div style="text-align:center"><br><iframe width="640" height="480" src="https://www.youtube.com/embed/RX8RF50AL0I?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
+<div class="video-container"><iframe src="//www.youtube.com/embed/RX8RF50AL0I" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -652,7 +723,7 @@
     <entry>
       <title><![CDATA[Angular Material 入門摘要]]></title>
       <url>http://alanjui.github.io/blog/blog/2015/02/08/AngularMaterial-Introduction/</url>
-      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+      <content type="html"><![CDATA[<div class="video-container"><iframe src="//www.youtube.com/embed/Q8TXgCzxEnw" frameborder="0" allowfullscreen></iframe></div>
 <p>Google 發表的《Material Design》，現在就連 AngularJS 都能使用了。<br><a id="more"></a><br>讓 AngularJS 能引用 Material Design 的專案－「Angular Material」，其官網如是描述自己：</p>
 <blockquote>
 <p>The Angular Material project is an implementation of Material Design in Angular.js.</p>
@@ -665,7 +736,7 @@
 <h2 id="想要親手試試"><a href="#想要親手試試" class="headerlink" title="想要親手試試"></a>想要親手試試</h2><p>看得心癢癢，想要自己玩玩看的朋友，則請點選左側的「<a href="https://material.angularjs.org/#/getting-started" target="_blank" rel="external">GETTING SARTED</a>」，開始您的探索之旅。</p>
 <p>個人推薦就從「How do I start?」的「<a href="https://github.com/angular/material-start" target="_blank" rel="external">Clone a Github Starter Project</a>」入門吧！</p>
 <p>有點擔心以上的介紹，因為用文字說明，有不易了解的問題；所以，囉唆的人，製作了以下的導引說明影片，希望有那麼一點助益。</p>
-<iframe src="https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/8ChCu6ivL5o" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -675,7 +746,7 @@
       <content type="html"><![CDATA[<p>找了好久、好久，第一支找到的 Angular Material 教學影片！ ^^y</p>
 <a id="more"></a>
 <p>教學主題：Angular Material Design + $http from AngularJS + Flickr API</p>
-<iframe src="https://www.youtube.com/embed/lvGAgul5QT4?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/lvGAgul5QT4" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -737,10 +808,9 @@
       <content type="html"><![CDATA[<p>想要到某個地點辦事，需要知道：「如何過去（開車、搭車、走路）」、「附近有沒有－停車場？餐廳？咖啡館？」<br><a id="more"></a></p>
 <p>只要能掌握「Google 地圖（Google Maps）」的操作用法，以上與地理相關的資訊，都能輕輕鬆鬆，垂手可得。</p>
 <p>花點時間來學學怎麼操作「Google 地圖」，享受現代人特有，因科技所帶來的便利吧！ ^^y</p>
-<iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/YHRS9kNwAmM?rel=0" width="640"></iframe>
-
+<div class="video-container"><iframe src="//www.youtube.com/embed/YHRS9kNwAmM" frameborder="0" allowfullscreen></iframe></div>
 <p>【附註】：記得把影片放大，免得看到眼睛脫窗哦！若操作細節不清楚，可先參考這影片的操作用法。</p>
-<iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/3ZkvZ4rY-Nk?rel=0" width="640"></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/3ZkvZ4rY-Nk" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -771,7 +841,7 @@
 <p>幾日後，子路穿著特意製作的儒家服飾，帶著禮物（這個是一定要的啦），通過孔子的門人來求見孔子。</p>
 <h2 id="【比師父還兇的徒弟】"><a href="#【比師父還兇的徒弟】" class="headerlink" title="【比師父還兇的徒弟】"></a>【比師父還兇的徒弟】</h2><p>子路雖是孔子的弟子，但因子路只小孔子九歲，所以，他們師徒間的關係，卻也親如兄弟一般。子路敢跟孔子發飆，甚至逼著他表態！</p>
 <p>當孔子離開魯國，來到隔壁衛國的時候，發生了一段南子會孔子的插曲，這件事也被記錄在《論語》－「子見南子，子路不說」。</p>
-<iframe src="https://www.youtube.com/embed/WsOdEPcGQpY?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/WsOdEPcGQpY" frameborder="0" allowfullscreen></iframe></div>
 <p>南子，是衛國國君（靈公）的竉妾，這位君夫人，沒有留一點給人探聽，在外的名聲不太好，用個比較禮貌性的講法是－「Going Down」。</p>
 <p>大概是因為孔子的金字招牌太響亮，名氣太大，因此，大美女－南子也想見見他。</p>
 <p>孔子本想不去，但又思忖：「我現在是衛國的客人，這國的君夫人堅持說要見我，我若硬是不去，這樣似也不太合乎禮數。我去見她，中間有個帷幕隔著，要發生什麼事也難；我只要跟君夫人談個幾句就告退，這事就這樣處理，應該是妥當的吧⋯⋯」</p>
@@ -781,9 +851,7 @@
 <p>兩國的大夫聯手使壞，派兵阻止孔子，孔子一行人，因而被擋在陳國與蔡國之間，發生了絕糧七日的慘況，孔門弟子個個餓到手軟、腿軟，走不動，沒了氣力。</p>
 <p>子路這個火爆浪子受不了，結個面秋，跑去質問夫子：「做為君子的我們，為何會走到這種窮困潦倒的地步？」</p>
 <p>孔子安慰子路說：「我們君子就算窮，也還是會固守正道，不忘自己的志節；若是小人，一旦窮困，便會胡作非為，幹盡壞事囉！」</p>
-<div class="video-container"><br>  <iframe width="420" height="315" src="https://www.youtube.com/embed/bTM4gLNtBk8?t=3m33s" frameborder="0" allowfullscreen></iframe><br></div>
-
-
+<div class="video-container"><iframe src="//www.youtube.com/embed/bTM4gLNtBk8" frameborder="0" allowfullscreen></iframe></div>
 <h2 id="【子路的本事】"><a href="#【子路的本事】" class="headerlink" title="【子路的本事】"></a>【子路的本事】</h2><p>細讀《論語》，每回孔子跟弟子們問話討論事情時，搶頭香第一個回話的人，一定是子路。</p>
 <p>有回孔子以「我的志願？」為題問弟子。子路又是搶答發言，他說：「千乘（戰車）規模的中型國家，夾在大國之間，常鬧戰亂、饑荒。如果有國君肯重用我，不需三年時間，我就可以讓他的人民知道什麼是勇氣，不用怕大國，而且最重要的是『且知方也』，要有勇有謀，不是亂搞的。」</p>
 <p>哇？！多麼大氣的話？子路真有這種本嗎？還是說，他只會吹大牛，說大話呢？</p>
@@ -854,7 +922,7 @@
     <entry>
       <title><![CDATA[Visual Paradigm 11.2 － UML 好工具]]></title>
       <url>http://alanjui.github.io/blog/blog/2014/10/16/VisualParadigm-11/</url>
-      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/j9tF3M1trv0?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+      <content type="html"><![CDATA[<div class="video-container"><iframe src="//www.youtube.com/embed/j9tF3M1trv0" frameborder="0" allowfullscreen></iframe></div>
 <p>UML 工具，最早用到的是「Visual Paradigm」；但是，當年的電腦，在速度方面的效能表現，無法支撐這套純由 Java 開發的工具，跑其來就是卡卡的慢…..；所以，就變心，轉投 EA 的懷抱。</p>
 <p>近日，再度回來試用 Visual Paradigm Professional V 11.2，發覺它已支援「Agile Development」，使用者可以「User Story」作為系統功能的「需求」單元。</p>
 <p>試用了一下，覺得挺好用的。<br><a id="more"></a></p>
@@ -888,7 +956,7 @@
 <p>但是，對我爸和那些士兵來說，他們冒的險和受的傷<br>全為了他們的同袍弟兄</p>
 <p>他們也許是為國打仗，但卻是為朋友犠牲生命<br>為了和他們一起奮戰的弟兄</p>
 <p>如果我們希望紀念這些人，就應該記得他們真正的樣子<br>就跟我爸記得的一樣……..</p>
-<iframe src="https://www.youtube.com/embed/BE5jhNlUGFk?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/BE5jhNlUGFk" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -896,14 +964,14 @@
       <title><![CDATA[善用 Chrome 提供的英文工具，搶救菜英文]]></title>
       <url>http://alanjui.github.io/blog/blog/2014/07/20/Learning-English-by-Chrome-tools/</url>
       <content type="html"><![CDATA[<p>在 Google Chrome 瀏覽器的「擴充功能（Plug-in）」，提供了許多的英文工具，善用這些工具，可以解決個人在英文閱讀袜順的困擾；不再讓菜英文，成為自己學習新知的絆腳石。</p>
-<iframe src="https://www.youtube.com/embed/FKtygpYpVKw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/FKtygpYpVKw" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[「洋蔥筆記本」讓你找到原初的感動]]></title>
       <url>http://alanjui.github.io/blog/blog/2014/07/16/Onion-notebook-let-you-find-the-original-moved/</url>
-      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/xQ73vrcD5Pw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+      <content type="html"><![CDATA[<div class="video-container"><iframe src="//www.youtube.com/embed/xQ73vrcD5Pw" frameborder="0" allowfullscreen></iframe></div>
 <p>文采不夠好？無法寫出感人，讓人掉淚的文字嗎？<br><a id="more"></a></p>
 <p>來、來、來、來、來……….</p>
 <p>趕快來用這款 《Onion Note》</p>
@@ -927,7 +995,7 @@
 <p>為何人間總有這麼多的折磨與苦難？人們總要如此，在紅塵俗世間，不停地掙扎？眼前的這情景，看著、看著，心想好難受；感覺好想哭。</p>
 <p>每當我不自覺地歎氣之時，我兒子總是告訴我：「不要歎氣，要趕快找到你的『快樂基地』」。</p>
 <p>不認識的朋友啊！祝福你，希望你的困難能儘快移轉；心靈更能早日離苦得樂……</p>
-<iframe src="https://www.youtube.com/embed/SdMDzlYCVI4?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/SdMDzlYCVI4" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -1014,7 +1082,7 @@
 <p>最後的答案，竟然是讀卡機驅動程式 PCSCD ，在  OS X 10.9 版本後，變成不認識 RealTec 晶片，以致作業系統無法認定讀卡機已安裝。（據那工程師的講法，台灣製造的讀卡機，都是用這款晶片）</p>
 <p>每次作業系統升級都要經歷的痛，這次，最叫人＠！＃＄％＾＆＊＃</p>
 <p>趁著這次找問題導因的事件，順便整理出－「如何在 Mac 安裝讀卡機的操作程序」，如以下影片所示。這程序也適用於「玉山銀行 Web ATM」的安裝。</p>
-<iframe src="https://www.youtube.com/embed/zX0dJn7NWPg?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/zX0dJn7NWPg" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -1026,14 +1094,14 @@
 <a id="more"></a>
 <p>今天，因為臉書上，校友分享的一張公車相片，掀開了記憶的時光寶盒，那個積沈已久的美好記憶，再度想起……</p>
 <p>很久、很久……以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！</p>
-<iframe src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/gJoUnF7IN28" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[iBeacons with iPhone 簡介]]></title>
       <url>http://alanjui.github.io/blog/blog/2013/12/19/iBeacons-with-iPhone/</url>
-      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/UvQM4ycJA08?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+      <content type="html"><![CDATA[<div class="video-container"><iframe src="//www.youtube.com/embed/UvQM4ycJA08" frameborder="0" allowfullscreen></iframe></div>
 <p>2012年11月，當我得知，即將推出的 iPhone 5，居然沒有內建 NFC （近場通訊）功能時，好失望哦！</p>
 <p>那時，還心想，怎麼賈伯斯不在後，蘋果就變得這麼落伍，不長進了！讓智慧型手機化身成「電子錢包」，這是一塊市場的超級大餅，怎麼 Apple 居然給忽視了呢？！</p>
 <p>原來蘋果，仍然不是省油的燈，對於這塊市場，他們家還是有自己獨到的見解。就在今年6月，蘋果公開發佈，以「低功率藍芽」，開發的新技術 iBeaons 。<br><a id="more"></a><br>採用 NFC 技術，智慧型手機裡，要加裝特殊晶片；如此一來，許許多的智慧型手機，立即被判出局，排除在外。</p>
@@ -1055,7 +1123,7 @@
 <p>由於手術時可能會傷害到聲帶神經，極有可能失聲。如果手術後平安無事，木山就決定挑戰自己的夢想，成為一名歌手。</p>
 <p>之後，當他恢復到能夠唱歌時，便希望將自己的聲音留在CD裡，留給自己的孩子們聽。經過他的不懈努力，終於在2008年2月6日憑藉這首單曲《Home》正式成為歌手。</p>
 <p>也許正因為對夢想的堅持，使得2008年末，慶新年的紅白歌會上，多了這樣一個平凡，卻不普通的聲音。</p>
-<iframe src="https://www.youtube.com/embed/eioiTTG1AVQ?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/eioiTTG1AVQ" frameborder="0" allowfullscreen></iframe></div>
 <p>在晴空下的公園裡，你不經意的握著我的手<br>在這一瞬間，我的身軀被這小小的手給擁抱著</p>
 <p>你所給我的，滿溢的幸福和最真摯的愛<br>在這段時間中，我被給予的這一切，要花多少時間，才能回報你呢</p>
 <p>回家吧，可以回家了唷，在染成深紅色的街道上<br>手牽著手一起回家吧，這世界上唯一、僅有的 My Sweet Home</p>
@@ -1119,7 +1187,7 @@
 <p><img src="http://3.bp.blogspot.com/-IsfrYv5XvnU/Uoi98JBrRxI/AAAAAAAAWRI/D97QjRfAWPE/s320/MB570_AV1.jpeg" alt="Mini DisplayPort 對 DVI 轉換器"></p>
 <p>上週五，終於收到了訂購的貨品。當時，心情七上八下，頗為緊張。待 Mini DisplayPort 對 DVI 轉換器在 MacBook Pro 插好，顯示幕的 DVI Cable 視訊線材接上轉換器，結果，困擾我近一年的問題，轉瞬間，消失的無影無蹤！</p>
 <p>最近，使用這 1920 x 1080 的大畫面，真的是：「爽」＋ est ……….</p>
-<p><img src="http://3.bp.blogspot.com/-aKAniCQvAfU/UojBWJrjdrI/AAAAAAAAWRc/K02BorxU3fE/s640/2013-11-17_21-05-43.png" alt=""></p>
+<img src="http://3.bp.blogspot.com/-aKAniCQvAfU/UojBWJrjdrI/AAAAAAAAWRc/K02BorxU3fE/s640/2013-11-17_21-05-43.png">
 ]]></content>
     </entry>
     
@@ -1155,13 +1223,34 @@
     </entry>
     
     <entry>
+      <title><![CDATA[楚霖成長日記]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/06/20/My-dear-son/</url>
+      <content type="html"><![CDATA[<p>第一次使用影片剪輯軟體製作影片，那是在民國8x年代的事。硬體使用的機器是 Power Mac ，叫價得要十幾萬；而軟體出自 Adobe 公司，同樣價格高得令我只能搖頭、興歎，影片製作不是我這種「有窮氏」後裔能玩的事情。</p>
+<p>今天，西元 2013 年，花約五萬元的價格，買台 MacBook Pro 筆電，不要額外再加＄，就能使用隨機附贈的 iMovie 軟體，剪接、編輯數位相片、影片，製作個小小電影。</p>
+<p>世界變化得真快，未來，不知還會有些什麼新鮮事，我們的生活型態又將會變成什麼樣貌………..？！ @@a</p>
+<p>拜摩登科技之賜，咱們可不要暴殄天物，就利用這個已是平民化的新科技，給孩子留下一段成長的紀錄，也為居家遷台之後，留個斷代小史吧！</p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/68769381" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[左中回憶剪貼簿]]></title>
       <url>http://alanjui.github.io/blog/blog/2013/06/19/My-High-School-Memory/</url>
       <content type="html"><![CDATA[<p>老相片，剪剪貼貼，七拚八湊。</p>
 <p>補捉早已褪色，幾近遺忘古老而遙遠的早記憶…..！ ^^”</p>
 <a id="more"></a>
-<p><iframe src="https://player.vimeo.com/video/68667663" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe> </p><p><a href="https://vimeo.com/68667663" target="_blank" rel="external">左中回憶剪貼簿</a> from <a href="https://vimeo.com/user19001121" target="_blank" rel="external">居正中</a> on <a href="https://vimeo.com" target="_blank" rel="external">Vimeo</a>.</p><p></p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/68667663" frameborder="0" allowfullscreen></iframe></div>
 <p>【註】：省左高中17屆校友（民國68年畢業）</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[左中校園考古﹣蘋婆大道]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/06/17/Where-is-Pin-Puo/</url>
+      <content type="html"><![CDATA[<p>我們在民國65﹣68年就讀的左中人，看到後屆學弟、妹們在臉書的留言，說是：「懷念校園裡的『蘋婆大道』」時，總會感到困惑，不知所指為何？</p>
+<p>2013/6/14回學校走訪一趟；又經林校長提醒的指點後；再查閱我們那省左高中十七屆的畢業紀念冊；還有參考民國66、67學年度，我在學校服務當高中聯考「考生服務隊」時，學校發給我們工作人員提供服務用的「地圖」後，這才終於了解「蘋婆大道」在那？！</p>
+<p>此次的左中考古，留個說明指引當參考，供同樣也對「蘋婆大道」感到？？？的校友，一份歴史的參考。</p>
+<div class="video-container"><iframe src="//player.vimeo.com/video/68530001" frameborder="0" allowfullscreen></iframe></div>
 ]]></content>
     </entry>
     
@@ -1198,7 +1287,7 @@
 <p>因為 NetBeans 對 CakePHP 極具親和力的支援，所以後來的 PHP 研究，又’開始以 NetBeans 為主。沒想到，不到兩週，NetBeans 又推出新版本 <strong>7.3</strong> （<a href="https://netbeans.org/downloads/" target="_blank" rel="external">NetBeans下載處</a>）。</p>
 <p>新版的 NetBeans 7.3 有著什麼樣的好功能？<br><a id="more"></a></p>
 <p>以下是官網所發佈的新版功能簡介影片《NetBeans IDE 7.3 Overview》：</p>
-<iframe src="https://www.youtube.com/embed/0y4c0XztY-0?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<div class="video-container"><iframe src="//www.youtube.com/embed/0y4c0XztY-0" frameborder="0" allowfullscreen></iframe></div>
 <h2 id="新版功能摘要"><a href="#新版功能摘要" class="headerlink" title="新版功能摘要"></a>新版功能摘要</h2><ul>
 <li><p>網頁編輯的結果可立即顯現：與 Google Chrome 瀏覽器結合，使輸入的 HTML Tag / CSS 設定 / JavaScript 程式碼，只要執行儲存功能，毋需手動執行網頁 Reload ，就能立即自瀏覽器看到網頁的輸出結果。網頁的編輯工作，可以像使用 DreamWeaver 一樣直覺、輕鬆； 【Fig 1】</p>
 </li>
@@ -1375,7 +1464,7 @@
       <title><![CDATA[了解什麼是 Spring Web MVC]]></title>
       <url>http://alanjui.github.io/blog/blog/2010/10/22/Introduction-of-What-is-Spring-Web-MVC/</url>
       <content type="html"><![CDATA[<p>循前例，我還是自NetBeans的官網，取用如下之教學指引，以為自修研習用教材，開始了我對 Spring 的初步探究–「Spring是什麼東東啊？」<br><a id="more"></a></p>
-<p><a href="https://netbeans.org/kb/docs/web/quickstart-webapps-spring.html" target="_blank" rel="external">Introduction to Spring Web MVC</a></p>
+<p><a href="https://netbeans.org/kb/docs/web/quickstart-webapps-spring.html" target="_blank" rel="external">《Introduction to Spring Web MVC》</a></p>
 <h2 id="文件導讀"><a href="#文件導讀" class="headerlink" title="文件導讀"></a>文件導讀</h2><p>上述教材研讀及實作完畢後，摘錄心得如下，當成是自己的讀書筆記，也希望對需要了解Spring的朋友，能提供那麼一點助益。</p>
 <p>根據教材內容的說明，可知此處所探討的只是Spring Web MVC的運作原理，可能這教材裡的說明，只是讓我們了解在 Spring Framework 下，Controller、View、Model 三種類別是如何協同運作，還不能算是給了 Spring Framework 的總體概述。</p>
 <p>此教材主要的章節架構如下：</p>
@@ -1409,30 +1498,30 @@
 <h3 id="謎題的解答dispatcher-servlet-xml"><a href="#謎題的解答dispatcher-servlet-xml" class="headerlink" title="謎題的解答dispatcher-servlet.xml"></a>謎題的解答dispatcher-servlet.xml</h3><p>其實在網站所見的首頁內容，其來源正是出自index.jsp。但是，從要進入index.htm網頁，卻是顯示index.jsp的「無中生有」過程，是怎麼回事？以下我們來一一分解詳述：</p>
 <p>由於redirect.jsp檔案，說要將網頁轉到index.htm。所以，根據web.xml的設定，只要是*.htm檔案，通通交由DispatcherServlet負責。</p>
 <p>當DispatcherServlet這個血統純正的Java Servlet，聽說有人要求瀏覽index.htm網頁的內容時，便會查閱 <strong><em>dispatcher-servlet.xml</em></strong> 檔案中的設定，並嚴格遵循當中的規矩，照章行事。</p>
-<p>當DispatcherServlet讀到 id 為 <strong>urlMapping</strong> 的 <strong>bean</strong> 設定，它知道若有人要看 “/index.htm” 的檔案時，它要以 <strong>indexController</strong> 頂替 。</p>
-<p>於是DispatcherServlet，再到 <strong>dispatcher-servlet.xml</strong> 檔案尋找 name 為 indexController 的 bean 。結果，自 <strong>p:viewName</strong> 的屬性查出，indexController 要找主要檔名叫 index 的檔案。</p>
-<p>最後，DispatcherServlet藉由 id 為 <strong>viewResolver</strong> 的 bean ，其中的 <strong>p:prefix</strong> 、 <strong>p:suffix</strong> ，查出主檔名為 index 的檔案，要到路徑為「<strong><em>/WEB-INF/jsp/</em></strong>」處尋找；找到這個檔案後，再配以 <strong>jsp</strong> 的副檔名。</p>
+<p>當DispatcherServlet讀到 id 為 urlMapping 的 bean 設定，它知道若有人要看 “/index.htm” 的檔案時，它要以 indexController 頂替 。</p>
+<p>於是DispatcherServlet，再到 <code>dispatcher-servlet.xml</code> 檔案尋找 name 為 indexController 的 bean 。結果，自 p:viewName 的屬性查出，indexController 要找主要檔名叫 index 的檔案。</p>
+<p>最後，DispatcherServlet藉由 id 為 <code>viewResolver</code> 的 bean ，其中的 <code>p:prefix</code> 、 <code>p:suffix</code> ，查出主檔名為 <code>index</code> 的檔案，要到路徑為「<code>/WEB-INF/jsp/</code>」處尋找；找到這個檔案後，再配以 jsp 的副檔名。</p>
 <p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2g4cp0mI/AAAAAAAAA5M/CKWLHGG6_OE/s1600/image%5B21%5D.png" alt=""></p>
-<p>經過上述無中生有的過程，DispatcherServlet終於完成解讀，知道有人要看 index.htm 時，就給它 /WEB-INF/jsp/index.jsp 的檔案。</p>
+<p>經過上述無中生有的過程，DispatcherServlet終於完成解讀，知道有人要看 index.htm 時，就給它 <code>/WEB-INF/jsp/index.jsp</code> 的檔案。</p>
 <p>瞭了嗎？！</p>
 <p>只是…..，不過是要喝杯牛奶，幹啥要自行蓋個牧場來養牛，生產年奶。為什麼要把事情搞得這麼大，如此複雜？別問我，我那知！</p>
 <h2 id="第二篇內容摘要"><a href="#第二篇內容摘要" class="headerlink" title="第二篇內容摘要"></a>第二篇內容摘要</h2><h3 id="Spring-Web-MVC運作架構"><a href="#Spring-Web-MVC運作架構" class="headerlink" title="Spring Web MVC運作架構"></a>Spring Web MVC運作架構</h3><p>這篇教材真正的重點，從此處開始。它用了如下的應用例子，說明在 Spring Framework 下MVC是怎樣運作的。</p>
 <p>假設您的網站要提供一個功能，這功能會透過一個網頁向使用者詢問其姓名。當使用者輸入了姓名之後，則會用另一個網頁向使用者說聲嗨！</p>
-<p>有了上述初步的功能需求後，在設計上我們需使用 2 個 <strong>View</strong>，以 nameView.jsp 網頁來向使用者詢問，要求輸入姓名。使用者輸入的姓名，經過系統的處理後，再透過名為helloView.jsp 的網頁，向使用者 Say Hello。且此功能的啟動執行點，設計成「當使用者瀏覽 <strong>/hello.htm</strong> 網頁便執行」。</p>
-<p>在 Spring Web MVC 的設計模式下，View (可以直接想成網頁) 之間的切換係由 Controller 的類別 (亦即 MVC 中的 Control) 來控制。所以，依據上述的設計規格，我們需要有個名為 helloController ，屬 <strong>Controller</strong> 的類別，以便有人想瀏覽 /hello.htm 網頁時，便提供 nameView.jsp 給他；待取得使用者輸入的姓名後，則再顯示 helloView.jsp 網頁給使用者。</p>
-<p>關於使用者在 nameView.jsp 輸入的資料，可以使用一名為 <strong>Name</strong> ，屬 <strong>Model</strong> 的類別，用以接收輸入的結果。</p>
-<p>至於從使用者接收到的資料，該做什麼處理，完成什麼樣的輸出，這活就由屬 <strong>Service</strong> (亦即一般所謂之 <strong><em>Business Logic</em></strong>) 的類別來幹。因此，根據設計，需要一名為 <em>helloService</em> 的類別，以便能將使用者輸入的姓名進行加工處理。</p>
+<p>有了上述初步的功能需求後，在設計上我們需使用 2 個 <code>View</code>，以 nameView.jsp 網頁來向使用者詢問，要求輸入姓名。使用者輸入的姓名，經過系統的處理後，再透過名為 <code>helloView.jsp</code> 的網頁，向使用者 Say Hello。且此功能的啟動執行點，設計成「當使用者瀏覽 <code>/hello.htm</code> 網頁便執行」。</p>
+<p>在 Spring Web MVC 的設計模式下，View (可以直接想成網頁) 之間的切換係由 Controller 的類別 (亦即 MVC 中的 Control) 來控制。所以，依據上述的設計規格，我們需要有個名為 helloController ，屬 <code>Controller</code> 的類別，以便有人想瀏覽 /hello.htm 網頁時，便提供 <code>nameView.jsp</code> 給他；待取得使用者輸入的姓名後，則再顯示 <code>helloView.jsp</code> 網頁給使用者。</p>
+<p>關於使用者在 <code>nameView.jsp</code> 輸入的資料，可以使用一名為 <code>Name</code> ，屬 <code>Model</code> 的類別，用以接收輸入的結果。</p>
+<p>至於從使用者接收到的資料，該做什麼處理，完成什麼樣的輸出，這活就由屬 <code>Service</code> (亦即一般所謂之 <strong><em>Business Logic</em></strong>) 的類別來幹。因此，根據設計，需要一名為 <code>helloService</code> 的類別，以便能將使用者輸入的姓名進行加工處理。</p>
 <p>綜合上述，整個功能的運作過程，所需使用的網頁及類別，其設計可以用以下，UML 的穩建圖來表示：</p>
 <p><img src="http://lh4.ggpht.com/_40BYSx3mIfk/TME2jaihn8I/AAAAAAAAA5Y/3J-7uQf-RLo/image_thumb%5B12%5D.png?imgmax=800" alt=""></p>
-<p>上圖的 <strong>dispatcher-servlet.xml</strong> ，用於表示 helloController 類別須在這個檔案內做登記。同樣，helloService 類別的存在，亦須記錄相關設定在 <strong>applicationContext.xml</strong> 檔案之中。 如此，helloController 類別才能正常運作。甚至說得更白點，非得這樣做，Web Container 才有辦法，遇到有人要瀏覽 /hello.htm 時， 知道該怎麼做。</p>
+<p>上圖的 <code>dispatcher-servlet.xml</code> ，用於表示 helloController 類別須在這個檔案內做登記。同樣，helloService 類別的存在，亦須記錄相關設定在 <code>applicationContext.xml</code> 檔案之中。 如此，helloController 類別才能正常運作。甚至說得更白點，非得這樣做，Web Container 才有辦法，遇到有人要瀏覽 /hello.htm 時， 知道該怎麼做。</p>
 <p>根據上述設計，需要撰寫製作的網頁及各個類別(class)，在專案資料夾的放置處，則如下圖所示：</p>
 <p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2kDdeB2I/AAAAAAAAA5c/gtVGg8Txwdg/s1600/image%5B34%5D.png" alt=""></p>
 <h3 id="研習須細讀重點"><a href="#研習須細讀重點" class="headerlink" title="研習須細讀重點"></a>研習須細讀重點</h3><p>有了上述 Spring Web MVC 在架構上的認知後，請再加強下列事項的研習。</p>
-<p><strong>HelloController.java 的建構子</strong>：細讀其程式碼，了解 Controller 啟動後，怎麼知道該先顯示那個網頁，然後又該顯示那個網頁。網頁輸入的資料，要用那個類別去接收；當靜態的類別(class)變成可執行的物件(object)時，要用什麼作為變數名稱。</p>
-<p><strong>HelloController.java 的 onSubmit 方法</strong>：當第一個網頁完成輸入 (nameView.jsp)，onSubmit 事件發生後，Controller 要如何接收第一個網頁所傳來的輸入；然後又如何透過 Service ，對輸入的資料進行加工，完成輸出；最後又如何將加工後輸出，餵給第二個網頁 (helloView.jsp)。</p>
-<p><strong>nameView.jsp網頁</strong>：研究網頁中，屬 Spring 專用的 Tag 如何自 Controller 接收由 Name 類別所產生的 <strong><em>name</em></strong> 物件。而使用者的輸入，如何以 Spring Tag ，將之存入 name 物件中的 value 屬性。</p>
-<p><strong>helloView.jsp網頁</strong>：研究網頁中欲輸出的內容，如何能透過 EL 表示式 <strong><em>${helloMessage}</em></strong> 顯示出來。EL 表示中的變數 helloMessage ， 與 HelloController 類別中的 onSubmit 方法，有什麼互為因果的關係。</p>
-<h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>哇！好棒！終於寫完了。這篇文章花了我 5 小時，才搞定。可是這篇文章的內容，我花了一天讀完，又再花了三天反覆思考 Spring Web MVC 運作的架構；網頁、Controller類別、Service類別、Model類別各個之間的互動關係；三個設定檔 web.xml 、 dispatcher-servlet.xml 、applicationContext.xml 各個的作用。</p>
+<p><code>HelloController.java</code> 的建構子：細讀其程式碼，了解 Controller 啟動後，怎麼知道該先顯示那個網頁，然後又該顯示那個網頁。網頁輸入的資料，要用那個類別去接收；當靜態的類別(class)變成可執行的物件(object)時，要用什麼作為變數名稱。</p>
+<p><code>HelloController.java</code> 的 onSubmit 方法：當第一個網頁完成輸入 (nameView.jsp)，onSubmit 事件發生後，Controller 要如何接收第一個網頁所傳來的輸入；然後又如何透過 Service ，對輸入的資料進行加工，完成輸出；最後又如何將加工後輸出，餵給第二個網頁 (helloView.jsp)。</p>
+<p><code>nameView.jsp</code>網頁：研究網頁中，屬 Spring 專用的 Tag 如何自 Controller 接收由 Name 類別所產生的 <strong><em>name</em></strong> 物件。而使用者的輸入，如何以 Spring Tag ，將之存入 name 物件中的 value 屬性。</p>
+<p><code>helloView.jsp</code>網頁：研究網頁中欲輸出的內容，如何能透過 EL 表示式 <strong><em>${helloMessage}</em></strong> 顯示出來。EL 表示中的變數 helloMessage ， 與 HelloController 類別中的 onSubmit 方法，有什麼互為因果的關係。</p>
+<h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>哇！好棒！終於寫完了。這篇文章花了我 5 小時，才搞定。可是這篇文章的內容，我花了一天讀完，又再花了三天反覆思考 Spring Web MVC 運作的架構；網頁、Controller類別、Service類別、Model類別各個之間的互動關係；三個設定檔 <code>web.xml</code> 、 <code>dispatcher-servlet.xml</code> 、 <code>applicationContext.xml</code> 各個的作用。</p>
 <p>這個研習過程，對我而言有些吃力。因此，希望我這研究心得報告，可以幫大家減少一些學習過程的障礙。</p>
 ]]></content>
     </entry>
@@ -1506,7 +1595,7 @@
     <entry>
       <title><![CDATA[甲你攬牢牢]]></title>
       <url>http://alanjui.github.io/blog/blog/2010/06/27/Hold-with-heart-fulling-of-love/</url>
-      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/XzdtkwKgnHo?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+      <content type="html"><![CDATA[<div class="video-container"><iframe src="//www.youtube.com/embed/XzdtkwKgnHo" frameborder="0" allowfullscreen></iframe></div>
 <p>週五晚上回到家，打開我的 YouTube 頻道，看見有人分享江蕙的《甲你攬牢牢》MV。<br><a id="more"></a></p>
 <p>這首歌早已聽過 N 遍，但從不曾細聽過，歌詞在唱些什麼；MV 則是從未看過。也許是因為這一週的「失業勞工職訓課程」，整週下來讓我這中古的年青人累到不行，需要用音樂來轉換心情，於是，想都不想，影片的播放鈕就給它按下去。</p>
 <p>雙眼盯著螢幕看，耳朶聽著江蕙那如泣如訴的歌聲，心情不禁隨隨著 MV 影片的「劇情」，跟著起伏、翻騰。</p>
@@ -1545,7 +1634,6 @@
 <p>我：「好好哦…..！」</p>
 <p>小祖宗：「可是….！可是……！阿媽比較可憐，她給了我2千塊」</p>
 <p>我：「………」<br>（一隻烏鴉從我腦後飛過去，啊~！啊~！啊~！ 久久無語……）</p>
-
 <img src="https://lh3.googleusercontent.com/-mxHAdXA2sks/VURJpRV8jOI/AAAAAAAAhGA/-jpmJLGyJfQ/s842/%25E7%2583%258F%25E9%25B4%2589%25E9%25A3%259B%25E9%2581%258E.png">   
 ]]></content>
     </entry>
