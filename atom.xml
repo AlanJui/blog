@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://alanjui.github.io/blog/"/>
-  <updated>2016-03-13T11:16:19.000Z</updated>
+  <updated>2016-03-14T09:18:20.000Z</updated>
   <id>http://alanjui.github.io/blog/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OS X 10-Split Window</title>
+    <link href="http://alanjui.github.io/blog/2016/03/14/OS-X-10-Split-Window/"/>
+    <id>http://alanjui.github.io/blog/2016/03/14/OS-X-10-Split-Window/</id>
+    <published>2016-03-14T08:56:13.000Z</published>
+    <updated>2016-03-14T09:18:20.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。&lt;/p&gt;
+&lt;p&gt;藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/perKILmQUFM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
+    
+    
+      <category term="OS X" scheme="http://alanjui.github.io/blog/tags/OS-X/"/>
+    
+  </entry>
   
   <entry>
     <title>我的Hexo部落格</title>
@@ -903,45 +928,6 @@
       <category term="Jekyll" scheme="http://alanjui.github.io/blog/tags/Jekyll/"/>
     
       <category term="Markdown" scheme="http://alanjui.github.io/blog/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Explore MEAN Stack at 2015 教學影片</title>
-    <link href="http://alanjui.github.io/blog/2015/04/20/post-01/"/>
-    <id>http://alanjui.github.io/blog/2015/04/20/post-01/</id>
-    <published>2015-04-20T01:00:00.000Z</published>
-    <updated>2016-03-13T11:14:47.000Z</updated>
-    
-    <content type="html">&lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
-&lt;p&gt;結果……&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;這個「Explore MEAN Stack at 2015」的標題，立即吸引了我的目光。&lt;/p&gt;
-&lt;p&gt;「嘩～！不得了，這影片不僅是在談 MEAN Stack ；而且還是『2015年』的觀點耶！」 ( 熊熊間，有點大清早，撿到寶的 ful!! ^^y )&lt;/p&gt;
-&lt;div style=&quot;text-align:center&quot;&gt;&lt;br&gt;&lt;!-- &lt;div class=&quot;youtube-video&quot;&gt; --&gt;&lt;br&gt;  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Jh0er2pRcq8?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;播映影片後，吃了一「斤」驚……&lt;/p&gt;
-&lt;p&gt;「嚇～～～！影片係『MVA（微軟虛擬學院）』製作滴」！ @@a&lt;/p&gt;
-&lt;p&gt;再觀影片的教學內容：&lt;/p&gt;
-&lt;p&gt;＊瀏覽器－用的是「Chrome」，不是「IE」；&lt;br&gt;＊編輯器－用的是「Sublime」，不是「Visual Studio」；&lt;br&gt;＊版本控管工具－用的是「 GitHub」，不是「TFS」。&lt;/p&gt;
-&lt;p&gt;Wow~~~!! 微軟真的是越來越擁抱 Open Source ！&lt;/p&gt;
-&lt;p&gt;可是…….&lt;/p&gt;
-&lt;p&gt;還是很好奇，有了「Node + Express」之後，歷史悠久的「IIS」還會繼續往下發展嗎？系統採用了「MongoDB」後，那「MS SQL Server」的市場要怎麼定位？&lt;/p&gt;
-&lt;p&gt;《三國演義》的開頭如是說……&lt;/p&gt;
-&lt;p&gt;「話說天下大勢。分久必合，合久必分」&lt;/p&gt;
-&lt;p&gt;IT 資訊界的技術，一直是百家爭嗚；群雄併起。莫非 Web 前端這一塊，會走向「天下一統」的結局嗎？&lt;br&gt;有趣了，咱們且繼續看下去嘿！ ^^y&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。&lt;/p&gt;
-&lt;p&gt;結果……&lt;br&gt;
-    
-    </summary>
-    
-      <category term="IT技術" scheme="http://alanjui.github.io/blog/categories/InfoTech/"/>
-    
-    
-      <category term="MEAN" scheme="http://alanjui.github.io/blog/tags/MEAN/"/>
     
   </entry>
   

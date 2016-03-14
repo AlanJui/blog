@@ -4,6 +4,15 @@
   
     
     <entry>
+      <title><![CDATA[OS X 10-Split Window]]></title>
+      <url>http://alanjui.github.io/blog/blog/2016/03/14/OS-X-10-Split-Window/</url>
+      <content type="html"><![CDATA[<p>Mac 新版的 OS X 10 作業系統（El Captian）提供了「畫面切割（Split Screen）」 功能。<br><a id="more"></a><br>本影片以「Web App 前端開發」為應用場景，說明這個「畫面切割」功能如何操作，令「程式編輯器軟體」及「WEB瀏覽器軟體」可顯示在同一個「桌面」。</p>
+<p>藉由這樣的應用，Web App前端開發人員，在左分割畫面進行的編輯，可立即於右分割畫面觀察「結果」，令開發的工作因「視覺化」，可立即掌握事情是否做對；有沒有錯誤／不妥的地方需要調整，進而提昇工作的效率！</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/perKILmQUFM" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[我的Hexo部落格]]></title>
       <url>http://alanjui.github.io/blog/blog/2016/03/12/My-Hexo-Blog/</url>
       <content type="html"><![CDATA[<p>習慣用GitHub納管程式碼，GitHub的每個Git容器，也可以是一個「Static網站」。</p>
