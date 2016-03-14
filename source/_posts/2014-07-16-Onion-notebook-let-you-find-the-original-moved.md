@@ -7,7 +7,7 @@ tags:
 - 開心就好
 ---
 
-{% iframe "https://www.youtube.com/embed/xQ73vrcD5Pw?rel=0" 560 %}
+{% youtube "xQ73vrcD5Pw" %}
 
 文采不夠好？無法寫出感人，讓人掉淚的文字嗎？
 <!-- more -->

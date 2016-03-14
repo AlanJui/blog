@@ -8,7 +8,7 @@ tags:
 - JavaScript
 ---
 
-{% iframe "https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" 560 %}
+{% youtube "Q8TXgCzxEnw" %}
 
 
 Google 發表的《Material Design》，現在就連 AngularJS 都能使用了。
@@ -38,4 +38,4 @@ Google 發表的《Material Design》，現在就連 AngularJS 都能使用了�
 
 有點擔心以上的介紹，因為用文字說明，有不易了解的問題；所以，囉唆的人，製作了以下的導引說明影片，希望有那麼一點助益。
 
-{% iframe "https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" 560 %}
+{% youtube "8ChCu6ivL5o" %}

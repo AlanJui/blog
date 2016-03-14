@@ -19,7 +19,7 @@ tags:
 
 也許正因為對夢想的堅持，使得2008年末，慶新年的紅白歌會上，多了這樣一個平凡，卻不普通的聲音。
 
-{% iframe "https://www.youtube.com/embed/eioiTTG1AVQ?rel=0" 560 %}
+{% youtube "eioiTTG1AVQ" %}
 
 在晴空下的公園裡，你不經意的握著我的手
 在這一瞬間，我的身軀被這小小的手給擁抱著

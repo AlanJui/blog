@@ -7,7 +7,7 @@ tags:
 - 心情筆記
 ---
 
-{% iframe "https://www.youtube.com/embed/XzdtkwKgnHo?rel=0" 560 315 %}
+{% youtube "XzdtkwKgnHo" %}
 
 週五晚上回到家，打開我的 YouTube 頻道，看見有人分享江蕙的《甲你攬牢牢》MV。
 <!-- more -->

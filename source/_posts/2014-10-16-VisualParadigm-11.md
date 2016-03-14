@@ -7,7 +7,7 @@ tags:
 - 軟體開發
 ---
 
-{% iframe "https://www.youtube.com/embed/j9tF3M1trv0?rel=0" 560 %}
+{% youtube "j9tF3M1trv0" %}
 
 UML 工具，最早用到的是「Visual Paradigm」；但是，當年的電腦，在速度方面的效能表現，無法支撐這套純由 Java 開發的工具，跑其來就是卡卡的慢.....；所以，就變心，轉投 EA 的懷抱。
 

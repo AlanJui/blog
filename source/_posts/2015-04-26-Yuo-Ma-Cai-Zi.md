@@ -27,7 +27,7 @@ tags:
 
 這個婚前的試裝，母、女之間的心結問題，終於在阿惠跪拜秀琴，感謝扶養之恩時化解了。那場面的背景音樂，正是這首《油麻菜籽》............
 
-{% iframe "https://www.youtube.com/embed/85cQRWaQn7c?rel=0" 420 315 %}
+{% youtube "85cQRWaQn7c" %}
 
 {% blockquote %}
 你從那些艱苦的日子走來，是怎樣莫可奈何的忍耐；

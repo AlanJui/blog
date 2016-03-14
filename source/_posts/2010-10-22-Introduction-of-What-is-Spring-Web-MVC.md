@@ -11,7 +11,7 @@ tags:
 循前例，我還是自NetBeans的官網，取用如下之教學指引，以為自修研習用教材，開始了我對 Spring 的初步探究--「Spring是什麼東東啊？」
 <!-- more -->
 
-[Introduction to Spring Web MVC](https://netbeans.org/kb/docs/web/quickstart-webapps-spring.html)
+[《Introduction to Spring Web MVC》](https://netbeans.org/kb/docs/web/quickstart-webapps-spring.html)
 
 ## 文件導讀
 
@@ -98,15 +98,15 @@ tags:
 
 當DispatcherServlet這個血統純正的Java Servlet，聽說有人要求瀏覽index.htm網頁的內容時，便會查閱 ***dispatcher-servlet.xml*** 檔案中的設定，並嚴格遵循當中的規矩，照章行事。
 
-當DispatcherServlet讀到 id 為 __urlMapping__ 的 __bean__ 設定，它知道若有人要看 "/index.htm" 的檔案時，它要以 __indexController__ 頂替 。
+當DispatcherServlet讀到 id 為 urlMapping 的 bean 設定，它知道若有人要看 "/index.htm" 的檔案時，它要以 indexController 頂替 。
 
-於是DispatcherServlet，再到 __dispatcher-servlet.xml__ 檔案尋找 name 為 indexController 的 bean 。結果，自 __p:viewName__ 的屬性查出，indexController 要找主要檔名叫 index 的檔案。
+於是DispatcherServlet，再到 `dispatcher-servlet.xml` 檔案尋找 name 為 indexController 的 bean 。結果，自 p:viewName 的屬性查出，indexController 要找主要檔名叫 index 的檔案。
 
-最後，DispatcherServlet藉由 id 為 __viewResolver__ 的 bean ，其中的 __p:prefix__ 、 __p:suffix__ ，查出主檔名為 index 的檔案，要到路徑為「***/WEB-INF/jsp/***」處尋找；找到這個檔案後，再配以 __jsp__ 的副檔名。
+最後，DispatcherServlet藉由 id 為 `viewResolver` 的 bean ，其中的 `p:prefix` 、 `p:suffix` ，查出主檔名為 `index` 的檔案，要到路徑為「`/WEB-INF/jsp/`」處尋找；找到這個檔案後，再配以 jsp 的副檔名。
 
 ![](http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2g4cp0mI/AAAAAAAAA5M/CKWLHGG6_OE/s1600/image%5B21%5D.png)
 
-經過上述無中生有的過程，DispatcherServlet終於完成解讀，知道有人要看 index.htm 時，就給它 /WEB-INF/jsp/index.jsp 的檔案。
+經過上述無中生有的過程，DispatcherServlet終於完成解讀，知道有人要看 index.htm 時，就給它 `/WEB-INF/jsp/index.jsp` 的檔案。
 
 瞭了嗎？！
 
@@ -122,19 +122,19 @@ tags:
 
 假設您的網站要提供一個功能，這功能會透過一個網頁向使用者詢問其姓名。當使用者輸入了姓名之後，則會用另一個網頁向使用者說聲嗨！
 
-有了上述初步的功能需求後，在設計上我們需使用 2 個 __View__，以 nameView.jsp 網頁來向使用者詢問，要求輸入姓名。使用者輸入的姓名，經過系統的處理後，再透過名為helloView.jsp 的網頁，向使用者 Say Hello。且此功能的啟動執行點，設計成「當使用者瀏覽 __/hello.htm__ 網頁便執行」。
+有了上述初步的功能需求後，在設計上我們需使用 2 個 `View`，以 nameView.jsp 網頁來向使用者詢問，要求輸入姓名。使用者輸入的姓名，經過系統的處理後，再透過名為 `helloView.jsp` 的網頁，向使用者 Say Hello。且此功能的啟動執行點，設計成「當使用者瀏覽 `/hello.htm` 網頁便執行」。
 
-在 Spring Web MVC 的設計模式下，View (可以直接想成網頁) 之間的切換係由 Controller 的類別 (亦即 MVC 中的 Control) 來控制。所以，依據上述的設計規格，我們需要有個名為 helloController ，屬 __Controller__ 的類別，以便有人想瀏覽 /hello.htm 網頁時，便提供 nameView.jsp 給他；待取得使用者輸入的姓名後，則再顯示 helloView.jsp 網頁給使用者。
+在 Spring Web MVC 的設計模式下，View (可以直接想成網頁) 之間的切換係由 Controller 的類別 (亦即 MVC 中的 Control) 來控制。所以，依據上述的設計規格，我們需要有個名為 helloController ，屬 `Controller` 的類別，以便有人想瀏覽 /hello.htm 網頁時，便提供 `nameView.jsp` 給他；待取得使用者輸入的姓名後，則再顯示 `helloView.jsp` 網頁給使用者。
 
-關於使用者在 nameView.jsp 輸入的資料，可以使用一名為 __Name__ ，屬 __Model__ 的類別，用以接收輸入的結果。
+關於使用者在 `nameView.jsp` 輸入的資料，可以使用一名為 `Name` ，屬 `Model` 的類別，用以接收輸入的結果。
 
-至於從使用者接收到的資料，該做什麼處理，完成什麼樣的輸出，這活就由屬 __Service__ (亦即一般所謂之 ***Business Logic***) 的類別來幹。因此，根據設計，需要一名為 _helloService_ 的類別，以便能將使用者輸入的姓名進行加工處理。
+至於從使用者接收到的資料，該做什麼處理，完成什麼樣的輸出，這活就由屬 `Service` (亦即一般所謂之 ***Business Logic***) 的類別來幹。因此，根據設計，需要一名為 `helloService` 的類別，以便能將使用者輸入的姓名進行加工處理。
 
 綜合上述，整個功能的運作過程，所需使用的網頁及類別，其設計可以用以下，UML 的穩建圖來表示：
 
 ![](http://lh4.ggpht.com/_40BYSx3mIfk/TME2jaihn8I/AAAAAAAAA5Y/3J-7uQf-RLo/image_thumb%5B12%5D.png?imgmax=800)
 
-上圖的 __dispatcher-servlet.xml__ ，用於表示 helloController 類別須在這個檔案內做登記。同樣，helloService 類別的存在，亦須記錄相關設定在 __applicationContext.xml__ 檔案之中。 如此，helloController 類別才能正常運作。甚至說得更白點，非得這樣做，Web Container 才有辦法，遇到有人要瀏覽 /hello.htm 時， 知道該怎麼做。
+上圖的 `dispatcher-servlet.xml` ，用於表示 helloController 類別須在這個檔案內做登記。同樣，helloService 類別的存在，亦須記錄相關設定在 `applicationContext.xml` 檔案之中。 如此，helloController 類別才能正常運作。甚至說得更白點，非得這樣做，Web Container 才有辦法，遇到有人要瀏覽 /hello.htm 時， 知道該怎麼做。
 
 根據上述設計，需要撰寫製作的網頁及各個類別(class)，在專案資料夾的放置處，則如下圖所示：
 
@@ -144,18 +144,18 @@ tags:
 
 有了上述 Spring Web MVC 在架構上的認知後，請再加強下列事項的研習。
 
-__HelloController.java 的建構子__：細讀其程式碼，了解 Controller 啟動後，怎麼知道該先顯示那個網頁，然後又該顯示那個網頁。網頁輸入的資料，要用那個類別去接收；當靜態的類別(class)變成可執行的物件(object)時，要用什麼作為變數名稱。
+`HelloController.java` 的建構子：細讀其程式碼，了解 Controller 啟動後，怎麼知道該先顯示那個網頁，然後又該顯示那個網頁。網頁輸入的資料，要用那個類別去接收；當靜態的類別(class)變成可執行的物件(object)時，要用什麼作為變數名稱。
 
-__HelloController.java 的 onSubmit 方法__：當第一個網頁完成輸入 (nameView.jsp)，onSubmit 事件發生後，Controller 要如何接收第一個網頁所傳來的輸入；然後又如何透過 Service ，對輸入的資料進行加工，完成輸出；最後又如何將加工後輸出，餵給第二個網頁 (helloView.jsp)。
+`HelloController.java` 的 onSubmit 方法：當第一個網頁完成輸入 (nameView.jsp)，onSubmit 事件發生後，Controller 要如何接收第一個網頁所傳來的輸入；然後又如何透過 Service ，對輸入的資料進行加工，完成輸出；最後又如何將加工後輸出，餵給第二個網頁 (helloView.jsp)。
 
-__nameView.jsp網頁__：研究網頁中，屬 Spring 專用的 Tag 如何自 Controller 接收由 Name 類別所產生的 ***name*** 物件。而使用者的輸入，如何以 Spring Tag ，將之存入 name 物件中的 value 屬性。
+`nameView.jsp`網頁：研究網頁中，屬 Spring 專用的 Tag 如何自 Controller 接收由 Name 類別所產生的 ***name*** 物件。而使用者的輸入，如何以 Spring Tag ，將之存入 name 物件中的 value 屬性。
 
-__helloView.jsp網頁__：研究網頁中欲輸出的內容，如何能透過 EL 表示式 ***${helloMessage}*** 顯示出來。EL 表示中的變數 helloMessage ， 與 HelloController 類別中的 onSubmit 方法，有什麼互為因果的關係。
+`helloView.jsp`網頁：研究網頁中欲輸出的內容，如何能透過 EL 表示式 ***${helloMessage}*** 顯示出來。EL 表示中的變數 helloMessage ， 與 HelloController 類別中的 onSubmit 方法，有什麼互為因果的關係。
 
 
 
 ## 總結
 
-哇！好棒！終於寫完了。這篇文章花了我 5 小時，才搞定。可是這篇文章的內容，我花了一天讀完，又再花了三天反覆思考 Spring Web MVC 運作的架構；網頁、Controller類別、Service類別、Model類別各個之間的互動關係；三個設定檔 web.xml 、 dispatcher-servlet.xml 、applicationContext.xml 各個的作用。
+哇！好棒！終於寫完了。這篇文章花了我 5 小時，才搞定。可是這篇文章的內容，我花了一天讀完，又再花了三天反覆思考 Spring Web MVC 運作的架構；網頁、Controller類別、Service類別、Model類別各個之間的互動關係；三個設定檔 `web.xml` 、 `dispatcher-servlet.xml` 、 `applicationContext.xml` 各個的作用。
 
 這個研習過程，對我而言有些吃力。因此，希望我這研究心得報告，可以幫大家減少一些學習過程的障礙。

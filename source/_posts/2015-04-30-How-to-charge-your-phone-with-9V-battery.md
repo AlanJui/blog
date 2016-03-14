@@ -38,4 +38,4 @@ tags:
 
 有道是「言有盡，而意無窮」，以上的操作，真是「筆墨難以形容」的事，那四道用文字敘述的【操作步驟】，就當它是口訣背，實際的操作細節，請參詳以下的影片吧！
 
-{% iframe https://www.youtube.com/embed/Akqcos28R-0?rel=0 560 315 %}
+{% youtube "Akqcos28R-0" %}

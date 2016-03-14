@@ -24,6 +24,4 @@ tags:
 我：「.........」
 （一隻烏鴉從我腦後飛過去，啊~！啊~！啊~！ 久久無語......）
 
-{% asset_img 烏鴉飛過.png %}
-
 {% img https://lh3.googleusercontent.com/-mxHAdXA2sks/VURJpRV8jOI/AAAAAAAAhGA/-jpmJLGyJfQ/s842/%25E7%2583%258F%25E9%25B4%2589%25E9%25A3%259B%25E9%2581%258E.png %}   

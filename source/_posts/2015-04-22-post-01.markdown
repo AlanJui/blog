@@ -28,6 +28,4 @@ tags:
 
 祝大家身體健康；讓我們幫助老人家活得健康、快活！ ^^y
 
-<div class="youtube-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kD9vzDkYLiI?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{% youtube "kD9vzDkYLiI" %}

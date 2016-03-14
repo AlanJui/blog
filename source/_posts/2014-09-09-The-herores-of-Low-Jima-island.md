@@ -38,4 +38,4 @@ tags:
 如果我們希望紀念這些人，就應該記得他們真正的樣子
 就跟我爸記得的一樣........
 
-{% iframe "https://www.youtube.com/embed/BE5jhNlUGFk?rel=0" 560 %}
+{% youtube "BE5jhNlUGFk" %}

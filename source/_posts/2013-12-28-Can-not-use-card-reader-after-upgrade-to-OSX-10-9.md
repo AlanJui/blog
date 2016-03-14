@@ -40,4 +40,4 @@ tags:
 
 趁著這次找問題導因的事件，順便整理出－「如何在 Mac 安裝讀卡機的操作程序」，如以下影片所示。這程序也適用於「玉山銀行 Web ATM」的安裝。
 
-{% iframe "https://www.youtube.com/embed/zX0dJn7NWPg?rel=0" 560 %}
+{% youtube "zX0dJn7NWPg" %}

@@ -24,4 +24,4 @@ tags:
 
 ### 《地球に乾杯 Toast The Earth》
 
-{% iframe "https://www.youtube.com/embed/2neYEpmUv9A?rel=0" 560 315 %}
+{% youtube "2neYEpmUv9A" %}

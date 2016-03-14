@@ -4,6 +4,7 @@ date: 2013-12-21 12:00:00
 categories: "生活點滴"
 tags:
 - 音樂
+- 心情筆記
 ---
 
 {% img "https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg"  560 %}
@@ -15,4 +16,4 @@ tags:
 
 很久、很久......以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！
 
-{% iframe "https://www.youtube.com/embed/gJoUnF7IN28?rel=0" 560 %}
+{% youtube "gJoUnF7IN28" %}

@@ -30,4 +30,4 @@ tags:
 
 不認識的朋友啊！祝福你，希望你的困難能儘快移轉；心靈更能早日離苦得樂......
 
-{% iframe "https://www.youtube.com/embed/SdMDzlYCVI4?rel=0" 560 %}
+{% youtube "SdMDzlYCVI4" %}

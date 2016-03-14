@@ -26,4 +26,4 @@ tags:
 
 最後，仰起頭來笑著說：「其實......還是甜的啦！」 ^^y
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etqoMuMqk2s?rel=0" frameborder="0" allowfullscreen></iframe>
+{% youtube "etqoMuMqk2s" %}

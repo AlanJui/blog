@@ -17,4 +17,4 @@ tags:
 
 今夜，再次觀賞卡通的版本，竟覺裡面塞了好大一顆的洋蔥......
 
-{% iframe https://www.youtube.com/embed/LtX4psb4m-Y?rel=0 560 315 %}
+{% youtube "LtX4psb4m-Y" %}

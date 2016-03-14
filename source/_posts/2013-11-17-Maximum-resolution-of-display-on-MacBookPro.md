@@ -29,4 +29,4 @@ tags:
 
 最近，使用這 1920 x 1080 的大畫面，真的是：「爽」＋ est ..........
 
-![](http://3.bp.blogspot.com/-aKAniCQvAfU/UojBWJrjdrI/AAAAAAAAWRc/K02BorxU3fE/s640/2013-11-17_21-05-43.png)
+{% img  "http://3.bp.blogspot.com/-aKAniCQvAfU/UojBWJrjdrI/AAAAAAAAWRc/K02BorxU3fE/s640/2013-11-17_21-05-43.png" %}

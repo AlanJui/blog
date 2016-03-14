@@ -20,6 +20,4 @@ tags:
 有興趣，也想使用這新功能的朋友，可參考以下這放在 YouTube 的教學影片，
 學習功能用法的操作細節。
 
-<div style="text-align:center">
-<iframe width="640" height="480" src="https://www.youtube.com/embed/RX8RF50AL0I?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+{% youtube "RX8RF50AL0I" %}

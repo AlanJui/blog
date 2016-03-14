@@ -7,7 +7,7 @@ tags:
 - 電子商務
 ---
 
-{% iframe "https://www.youtube.com/embed/UvQM4ycJA08?rel=0" 560 %}
+{% youtube "UvQM4ycJA08" %}
 
 2012年11月，當我得知，即將推出的 iPhone 5，居然沒有內建 NFC （近場通訊）功能時，好失望哦！
 

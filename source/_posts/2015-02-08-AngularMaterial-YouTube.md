@@ -13,4 +13,4 @@ tags:
 <!-- more -->
 教學主題：Angular Material Design + $http from AngularJS + Flickr API
 
-{% iframe "https://www.youtube.com/embed/lvGAgul5QT4?rel=0" 560 %}
+{% youtube "lvGAgul5QT4" %}

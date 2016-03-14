@@ -36,4 +36,4 @@ tags:
 
 ZZZ zzz zzz zzz ..................
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/FxCAjDkWKw4?rel=0" frameborder="0" allowfullscreen></iframe>
+{% youtube "FxCAjDkWKw4" %}
