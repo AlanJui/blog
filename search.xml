@@ -61,6 +61,274 @@
     </entry>
     
     <entry>
+      <title><![CDATA[CodeSchool 新課程 iOS Development With Swift]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/12/21/iOS-Development-With-Swift/</url>
+      <content type="html"><![CDATA[<p>自 Swift 推出以來，一直很想知道，改用 Swift 語言，開發 iOS App 會是什麼樣子?</p>
+<p>因為事情忙，沒能投入時間好好研究，所以心中存在的疑問，一直無解！<br><a id="more"></a></p>
+<p>近日，因為 CodeSchool 推出了「<a href="https://www.codeschool.com/courses/app-evolution-with-swift" target="_blank" rel="external">iOS Development With Swift</a>」訓練課程，長期以來的好奇終於有了答案。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[使用 Hexo 的 new 指令，總有 Error 發生]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/18/Hexo-error/</url>
+      <content type="html"><![CDATA[<p>最近，每當我在「終端機」使用 Hexo 的指令 new 建立新的 Post 檔案時，系統總是回應，有 Error 發生的問題：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ hexo new 2015-05-18_Responsive-Embed</span><br><span class="line"></span><br><span class="line">[Error: Module did not self-register.]</span><br><span class="line"></span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/default/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br><span class="line"></span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/Debug/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br><span class="line">INFO  Created:</span><br><span class="line"></span><br><span class="line">~/workspace/Hexo/hexo-01/source/_posts/2015-05-18-Responsive-Embed.md</span><br><span class="line"></span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>這個使用 new 指令建立的 Post 檔案，雖然在「建立」的過程，有異常發生；但在後續完成文章內容的撰寫後，一樣可以 正常「發佈（deploy）」到我的部落格網站，後續沒再發生任何的異常狀況。</p>
+<p>這個有些異常的現象，似乎可以忽略它，不予理會。但是，每當執行 new 指令，就會看到的 Error 警告，總是叫人內心感到不痛快。</p>
+<p>今天又再 Google 了一下，找到了如下的一篇分享文章：<br><strong><a href="http://wp.huangshiyang.com/hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" target="_blank" rel="external">《Hexo常见问题解决方案》</a></strong></p>
+<p>根據作者提供的解決良方，我在 Hexo Project 的<strong>根目錄</strong>，透過終機機輸入如下的指令，再次安裝 hexo 的 NodeJS Module ：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ npm install hexo --no-optional</span><br><span class="line"></span><br><span class="line">hexo@3.0.1 node_modules/hexo</span><br><span class="line">├── hexo-front-matter@0.2.2</span><br><span class="line">├── pretty-hrtime@1.0.0</span><br><span class="line">├── abbrev@1.0.5</span><br><span class="line">├── titlecase@1.0.2</span><br><span class="line">├── archy@1.0.0</span><br><span class="line">├── text-table@0.2.0</span><br><span class="line">├── strip-indent@1.0.1 (get-stdin@4.0.1)</span><br><span class="line">├── tildify@1.0.0 (user-home@1.1.1)</span><br><span class="line">├── hexo-i18n@0.2.1 (sprintf-js@1.0.2)</span><br><span class="line">├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)</span><br><span class="line">├── through2@1.1.1 (xtend@4.0.0, readable-stream@1.1.13)</span><br><span class="line">├── minimatch@2.0.7 (brace-expansion@1.1.0)</span><br><span class="line">├── bunyan@1.3.5</span><br><span class="line">├── swig-extras@0.0.1 (markdown@0.5.0)</span><br><span class="line">├── bluebird@2.9.25</span><br><span class="line">├── js-yaml@3.3.1 (esprima@2.2.0, argparse@1.0.2)</span><br><span class="line">├── hexo-fs@0.1.3 (escape-string-regexp@1.0.3, graceful-fs@3.0.6, chokidar@0.12.6)</span><br><span class="line">├── nunjucks@1.3.4 (optimist@0.6.1, chokidar@0.12.6)</span><br><span class="line">├── warehouse@1.0.2 (graceful-fs@3.0.6, cuid@1.2.5, JSONStream@0.10.0)</span><br><span class="line">├── cheerio@0.19.0 (entities@1.1.1, dom-serializer@0.1.0, css-select@1.0.0, htmlparser2@3.8.2)</span><br><span class="line">├── hexo-cli@0.1.4 (minimist@1.1.1)</span><br><span class="line">├── moment@2.9.0</span><br><span class="line">├── hexo-util@0.1.6 (ent@2.2.0, highlight.js@8.5.0)</span><br><span class="line">├── moment-timezone@0.3.1</span><br><span class="line">├── lodash@3.8.0</span><br><span class="line">└── swig@1.4.2 (optimist@0.6.1, uglify-js@2.4.22)</span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<p>為驗證問題已解決了，我於終端機下指令，再次使用 Hexo 的 new 指令，建立新的 Post 檔案：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ hexo new 2015-05-18_Hexo-error</span><br><span class="line"></span><br><span class="line">INFO  Created: ~/workspace/Hexo/hexo-01/source/_posts/2015-05-18-Hexo-error.md</span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<p>如上所示，問題真的已獲決了！   ^^y</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[讓網頁內的影片、地圖能自動調整顯示寬度]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/18/Responsive-Embed/</url>
+      <content type="html"><![CDATA[<p>這年頭，網頁技術時興 RWD (Responsive Web Design) 。放在網站上的網頁，你得考量使用者是使用什麼樣的「裝置（Device）」來閱讀。</p>
+<p>「網頁」本身須具備「見人說人話，見鬼說鬼話」的本事；要能依據閱讀使用裝置螢幕的寬度，將網頁的內容重新排版，以提供閱讀網頁時最佳的格式。</p>
+<p><img src="http://img.labnol.org/di/responsive-google-maps.gif" alt=""><br><a id="more"></a><br>最近發覺，我部落格中放入的「Google地圖」、「YouTube影片」都有一個共同的問題，那就是：在「電腦螢幕」看時，一切 OK ；但若是到「手機螢幕」閱瀏，都有圖片過大，超過頁面右邊界的問題。</p>
+<p>在網路上尋找解法配方，結果均有所獲。做個筆記，分享這些先知的妙法、良方！  ^^y</p>
+<h2 id="令-Google-地圖可自動調寬度的作法"><a href="#令-Google-地圖可自動調寬度的作法" class="headerlink" title="令 Google 地圖可自動調寬度的作法"></a>令 Google 地圖可自動調寬度的作法</h2><p>參考這篇文章提供的內容：<br><a href="http://www.labnol.org/internet/embed-responsive-google-maps/28333/" target="_blank" rel="external">《How to Make Google Maps Embeds Responsive》</a></p>
+<p>想要在網頁中放入一個長寬為： 450 x 600 的 Google 地圖，其內容如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28936.799438545575!2d121.64887512170407!3d24.96271450708865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCC!5e0!3m2!1szh-TW!2stw!4v1431754924154"</span> <span class="attr">width</span>=<span class="string">"640"</span> <span class="attr">height</span>=<span class="string">"480"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">style</span>=<span class="string">"border:0"</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>先在 CSS 檔案中，加入如下所示 Class 樣式：</p>
+<figure class="highlight css"><figcaption><span>CSS樣式設定：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.google-maps</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">padding-bottom</span>: <span class="number">75%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.google-maps</span> <span class="selector-tag">iframe</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span> <span class="meta">!important</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然後在「網頁」或「Markdown」檔案中，使用 div 這個 tag ，置入 Google 地圖的內容：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"google-maps"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28936.799438545575!2d121.64887512170407!3d24.96271450708865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCC!5e0!3m2!1szh-TW!2stw!4v1431754924154"</span> <span class="attr">width</span>=<span class="string">"640"</span> <span class="attr">height</span>=<span class="string">"480"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">style</span>=<span class="string">"border:0"</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>成果：</strong></p>
+<div class="google-maps"><br>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28936.799438545575!2d121.64887512170407!3d24.96271450708865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCC!5e0!3m2!1szh-TW!2stw!4v1431754924154" width="640" height="480" frameborder="0" style="border:0"></iframe><br></div>
+
+<h2 id="令-YouTube-影片可自動調寬度的作法"><a href="#令-YouTube-影片可自動調寬度的作法" class="headerlink" title="令 YouTube 影片可自動調寬度的作法"></a>令 YouTube 影片可自動調寬度的作法</h2><p>參考這篇文章提供的內容：<br><a href="http://avexdesigns.com/responsive-youtube-embed/" target="_blank" rel="external">《Responsive Youtube Embed》</a></p>
+<p>想要在網頁中放入一個長寬為： 560 x 315 的 Youtube 影片，其內容如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">width</span>=<span class="string">"560"</span> <span class="attr">height</span>=<span class="string">"315"</span> <span class="attr">src</span>=<span class="string">"https://www.youtube.com/embed/8ChCu6ivL5o?rel=0"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>先在 CSS 檔案中，加入如下所示的 Class 樣式：</p>
+<figure class="highlight css"><figcaption><span>CSS樣式設定：</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.youtube-video</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">padding-bottom</span>: <span class="number">56.25%</span>;</span><br><span class="line">  <span class="attribute">padding-top</span>: <span class="number">30px</span>; <span class="attribute">height</span>: <span class="number">0</span>; <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.youtube-video</span> <span class="selector-tag">iframe</span>,</span><br><span class="line"><span class="selector-class">.youtube-video</span> <span class="selector-tag">object</span>,</span><br><span class="line"><span class="selector-class">.youtube-video</span> <span class="selector-tag">embed</span> &#123;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然後在「網頁」或「Markdown」檔案中，使用 div 這個 tag ，置入 Youtube 影片的內容：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"youtube-video"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">width</span>=<span class="string">"560"</span> <span class="attr">height</span>=<span class="string">"315"</span> <span class="attr">src</span>=<span class="string">"https://www.youtube.com/embed/8ChCu6ivL5o?rel=0"</span> <span class="attr">frameborder</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>成果：</strong></p>
+<div class="youtube-video"><br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
+
+<p>試著在「電腦螢幕」、「平板螢幕」及「手機螢幕」各種不同寬度的畫面瀏覽，驗證一下效果吧！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[週末輕旅行-石碇文山草堂]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/16/WenShan/</url>
+      <content type="html"><![CDATA[<p>週末的時候，難得的悠閒時光。天氣太熱出遊怕太熱，滿身大汗；可是，若因此當個不動明王宅在家，蹉跎了天賜的假期，好像也不太道德。</p>
+<p>如果有個地方，不要太遠，得花長時間坐車；但卻又可以遠離都市的塵囂，被山林綠蔭所擁抱；在這裡坐坐，享受清涼的山風，喝個茶、聊個天，渡過悠閒的午后時光，讓忙碌的心靈，可以沈澱、舒緩；疲憊的身心，再度累積滿滿的能量，那該多好？！<br><a id="more"></a><br>不久前的五一勞動節，孩子得去學校上課，我跟太座上午在家先忙家務雜事的處理；然後，利用下午約半天的時間，走了一趟石碇之行，感覺挺不錯，故今天特地撰文，來跟大家分享一個半天遊輕旅行的行程。</p>
+<h2 id="景點資訊"><a href="#景點資訊" class="headerlink" title="景點資訊"></a>景點資訊</h2><p><img src="http://www.ezcommerce.com.tw/oo/myshop/Sutoo0/upload/about/AD.png" alt=""></p>
+<p><strong>《文山草堂》</strong></p>
+<p><strong>地址：新北市石碇區碇格路二段2號</strong></p>
+<p>電話：（02）2665-1688<br>　　　（0933）615-950<br>　　　 <strong>用餐務必事先電話預約</strong></p>
+<p>官網：<a href="http://www.wstt1688.com/" target="_blank" rel="external">http://www.wstt1688.com/</a><br>　　　（有消費相關資訊，可供參考）</p>
+<p>營業時間：<strong>喫飯</strong> 11:30 - 15:00　　<br>　　　　　<strong>喝茶</strong> 14:30 - 17:30<br>　　　　　週一、週二公休</p>
+<div class="google-maps"><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28936.799438545575!2d121.64887512170407!3d24.96271450708865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCC!5e0!3m2!1szh-TW!2stw!4v1431754924154" width="640" height="480" frameborder="0" style="border:0"></iframe><br></div>
+
+<h2 id="景點簡介"><a href="#景點簡介" class="headerlink" title="景點簡介"></a>景點簡介</h2><p><img src="https://db.tt/FjyZ06Vh" alt=""></p>
+<p>文山草堂的入口處，散發著幽靜雅緻的氣氛。大門旁的三尊佛像，給人一種詳和、寧靜的感受。</p>
+<p><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/11188192_888000571250592_5615754646486944787_n.jpg?oh=8a8f4cd813ae4390a07de91db661f69b&amp;oe=56980484&amp;__gda__=1449843253_f46b2f6f975175b876c6348962569b18" alt="左廳堂（圖片出處：文山草堂－臉書官網）"></p>
+<p><img src="https://db.tt/6nFO9sxC" alt="右廳堂"></p>
+<p>進入室內，有左、右兩個廳堂，左廳堂為唐式風格（或稱：和式）的裝潢，可以席地而坐；右廳堂則設置桌、椅座位。左右兩廳堂的擺設，看起來有著古典的風雅，令人舒心！</p>
+<p><img src="https://db.tt/B5prOhz6" alt=""></p>
+<p><img src="https://db.tt/bdOkmKbF" alt=""></p>
+<p>靠窗的座位，可一邊品茗，一邊欣賞山色美景。談笑之間，可以忘憂，除去塵世勞煩。</p>
+<p><img src="https://db.tt/dLtguneA" alt=""></p>
+<p><img src="https://db.tt/zX0TSkWT" alt=""></p>
+<p><img src="https://db.tt/ESgaHMj5" alt=""></p>
+<p>我跟太座點了茶葉＋茶水，配點小乾果；再加上店家奉送的餅乾，如畫面所見桌上的這些，消費約 500 元。</p>
+<p><img src="https://db.tt/hz9YcNBZ" alt=""></p>
+<p>這個擺放在廳堂大門右側的花器，看起來就有種優雅的美感。從拍照的圖像看來，更像是幅圖畫一般！</p>
+<p><img src="https://db.tt/3IMEEl3Q" alt=""></p>
+<p>那天的氣溫約 25  度左右，又逢下大雨。自文山草堂往遠方的山頭望去，只見雲霧繚繞、山霧迷朦，美到亂七八糟，美到讓我胡言亂語，不知如何形容是好。可惜，我的攝影造詣太 Low ，相片中真正的美景，大家得自行發揮想像力嘿！  U_U“</p>
+<h2 id="行程規劃"><a href="#行程規劃" class="headerlink" title="行程規劃"></a>行程規劃</h2><p>以下的行程規劃，時程以半天為目標，需自備交通工具。</p>
+<h3 id="【行程一】午餐深坑填飽肚，再往文山草堂行"><a href="#【行程一】午餐深坑填飽肚，再往文山草堂行" class="headerlink" title="【行程一】午餐深坑填飽肚，再往文山草堂行"></a>【行程一】午餐深坑填飽肚，再往文山草堂行</h3><ol>
+<li><p>12:00－ <a href="https://www.google.com.tw/maps/search/%E6%B7%B1%E5%9D%91%E8%80%81%E8%A1%97/@25.0014015,121.6138235,17z/data=!3m1!4b1?hl=zh-TW" target="_blank" rel="external">深坑老街</a>： 先到深坑・老街吃個午餐、享用𣲙品涼點、逛街血拚。</p>
+</li>
+<li><p>14:30－ <a href="https://www.google.com.tw/maps/place/%E6%96%87%E5%B1%B1%E8%8D%89%E5%A0%82/@24.958746,121.647416,15z/data=!4m2!3m1!1s0x3467ffe48f4f609d:0x2af02bac3ed123d3?hl=zh-TW" target="_blank" rel="external">文山草堂</a>： 抵達「文山草堂」。自深坑老街到文山草堂，開車約需 24 分。</p>
+</li>
+</ol>
+<p><strong>《深坑老街往文山草堂路線圖》</strong></p>
+<div class="google-maps"><br><iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d57857.40927268982!2d121.59179598771752!3d24.997122876021187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e0!4m5!1s0x3442aac459f59e5f%3A0xabc2e9c435c6bdfd!2z5paw5YyX5biC5rex5Z2R5Y2A5rex5Z2R6ICB6KGX!3m2!1d25.001434!2d121.61416899999999!4m5!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCCIDIyM-aWsOWMl-W4guefs-eih-WNgOeih-agvOi3r-S6jOautQ!3m2!1d24.958745999999998!2d121.64741599999999!5e0!3m2!1szh-TW!2stw!4v1431783999595" width="600" height="450" frameborder="0" style="border:0"></iframe><br></div>
+
+<h3 id="【行程二】：文山草堂享受午後時光，返家前深坑用晚膳"><a href="#【行程二】：文山草堂享受午後時光，返家前深坑用晚膳" class="headerlink" title="【行程二】：文山草堂享受午後時光，返家前深坑用晚膳"></a>【行程二】：文山草堂享受午後時光，返家前深坑用晚膳</h3><ol>
+<li><p>14:30－ <a href="https://www.google.com.tw/maps/place/%E6%96%87%E5%B1%B1%E8%8D%89%E5%A0%82/@24.958746,121.647416,15z/data=!4m2!3m1!1s0x3467ffe48f4f609d:0x2af02bac3ed123d3?hl=zh-TW" target="_blank" rel="external">文山草堂</a>： 直到到達「文山草堂」，在這裡享用茶水、點心，渡過一個悠閒的午後時光。</p>
+</li>
+<li><p>18:00－ <a href="https://www.google.com.tw/maps/search/%E6%B7%B1%E5%9D%91%E8%80%81%E8%A1%97/@25.0014015,121.6138235,17z/data=!3m1!4b1?hl=zh-TW" target="_blank" rel="external">深坑老街</a>： 自文山草堂出發，往深坑老街過去，開車約需 24 分。結束這快樂的一天之前，先到深坑老街用個晚餐、享用𣲙品涼點、逛街消肥肚，然後再打道回府，回到自己甜蜜的家。</p>
+</li>
+</ol>
+<p><strong>《文山草堂往深坑老街路線圖》</strong></p>
+<div class="google-maps"><br><iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d57857.234739711435!2d121.59078863772008!3d24.99749357597149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!1s0x3467ffe48f4f609d%3A0x2af02bac3ed123d3!2z5paH5bGx6I2J5aCCIDIyM-aWsOWMl-W4guefs-eih-WNgOeih-agvOi3r-S6jOautQ!3m2!1d24.958745999999998!2d121.64741599999999!4m5!1s0x3442aac459f59e5f%3A0xabc2e9c435c6bdfd!2z5paw5YyX5biC5rex5Z2R5Y2A5rex5Z2R6ICB6KGX!3m2!1d25.001434!2d121.61416899999999!5e0!3m2!1szh-TW!2stw!4v1431780070997" width="640" height="480" frameborder="0" style="border:0"></iframe><br></div>
+
+<h3 id="【行程三】：整個半天時光，都在文山草堂消磨"><a href="#【行程三】：整個半天時光，都在文山草堂消磨" class="headerlink" title="【行程三】：整個半天時光，都在文山草堂消磨"></a>【行程三】：整個半天時光，都在文山草堂消磨</h3><p>12:00－ <a href="https://www.google.com.tw/maps/place/%E6%96%87%E5%B1%B1%E8%8D%89%E5%A0%82/@24.958746,121.647416,15z/data=!4m2!3m1!1s0x3467ffe48f4f609d:0x2af02bac3ed123d3?hl=zh-TW" target="_blank" rel="external">文山草堂</a>：文山草堂本身就有提供「不含蛋、奶的全素蔬食套餐（Vegan）」，所以，午餐用饍的民生問題，可以直接在此解決。在用饍完畢後，直接繼攤，在此品茗。</p>
+<p>不過…….，千千萬萬記得，務必事先電話預約：</p>
+<ul>
+<li><p>非假日前往用餐，一定得<strong>前一天</strong>事先電話預約</p>
+</li>
+<li><p>想在假日前往用餐，店家提醒最好在<strong>一、兩週前</strong>先行預約</p>
+</li>
+</ul>
+<p>參考官網提供的資料，蔬食套餐的價格： 480元/人。</p>
+<p>餐點內容，請參考這篇網路文章<a href="http://blog.xuite.net/stone.image/blog/66203138-%E2%99%A3-%E7%9F%B3%E7%A2%87%EF%BC%8E%E6%96%87%E5%B1%B1%E8%8D%89%E5%A0%82%28%E4%B8%8B%29%EF%BC%8EVEGAN%E7%9A%84%E8%94%AC%E9%A3%9F%E9%A4%90" target="_blank" rel="external">《石碇文山草堂－山野間　道道喜悅的蔬食料理》</a>。</p>
+<h2 id="景點相關資訊"><a href="#景點相關資訊" class="headerlink" title="景點相關資訊"></a>景點相關資訊</h2><h3 id="沿線風光"><a href="#沿線風光" class="headerlink" title="沿線風光"></a>沿線風光</h3><p>自深坑老街，往文山草堂前去的「106乙縣道」、「北47鄉道」，這條道路的沿線，也是賞花的好所在；在二月的初春時分，有賞櫻花可觀；人間四月天時，則有雪白桐花可賞。</p>
+<p><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1517826_839771076073542_5478640981285978678_n.jpg?oh=e2767ddd9567cdce81146caaaea56815&amp;oe=56AACDBA&amp;__gda__=1452923783_394bfba0ec4bd0b697734ac143bd336b" alt="圖片出處：文山草堂－臉書官網"></p>
+<h3 id="交通資訊"><a href="#交通資訊" class="headerlink" title="交通資訊"></a>交通資訊</h3><p>在「深坑國小」與「平埔街」之間，新増了地下停車場，停車很方便。開車的朋友，可從「平埔街」，上「106乙縣道」，連「國道 3 號高速公路」或「國道 5 號高速公路」，交通超便利。</p>
+<div class="google-maps"><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.0019184299053!2d121.61557101719666!3d25.00005077121219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aac5a1d40c07%3A0x37ae83923650cf12!2z5rex5Z2R6ICB6KGX5pS26LK75YGc6LuK5aC0!5e0!3m2!1szh-TW!2stw!4v1431763159317" width="640" height="480" frameborder="0" style="border:0"></iframe><br></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[攝影筆記－光與色彩變化]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/11/photos/</url>
+      <content type="html"><![CDATA[<p>沒錢跟人學攝影，只能透過閱讀攝影教學書籍，與嚐試錯誤的方法來摸索。</p>
+<p>以下的內容，不是什麼專業的攝影教學，而是個人學習的心得的彙整筆記，記錄如下內容：</p>
+<ul>
+<li>光與顏色之間的相互關係</li>
+<li>了解相機的白平衡有啥作用</li>
+<li>如何操控「白平衡」、「曝光補償」、「相片風格」調配出亮麗的暖色調<a id="more"></a>
+</li>
+</ul>
+<h2 id="光與顏色的變化"><a href="#光與顏色的變化" class="headerlink" title="光與顏色的變化"></a>光與顏色的變化</h2><h3 id="光是什麼"><a href="#光是什麼" class="headerlink" title="光是什麼"></a>光是什麼</h3><p>先抄一段某攝影書上的話，表示我也很有學問滴說……</p>
+<p>「基本上<strong>光</strong>就是<strong>電磁波</strong>，只不過不同波長範圍的光，其行為有所不同…….」</p>
+<p>光是一種<strong>波</strong>；既然光是波，那光就會有<strong>波長</strong>。</p>
+<p>「……而波長在 700 ~ 400 奈米之間的光，恰好能為人類眼睛的視神經所感知（被看到），故稱為<strong>可見光</strong>，也就是一般人所稱的「光」。……」</p>
+<h3 id="光跟顏色有什麼關係"><a href="#光跟顏色有什麼關係" class="headerlink" title="光跟顏色有什麼關係"></a>光跟顏色有什麼關係</h3><p>人的眼睛，對於光的感知，不僅有<strong>明、暗</strong>的感覺；更有「顏色」的感受。</p>
+<p>眼睛看到光，會因光的「波長」不同，而有著不同「顏色」的感覺，譬如：</p>
+<ul>
+<li>波長為 700 奈米光，會有「紅色」的感覺；</li>
+<li>波長為 600 奈米光，會有「橘黃色」的感覺；</li>
+<li>波長為 500 奈米光，會有「青綠色」的感覺；</li>
+<li>波長為 400 奈米光，會有「藍紫色」的感覺；</li>
+</ul>
+<p>其實，「光」本身並無「顏色」；那是「眼睛」解釋過後，傳送給人體大腦的「感知」！</p>
+<p>（所以，做人真的不能戴「有色眼鏡」看事情，因為所見與事實的偏差度，會變得更大…… U_U  )</p>
+<h3 id="可見光光譜"><a href="#可見光光譜" class="headerlink" title="可見光光譜"></a>可見光光譜</h3><p>綜合上述對「光」的基本認知，彙整成如下的「光譜圖」，來解釋可見光「波長與顏色」的關係：</p>
+<p><img src="http://203.71.152.82/biology/first/tea28/image/%E5%85%89%E8%AD%9C.jpg" alt="可見光光譜圖"></p>
+<h2 id="色温與顏色"><a href="#色温與顏色" class="headerlink" title="色温與顏色"></a>色温與顏色</h2><h3 id="色温是什麼？"><a href="#色温是什麼？" class="headerlink" title="色温是什麼？"></a>色温是什麼？</h3><p>當溫度有「冷熱」的變化時，自物體反射的光，也會令眼睛感受到「顏色」的變化。例如：當溫度升高時，物體反射出的光，其顏色偏向「藍色」；反之，溫度降低時，顏色則偏向「紅色」。</p>
+<p>為了表示「溫度」與「顏色」之間的變化關係，19 世紀末的一位英國物理學家 Lord Kelvin，他制定出一整套的方法，用來對應這兩者之間的關係。</p>
+<p>這套方法，在表達溫度高低，所使用的度量單位為：「凱氏溫度 °K」（絕對溫度）；也就是所謂的「色溫」。</p>
+<p>色温與顏色之間的關連，可用以下的「色温圖」來表示：</p>
+<p><img src="http://www.olympus.co.jp/jp/support/cs/DI/QandA/Basic/images/contents/s0012_14.gif" alt="色温圖"></p>
+<h3 id="色温與白平衡的關係"><a href="#色温與白平衡的關係" class="headerlink" title="色温與白平衡的關係"></a>色温與白平衡的關係</h3><p>相機上的感光元件，會依據「色溫」的高低，在「相片」上忠實呈現被拍攝物體，它所反射出來的顏色。</p>
+<p>以致相片呈現的顏色，會讓人覺得「見山不是山；見水不是水」；發生「偏紅」或「偏藍」的問題。</p>
+<p>而相機所提供的「白平衡」功能，其目的就是：為了要校正因色温而產生的顏色偏差問題。</p>
+<p>通常相機提供的白平衡功能，大致有以下六種：</p>
+<ul>
+<li>自動</li>
+<li>鎢絲燈(約3200K)</li>
+<li>白光燈(約4000K)</li>
+<li>日光(約5200K)</li>
+<li>陰天(約6000K)</li>
+<li>陰影(約7000K)</li>
+</ul>
+<p>同樣的一個物體，在：光圈、快門、ISO感光皆同；但「白平衡」不同的狀態下拍攝，其「顏色」變化，如下列相片所示：</p>
+<p><img src="https://lh5.googleusercontent.com/-WxdAY4Rrn24/VVF5A3yxWGI/AAAAAAAAhx8/Nyv7ATE4xEs/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258DAuto%25EF%25BC%258DWB.JPG" alt="自動－由相機依據色温，自動調整被拍攝物體反射的顏色"></p>
+<p><img src="https://lh5.googleusercontent.com/-rMnGhMSJuAU/VVF48rrW7tI/AAAAAAAAhxk/bQ-gcadj1Dc/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258D3200K%25EF%25BC%258D%25E9%258E%25A2%25E7%25B5%25B2%25E7%2587%2588.JPG" alt="鎢絲燈(約3200K)－相機會抑制此色温偏深紅的現象，呈相的結果為偏藍色調"></p>
+<p><img src="https://lh5.googleusercontent.com/-jAcxuEqMoQY/VVF48gQ6AUI/AAAAAAAAhxc/KkuHzultIIQ/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258D4000K%25EF%25BC%258D%25E7%2599%25BD%25E8%2589%25B2%25E8%259E%25A2%25E5%2585%2589%25E7%2587%2588.JPG" alt="白光燈(約4000K)－相機會抑制此色温偏淺紅的現象，呈相的結果為偏淡藍色調"></p>
+<p><img src="https://lh3.googleusercontent.com/-IGT9xdprYBQ/VVF486SYvjI/AAAAAAAAhxg/bIPxffR6HLM/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258D5200K%25EF%25BC%258D%25E6%2597%25A5%25E5%2585%2589.JPG" alt="日光(約5200K)－相機會抑制此色温的色偏現象，呈相的結果為淡黃色調"></p>
+<p><img src="https://lh3.googleusercontent.com/-xiN9iC8xoq4/VVF4_ScgipI/AAAAAAAAhxw/3JpvwU92BIo/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258D6000K%25EF%25BC%258D%25E9%2599%25B0%25E5%25A4%25A9.JPG" alt="陰天(約6000K)－相機會抑制此色温偏淡藍的現象，呈相的結果為偏黃、紅色調"></p>
+<p><img src="https://lh3.googleusercontent.com/-s3CteA3Oaok/VVF5AnzuOAI/AAAAAAAAhx4/s3uutcTheh8/w989-h557-no/%25E6%2597%25A5%25E6%259C%25AC%25E5%2581%25B6%25EF%25BC%258D7000K%25EF%25BC%258D%25E9%2599%25B0%25E5%25BD%25B1.JPG" alt="陰影(約7000K)－相機會抑制此色温偏深藍的現象，呈相的結果會偏紅色調"></p>
+<h2 id="明亮暖色調的攝影配方"><a href="#明亮暖色調的攝影配方" class="headerlink" title="明亮暖色調的攝影配方"></a>明亮暖色調的攝影配方</h2><h3 id="用暖色調來構圖"><a href="#用暖色調來構圖" class="headerlink" title="用暖色調來構圖"></a>用暖色調來構圖</h3><p>總結以上的知識，可以歸納出一條拍攝的心法：想要讓相片呈現出「暖色調」時，就將相機的「白平衡」設定成「陰天」，可讓「黃」的顏色增強；若是調成「陰影」，則「紅」的顏色會增加。</p>
+<h3 id="讓圖片呈現明亮的感覺"><a href="#讓圖片呈現明亮的感覺" class="headerlink" title="讓圖片呈現明亮的感覺"></a>讓圖片呈現明亮的感覺</h3><p>想讓圖片呈現明亮的感覺，可以透過相機「曝光補償（修正）」的設定，增加正值；正值設定越高，呈相的明亮度越大。</p>
+<h3 id="將圖片的顏色增豔"><a href="#將圖片的顏色增豔" class="headerlink" title="將圖片的顏色增豔"></a>將圖片的顏色增豔</h3><p>鮮豔的色彩，能帶給人歡樂與愉悅的氣氛。想要營造這種氣氛，可透過相機「相片風格」的設定，達成這樣的效果。</p>
+<p>以下的這組設定，是從書上學來的，個人覺得很不錯，提供給有需要的人參考：</p>
+<p><code>相片風格： 忠實（F）</code></p>
+<ul>
+<li>銳利度： 0</li>
+<li>對比度： -4</li>
+<li>飽和度： +3</li>
+<li>色調：   0</li>
+</ul>
+<p>最後，就用兩張相片，及拍攝時相機所用的設定，來總結這個攝影配方的效果。</p>
+<h3 id="相片一"><a href="#相片一" class="headerlink" title="相片一"></a>相片一</h3><p><img src="https://lh3.googleusercontent.com/-Q84e2spfnIE/VVG017FzoRI/AAAAAAAAhyc/d7eIjUPYi9o/s800/%2525E6%252597%2525A5%2525E6%25259C%2525AC%2525E4%2525BA%2525BA%2525E5%252581%2525B6%2525EF%2525BC%25258D%2525E9%2525A2%2525A8%2525E6%2525A0%2525BCF.JPG" alt=""></p>
+<ul>
+<li>攝影機： Cannon EOS 700D</li>
+<li>鏡頭： EF-S 18-135mm f/3.5-5.6 IS STM</li>
+<li>焦聚： 135.0 mm</li>
+<li>拍攝模式： 光圈優先自動曝光</li>
+<li>Av（光圈大小）： 5.6</li>
+<li>Tv（快門速度）： 0.25 (1/4)</li>
+<li>ISO感光： 400</li>
+<li>測光模式： 評價測光</li>
+<li>BW（白平衡）： 陰天（色温：約6000K）</li>
+<li>曝光補償： +1.0 EV</li>
+<li>相片風格： 忠實（F）<ul>
+<li>銳利度： 0</li>
+<li>對比度： -4</li>
+<li>飽和度： +3</li>
+<li>色調：   0</li>
+</ul>
+</li>
+<li>自動亮度優化： 無</li>
+</ul>
+<h3 id="相片二"><a href="#相片二" class="headerlink" title="相片二"></a>相片二</h3><p><img src="https://lh3.googleusercontent.com/-298UCPRT9nw/VVHFTpACiHI/AAAAAAAAhys/CutH8hPRYxE/s800/%2525E5%2525A5%2525A7%2525E5%25259C%2525B0%2525E5%252588%2525A9%2525E9%252599%2525B6%2525E5%25259C%25259F%2525E4%2525BA%2525BA%2525E5%252581%2525B6.JPG" alt=""></p>
+<ul>
+<li>攝影機： Cannon EOS 700D</li>
+<li>鏡頭： EF-S 18-135mm f/3.5-5.6 IS STM</li>
+<li>焦聚： 135.0 mm</li>
+<li>拍攝模式： 光圈優先自動曝光</li>
+<li>Av（光圈大小）： 5.6</li>
+<li>Tv（快門速度）： 0.25 (1/4)</li>
+<li>ISO感光： 400</li>
+<li>測光模式： 評價測光</li>
+<li>BW（白平衡）： 陰天（色温：約6000K）</li>
+<li>曝光補償： +1 2/3 EV</li>
+<li>相片風格： 忠實（F）<ul>
+<li>銳利度： 0</li>
+<li>對比度： -4</li>
+<li>飽和度： +3</li>
+<li>色調：   0</li>
+</ul>
+</li>
+<li>自動亮度優化： 無</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[近日台灣水情觀測]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/05/05/Pary-fro-rain/</url>
+      <content type="html"><![CDATA[<p><a href="http://water.taiwanstat.com/" target="_blank" rel="external"><img src="https://lh3.googleusercontent.com/-Jjuk9qyYM2o/VUi1xnCW2II/AAAAAAAAhWk/Am4Pt65QIiU/s800/2015-05-05_19-13-13.png"></a><br><a href="http://water.taiwanstat.com/" target="_blank" rel="external">台灣水庫即時水情</a><br><a id="more"></a><br>這兩天來的降雨，據電視新聞的報導說：「高雄市原訂本週將實施的第三階段限水，可望暫緩實施……」</p>
+<p>這首《求雨歌》，可還得持續再唱個幾天！</p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/bpx5hsCJJh8" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[如何使用 9 伏特的電池為手機做緊急充電]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/04/30/How-to-charge-your-phone-with-9V-battery/</url>
+      <content type="html"><![CDATA[<p>當天災發生，手機會是報平安；甚至是求救的最佳工具！</p>
+<p>但是伴隨天災之後，常有區域性的大停電問題，如果這時候，手機連電也沒了，那該如何是好？</p>
+<p>有專家說：「只要有車充的USB線及9V的電池，就能為手機充電，足夠你打通求救電話」。</p>
+<p>怎麼做？<br><a id="more"></a><br>首先，需要備妥下列這些材料。</p>
+<h3 id="【準備材料】"><a href="#【準備材料】" class="headerlink" title="【準備材料】"></a>【準備材料】</h3><ul>
+<li>USB 車充線</li>
+<li>9V 電池</li>
+<li>鑰匙（有人說硬幣也行）</li>
+</ul>
+<img src="https://s.yimg.com/wb/images/1FF9474E48E54E8DAF4C0A07A5C02FFA6136B0F6" width="400" height="600" title="[USB車充線]">
+<img src="http://ecx.images-amazon.com/images/I/41-3aUnZdLL.jpg" width="300" height="500" title="[9V電池]">
+<h3 id="【操作步驟】"><a href="#【操作步驟】" class="headerlink" title="【操作步驟】"></a>【操作步驟】</h3><ol>
+<li><p>將「 USB 車充線」的 Mini USB 接頭，插入待充車的手機</p>
+</li>
+<li><p>將「 USB 車充線」的「揷頭」，接觸電池的正極（標示 + 號的那一端）</p>
+</li>
+<li><p>將「鑰匙」的底端，接接觸電池的負極（標示 － 號的那一端）</p>
+</li>
+<li><p>將「鑰匙」的頂端，與「揷頭」露出的金屬部份接觸</p>
+</li>
+</ol>
+<p>有道是「言有盡，而意無窮」，以上的操作，真是「筆墨難以形容」的事，那四道用文字敘述的【操作步驟】，就當它是口訣背，實際的操作細節，請參詳以下的影片吧！</p>
+<iframe src="https://www.youtube.com/embed/Akqcos28R-0?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[大雄與奶奶]]></title>
       <url>http://alanjui.github.io/blog/blog/2015/04/29/Da-Xong-and-Grand-Mom/</url>
       <content type="html"><![CDATA[<p><img src="http://www.kagaminelen.org/tearing/big/1315084575038.jpg" alt="大雄與奶奶"><br>小時候的娛樂，有漫畫書可看，就覺得很開心。可是那年頭，衣服有破洞還會補，長褲穿到變「八分褲」的時候，才會考慮要不要買新的「太子龍」學生制服。所以，看漫畫也算是種奢侈享受。  ^^!!<br><a id="more"></a>  </p>
@@ -68,6 +336,20 @@
 <p>只是班上同學有36個，排起來也不少人，每次輪流都要等好久，等到望穿秋水，感覺好累！<br>《大雄與奶奶》很早以前，已在小叮噹的漫畫書看過。不過那時的感覺，只是溫馨而已。</p>
 <p>今夜，再次觀賞卡通的版本，竟覺裡面塞了好大一顆的洋蔥……</p>
 <iframe src="https://www.youtube.com/embed/LtX4psb4m-Y?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[全球最安全國家－台灣排名第二]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/04/28/Top-10-safest-countries-to-live-in-the-world-Taiwan-2nd/</url>
+      <content type="html"><![CDATA[<p><img src="https://db.tt/VbLqfQDM" alt="Top 10 Safest Countries In The World To Settle In 2014"></p>
+<p>台灣之光，咱們的驕傲！ ^^y<br><a id="more"></a></p>
+<p>美國網站「Lifestyle9」，在題目為：<a href="http://www.lifestyle9.com/top-10-safest-countries-to-live-in-the-world/4/" target="_blank" rel="external">《Top 10 Safest Countries In The World To Settle In 2014》</a>的報導，以「犯罪率」及「安全度」為主要依據，挑選出全球最適合安家落戶的10個國家。</p>
+<p>這前十大安全國家分別是：日本、台灣、香港、韓國、阿拉伯聯合大公國、馬爾他、盧森堡、喬治亞、巴林與新加坡。</p>
+<p>台灣以「犯罪率變異數：16.26」、「安全變異指數：83.74」名列第二，僅次於日本。<br><code>【註】：「台北」在「2014全球最佳旅遊城市報告」的排名躍升至第15名。</code></p>
+<p>網站上的報導說：台灣很少發生暴力犯罪及搶劫。人們友善、熱情，且普遍誠實，樂於助人。</p>
+<p>來台灣旅遊過的外國遊客說：在台灣遊玩沒啥好擔憂、害怕；遇有問題的時候，甚至不用開口，就有人主動前來關懷，詢問是否需要協助！ ^^y</p>
+<p>外國遊客認為，咱們台灣是女性的完美居住所在，因為女性在深夜外出，不用擔心會發生什麼事！ ^^y</p>
 ]]></content>
     </entry>
     
@@ -130,6 +412,59 @@
 <p>「毒你千遍也不厭倦…………」</p>
 <p>ZZZ zzz zzz zzz ………………</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/FxCAjDkWKw4?rel=0" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Markdown 入門]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/04/25/Markdown-ABC/</url>
+      <content type="html"><![CDATA[<p><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9-YiPtxqPWBo38HqxjiOV1Vr87B_tu5HKDQ8OCzZrD68R-cee" alt="Hexo"></p>
+<p>幫自己做個小抄，條列Markdown入門常用的基礎語法！</p>
+<a id="more"></a>
+<h1 id="Markdown-語法"><a href="#Markdown-語法" class="headerlink" title="Markdown 語法"></a>Markdown 語法</h1><h2 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h2><h3 id="【語法】："><a href="#【語法】：" class="headerlink" title="【語法】："></a>【語法】：</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 第一階標題</span></span><br><span class="line"><span class="section">## 第二階標題</span></span><br><span class="line"><span class="section">### 第三階標題</span></span><br><span class="line"><span class="section">#### 第四階標題</span></span><br><span class="line"><span class="section">##### 第五階標題</span></span><br><span class="line"><span class="section">###### 第六階標題</span></span><br></pre></td></tr></table></figure>
+<h3 id="【輸出】："><a href="#【輸出】：" class="headerlink" title="【輸出】："></a>【輸出】：</h3><h1 id="第一階標題"><a href="#第一階標題" class="headerlink" title="第一階標題"></a>第一階標題</h1><h2 id="第二階標題"><a href="#第二階標題" class="headerlink" title="第二階標題"></a>第二階標題</h2><h3 id="第三階標題"><a href="#第三階標題" class="headerlink" title="第三階標題"></a>第三階標題</h3><h4 id="第四階標題"><a href="#第四階標題" class="headerlink" title="第四階標題"></a>第四階標題</h4><h5 id="第五階標題"><a href="#第五階標題" class="headerlink" title="第五階標題"></a>第五階標題</h5><h6 id="第六階標題"><a href="#第六階標題" class="headerlink" title="第六階標題"></a>第六階標題</h6><h2 id="無序號清單（Unordered-List）"><a href="#無序號清單（Unordered-List）" class="headerlink" title="無序號清單（Unordered List）"></a>無序號清單（Unordered List）</h2><h3 id="【語法】：-1"><a href="#【語法】：-1" class="headerlink" title="【語法】："></a>【語法】：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 蘋果</span><br><span class="line">* 洋蔥</span><br><span class="line">* 蕃茄</span><br></pre></td></tr></table></figure>
+<h3 id="【輸出】：-1"><a href="#【輸出】：-1" class="headerlink" title="【輸出】："></a>【輸出】：</h3><ul>
+<li>蘋果</li>
+<li>洋蔥</li>
+<li>蕃茄</li>
+</ul>
+<h2 id="無序號清單（Ordered-List）"><a href="#無序號清單（Ordered-List）" class="headerlink" title="無序號清單（Ordered List）"></a>無序號清單（Ordered List）</h2><h3 id="【語法】：-2"><a href="#【語法】：-2" class="headerlink" title="【語法】："></a>【語法】：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 關啟電源</span><br><span class="line">2. 插好音源線</span><br><span class="line">3. 按「播放」鈕</span><br></pre></td></tr></table></figure>
+<h3 id="【輸出】：-2"><a href="#【輸出】：-2" class="headerlink" title="【輸出】："></a>【輸出】：</h3><ol>
+<li>關啟電源</li>
+<li>插好音源線</li>
+<li>按「播放」鈕</li>
+</ol>
+<h2 id="帶有標題的清單（Definition-List）"><a href="#帶有標題的清單（Definition-List）" class="headerlink" title="帶有標題的清單（Definition List）"></a>帶有標題的清單（Definition List）</h2><p><code>《註》：這不是 Markdown 的語法，但在.MD檔案中，可使用的 HTML 語法。</code></p>
+<h3 id="【語法】：-3"><a href="#【語法】：-3" class="headerlink" title="【語法】："></a>【語法】：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;dl&gt;</span><br><span class="line">  &lt;dt&gt;驗證（Verification，VER）&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;發展中的工作產品，能符合「規格」中定義的需求。&lt;/dd&gt;</span><br><span class="line">  &lt;dt&gt;確認（Validation，VAL）&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;交付的產品在「上線」的環境中運作，能滿足預期的使用需求。&lt;/dd&gt;</span><br><span class="line">&lt;/dl&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="【輸出】：-3"><a href="#【輸出】：-3" class="headerlink" title="【輸出】："></a>【輸出】：</h3><dl><br>  <dt>驗證（Verification，VER）</dt><br>  <dd>發展中的工作產品，能符合「規格」中定義的需求。</dd><br>  <dt>確認（Validation，VAL）</dt><br>  <dd>交付的產品在「上線」的環境中運作，能滿足預期的使用需求。</dd><br></dl>
+
+<h2 id="表格（Table）"><a href="#表格（Table）" class="headerlink" title="表格（Table）"></a>表格（Table）</h2><ul>
+<li>第一欄：靠左排列</li>
+<li>第二欄：靠中排列</li>
+<li>第三欄：靠右排列</li>
+</ul>
+<h3 id="【語法】：-4"><a href="#【語法】：-4" class="headerlink" title="【語法】："></a>【語法】：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|Product   |      Spec.          |   Price   |</span><br><span class="line">|----------|:-------------------:|----------:|</span><br><span class="line">|HDD       | 7200 RPM, 540 GB    | $30,000   |</span><br><span class="line">|Monitor   | 1280 x 1024         | $6,000    |</span><br></pre></td></tr></table></figure>
+<h3 id="【輸出】：-4"><a href="#【輸出】：-4" class="headerlink" title="【輸出】："></a>【輸出】：</h3><table>
+<thead>
+<tr>
+<th>Product</th>
+<th style="text-align:center">Spec.</th>
+<th style="text-align:right">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HDD</td>
+<td style="text-align:center">7200 RPM, 540 GB</td>
+<td style="text-align:right">$30,000</td>
+</tr>
+<tr>
+<td>Monitor</td>
+<td style="text-align:center">1280 x 1024</td>
+<td style="text-align:right">$6,000</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     
@@ -220,14 +555,14 @@
     <entry>
       <title><![CDATA[地球に乾杯]]></title>
       <url>http://alanjui.github.io/blog/blog/2015/04/18/Toast-the-earth/</url>
-      <content type="html"><![CDATA[<p>晚上看有線電視台，重播電影《2012》，那些地球毀滅的畫面，看起來仍讓人驚心動魄！<br><a id="more"></a>  </p>
-<p><img src="http://tw.ent.yimg.com/mpho/22/71/22271.jpg" alt="電影 2012 場景一"></p>
+      <content type="html"><![CDATA[<p>晚上看有線電視台，重播電影《2012》，那些地球毀滅的畫面，看起來仍讓人驚心動魄！</p>
+<p><img src="http://tw.ent.yimg.com/mpho/22/71/22271.jpg" alt="電影 2012 場景一"><br><a id="more"></a>  </p>
 <p><img src="http://pic.pimg.tw/lannacheer/4b17bc644e2ed.jpg" alt="電影 2012 場景二"></p>
 <p>地球的歳數幾何？<br><img src="data:image/jpeg;base64,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" alt="地球"></p>
 <p>目前公認地球的年齡約為 45 億 6700 萬年。根據科學家的講法，地球形成後，長達數億年之久的期間，遭受隕石密集的轟炸，致使地球誕生初期，當年在地表上形成的物質，早已摧毀殆盡，若想採樣，得鑽到地心去取！ U_U !!</p>
 <p>疑似人類祖先的物種，直到 600 萬年前，才在地球上出現。人類學家認定可考的人類文明歷史，頂多不會超過七八千年；而今年，也不過才公元 2015 年……</p>
 <p>聽著這影片壯闊的音樂，看著那美麗的山川大海風光，不禁感歎地球真是顆美麗的星球。祈禱人類能珍惜、愛護祂，學會如何與祂共榮共存，讓生命生生不息、永世不絕！</p>
-<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/W09ZGfZIMP8?rel=0" frameborder="0" allowfullscreen></iframe>
+<h3 id="《地球に乾杯-Toast-The-Earth》"><a href="#《地球に乾杯-Toast-The-Earth》" class="headerlink" title="《地球に乾杯 Toast The Earth》"></a>《地球に乾杯 Toast The Earth》</h3><iframe src="https://www.youtube.com/embed/2neYEpmUv9A?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
 ]]></content>
     </entry>
     
@@ -249,7 +584,7 @@
     
     <entry>
       <title><![CDATA[Stack Overflow 揭秘程式開發者15 個不為人知的秘密]]></title>
-      <url>http://alanjui.github.io/blog/blog/2015/04/15/post-01/</url>
+      <url>http://alanjui.github.io/blog/blog/2015/04/15/secreat-of-DV-you-dont-know/</url>
       <content type="html"><![CDATA[<p>你寫程式嗎？</p>
 <p>來看看，你跟其他的同行，有何異、同？！ ^^y<br><a id="more"></a></p>
 <p><div style="text-align:center"><br>  <a href="http://www.inside.com.tw/2015/04/14/stackoverflow-2015-dev-survey#/" target="_blank"><br>    <img src="http://static.inside.com.tw/wp-content/uploads/2015/04/programmer-198x198.jpg" width="640" height="480"><br>  </a><br></div><br><a href="http://www.inside.com.tw/2015/04/14/stackoverflow-2015-dev-survey#/" title="GitHub Repo" target="_blank" rel="external">《Stack Overflow 揭秘程式開發者15 個不為人知的秘密》</a>  </p>
@@ -258,14 +593,80 @@
     
     <entry>
       <title><![CDATA[上載到臉書的圖片，如何使用「貼圖」功能進行修飾]]></title>
-      <url>http://alanjui.github.io/blog/blog/2015/04/14/post-01/</url>
-      <content type="html"><![CDATA[<p>昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！ </p>
+      <url>http://alanjui.github.io/blog/blog/2015/04/14/Upload-photo-to-FB/</url>
+      <content type="html"><![CDATA[<p>昨夜，有圖片要上載到臉書，無意間發現，臉書又增添新功能了！！</p>
 <p>現在的臉書，在上載「圖片／照片」的時候，不管是什麼片，通通都可以透過新提供的<br>「編輯相片」功能，在圖片上加入「貼圖」，讓使用者為圖片添加一些「修飾效果」！<br><a id="more"></a></p>
 <p>因為好奇，試玩了一下下，完成了這個成品！ ^^y</p>
-<div style="text-align:center"><br>  <img src="/assets/img/2015-04-14-01.jpg"><br></div>
-
+<img src="https://dl.dropboxusercontent.com/u/45512449/2015-04-14.jpg" width="240">
 <p>有興趣，也想使用這新功能的朋友，可參考以下這放在 YouTube 的教學影片，<br>學習功能用法的操作細節。</p>
 <div style="text-align:center"><br><iframe width="640" height="480" src="https://www.youtube.com/embed/RX8RF50AL0I?rel=0" frameborder="0" allowfullscreen></iframe><br></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[升級到 OS X 10.10後，再也無法自 Windows 使用 Mac 的共享資料夾]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/03/24/Can-not-use-Mac-shared-folder-from-Windows/</url>
+      <content type="html"><![CDATA[<p>我的 MacBookPro 升級到 OS X 10.10 的另一個災難，那就是 Windows Client 再也無法使用 Mac 分享出來的「共用資料夾」！   ＝..＝<br><a id="more"></a><br>家裡有台 Windows Server 2008 R2 的電腦，經常需要透過「檔案總管」，去存取位於 Mac 電腦端的共享資料夾。</p>
+<p>當我的 MacBookPro ，其作業系統還是 OS X 10.9 的時候，自 Windows Server 2008 R2 的電腦，去存取 Mac 端共享資料夾的檔案，一切運作良好。</p>
+<p>但……，升級到 OS X 10.10 之後，我想「外甥打燈籠－照舊」，仍自 Windows Server 2008 R2 電腦的檔案總管，去存取 Mac 端的共享資料夾……</p>
+<p>這時，Windows 端會跳出以下這對話方塊，跟我做使用者身份的驗證工作。（這時心中已暗叫：不妙！）</p>
+<img src="https://lh3.googleusercontent.com/-npZgrmNxm94/VFTzcQWCftI/AAAAAAAAeL0/1bX2iV6mP7s/s429/2014-11-01_22-40-00.png">
+<p>我一再地重複輸入「使用者帳戶名」及「密碼」，無論做幾十次，通通過不了關！  QQ</p>
+<p>被這問題困擾了近兩週，今天發狠，下定決心要跟這個問題奮戰。搞了快一天，才找到問題的解決方法。</p>
+<h2 id="【問題導因】"><a href="#【問題導因】" class="headerlink" title="【問題導因】"></a>【問題導因】</h2><p>網路上的文章說：「在 OS X 10.10 ，變更了 Mac 電腦所使用的 SMB 通信協定，改為 SMB3…….」。因此個人推斷，這就是為什麼原來可正常運作的網路分享，竟會變成異常的原因。</p>
+<h2 id="【解決方案】"><a href="#【解決方案】" class="headerlink" title="【解決方案】"></a>【解決方案】</h2><p>解決上述問題的解法，就是要變更 Windows Server 2008 R2 電腦端的「網路安全性：LAN Manager驗證等級」設定，將它自原先的「傳送 LM 和 NTLM－ 如有交涉，使用 NTLMv2 工作階段安全性」，改成「只傳送 NTLMv2 回應」。</p>
+<p>其設定的操作程序，如下所示：</p>
+<ol>
+<li><p>點擊〔開始〕鈕。</p>
+<img src="https://lh3.googleusercontent.com/-qnaEsuIqJuw/VFTuwLfLDCI/AAAAAAAAeLc/pMfcW7KFiNo/s698/MacShare-01.png">
+</li>
+<li><p>點擊〔所有程式〕／〔系統管理工具〕／〔本機安全性原則〕。</p>
+<img src="https://lh3.googleusercontent.com/-OLT--5tgKK8/VFTuwKdXOfI/AAAAAAAAeLU/Z54dUHclygw/s398/MacShare-02.png">
+</li>
+<li><p>在〔本機安全性原則〕視窗，於左邊窗格，點選〔本機原則〕／〔安全性選項〕。</p>
+<img src="http://3.bp.blogspot.com/-bTiYB18k_Go/VFTuwJrqCSI/AAAAAAAAeLY/kQ04OXkF7uk/s1600/MacShare-03.png">
+</li>
+<li><p>於右窗格，透過捲軸調整清單的可視範圍，直到可以看到〔網路安全性：LAN Manager驗證等級〕項目。</p>
+</li>
+<li><p>雙擊〔網路安全性：LAN Manager驗證等級〕項目。</p>
+</li>
+<li><p>在〔網路安全性：LAN Manager驗證等級－內容〕視窗，透過下拉式選項清單，變更選項成〔只傳送 NTLMv2 回應〕。點擊〔確定〕鈕。</p>
+<img src="https://lh3.googleusercontent.com/-OK0MLr_4ZtY/VFTuwzYrHAI/AAAAAAAAeLo/3DawE5HnxuY/s465/MacShare-04.png">
+</li>
+<li><p>關閉〔本機安全性原則〕視窗。（設定到此完成）</p>
+</li>
+</ol>
+<h2 id="【後記】"><a href="#【後記】" class="headerlink" title="【後記】"></a>【後記】</h2><p>在 Mac 電腦端，如何設定資料夾的共享；如何自 Windows 端電腦連上 Mac 電腦，使用 Mac 共享的資料，對此設定仍有困惑的朋友，可參考這篇「<a href="http://www.7tutorials.com/how-share-os-x-folders-windows-7" target="_blank" rel="external">How to Share Folders from Mac OS X with Windows 7 &amp; Windows 8 PCs</a>」網路PO文。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Angular Material 入門摘要]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/02/08/AngularMaterial-Introduction/</url>
+      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>Google 發表的《Material Design》，現在就連 AngularJS 都能使用了。<br><a id="more"></a><br>讓 AngularJS 能引用 Material Design 的專案－「Angular Material」，其官網如是描述自己：</p>
+<blockquote>
+<p>The Angular Material project is an implementation of Material Design in Angular.js.</p>
+<p>This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system.</p>
+</blockquote>
+<p>對這個 Angular Material 專案，有興趣了嗎？後續該做什麼才能開始入門的學習之路？</p>
+<p>個人建議就從以下兩點著手吧！</p>
+<h2 id="先探詢-Angular-Material-有何能耐"><a href="#先探詢-Angular-Material-有何能耐" class="headerlink" title="先探詢 Angular Material 有何能耐"></a>先探詢 Angular Material 有何能耐</h2><p>進入<a href="https://material.angularjs.org/#/" target="_blank" rel="external">官網</a>後，請先點選左側的「DEMOS」，然後再自展開的：Bottom Sheet, Button, Card, ……，選擇自己有興趣瀏覽的元件項目。</p>
+<p>每個 Angular Material 元件，均可自網頁的右側：(1) 觀看元件的執行效果；(2) 瀏覽其 HTML/JS/CSS 原始碼。</p>
+<h2 id="想要親手試試"><a href="#想要親手試試" class="headerlink" title="想要親手試試"></a>想要親手試試</h2><p>看得心癢癢，想要自己玩玩看的朋友，則請點選左側的「<a href="https://material.angularjs.org/#/getting-started" target="_blank" rel="external">GETTING SARTED</a>」，開始您的探索之旅。</p>
+<p>個人推薦就從「How do I start?」的「<a href="https://github.com/angular/material-start" target="_blank" rel="external">Clone a Github Starter Project</a>」入門吧！</p>
+<p>有點擔心以上的介紹，因為用文字說明，有不易了解的問題；所以，囉唆的人，製作了以下的導引說明影片，希望有那麼一點助益。</p>
+<iframe src="https://www.youtube.com/embed/8ChCu6ivL5o?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Angular Material 教學影片]]></title>
+      <url>http://alanjui.github.io/blog/blog/2015/02/08/AngularMaterial-YouTube/</url>
+      <content type="html"><![CDATA[<p>找了好久、好久，第一支找到的 Angular Material 教學影片！ ^^y</p>
+<a id="more"></a>
+<p>教學主題：Angular Material Design + $http from AngularJS + Flickr API</p>
+<iframe src="https://www.youtube.com/embed/lvGAgul5QT4?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
 ]]></content>
     </entry>
     
@@ -335,14 +736,412 @@
     </entry>
     
     <entry>
+      <title><![CDATA[重新認識「子路」]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/10/22/Zhi-Lu/</url>
+      <content type="html"><![CDATA[<p>最近，迷上了「現代啟示錄」這節目，總愛在週末看著它，談論古往今來的歷史人物們。</p>
+<p>週日，因為看到這節目介紹孔門的幾位大弟子－子貢、子路及宰我，突然，對子路鮮明的個性發生興趣！<br><a id="more"></a><br>在網站上搜尋，找了些資料，整理如下：</p>
+<img src="http://upload.wikimedia.org/wikipedia/commons/8/8b/Dokusho_no_tsuki.jpg" title="子路負米讀書">
+<p>仲由（西元前542年－西元前480年），字「子路」，或稱季路，魯國卞人，是孔子的著名弟子，孔門四科十哲之一，少孔子九歲，果真是孔門大弟子，也是弟子中侍奉孔子最久者。</p>
+<p>子路常被孔子數落，說他：「暴虎憑河」；對他搖頭嘆息說：「無所取材」。子路是塊杇木嗎？</p>
+<p>好像不是，因為孔子對子路的評價則又極高，孔子說子路：「可備大臣之數」、「千乘之國可使治其賦」；並說是因為子路，才使得孔子自己能「惡言不聞於耳」。我想春秋時代，若是也有五星評價制度，孔子就算不給子路五星級；應該也會是四點五星級吧！</p>
+<h2 id="【子路遇孔子】"><a href="#【子路遇孔子】" class="headerlink" title="【子路遇孔子】"></a>【子路遇孔子】</h2><p>子路是怎麼認識孔子，拜入門下的呢？</p>
+<p>聽說子路從小家境貧困，但性格卻非常的直爽，喜好打抱不平。而且他的穿著也很有個性，在當時來說，也應該是很「潮」的——頭戴雄雞式的帽子（這點很像後世的濟公師父），腰間佩戴的是由公豬皮裝飾的寶劍 （據說這是當時勇士的象徵），完全一副「古惑仔」的打扮。</p>
+<p>由於沒有正當工作，所以，子路每次吃完飯就往外跑，到處溜達遊逛，隨時準備著見義勇為。</p>
+<p>說來也巧，不知哪天，上天吹來了一陣怪風，就把子路和孔子二人給吹到了一塊。</p>
+<p>茫茫人海，每天不知有多少人擦肩而過。但是就是在這一天，孔子和子路擦肩了，但子路沒有讓孔子過去。</p>
+<p>為什麼？</p>
+<p>因為你撞著我啦！</p>
+<p>做為一個本來就愛管閒事的小青年，自己被人給撞了一下，那是怎麼也說不過去的，那就更應該管一管。</p>
+<p>於是，子路非得讓孔子給個說法不成。不然，兄弟我不放你走。</p>
+<p>於是乎，孔子是又賠禮又道歉，而且還給他說了不少好話。但是，不知子路是否是對孔子的誠意不太認同，就是不放孔子走。不光不放他走，並且由於自己正在氣頭上，還特意說了許多讓孔子難堪的話，以至於後來差點沒動起手來。</p>
+<p>孔子一看不行，隨著子路的吆喝聲，大街上前來看熱鬧、圍觀的人群越來越多，如果繼續下去的話，會有失自己的身份。</p>
+<p>於是，他拿出了自己最擅長的本事——「誨」人。開始心平氣和地用禮教慢慢的來誘導子路。</p>
+<p>也許是上天注定要二人成為師生，不一會，子路還真被孔子說服了，並且最後還向孔子鞠躬道歉。</p>
+<p>回到家中，子路想了很多，就是為了自己的父母，自己也不能再這樣遊手好閒下去。遇見孔子這樣學識淵博之人，那是實屬不易的，自己說什麼也不能放過。</p>
+<p>於是，經過一夜的深思熟慮，子路決定拜孔子為師。</p>
+<p>幾日後，子路穿著特意製作的儒家服飾，帶著禮物（這個是一定要的啦），通過孔子的門人來求見孔子。</p>
+<h2 id="【比師父還兇的徒弟】"><a href="#【比師父還兇的徒弟】" class="headerlink" title="【比師父還兇的徒弟】"></a>【比師父還兇的徒弟】</h2><p>子路雖是孔子的弟子，但因子路只小孔子九歲，所以，他們師徒間的關係，卻也親如兄弟一般。子路敢跟孔子發飆，甚至逼著他表態！</p>
+<p>當孔子離開魯國，來到隔壁衛國的時候，發生了一段南子會孔子的插曲，這件事也被記錄在《論語》－「子見南子，子路不說」。</p>
+<iframe src="https://www.youtube.com/embed/WsOdEPcGQpY?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>南子，是衛國國君（靈公）的竉妾，這位君夫人，沒有留一點給人探聽，在外的名聲不太好，用個比較禮貌性的講法是－「Going Down」。</p>
+<p>大概是因為孔子的金字招牌太響亮，名氣太大，因此，大美女－南子也想見見他。</p>
+<p>孔子本想不去，但又思忖：「我現在是衛國的客人，這國的君夫人堅持說要見我，我若硬是不去，這樣似也不太合乎禮數。我去見她，中間有個帷幕隔著，要發生什麼事也難；我只要跟君夫人談個幾句就告退，這事就這樣處理，應該是妥當的吧⋯⋯」</p>
+<p>孔子去會見南子之事，傳到子路耳中，子路很生氣，跑去質問他的夫子，老實不客氣地說：「你不是說過，『未見好德如好色者』？啊～！你還跑去會見一個名聲不好的女人，這究竟是什麼意思？」</p>
+<p>子路充份「林北袜爽」的態度，逼著孔子問，會見南子意欲為何。他那可憐的師尊，被逼到只能指天發重誓說：「予所否者，天厭之！天厭之！」（意思差不多是：「我若心中有鬼，願遭天打雷劈」） U_U!!</p>
+<p>因為楚昭王想要招賢，向孔子下聘書，孔子的周遊列國之旅，因而向楚國走去。沒想到這事被陳、蔡兩國的大夫知道後，他們竟認為：「孔子這位當今的聖賢若到了楚國，楚必大治，到時候我們陳、蔡兩國鐵定會被楚國給KO……」</p>
+<p>兩國的大夫聯手使壞，派兵阻止孔子，孔子一行人，因而被擋在陳國與蔡國之間，發生了絕糧七日的慘況，孔門弟子個個餓到手軟、腿軟，走不動，沒了氣力。</p>
+<p>子路這個火爆浪子受不了，結個面秋，跑去質問夫子：「做為君子的我們，為何會走到這種窮困潦倒的地步？」</p>
+<p>孔子安慰子路說：「我們君子就算窮，也還是會固守正道，不忘自己的志節；若是小人，一旦窮困，便會胡作非為，幹盡壞事囉！」</p>
+<div class="video-container"><br>  <iframe width="420" height="315" src="https://www.youtube.com/embed/bTM4gLNtBk8?t=3m33s" frameborder="0" allowfullscreen></iframe><br></div>
+
+
+<h2 id="【子路的本事】"><a href="#【子路的本事】" class="headerlink" title="【子路的本事】"></a>【子路的本事】</h2><p>細讀《論語》，每回孔子跟弟子們問話討論事情時，搶頭香第一個回話的人，一定是子路。</p>
+<p>有回孔子以「我的志願？」為題問弟子。子路又是搶答發言，他說：「千乘（戰車）規模的中型國家，夾在大國之間，常鬧戰亂、饑荒。如果有國君肯重用我，不需三年時間，我就可以讓他的人民知道什麼是勇氣，不用怕大國，而且最重要的是『且知方也』，要有勇有謀，不是亂搞的。」</p>
+<p>哇？！多麼大氣的話？子路真有這種本嗎？還是說，他只會吹大牛，說大話呢？</p>
+<p>在西元前487年，子路成為衛國大夫「孔悝」的家臣，被任命為「蒲邑宰」。</p>
+<p>據今長垣縣的地方縣誌記載，子路「治蒲三年」，成績卓著，他親自帶領民眾開挖溝渠，以利農耕。孔子聽説這位弟子政績斐然後，專門從外地趕來採望子路，想要瞭解子路的施政成績。</p>
+<p>剛進入蒲邑境內，孔子就稱讚説：「子路真好啊！」走進城內看了一圈，孔子又説了一句「子路真好啊！」走進衙門後，孔子第三次説了一句：「子路真好啊！」。</p>
+<p>這時，跟著孔子的子貢有點納悶，就問：「A~~~！夫子你還沒見到子路，知道他的政績何在，就連著三次稱讚他，子路好在那裏？可以說來聽聽嗎？」</p>
+<p>孔子說：「我已經看到子路的政績了啦。剛進入縣境時，看見縣內的田地都耕得很整齊，雜草鋤得很乾淨，田邊的溝渠很深又順暢，這是子路『恭敬又有信用』，所以農民盡心盡力做事啊！」</p>
+<p>「進了城內，看見房屋圍牆都很堅固，路樹也很茂盛，這是子路『忠信又寬厚』，所以百姓不苟且隨便啊！」</p>
+<p>「到了衙門前，看見庭院清靜幽閑，辦事的人都很認真，這就是子路『明察又果決』，所以他的政治清明不亂。」</p>
+<p>最後，孔子認為子路的仁政，取得了斐然的成果，所以就沒有必要再去見子路了，於是就帶著子貢滿意地回去了。後來，蒲邑被稱為「三善之地」。</p>
+<h2 id="【師徒之間】"><a href="#【師徒之間】" class="headerlink" title="【師徒之間】"></a>【師徒之間】</h2><p>此事記載在《公冶長篇》。有天，大概是孔子心情不太好，又在感慨：「為何他所推崇的仁道，竟無法行之於天下？」</p>
+<p>結果，孔子說：「唉！算了！既然我的仁道無法推行於天下，不如乘木筏來去海上漂流，追尋自我吧！這種時候還會跟著我走的人，我想大概也就只有子路吧？！」</p>
+<p>孔子發牢騷時，所講的這段話，後來傳到子路耳中，子路聞言大喜，興冲冲地跑去見老師，一見到孔子，劈頭便問：「夫子，那……咱們時候出發，去海上漂流咧？！」</p>
+<p>孔子被這位寶貝學生搞得有些哭笑不得，只能說：「子路啊！你還真是比我勇哦！可我們在海上漂流要乘坐的木筏需要木材，這些木材我還不知道要上那兒找啊？！」</p>
+<p>直性子的子路，被他老師虧了一下；別說《論語》是本正經八百，看了容易讓人昏沈的書，其中，還是有地方，可以看笑話。 ^^</p>
+<h2 id="【君子死-冠不免】"><a href="#【君子死-冠不免】" class="headerlink" title="【君子死 冠不免】"></a>【君子死 冠不免】</h2><p>子路過於剛直，忘了應適時有彈性，孔子對這個問題學生，很是憂心，怕他晚年悽慘，結果，事情還是發生了。甚至令孔子「失禮」哭於中庭⋯⋯</p>
+<p>子路在衛國當官時，是大夫孔悝的家臣，那時的國君為「衛出公」。</p>
+<p>在公元前480年，靈公在位時的廢太子－蒯聵想要重回衛國國君寶座，但是蒯聵擔心自己的政治實力不夠，因而脅迫子路的主子－孔悝，要孔悝幫他篡位。（「蒯聵」也就是後來的「衛莊公」）</p>
+<p>當蒯聵發動政變的時候，子路有事在外。當他知道國君，跟主子皆有難時，立即從陳國趕回衛國去。</p>
+<p>說來也巧，子路竟在衛國城門，遇上正從城內逃出來的同門師弟－子羔。</p>
+<p>子羔對子路說：「衛出公都逃走了，城門也已經關閉，你可以回去了找夫子了，不用再為已經倒掉的政權遭殃，受禍了。」</p>
+<p>子路對子羔的言論感到吃驚，他很生氣地說：「既然吃了人家的糧，主子有難，做人家臣就不該怕死而迴避。」</p>
+<p>子羔見勸他不住，自己就擺擺手離去了。</p>
+<p>子路進了城，與蒯聵的家將發生激戰，對方是兩個年輕力壯的貼身侍衛－石乞和盂黶。但是子路這個年過花甲的老人，卻是一點也不示弱，很有老當益壯的雄風。</p>
+<p>但畢竟雙拳難敵四手，一不留神，子路的帽帶被對方給斬斷了，子路也沒喊暫停，就停止戰鬥，彎下身撿起冠來，邊繫帶子，邊自言自語：「君子就算要死，也不能讓冠帽掉落」，這要命的一刻，令子路被敵方趁虛而入，結束了他六十三年的生命，死後還被剁成肉醬。</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ZzONEn47huVk34JT77jZgBmZ3gKDW8jkNSuzSLyXRtWSW2xF" width="560">
+<p>《禮記．檀弓篇》提到孔子哭子路於中庭。不知《禮記》為何要提這段？不知是不是因為「中庭」是大庭廣眾的地方，不能痛聲大哭？孔子是老師，子路是學生，長輩不能為晚輩哭？（唉！學了禮，人就要變成木頭嗎？！）</p>
+<p>孔子還沒弄清楚子路是怎麼死的，就已哭個半死，直到情緒發洩完，回神之後，他才有辦法問明詳細的情況。待孔子明白子路之死的來龍去脈之後，孔子終身再也不吃肉醬了。</p>
+<h2 id="【後記】"><a href="#【後記】" class="headerlink" title="【後記】"></a>【後記】</h2><p>從小到大，總覺得孔子、子路，又是至聖，又是孔門十哲的，那是我可望而不可及的人。直到，最近才感受到他們也是人，也跟我一樣是有血、有肉；會哭、會笑，也有感情的人。第一次覺得跟他們親近了一些。</p>
+<p>總有人認為：「子路之死，死於迂腐」，他們認為子路死守禮教，不知變通，實在是太過死板了。</p>
+<p>只是啊！人生總有許多的橫逆，每天總有許多磨難；我們經常被迫要在「信念」與「現實」間取捨；通常，結果就是我們總被逼著要低頭，美其名說是：「視時務者為俊傑，應當適時妥協」……</p>
+<p>人生之難，難在做自己，總要為現實低頭。但子路直到生命的最後一刻，仍是然堅持自己心中的信念，不改其志，無所妥協。</p>
+<p>有道是「時窮節乃現」，子路，值得讓人敬重的「真心英雄」！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[更新到 OS X 10.10 ， Java 應用軟體無法正常執行]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/10/19/Can-not-run-Java-AP-after-upgrade-to-OSX-10/</url>
+      <content type="html"><![CDATA[<p>每回更換 Mac 的作業系統版本，總會有些「驚喜」，這回也不例外！ ^^!!</p>
+<p>我的 MacBook Pro ，更新到 OS X 10.10（Yosemite）後，我所有的 Java Application ，如：Visual Paradigm 11.2、Android Studio（Beta）0.8.9 、IntelliJ IDEA 13.1 CE ，通通都不能用，無法正常啟動了！ ＝..＝<br><a id="more"></a></p>
+<p>一開始，我的直覺反應，該不會是 Mac 版的 JVM 太過老舊，無法支援 OS X 10.10 ，所以，先更新 JDK 到「JDK 8 Update 25」這版本。然而，原問題並無改善。 QQ</p>
+<p>接著，又再胡亂試了一陣子，沒轍了！只好向 Google 搬救兵，尋求指引，後來，看到一絲依稀、彷彿、可能……的答案：「Java for OS X 2014-001」。</p>
+<p>於是，自上述的網頁將「Java for OS X 2014-001」，先行下載，接著再安裝，原先的狀況，終於解除了！ ^^y</p>
+<h2 id="【結論】："><a href="#【結論】：" class="headerlink" title="【結論】："></a>【結論】：</h2><p>朋友若也遇有同樣的問題：「OS X 更新到 10.10 版本後，以 Java 開發的應用軟體，再也無法再正常啟動」。建議您依下列的步驟，將問題給排除掉：</p>
+<ol>
+<li><p>先下載及裝「<a href="https://support.apple.com/kb/DL1572?locale=zh_TW" target="_blank" rel="external">Java for OS X 2014-001</a>」。</p>
+</li>
+<li><p>執行一個 Java 應用軟體，用以試驗問題是否已解決，例如：Android Studio。</p>
+<p>   若原先的問題，從此解除，那做到這步驟就可；若否，請再照著「步驟 3」做下去。</p>
+</li>
+<li><p>再下載及安裝 「<a href="http://www.oracle.com/technetwork/java/embedded/embedded-se/downloads/javase-embedded-downloads-2209751.html?ssSourceSiteId=ocomen" target="_blank" rel="external">JDK 8 Update 25</a>」。</p>
+<p>   根據網路上看到的文章，風傳：「JDK 8 Update 25 已改善無法在 OS X 10.10 安裝 Java 8 的問題」，因此個人推測此版的 JVM 應該沒有與 OS X 10.10 不相容的問題；但…… ，如果問題仍未解，那我也沒轍了！ ^^!!<br>  【參考文章網址】： <a href="https://www.java.com/zh_TW/download/help/mac_10_10.xml" target="_blank" rel="external">如何在 Mac OS X 10.10 上安裝 Java？</a></p>
+</li>
+</ol>
+<h2 id="【附註】："><a href="#【附註】：" class="headerlink" title="【附註】："></a>【附註】：</h2><ul>
+<li><p>不知道有沒有人，堅持一定得用 JDK 7 的開發環境，如果有的話，上述的步驟（3），請改下載： JDK 7 Update 71 。</p>
+</li>
+<li><p>是否有那種苦命人，老需要在不同版本的 Java 環境中切換（Java 6 / 7 / 8）；若有，請參考如下這網址的作法，我用「有效」；希望您也有效（有笑）！<br>  【參考文章網址】：<a href="http://www.jayway.com/2014/01/15/how-to-switch-jdk-version-on-mac-os-x-maverick/" target="_blank" rel="external">How to switch JDK version on Mac OS X</a></p>
+</li>
+<li><p>我的 SmartCard Reader ，在 OS X 10.9 ，因更新而致「無法正常使用」的問題；在 OS X 10.10 依然再度發生，目前還沒找到解法！ T__T</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Visual Paradigm 11.2 － UML 好工具]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/10/16/VisualParadigm-11/</url>
+      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/j9tF3M1trv0?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>UML 工具，最早用到的是「Visual Paradigm」；但是，當年的電腦，在速度方面的效能表現，無法支撐這套純由 Java 開發的工具，跑其來就是卡卡的慢…..；所以，就變心，轉投 EA 的懷抱。</p>
+<p>近日，再度回來試用 Visual Paradigm Professional V 11.2，發覺它已支援「Agile Development」，使用者可以「User Story」作為系統功能的「需求」單元。</p>
+<p>試用了一下，覺得挺好用的。<br><a id="more"></a></p>
+<p>對於系統待開發的「功能」，使用者以「Use Case Statements」中的：「As a ….., I want to ……, so that ……」來定義「Use Case」，以此闡述高階的功能需求。</p>
+<p>接下來，從 Use Case 去分解「系統功能」的單元個體－User Story。每一個 User Story ，可透過「Scenarios」，詳述系統中的使用者，如何與系統互動，進而達成該 User Story 應有的「功能」作為。</p>
+<p>在「Scenarios」的步驟中，若需描繪「UI（使用者操作介面）」，則 Visual Paradigm 提供了「Wireframe」的功能，讓軟體開發者真的可以去繪製 UI ，使得這功能需求的定義，能夠越來越具象。</p>
+<p>另外，如果「Scenarios」中的步驟，含有「if, loop」：這種依「狀況」做不同處理的地方，Visual Paradigm 可以依據「Scenarios」的敘述自動轉成 「活動圖」（Activity Diagram） 或「系統循序圖」（System Sequential Diagram），以便「給你好看」；藉由圖形，可清楚點出，原先文字描述，有些語意不清，讓人不知「意欲何為」，甚至容易誤解的地方，可以避免發生；程式設計者不知該怎麼寫程式碼的問題，當然就能因而免去。</p>
+<p>講究軟體的品質，測試當然是必需的；甚至為了交付，進行 UAT（使用者驗收測試），軟體的開發者得規劃測試個案及測試程序步驟…….</p>
+<p>在 Visual Paradigm 的 User Story 中，按個「Testing Procedure」鈕，軟體開發者就能利用原些已寫好的「Scenarios」；進行測試程序步驟及測試用值的規劃。</p>
+<p>Visual Paradigm Professional V 11.2，值得評估、使用的 UML 工具！</p>
+<p>有沒有什麼不好的地方？</p>
+<p>有！<br>不便宜！   ^^!!</p>
+<p>###《參考訊息》</p>
+<h4 id="Visual-Paradigm-－-UeXceler-特色、用法簡介"><a href="#Visual-Paradigm-－-UeXceler-特色、用法簡介" class="headerlink" title="Visual Paradigm － UeXceler 特色、用法簡介"></a>Visual Paradigm － UeXceler 特色、用法簡介</h4><div class="video-container"><iframe src="//www.youtube.com/embed/7DqubusOsr8" frameborder="0" allowfullscreen></iframe></div>
+<h4 id="User-Story-有啥好？業者如是解說……"><a href="#User-Story-有啥好？業者如是解說……" class="headerlink" title="User Story 有啥好？業者如是解說……."></a>User Story 有啥好？業者如是解說…….</h4><div class="video-container"><iframe src="//www.youtube.com/embed/gz-jkJAmHjo" frameborder="0" allowfullscreen></iframe></div>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《硫磺島的英雄們》電影結尾對白]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/09/09/The-herores-of-Low-Jima-island/</url>
+      <content type="html"><![CDATA[<p>電影：《硫磺島的英雄們》（英文片名：「Flags of Our Fathers」），故事描述的是……</p>
+<p>1945年的硫磺島戰役，美軍在攻佔硫磺島時，遭到日軍激烈抵抗，雙方均損失慘重。經過歷時一個月的殊死爭奪，美軍終於將美國國旗，插在了島上的最高點。<br><a id="more"></a></p>
+<p>美聯社當即拍下插旗照片，18小時後傳回國內，將原本已厭倦戰爭的美國社會重新點燃希望的火焰。</p>
+<p>因為戰爭，國庫的錢，即將耗盡。執政當局的掌權者，見到這張硫磺島插旗照片，欣喜若狂。因為他們認為，原本一直賣不好的戰爭債券，這下子有了最佳的銷售代言人，於是急忙下令，自戰場召回「硫磺島的插旗英雄們」，以便在國內利用這些英雄們，推銷戰爭債券以籌集資金。</p>
+<p>但六位插旗的戰士只剩下三人存活，他們被送回國內，所到之處均被認為是戰鬥英雄，因而受到熱情擁戴。民眾們爭相與這三位戰鬥英雄合影，但民眾的舉動，卻一次又一次的將他們拉回戰場的回憶，使得他們又再一次遭受心靈的折磨；因為，在他們的心中認為，真正的英雄早已死在戰場之上……</p>
+<p>電影結尾的時候，參與硫磺島戰役插旗的醫護兵，他的兒子對人們所稱的「英雄」，做了一個這樣的詮釋：</p>
+<p>我終於明白，也許他說得沒錯 （他：指醫護兵的父親）<br>也許世上根本就沒有英雄<br>只有像我爸那種人</p>
+<p>我也明白，他們不想被當成英雄<br>英雄是因應我們的需要，而創造出來的產物</p>
+<p>這樣才能讓我們稍微瞭解<br>怎麼會有人如此義無反顧，為我們犠牲這麼多？</p>
+<p>但是，對我爸和那些士兵來說，他們冒的險和受的傷<br>全為了他們的同袍弟兄</p>
+<p>他們也許是為國打仗，但卻是為朋友犠牲生命<br>為了和他們一起奮戰的弟兄</p>
+<p>如果我們希望紀念這些人，就應該記得他們真正的樣子<br>就跟我爸記得的一樣……..</p>
+<iframe src="https://www.youtube.com/embed/BE5jhNlUGFk?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[善用 Chrome 提供的英文工具，搶救菜英文]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/07/20/Learning-English-by-Chrome-tools/</url>
+      <content type="html"><![CDATA[<p>在 Google Chrome 瀏覽器的「擴充功能（Plug-in）」，提供了許多的英文工具，善用這些工具，可以解決個人在英文閱讀袜順的困擾；不再讓菜英文，成為自己學習新知的絆腳石。</p>
+<iframe src="https://www.youtube.com/embed/FKtygpYpVKw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[「洋蔥筆記本」讓你找到原初的感動]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/07/16/Onion-notebook-let-you-find-the-original-moved/</url>
+      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/xQ73vrcD5Pw?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>文采不夠好？無法寫出感人，讓人掉淚的文字嗎？<br><a id="more"></a></p>
+<p>來、來、來、來、來……….</p>
+<p>趕快來用這款 《Onion Note》</p>
+<p>別懷疑，我沒打錯，你也沒看錯，就是「洋蔥筆記本」！     U_U</p>
+<p>洋蔥筆記本裡面，真的有洋蔥。筆記本內的每一頁，都塗有厚度達 0.024mm ，可催淚的「烯丙基化合物」，書寫時，筆與紙的磨擦，會令塗在紙上的微粒子不斷散發出來，因此寫越多，淚也催的更多。</p>
+<p>即便你在筆記本寫下：「布丁要放在冰箱裡冷藏」，這麼無聊的記事，同樣也能讓人「淚流滿面」，不能自己！    U_U”</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[午後行天宮一個人的旅遊]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/07/12/Xing-Tian-Temple/</url>
+      <content type="html"><![CDATA[<p>週五的午後，來到了行天宮。</p>
+<p>看到人來人往，眾多的人羣，心裡著實訝異！此刻，不是所謂的上班時間嗎？怎麼還是有這麼多的人聚集此處？<br><a id="more"></a></p>
+<p>信步胡逛，不自覺來到了近大殿旁側的長廊，因為天熱，覺得有點渴，於是就在石階坐了下來，飲水。</p>
+<p>從這裡望去，看見想要收驚的人們，排著長長的人龍，一個接著一個，好多好多啊！</p>
+<p>再往前看向大殿的正前方，許多的人們在那裡或拈香，或雙手合十，祈禱著。</p>
+<p>更有好幾個人，長跪在地，口裡一直唸唸有詞，許久不間斷；其中，有一男子的祈禱頗為懇切，合十的雙掌好像很用力，拜著、拜著，身子一直不停往前傾；最後，整個人俯伏在地，點頭如搗蒜般。</p>
+<p>不知這朋友，現在是什麼樣的狀況？又是為了什麼，祈求要如此迫切？</p>
+<p>心中滿是疑問號，正不停冒出的時候，沒想到，原先跪在男子後頭的一位女性，也是同樣伏身，一直不停在磕頭……</p>
+<p>為何人間總有這麼多的折磨與苦難？人們總要如此，在紅塵俗世間，不停地掙扎？眼前的這情景，看著、看著，心想好難受；感覺好想哭。</p>
+<p>每當我不自覺地歎氣之時，我兒子總是告訴我：「不要歎氣，要趕快找到你的『快樂基地』」。</p>
+<p>不認識的朋友啊！祝福你，希望你的困難能儘快移轉；心靈更能早日離苦得樂……</p>
+<iframe src="https://www.youtube.com/embed/SdMDzlYCVI4?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Java注入相依關係的妙用]]></title>
+      <url>http://alanjui.github.io/blog/blog/2014/05/20/Java-Injection/</url>
+      <content type="html"><![CDATA[<p>軟體專家告訴哦棉，好的程式設計，要寫成「耦合鬆綁（decouple）」，這樣，每個程式單元，才能隨時利用，任意組合。</p>
+<p>But……………..   How?!<br><a id="more"></a></p>
+<p>這裡，有一個例子。假設，我們需要開發一個「腳踏車出租管理系統」，供腳踏車店做出租服務。</p>
+<p>第一個想開發的功能是：「在螢幕列出店裡所有的腳踏車」。</p>
+<p>對於這個功能，我們可以這樣做。</p>
+<p>先開發一個： Bike（腳踏車）的 Entity 類別，其程式碼如下。</p>
+<h3 id="Bike-類別"><a href="#Bike-類別" class="headerlink" title="Bike 類別"></a>Bike 類別</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Bike</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String manufacturer;</span><br><span class="line">    <span class="keyword">private</span> String model;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> frame;</span><br><span class="line">    <span class="keyword">private</span> String serialNo;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">double</span> weight;</span><br><span class="line">    <span class="keyword">private</span> String status;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Bike</span><span class="params">(String manufacturer, String model, <span class="keyword">int</span> frame, String serialNo, <span class="keyword">double</span> weight, String status)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.manufacturer = manufacturer;</span><br><span class="line">        <span class="keyword">this</span>.model = model;</span><br><span class="line">        <span class="keyword">this</span>.frame = frame;</span><br><span class="line">        <span class="keyword">this</span>.serialNo = serialNo;</span><br><span class="line">        <span class="keyword">this</span>.weight = weight;</span><br><span class="line">        <span class="keyword">this</span>.status = status;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getManufacturer</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> manufacturer;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setManufacturer</span><span class="params">(String manufacturer)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.manufacturer = manufacturer;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getModel</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> model;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setModel</span><span class="params">(String model)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.model = model;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getFrame</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> frame;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setFrame</span><span class="params">(<span class="keyword">int</span> frame)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.frame = frame;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getSerialNo</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> serialNo;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setSerialNo</span><span class="params">(String serialNo)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.serialNo = serialNo;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getWeight</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setWeight</span><span class="params">(<span class="keyword">double</span> weight)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.weight = weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getStatus</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> status;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setStatus</span><span class="params">(String status)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.status = status;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"Bike : "</span> +</span><br><span class="line">                <span class="string">"manufacturer -- "</span> + manufacturer +</span><br><span class="line">                <span class="string">"\n: model -- "</span> + model +</span><br><span class="line">                <span class="string">"\n: frame -- "</span> + frame +</span><br><span class="line">                <span class="string">"\n: serialNo -- "</span> + serialNo +</span><br><span class="line">                <span class="string">"\n: weight -- "</span> + weight +</span><br><span class="line">                <span class="string">"\n: status -- "</span> + status +</span><br><span class="line">                <span class="string">".\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>再開發一個：RentABike （租台腳踏車）的類別，用來管理腳踏車出租店的租借業務。在此類別先實作了 2 個方法（method），（1）getBikes：取得店裡所有的腳踏車；（2）getBike ：依「序號」取得某一台特定的腳踏車，其程式碼如下。</p>
+<h3 id="RentABike-類別"><a href="#RentABike-類別" class="headerlink" title="RentABike 類別"></a>RentABike 類別</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">RentABike</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String storeName;</span><br><span class="line">    <span class="keyword">final</span> List&lt;Bike&gt; bikes = <span class="keyword">new</span> ArrayList&lt;Bike&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">RentABike</span><span class="params">(String storeName)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.storeName = storeName;</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Shimano"</span>, <span class="string">"Roadmaster"</span>, <span class="number">20</span>, <span class="string">"11111"</span>, <span class="number">15</span>, <span class="string">"Fair"</span>));</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Cannondale"</span>, <span class="string">"F2000 XTR"</span>, <span class="number">18</span>, <span class="string">"22222"</span>, <span class="number">12</span>, <span class="string">"Excellent"</span>));</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Trek"</span>, <span class="string">"6000"</span>, <span class="number">19</span>, <span class="string">"33333"</span>, <span class="number">12.4</span>, <span class="string">"Fair"</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"RentABike: "</span> + storeName;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Bike&gt; <span class="title">getBikes</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> bikes;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Bike <span class="title">getBike</span><span class="params">(String serialNo)</span> </span>&#123;</span><br><span class="line">        Iterator&lt;Bike&gt; iter = bikes.iterator();</span><br><span class="line">        <span class="keyword">while</span> (iter.hasNext()) &#123;</span><br><span class="line">            Bike bike = iter.next();</span><br><span class="line">            <span class="keyword">if</span> (serialNo.equals(bike.getSerialNo())) <span class="keyword">return</span> bike;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>為了在螢幕上顯示店裡所有的腳踏車，我們又多開發了一個：「CommandLineView」類別，其程式碼如下。</p>
+<h3 id="CommandLineView-類別"><a href="#CommandLineView-類別" class="headerlink" title="CommandLineView 類別"></a>CommandLineView 類別</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CommandLineView</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> RentABike rentABike;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">CommandLineView</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        rentABike = <span class="keyword">new</span> RentABike(<span class="string">"Bruce's Bikes"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">printAllBikes</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(rentABike.toString());</span><br><span class="line">        Iterator&lt;Bike&gt; iter = rentABike.getBikes().iterator();</span><br><span class="line">        <span class="keyword">while</span> (iter.hasNext()) &#123;</span><br><span class="line">            Bike bike = iter.next();</span><br><span class="line">            System.out.println(bike.toString());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        CommandLineView clv = <span class="keyword">new</span> CommandLineView();</span><br><span class="line">        clv.printAllBikes();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>一般的寫法，我們會很自然地在 CommandLineView 這個類別裡，先用 RentABike 類別建立一個 rentABike 物件。</p>
+<p>然後，再利用 rentABike 物件，呼叫方法 － getBikes() ，取出店裡所有的腳踏車。接著在 CommandLineView 類別中，利用迴圈，在螢幕列示出所有的腳踏車。</p>
+<p>以上的作法，既簡單，又直覺。但……. 它沒有達到「耦合鬆綁」所要求的程式架構之美！因 CommandLineView 類別與 RentABike 類別，十指緊扣，關係密切啊！ ^^”</p>
+<p>那該怎麼辦咧？！</p>
+<p><a href="http://books.google.com.tw/books?id=rnDv9pDj-e0C&amp;pg=PP3&amp;lpg=PP3&amp;dq=spring+%E7%A8%8B%E5%BC%8F%E9%AB%98%E6%89%8B%E7%A7%98%E7%AC%88&amp;source=bl&amp;ots=rwQ3ioGe67&amp;sig=9PwIjxD9WYOn1J9bTfowhTuH42E&amp;hl=zh-TW&amp;sa=X&amp;ei=DqB2U7n1GMWikwXqwICICA&amp;ved=0CIYBEOgBMAg#v=onepage&amp;q=spring%20%E7%A8%8B%E5%BC%8F%E9%AB%98%E6%89%8B%E7%A7%98%E7%AC%88&amp;f=false" target="_blank" rel="external">《Spring 程式高手秘笈》</a>這書，在 Page 1 ~ 9 處，教人如何利用 Interface ，進行「相依注入（Dependency Injection）」，讓 CommandLineView 類別，呼叫 getBikes() 方法的這檔事 ，不是寫死在 CommandLineView 類別中，而是由另一個類別，在 Run Time 時期，負責相依關係的相注入，使 CommandLineView 物件，能呼叫  getBikes() 這方法！</p>
+<p>這麼神奇的事，是如何做到的？</p>
+<ol>
+<li><p>原先 RentABike 類別，能提供其它類別使用的 method ，將它當成是 service ，全包進一個名為 RentABike 的 Interface 中。</p>
+</li>
+<li><p>另新增一個「service 類別」 ( ArrayListRentABike ) ，須實作 (implements) 上一個 RentABike Interface 。</p>
+</li>
+<li><p>要使用「service 類別」，呼叫其中 method 的這種類別，稱作：「client 類別」， 以此例子而言，就是 CommandLineView 類別，它在類別中，須有一個 property ，用來指向「 service 類別」所產生的物件。</p>
+</li>
+<li><p>建立一個類別，負責在 Run Time 時期，執行「相依注入」的工作，這種作法，一般被稱作為 assembler 或 container 機制。在這個例子中，由 RentABikeAssembler 類別擔綱。</p>
+</li>
+</ol>
+<p>此相依注入的作法，可用以下的「類別圖」，來說明各個類別之間的相互關係。</p>
+<img src="http://4.bp.blogspot.com/-30H5WDc1vKE/U3n8885RPJI/AAAAAAAAcuo/6fpssQGG88U/s1600/2014-5-19+%E4%B8%8B%E5%8D%88+08-44-41.png">
+<p>最後，各類別的程式碼，分述如下。</p>
+<h3 id="將-RentABike-類別改成-Interface"><a href="#將-RentABike-類別改成-Interface" class="headerlink" title="將 RentABike 類別改成 Interface"></a>將 RentABike 類別改成 Interface</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">RentABike</span> </span>&#123;</span><br><span class="line">    <span class="function">List&lt;Bike&gt; <span class="title">getBikes</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function">Bike <span class="title">getBike</span><span class="params">(String serialNo)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="提供-method-的「Service-類別」：ArrayListRentABike-java"><a href="#提供-method-的「Service-類別」：ArrayListRentABike-java" class="headerlink" title="提供 method 的「Service 類別」：ArrayListRentABike.java"></a>提供 method 的「Service 類別」：ArrayListRentABike.java</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ArrayListRentABike</span> <span class="keyword">implements</span> <span class="title">RentABike</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String storeName;</span><br><span class="line">    <span class="keyword">final</span> List&lt;Bike&gt; bikes = <span class="keyword">new</span> ArrayList&lt;Bike&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ArrayListRentABike</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        initBikes();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ArrayListRentABike</span><span class="params">(String storeName)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.storeName = storeName;</span><br><span class="line">        initBikes();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">initBikes</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Shimano"</span>, <span class="string">"Roadmaster"</span>, <span class="number">20</span>, <span class="string">"11111"</span>, <span class="number">15</span>, <span class="string">"Fair"</span>));</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Cannondale"</span>, <span class="string">"F2000 XTR"</span>, <span class="number">18</span>, <span class="string">"22222"</span>, <span class="number">12</span>, <span class="string">"Excellent"</span>));</span><br><span class="line">        bikes.add(<span class="keyword">new</span> Bike(<span class="string">"Trek"</span>, <span class="string">"6000"</span>, <span class="number">19</span>, <span class="string">"33333"</span>, <span class="number">12.4</span>, <span class="string">"Fair"</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"RentABike: "</span> + storeName;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Bike&gt; <span class="title">getBikes</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> bikes;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Bike <span class="title">getBike</span><span class="params">(String serialNo)</span> </span>&#123;</span><br><span class="line">        Iterator&lt;Bike&gt; iter = bikes.iterator();</span><br><span class="line">        <span class="keyword">while</span> (iter.hasNext()) &#123;</span><br><span class="line">            Bike bike = iter.next();</span><br><span class="line">            <span class="keyword">if</span> (serialNo.equals(bike.getSerialNo())) <span class="keyword">return</span> bike;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="使用-method-的「Client-類別」：CommandLineView-java"><a href="#使用-method-的「Client-類別」：CommandLineView-java" class="headerlink" title="使用 method 的「Client 類別」：CommandLineView.java"></a>使用 method 的「Client 類別」：CommandLineView.java</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CommandLineView</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> RentABike rentABike;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">CommandLineView</span><span class="params">()</span> </span>&#123;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setRentABike</span><span class="params">(RentABike rentABike)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.rentABike = rentABike;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> RentABike <span class="title">getRentABike</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> rentABike;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">printAllBikes</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">for</span> (Bike bike: rentABike.getBikes()) &#123;</span><br><span class="line">            System.out.println(bike.toString());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="注入相依的-Assembler-類別：RentABikeAssembler-java"><a href="#注入相依的-Assembler-類別：RentABikeAssembler-java" class="headerlink" title="注入相依的 Assembler 類別：RentABikeAssembler.java"></a>注入相依的 Assembler 類別：RentABikeAssembler.java</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> tw.ccc99.bpandsvc;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by AlanJui on 2014/5/17.</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">RentABikeAssembler</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        CommandLineView clv = <span class="keyword">new</span> CommandLineView();</span><br><span class="line">        RentABike rentABike = <span class="keyword">new</span> ArrayListRentABike(<span class="string">"Bruce's Bikes"</span>);</span><br><span class="line">        clv.setRentABike(rentABike);</span><br><span class="line">        clv.printAllBikes();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Run Time 時期，由 RentABikeAssembler 類別，負責「注入相依關係」這檔事。</p>
+<p>首先，建立一個「Client 物件」： CommandLineView 物件；然後，建立一個「Service 物件」：ArrayListRentABike。</p>
+<p>接著令「Client 物件」－ CommandLineView 的 property 指向「Service 件件」 － ArrayListRentABike。最後， CommandLineView 這個「Client 物件」，可以使用 「Service 物件」－ ArrayListRentABike ，提供的 getBikes() 方法，取出店裡所有的腳踏車，丟給類別內的方法處理，顯示在螢幕上 。</p>
+<p>透過以上「相依注入」的作法，可達成「耦合鬆綁（decouple）」的目標。軟體開發中所使用的各個類別，就能任意組合，隨時依自己的需要來變化及使用。</p>
+<p><strong><em>程式碼下載處</em></strong>： <a href="https://github.com/AlanJui/BPANDSVC" target="_blank" rel="external">https://github.com/AlanJui/BPANDSVC</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[這就是人生......]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/12/31/What-is-life/</url>
+      <content type="html"><![CDATA[<p>這就是人生……..！</p>
+<ul>
+<li>人生就像個茶几，上面充滿杯具</li>
+<li>人生就像個手拉坏，不斷地製造杯具</li>
+<li>人生就像在拉屎，有時你努力很久，出來卻是個屁</li>
+<li>人生就像打電話，不是你掛，就是我掛<a id="more"></a>
+</li>
+</ul>
+<p>人生，有那慘嗎？！<br>人生，倒底是怎樣？</p>
+<p>A……..，有點深奧，我～～～，還在學！</p>
+<p>不管怎樣，開心是一天；不開心也是一天。</p>
+<p>希望，揮別 2013 的今天，大家都有個開心的一天，留個好兆頭，迎向 2014 ，新未來！ ^^y</p>
+<img src="https://lh3.googleusercontent.com/-F-bnocxPhmQ/VUiIjZULPdI/AAAAAAAAhHk/IBnIU-mS1Gc/s225/%25E4%25BA%25BA%25E8%2594%2598%25E5%25B0%25B1%25E6%2598%25AF%25E8%25A6%2581%25E5%259D%25A6%25E8%2595%25A9%25E8%2595%25A9.jpg">
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[升級到 OS X 10.9 後讀卡機不能用]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/12/28/Can-not-use-card-reader-after-upgrade-to-OSX-10-9/</url>
+      <content type="html"><![CDATA[<p>每個月的月底，我需要向銀行繳交信用卡消費。繳款的方式，我習慣使用玉山銀行的 Web ATM ，透過網路來進行轉帳。<br><a id="more"></a></p>
+<p>使用玉山銀行的 Web ATM ，需要這些工具：（1）MacBook Pro 電腦（作業系統 OS X  10.8）；（2）讀卡機；（3）Chrome 瀏覽器。</p>
+<p>接在 Mac 電腦的讀卡機（Smart Card Reader），是源自 Windows XP 時代，就擁有的。</p>
+<p><img src="http://2.bp.blogspot.com/-Oo6vjqCiAYY/Ur0e_byZcgI/AAAAAAAAWX8/eQdYEuD4FsI/s320/IMG_0803.jpg" alt=""></p>
+<p>在 11 月初，Apple 發佈新版的 Mac OS X 10.9 ，我將 Mac 電腦的作業系統，升級。</p>
+<p>到了月底，我一如往常，再次使用 Web ATM 進行轉帳，但那次的轉帳，玉山銀行 Web ATM 的應用系統（網站），一直認定我的電腦並沒有安裝讀卡機。</p>
+<p>原本以為，我那台服務多年的讀卡機，不耐歲月的催殘，終於壽終正寢，回歸天家了。因此，只好掏出銀兩，請購了以下這台新的讀卡機 GoodTec CR-508 。</p>
+<p><img src="http://4.bp.blogspot.com/-MIH-9nOjIpI/Ur0e9T69RaI/AAAAAAAAWX0/dnFjfcA66oQ/s320/IMG_0802.JPG" alt=""></p>
+<p>會買這台讀卡機的原因，是因為看到包裝盒上印有「適用 MAC 10.6.4 以上版本」的規格說明。</p>
+<p>可是……結果，還是被玉山銀行認定「沒有完成讀卡機安裝」，哇嘞…….  </p>
+<p>照著玉山銀行，如下網址處的操作指引，執行安裝及檢驗程序，結果還是「失敗」。</p>
+<p><a href="https://netbank.esunbank.com.tw/webatm/Q&amp;A_017.htm#02" target="_blank" rel="external">https://netbank.esunbank.com.tw/webatm/Q&amp;A_017.htm#02</a></p>
+<p>實在不甘心，寫 e-mail 及打電話到 GoodTec 公司，尋求技術支援，想找出問題根源及可能的解決方法。</p>
+<p>最後的答案，竟然是讀卡機驅動程式 PCSCD ，在  OS X 10.9 版本後，變成不認識 RealTec 晶片，以致作業系統無法認定讀卡機已安裝。（據那工程師的講法，台灣製造的讀卡機，都是用這款晶片）</p>
+<p>每次作業系統升級都要經歷的痛，這次，最叫人＠！＃＄％＾＆＊＃</p>
+<p>趁著這次找問題導因的事件，順便整理出－「如何在 Mac 安裝讀卡機的操作程序」，如以下影片所示。這程序也適用於「玉山銀行 Web ATM」的安裝。</p>
+<iframe src="https://www.youtube.com/embed/zX0dJn7NWPg?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[公車站的一個小故事]]></title>
       <url>http://alanjui.github.io/blog/blog/2013/12/21/Zhuo-Ying-Bus-Station/</url>
-      <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg" alt="公車左營北站"></p>
+      <content type="html"><![CDATA[<img src="https://dl.dropboxusercontent.com/u/45512449/ZhuoYingBusStation.jpg" width="560">
 <p>左營北站、5號公車、19號公車，我在左中的日子，刻骨銘心深切的記憶。</p>
 <a id="more"></a>
 <p>今天，因為臉書上，校友分享的一張公車相片，掀開了記憶的時光寶盒，那個積沈已久的美好記憶，再度想起……</p>
 <p>很久、很久……以前，唸高中年代，在公車上發生，帶著點甜，也有些微酸的小故事！</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/gJoUnF7IN28?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[iBeacons with iPhone 簡介]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/12/19/iBeacons-with-iPhone/</url>
+      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/UvQM4ycJA08?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>2012年11月，當我得知，即將推出的 iPhone 5，居然沒有內建 NFC （近場通訊）功能時，好失望哦！</p>
+<p>那時，還心想，怎麼賈伯斯不在後，蘋果就變得這麼落伍，不長進了！讓智慧型手機化身成「電子錢包」，這是一塊市場的超級大餅，怎麼 Apple 居然給忽視了呢？！</p>
+<p>原來蘋果，仍然不是省油的燈，對於這塊市場，他們家還是有自己獨到的見解。就在今年6月，蘋果公開發佈，以「低功率藍芽」，開發的新技術 iBeaons 。<br><a id="more"></a><br>採用 NFC 技術，智慧型手機裡，要加裝特殊晶片；如此一來，許許多的智慧型手機，立即被判出局，排除在外。</p>
+<p>可是，藍芽卻是每台智慧型手機，一定備有的功能。</p>
+<p>新聞報導：「使用 iBeacon，客戶通過走道時，可以得到量身訂製的簡訊，傳送給他們折價券，他類似於 GPS ，用戶不介意被定位位置，即有機會獲得折扣。」</p>
+<p>從以上這則新聞看來，iBeacon 的技術，不僅可滿足面對面電子交易，支付貨款的需求；更可滿足行銷人員，長期以來，量身訂製促銷方案的夢想。</p>
+<p>結果會如何？NFC 、 iBeacon 何者勝出？雙雄併立？亦或是……？</p>
+<p>我們繼續看下去吧！</p>
+<p>文章參考： <a href="http://news.tvbs.com.tw/entry/514402" target="_blank" rel="external">【FOCUS新聞】近場通訊殺手現身　iBeacon蘋果內建</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《Home》木山 裕策]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/12/14/Home-Kiyama-Hiroshi-saku/</url>
+      <content type="html"><![CDATA[<p>「木山裕策」今天在電視節目，才剛認識的日本男歌手。他的歌聲一聽，真的是「雅沙系」的溫柔啊！</p>
+<p>好奇，上網查了查，原來……<br><a id="more"></a></p>
+<p>木山裕策原本是一位出版社，普通的上班族。2004年，木山被發現左側甲狀腺惡性腫瘤，接受了全部摘除的手術。</p>
+<p>由於手術時可能會傷害到聲帶神經，極有可能失聲。如果手術後平安無事，木山就決定挑戰自己的夢想，成為一名歌手。</p>
+<p>之後，當他恢復到能夠唱歌時，便希望將自己的聲音留在CD裡，留給自己的孩子們聽。經過他的不懈努力，終於在2008年2月6日憑藉這首單曲《Home》正式成為歌手。</p>
+<p>也許正因為對夢想的堅持，使得2008年末，慶新年的紅白歌會上，多了這樣一個平凡，卻不普通的聲音。</p>
+<iframe src="https://www.youtube.com/embed/eioiTTG1AVQ?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<p>在晴空下的公園裡，你不經意的握著我的手<br>在這一瞬間，我的身軀被這小小的手給擁抱著</p>
+<p>你所給我的，滿溢的幸福和最真摯的愛<br>在這段時間中，我被給予的這一切，要花多少時間，才能回報你呢</p>
+<p>回家吧，可以回家了唷，在染成深紅色的街道上<br>手牽著手一起回家吧，這世界上唯一、僅有的 My Sweet Home</p>
+<p>近來，你的成長速度，令我感到驚訝啊！<br>在高興的同時，不知怎麼的竟也感到有點孤寂了呢？以後要慢慢的走了</p>
+<p>你那無邪的笑容，任何我們一起所做過的事<br>將全都是我的寶物喔， 這世界上唯一、僅有的 My Sweet Home</p>
+<p>越想越覺得，愛著你，是件很奇妙的事<br>爸爸的爸爸，跟爸爸的媽媽，很想對他們說：「真地，太謝謝你們了」</p>
+<p>回家吧，可以回家了唷，在染成深紅色的街道上<br>手牽著手一起回家吧，這世界上唯一、僅有的 My Sweet Home<br>無論任何時間、任何日子裡，謝謝你！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[讀《陶朱公救子》]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/12/03/A-story-of-To-Shu-Ko/</url>
+      <content type="html"><![CDATA[<p>《陶朱公救子》的故事，出自《史記卷四十一・越王勾踐世家第十一》片斷。</p>
+<img src="http://1.bp.blogspot.com/-x4hOz3d_lyA/Up1sn_owwjI/AAAAAAAAWSc/0cz9hSykF3g/s1600/%E9%99%B6%E6%9C%B1%E5%85%AC+.jpg">
+<a id="more"></a>
+<p>陶朱公就是與越王苟踐臥薪嘗膽，滅掉吳王夫差的功臣；也是歷史上，絕色美女西施的老公。</p>
+<p>越王苟踐復國之後，范蠡没向越王邀功領賞，卻選擇急流湧退，遠走他鄉，定居於陶，專心經商，最後終成巨富。由於范蠡愛穿一身紅袍，故而世人尊稱他為：「陶朱公」。</p>
+<p>有一回，陶朱公的二兒子在楚國做生意，因故與人發生衝突，最後鬧出人命，也因此被當地政府以殺人罪禁錮於楚國京城。陶朱公得知消息後，說道：『殺人被處死，本是應該的，不過我聽說有錢人的兒子，大多可免除死刑，而不死於街市之中。』於是，陶朱公打算以金錢救出次子。營救次子的錢有黃金千鎰，藏於褐器中，以牛車裝載。原本，陶朱公打算將這事交由小兒子前往楚國處理。但是，大兒子卻認為，營救二弟應該是身為長子之人的責任，應而向陶朱公要求，此次的任務應該由他執行。可是，無論他如何要求，陶朱公硬是不允。</p>
+<p>老大因而說：「家中的長子，稱為家督。如今二弟犯下殺人罪，不派我、卻反而派老么去處理，正顯示我係無能之輩」，因此想要自殺。眼見陶朱公仍然不為所動，陶朱公之妻緊張地說：「派老么去，不見得能救出老二，如今卻反而先逼死長子，這樣合宜嗎？」</p>
+<p>陶朱公不得已，只好改派長子前去搭救，並且寫了一封信給楚國的一位故交「莊生」，請其從旁協助。臨行前，陶朱公特別囑咐長子：「到楚國後，先將黃金送到莊生家中，然後，只能依他的吩咐行事，萬不可與他有任何爭執。」</p>
+<p>長子出門時，怕這次準備的錢財不夠多，因此私下又多帶了數百兩黃金，以備不時之需。到達楚國之後，長子依陶朱公的指示，先到莊生家中。長子察覺莊生非常貧窮，心中不禁疑惑：「從此人的住所看來，他的身份不像是有力人士，真能託負重任嗎？！」，不過他依然按照父親的囑咐，將千金獻給莊生。莊生告訴長子：「你可以回去了，絕對不要留在楚國，你的弟弟很快便可出獄，不要問為什麼。」</p>
+<p>長子離開莊生家後，並沒有立即離開楚國；反而以自己私下帶來的黃金，結交楚國的貴人，想要從「有力人士」的口中，及早探知事情的後續發展。</p>
+<p>莊生雖然貧窮，卻以廉潔、正直而聞名於楚國，因此從楚王以下，人人都尊之以師禮。他接受陶朱公的贈金，並非有意接受賄賂；本打算事後送還，以證明自己言而有信，所以他告訴妻子：「陶朱公送來的這些黃金，是為了救他兒子，給我的謝禮。我如果不先收下，人家一定以為我不肯幫忙，所以暫時先收下來，好令陶朱公的長公子放心。這金子你不要動，事成之後，我可是要還給人家的。」可是，陶朱公的長子並不瞭解莊生的心思，認為莊生與他人無異，同樣貪愛錢財。</p>
+<p>莊生開始苦思營救陶朱公二子的辦法，並在等待適當的時機，自然會花上一些時日⋯⋯</p>
+<p>直到有一天，莊生認為時機來了，便動身前往晉見楚王，並向楚王表示：「我昨天夜觀天象，看到某個星宿的位置產生變化，這可能不利於楚國！」</p>
+<p>楚王一向相信莊生，便問：「那怎麼辦？」</p>
+<p>莊生說：「可以德政消除災禍。」</p>
+<p>楚王回說：「先生請回去休息，寡人會聽從你的建議。」</p>
+<p>楚王因此派遣使者將收藏各種錢幣的府庫嚴密封鎖，準備大赦。得到長子好處的楚國貴人因此緊急派人告訴長子：「楚王將發佈大赦。」</p>
+<p>陶朱公的長子問：「何以得知？」</p>
+<p>這位楚國貴人回答說：「每次楚王大赦前，都會將收藏錢幣的府庫封鎖；昨天楚王已下令，再次封鎖府庫了。」</p>
+<p>長子認為：既然大赦，二弟必然會被赦免，那送給莊生的千金，不就等於白給了。於是，他又回去拜訪莊生。</p>
+<p>莊生看到長子，驚訝地說：「你怎麼還沒離開？」</p>
+<p>長子推說：「因為事情還沒辦好，所以在楚國又留了一陣子。因為得知弟弟已獲大赦，因此特地來向先生致謝及辭行。」</p>
+<p>莊生知道他是來要回千金的，便說：「既然如此，你就順便將送來的黃金帶回去吧。」</p>
+<p>長子取回黃金後，心中還暗自慶幸，沒有白白損失這筆黃金！</p>
+<p>然而，長子的此舉，卻令莊生感到蒙羞。</p>
+<p>因此，他立刻晉見楚王，並說：「日前臣向大王談及星宿之事，大王也說要以德政回應。但是，微臣今天在街上聽到路人議論紛紛：富有的陶朱公之子殺人，正囚於楚國獄中；可是他們卻以金錢行賄大王左右，所以，大王的大赦並非因為體恤楚國子民，而是因為陶朱公兒子的緣故呀！」</p>
+<p>楚王聽後，大怒道：「寡人雖然不德，卻不至於為陶朱公之子而施惠。」於是下令，先誅陶朱公之子，然後再行大赦。</p>
+<p>長子費盡心機，沒想到卻只迎回弟弟的靈柩。見到次子的屍體，陶朱公的妻子和家人都悲慟異常。</p>
+<p>陶朱說：「我早就知道，派老大去，只會壞事，是救不回次子的。因為，老大雖然愛弟弟，但卻將錢財看得太重，會有不捨的問題！因為，老大從小跟著我一起在困境中奮鬥，知道生活的艱苦，故而重視錢財。但是，老么出生之時，家境已變得富裕，他整天乘好車，騎良馬，從事狩獵遊戲的享樂生活，根本不知道賺錢的辛勞；所以，他不會在意錢財的花費。之前，我之所以打算派老么去，就是為著這個緣故。老大因為無法捨財，所以反而只會害了他的弟弟。當老大出門之後，我早已做好心理準備，等待迎接這個惡耗。」</p>
+<h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>老祖宗說：「捨得」。捨得、捨得，當知能「捨」，才能「得」啊！</p>
+<p>愛惜名節是件好事，有人將名節看得比命還重要；不惜為名節苦守寒窯。這種人的氣節，是值得敬重的。</p>
+<p>但也正因為他們的這種人格的特質，當知他們的「執著」。所以，罩子得放亮一點，千萬別用輕慢的態度，去攪和他們這塊碰觸不得的領域。</p>
+<p>「好人」有時會是另一種「恐怖份子」啊！⋯⋯⋯⋯⋯⋯ Ｕ＿Ｕ＂</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[MacBook Pro 外接顯示器，不支援 1920 x 1080 解析度？]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/11/17/Maximum-resolution-of-display-on-MacBookPro/</url>
+      <content type="html"><![CDATA[<p>在 MacBook Pro （MBP）的環境寫程式，是一件頗為愉快的事。</p>
+<p>但 13” 的螢幕，想要在一個畫面，要能做到：可看更多行的程式碼；一覽專案下的資料夾、檔案，以便可隨時切換；編輯某類別（Class）的程式碼時，希望可以參考這類別有多少的 method、property、常數；這時 1280x800 的解析度，顯然可就有些捉襟見肘囖！<br><a id="more"></a></p>
+<p>大約在一年前，買了一台 22 吋 Acer S220HQL 的螢幕，賣場的廣告說，它有 1920 x 1080 的解析度。可是，無論我怎麼試，MacBook Pro 的作業系統，始終認定這螢幕的解析度只有 1280 x 800 。因為搞不定，所以就擱著先不管了。</p>
+<p>由於近來，寫程式的時間越來越久，需要大畫面的需求，變得越來越重要。因此，上週又再開始上網爬文，嚐試找到問題的解決之道。奈何試了整天，依然再次處處碰壁。</p>
+<p>就在快要放棄的時候，看到一篇PO文，有人在網路上諮詢類似我一樣的問題，好心回覆的網友問那人，MacBook Pro 外接螢幕使用的介面是 HDMI？還是 DVI ？但就是沒問 VGA ！</p>
+<p>這個回覆，給了我一個線索，因為我 MacBook Pro 外接顯示器，原先使用的介面，是下圖這個 Apple 原廠的「<strong>Mini DisplayPort 對 VGA 轉換器</strong>」。</p>
+<p><img src="http://3.bp.blogspot.com/-ud1OL1E8AfY/Uoi98OPbLSI/AAAAAAAAWRM/HfzLwsZcCOE/s320/MB572_AV1.jpeg" alt="Mini DisplayPort 對 VGA 轉換器"></p>
+<p>為了解決問題，下了個賭注。上網，在 Apple Store 官網，訂購了一個「<strong>Mini DisplayPort 對 DVI 轉換器</strong>」。</p>
+<p><img src="http://3.bp.blogspot.com/-IsfrYv5XvnU/Uoi98JBrRxI/AAAAAAAAWRI/D97QjRfAWPE/s320/MB570_AV1.jpeg" alt="Mini DisplayPort 對 DVI 轉換器"></p>
+<p>上週五，終於收到了訂購的貨品。當時，心情七上八下，頗為緊張。待 Mini DisplayPort 對 DVI 轉換器在 MacBook Pro 插好，顯示幕的 DVI Cable 視訊線材接上轉換器，結果，困擾我近一年的問題，轉瞬間，消失的無影無蹤！</p>
+<p>最近，使用這 1920 x 1080 的大畫面，真的是：「爽」＋ est ……….</p>
+<p><img src="http://3.bp.blogspot.com/-aKAniCQvAfU/UojBWJrjdrI/AAAAAAAAWRc/K02BorxU3fE/s640/2013-11-17_21-05-43.png" alt=""></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[讀藺相如傳]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/10/17/A-story-of-Lin-Xiang-Ru/</url>
+      <content type="html"><![CDATA[<p>翻開戰國史，多少六國的王候，聽到要與秦國會盟，就嚇個半死，而藺相如的不怕死，在「澠池之會」震懾秦王；嚇退秦國侍衛，可知藺相如絕非膽小怕死之徙。再論其謀略與辯才，在「完璧歸趙」、「澠池之會」的故事中，可知其才智及雄辯之能，絕非泛泛之輩。</p>
+<p>可是，如此一個不簡單的利害角色，卻只為了一個簡單的理由﹣「相忍為國，以國為重」，面對官位比他低階的廉頗將軍，則寧可裝小孬孬……<br><a id="more"></a></p>
+<p>像藺相如這種有勇、有智、有謀、有所不為，真正的「大丈夫」，不知咱們台灣是否也找得到？！</p>
+<p>還是只能空歎：<br>「哲人日已遠，典型在夙昔」…… T__T</p>
+<img src="ttp://g.udn.com.tw/community/img/PSN_ARTICLE/nickdai/f_2200266_1.jpg">
+<h2 id="完璧歸趙"><a href="#完璧歸趙" class="headerlink" title="完璧歸趙"></a>完璧歸趙</h2><img src="http://img.yiyuanyi.org/article_pic/2009-07-09/1247109424.jpg">
+<p>在公元前283年，趙惠文王取得了楚國的和氏璧，秦昭襄王在聽到這個消息後，派人遣書趙王，表示願意以十五座城池交換和氏璧。趙王與大將軍廉頗等諸位大臣商議，但最後得不出結論，因為奉璧予秦國，則害怕得不到城池，不奉璧予秦國，則害怕被其攻打。</p>
+<p>就在這個懸疑未定之時，宦官頭目繆賢上前向趙王獻計，表示其門客藺相如可以出使秦國。趙王則問：「何以得知？」 繆賢則表示以往他曾經犯罪，欲逃亡燕國，但藺相如阻止他，並問向他曉以利害，最後他亦因為沒有出走燕國，反而得到趙王饒恕的機會。因此他認為藺相如有智有謀，可委以重任。</p>
+<p>趙王於是召見藺相如，並詢問藺相如應否以和氏璧換取十五座城池。藺相如向趙王分析，秦強趙弱，不可不換。但趙王問如果給予秦王和氏璧，而秦王不給予他城池，可以怎辦。而藺相如則回答說不論怎樣，趙國都要冒風險，寧可秦國理虧，也不可讓趙國理虧。並且表示他願意攜璧入秦，而且如果秦王反悔，必保證完璧歸趙，趙王於是派他出使秦國。</p>
+<p>秦王於章臺接見藺相如，藺相如奉璧予秦王。秦王喜形於色，將和氏璧傳給美人及左右觀看，這時左右皆呼萬歲。藺相如看出秦王無意將城池給予趙國，於是向秦王說和氏璧有瑕疵，想向秦王指出，並向秦王取回璧玉。藺相如在取回和氏璧後即站在大柱旁，向秦王說：</p>
+<p>「趙王在眾臣異議中仍力排眾議，接納臣之提議，因為布衣之交尚不相欺，何況秦國為一大國！趙王為了保存秦趙之友好，在齋戒五日後使臣奉璧入秦。可惜秦王不但沒有給予趙國城池的打算，而且還將和氏璧傳給美人，實在是對臣的戲弄。」</p>
+<p>說畢後，藺相如即作出撞柱的姿態，而秦王因為怕破壞了和氏璧，於是假意給予趙國十五個城池，但實際為全不可得到的地方。藺相如看穿了秦王的奸計，於是借故要秦王齋戒五日才奉上和氏璧，以拖延時間。就在這數天，藺相如派侍從攜璧返回趙國，自己留下應付秦王。</p>
+<p>秦王在齋戒五日後，於大殿上設置九賓之禮，並傳召藺相如，藺相如應召上殿，並向秦王說：「秦國自秦繆公以來二十餘位君主，並未有信守誠諾者。因此臣誠恐秦王欺騙趙國，已命人持璧歸趙。秦強而趙弱，如果大王先割十五城予趙國，再派遣一位使者至趙國，趙國立即交出和氏璧。臣知道欺騙大王之論罪當誅，所以臣請赴湯鑊之刑，並不會有任何異議。」秦王與其群臣只得苦笑，這時左右之人正想將藺相如帶去行刑。但秦王卻制止，認為即使殺了藺相如亦不會有大作用，不如放了他，保存秦趙之間的友誼。結果藺相如成功完璧歸趙。</p>
+<p>藺相如歸國後，趙王認為不辱使命，保存了趙國的體面，於是封其為上大夫。結果，秦國不給予趙國城池，趙國亦不給予秦國和氏璧。</p>
+<h2 id="澠池之會"><a href="#澠池之會" class="headerlink" title="澠池之會"></a>澠池之會</h2><img src="http://a1.att.hudong.com/24/96/01300000371798123987962495823.jpg">
+<p>秦王因完璧歸趙一事惱羞成怒，派大將白起發兵攻趙，奪取簡（今山西離石縣西）和祁（今山西祁縣），次年再奪取石城（今河南朴縣西南）。又次年，再攻趙，殺死趙國軍民二萬人。</p>
+<p>在前279年，秦昭襄王取勝後，為了集中力量攻打楚國（鄢郢之戰），派出使者告知趙惠文王，表示欲與趙王停戰，重修舊好，並相約於西河外澠池（今河南澠池縣）會面。趙王畏懼秦國，不願赴會。廉頗、藺相如則獻計說：「王上如果不赴會，則是示弱而秦。」於是趙王決定赴會，並命藺相如率精兵五千相隨，又派了平原君趙勝率領數萬趙軍在澠池附近。廉頗送他們至邊境，並向趙王說：「王上此行，直至整個會議完畢，最多不過三十日便可歸國。如果三十日後仍不歸國，則請立太子為王，以斷絕秦國藉此要脅的希望。」趙王在思考一番後，決定答應，免得趙國被秦國要脅。</p>
+<p>趙王到達後，會議便開始，依據古代習俗，兩國國君相會，定必大飲一番，所以秦王和趙王皆飲了數杯。秦王說道：「寡人聽聞趙王愛好音律，不如請趙王上前演奏瑟樂。」趙王不好意思推擋，只好勉強鼓瑟。秦國御史記下此事：「某年月日，秦王與趙王相會飲酒，秦王命令趙王鼓瑟。」藺相如上前說道：「趙王亦聽聞秦王善於演奏秦國樂器，臣請秦王演奏盆樂，以互相娛樂。」秦王大怒，決不答應。於是藺相如向前進，並跪請秦王。秦王堅決不肯擊盆，藺相如說道：「五步之內，相如可以刎頸以血濺大王！」</p>
+<p>這時左右的侍衛欲以刀斬殺藺相如，藺相如怒目視之，大聲叱喝，侍衛無不畏懼，只得退開。秦王無奈，惟有擊盆一次。藺相如即召趙國御史記下此事，說道：「某年月日，秦王為趙王擊盆。」秦國的群臣即說道：「請趙國以十五座城池為秦王祝壽。」藺相如即時回敬：「請秦國以首都咸陽為趙王祝壽。」最後直至會議終結，秦王都不能羞辱趙王，趙國亦於邊境部署重兵以對付秦國，結果秦國不敢輕舉妄動。</p>
+<p>趙惠文王二十年的澠池會盟是秦昭王為了方便集中力量攻打楚國，於是想同趙國講和。澠池之會後，相如以功授官為上卿，位在廉頗之上，廉頗不服氣，以致於有後來的負荊請罪。澠池之會後，秦、趙間暫時停止了戰爭。趙軍立即出兵齊國，攻下高唐等地。</p>
+<h2 id="負荊請罪"><a href="#負荊請罪" class="headerlink" title="負荊請罪"></a>負荊請罪</h2><img src="http://hd.wenming.cn/hdzt/zhaowh/lsyzwh/201212/W020121221530001935752.jpg" width="520">
+<p>藺相如因澠池之會被拜為上卿，廉頗深深不忿，說道：「我身為趙國將軍，有著攻取城池，野外戰鬥獲勝之大功，而藺相如則只是以伶牙利齒出眾，從而位居於我之上。而且藺相如出身卑賤，要我位居其下，對我而言實在是極大羞辱。」於是廉頗便對外宣稱，如果他看到藺相如，必定對其大加羞辱。</p>
+<p>藺相如在得知此事後，不肯與廉頗會面。在早朝時，經常稱病不去。有一次，藺相如出門時，在遠處望見廉頗，即時改變行車方向，以躲避他。但這個舉動使得其門客亦感到羞恥，質疑藺相如膽小怕事。藺相如無奈，只有向其說道：「大家認為廉將軍可否與秦王相比？」眾人回答：「不可」。藺相如再說道：「即使以秦王之淫威，我也敢在大殿上對其叱喝，並羞辱秦國群臣。我雖然不是甚麼勇者，但怎麼可能怕廉將軍？其實我只是顧念趙國之社稷，因為強秦之所以不敢攻打趙國，是因為有我們兩個人在。兩虎相鬥，必有一傷。如果我公然跟廉將軍鬧翻，秦國必定趁機出兵攻趙，趙國就危險了。我之所以如此躲避廉將軍，實在是因為國家大事遠較個人恩怨為重。」廉頗在得知此事後，即時袒露背部，並背負荊棘至藺相如門前謝罪。</p>
+<p>廉頗見到了藺相如說：「我是個粗魯人，見識少，氣量窄。哪兒知道您竟這麼容讓我，我實在沒臉來見您。請您責打我吧。」藺相如連忙扶起廉頗，說：「咱們兩個人都是趙國的大臣。將軍能體諒我，我已經萬分感激了，怎麼還來給我賠禮呢？」</p>
+<p>兩個人都激動得流了眼淚。打這以後，兩人就做了知心朋友。</p>
 ]]></content>
     </entry>
     
@@ -354,6 +1153,391 @@
 <a id="more"></a>
 <p><iframe src="https://player.vimeo.com/video/68667663" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe> </p><p><a href="https://vimeo.com/68667663" target="_blank" rel="external">左中回憶剪貼簿</a> from <a href="https://vimeo.com/user19001121" target="_blank" rel="external">居正中</a> on <a href="https://vimeo.com" target="_blank" rel="external">Vimeo</a>.</p><p></p>
 <p>【註】：省左高中17屆校友（民國68年畢業）</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小兒換床記]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/05/22/Change-Bed-for-my-child/</url>
+      <content type="html"><![CDATA[<p>那天清晨，我進到小兒的房間，坐在他的床上，盯著他完成準備，以便上學去。</p>
+<p>完成洗臉、刷牙後，小兒該著裝，換上小學的制服。小兒的制服早已置於床上，想要拿制服的他，竟給我出怪招，用跳的，飛躍上床。</p>
+<p>結果……慘劇發生了，他床鋪的側邊，竟然從中間斷裂。<br><a id="more"></a><br><img src="https://lh3.googleusercontent.com/-Vvb3JHulYQE/VUi7me4DcHI/AAAAAAAAhbo/WlIVXa5saSw/s640/IMG_0293.JPG"></p>
+<p>無奈之餘，只好開始「買新床」的籌備工作。因為新床須配合，小兒房間的現況，因此，有很多限制條件得考量。</p>
+<p>為了避免遺漏某些考量，以致買到不適合的床，我需要將所有的限制條件一一記下。</p>
+<p>因為懶的畫圖，所以，首先我使用 iPad 2 拍照。接著再使用 <a href="http://evernote.com/intl/zh-tw/skitch/" target="_blank" rel="external">Skitch App</a> (Evernote家族系列的產品) ，在相片上加工做註解，將需要考量的限制通通寫下。</p>
+<img src="https://lh3.googleusercontent.com/-iU_E7ju5wEM/VUi7nkeYdnI/AAAAAAAAhcM/PNTRGtaDKjg/s640/%25E5%25BD%25B1%25E5%2583%258F%252013-5-22%2520%25E4%25B8%258A%25E5%258D%25889.52.png">
+<p><strong><em>床的右側，需考慮高度，不能妨礙邊櫃，致使門板無法往下開啟。</em></strong></p>
+<img src="https://lh3.googleusercontent.com/-EIabLObRsSM/VUi7ohV1E5I/AAAAAAAAhcQ/L8TpTiUZR-U/s512/%25E5%25BD%25B1%25E5%2583%258F%252013-5-22%2520%25E4%25B8%258A%25E5%258D%25889.53%2520%25281%2529.png">
+<p><strong><em>床頭板需考慮高度，不得高過於窗邊。</em></strong></p>
+<img src="https://lh3.googleusercontent.com/-2KpkSRy0Io4/VUi7pJbBMXI/AAAAAAAAhcU/uC_crl3egNA/s640/%25E5%25BD%25B1%25E5%2583%258F%252013-5-22%2520%25E4%25B8%258A%25E5%258D%25889.53.png">
+<p><strong><em>新床架要能裝得進，原來的舊床墊；床下方要有空間，以便擺小孩的玩具箱。</em></strong></p>
+<p>然後，我根據以上 3 張相片所列的限制條件，上網搜尋，結果找到了頗符合理想的實木單人床架。<br><img src="https://lh3.googleusercontent.com/-8UehZwmL3FQ/VUi7mrMf1DI/AAAAAAAAhcE/qTL5rFE8peU/s640/4818E1D1-FBBD-4D46-A1D1-26B08AD137F6.JPG"></p>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>「新床落成」當晚，小兒上床後，我握著他的小手，用著感性，又有些得意的口吻問他……</p>
+<p>我：「喜歡這張新床嗎？」<br>兒：「不喜歡！」</p>
+<p>我（有點失望，有些不爽）：「為什麼呢？」<br>兒：「床的顏色」</p>
+<p>我（按耐住冒火的情緒，但仍刻意裝溫柔地問）：「這是原木色，是最好，最接近大自然的顏色耶！不然，你希望要什麼顏色嘞？」</p>
+<p>兒：「我才不要原木色，我要跟原來一樣，有藍色跟黄色」<br>我：「…………」</p>
+<p>嗚呼～～～！「悲劇，總是一再地重演」！</p>
+<p>為什麼 End User 真正想要的，總跟負責開規格單位的說法，有著大大的不同！ ⋯⋯⋯⋯ ＝＝!!!</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[HTML 5, JavaScript 好用的IDE工具，開發人員的利器－NetBeans 7.3]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/03/04/NetBeans-7-3/</url>
+      <content type="html"><![CDATA[<p>前陣子，研究 CakePHP 時，順便花了點時間，研究免費的 IDE 主流工具，那一個對 CakePHP Framework 的支援最好？於是又把好久沒用的 NetBeans ，拿出來用一用，這才發覺 NetBeans 7.2.1 ，已提供 <a href="http://plugins.netbeans.org/plugin/44579/php-cakephp-framework" target="_blank" rel="external">CakePHP Plugin</a> ，有著極佳的整合支援。</p>
+<p>因為 NetBeans 對 CakePHP 極具親和力的支援，所以後來的 PHP 研究，又’開始以 NetBeans 為主。沒想到，不到兩週，NetBeans 又推出新版本 <strong>7.3</strong> （<a href="https://netbeans.org/downloads/" target="_blank" rel="external">NetBeans下載處</a>）。</p>
+<p>新版的 NetBeans 7.3 有著什麼樣的好功能？<br><a id="more"></a></p>
+<p>以下是官網所發佈的新版功能簡介影片《NetBeans IDE 7.3 Overview》：</p>
+<iframe src="https://www.youtube.com/embed/0y4c0XztY-0?rel=0" width="560" height="300" frameborder="0" allowfullscreen></iframe>
+<h2 id="新版功能摘要"><a href="#新版功能摘要" class="headerlink" title="新版功能摘要"></a>新版功能摘要</h2><ul>
+<li><p>網頁編輯的結果可立即顯現：與 Google Chrome 瀏覽器結合，使輸入的 HTML Tag / CSS 設定 / JavaScript 程式碼，只要執行儲存功能，毋需手動執行網頁 Reload ，就能立即自瀏覽器看到網頁的輸出結果。網頁的編輯工作，可以像使用 DreamWeaver 一樣直覺、輕鬆； 【Fig 1】</p>
+</li>
+<li><p>自動化的程式編輯檢查工具：撰寫程式的時候，最怕打錯字，使得 Script 程式無法正執行。操作者在編撰程式碼的過程，會將同樣的變數，以黃色底標示，程式設計人員在撰碼的過程，可透過此特性，以目視比對方法，確認變數的名稱前後一致，檢查沒有打字錯誤的問題；【Fig 2】</p>
+</li>
+<li><p>豐富的 JavaScript 除錯輔助：可以在 NetBeans 中，對 JavaScript 設定中斷點、觀察變數內容值，直接進行’除錯工作；更能進行單元測試 (Unit Test) ，確保每個 Method/Function 可以正確執行。 【Fig 3】</p>
+</li>
+</ul>
+<p><img src="http://lh5.ggpht.com/-RQK-Hm2PdR0/UTSvlN8AA5I/AAAAAAAAKuY/LZ4qu31LCk8/image_thumb%25255B1%25255D.png?imgmax=800" alt="【Fig 1】可以立即觀察 HTML/CSS 網頁輸出的結果"></p>
+<p><img src="http://lh5.ggpht.com/-U_GKMJDRHhQ/UTSvocwzpEI/AAAAAAAAKuo/Azfk3BxyS6A/SNAGHTML35aa516_thumb%25255B1%25255D.png?imgmax=800" alt="【Fig 2】同樣的變數，以黃底色標示，有利於目視檢查，快速確認打字無錯誤"></p>
+<p><img src="http://lh4.ggpht.com/-nqR4JA7J6ig/UTSvstU9X0I/AAAAAAAAKu4/F6XZkD9anBk/image_thumb%25255B3%25255D.png?imgmax=800" alt="【Fig 3】JavaScript 可設中斷點，觀察變數內容值"></p>
+<h2 id="新版功能操作指引教材"><a href="#新版功能操作指引教材" class="headerlink" title="新版功能操作指引教材"></a>新版功能操作指引教材</h2><p>想要快速了解 NetBeans 7.3 版的新功能，NetBeans 的官網提供了很棒的指引教材，讓您可以透過實際操作，親身體會。</p>
+<ul>
+<li><p><a href="https://netbeans.org/kb/docs/webclient/html5-gettingstarted.html" target="_blank" rel="external">Getting Started with HTML5 Applications</a>：見識NetBeans 7.3，如何支援 HTML 5，其 Chrome with NetBeans Integration ，如何讓 HTML 網頁的編製及預覽工作，變得簡化；</p>
+</li>
+<li><p><a href="https://netbeans.org/kb/docs/webclient/html5-js-support.html" target="_blank" rel="external">Debugging and Testing JavaScript in an HTML5 Application</a>：如何運用NetBeans 7.3，對 JavaScript 進行除錯；如何直接在 NetBeans 設定中斷點；觀察變數內容。如何執行 JavaScript 的單元測試 (Unit Test) 。</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Node.JS 入門初探]]></title>
+      <url>http://alanjui.github.io/blog/blog/2013/02/27/Introduction-for-beginner-of-NodeJS/</url>
+      <content type="html"><![CDATA[<p>去年曾參加資策會舉辦的手機 APP 開發的訓練課程，其間有專題談論手機如何與 Web 伺服器介接，授課的老師特別推崇採用 Node.js 技術，那時候光要搞懂 iOS、 Objective-C、各個 Framework……，就已弄得暈頭轉向，根本沒時間去搞清楚 Node.js 是蝦米碗糕。</p>
+<p>幾天前安裝 Titanium Studio 工具軟體時，安裝程式在執行過程中，竟有畫面徵詢我「是否允許安裝 Node.js」。也就因此，引發我的好奇心，想要好好了解 Node.js 到底是啥個東東。   ^^<br><a id="more"></a></p>
+<p>拜過古狗大神，研讀過一些文章，並透過程式實作，親身體會了 Node.js 是啥，有些什麼能耐之後，做個彙總的重點整理如下：</p>
+<ul>
+<li>認識 Node.js 是啥？</li>
+<li>特優的 Node.js 入門指引教材</li>
+<li>下載及安裝 Node.js 執行環境</li>
+<li>在 IDE 工具發展 Node.js 程式碼</li>
+</ul>
+<h2 id="認識-Node-js-是啥？"><a href="#認識-Node-js-是啥？" class="headerlink" title="認識 Node.js 是啥？"></a>認識 Node.js 是啥？</h2><p><strong>Node.js ＝ 伺服器端使用的JavaScript</strong></p>
+<p>什麼是Node.js？最簡單的講法：「它是一個 Web Server 伺服器端使用的  JavaScript」。</p>
+<p>在網路上看到的文章，有人認為這種講法，會令讀者對 Node.js 的視野給窄化。因為在Node.js 的官網，對於 Node.js 的解釋，認為它是一種<br>「<strong>simple non-blocking networking network programming model</strong>」……</p>
+<p>程式設計人員可在「<strong>sockets, network traffice</strong>」的層級，對伺服器進行低階控制的運用。不用等到 Web Client 端來呼叫， Web Server 端可以主動將「訊息」往 Web Client 端 Push 下去。</p>
+<p>所以，Node.js 不僅可以利用它開發「Web 應用系統」；甚至非常適合將它當作「Web Service」來用。</p>
+<p>嚴格說來， Node.js 是一個「 JavaScript 執行平台」。不應將它比作 PHP ，當成是 Web Server 端使用的 Script 語言。不過，因為我們是初學者，才剛入門，把 Node.js 當成是 Web Server ，伺服器端使用的 JavaScript ，這樣應該會簡單、易懂。</p>
+<p>關於 Node.js 是什麼？以下提供幾篇文章，供有興趣追根究底的朋友參考：</p>
+<ul>
+<li><a href="http://book.nodejs.tw/zh-tw/node_introduce.html" target="_blank" rel="external">Node.js簡介</a></li>
+<li><a href="http://www.inside.com.tw/2011/03/13/new-tech-nodejs" target="_blank" rel="external">2011網頁開發熱門技術 – Node.js</a></li>
+<li><a href="http://www.ibm.com/developerworks/cn/opensource/os-nodejs/" target="_blank" rel="external">Node.js 究竟是什么？</a></li>
+</ul>
+<h2 id="特優的-Node-js-入門指引教材"><a href="#特優的-Node-js-入門指引教材" class="headerlink" title="特優的 Node.js 入門指引教材"></a>特優的 Node.js 入門指引教材</h2><p>聽別人講述 Node.js 是什麼，倒不如下海玩玩，親自體會一下。透過程式的實作，去了解 Node.js 是啥？有些什麼功用？個人以為，這是掌握 Node.js ，最好的方式。</p>
+<p>以下這裡有篇好章，向入門初學者，大力推薦：<a href="http://www.nodebeginner.org/index-zh-tw.html" target="_blank" rel="external">《Node入門》</a>這篇初學者的入門指引實作教材。</p>
+<p><img src="http://lh5.ggpht.com/-oY1yyRMOUxU/US3sfqtpuII/AAAAAAAAKsU/YN1cTASOjUk/image_thumb%25255B5%25255D.png?imgmax=800" alt=""></p>
+<p>這篇文章原本雖為英文，但已有一位網路的善人菩薩譯成「繁體中文」的版本。所以，不用擔心有英文閱讀的障礙。像我這種非 PRO 等級的肉腳軟體技術人員，邊讀文章，邊在 Aptana Studio 輸入 Script 程式、測試執行結果，總共花了約六個小時，就可以完成這個入門教程。</p>
+<p>因為這個教程的文章寫得非常棒，所以，當我將整篇文章走完之後，對於 Node.js 就能擁有一個輪廓清晰的認識。建議想認識Node.js是什麼的朋友，不要猶豫，靜下心、耐著性，把這文章好好讀完吧！ ^^y</p>
+<p>實作程式之前，您需要先建置 Node.js 的 Rutime 執行環境，甚至可能還會需要在 IDE 開發工具，安裝些小配件，好讓程式開發的工作可以更加稱心順意。</p>
+<p>以下就說明，如何備妥 Node.js 的開發環境。</p>
+<h2 id="下載及安裝-Node-js-執行環境"><a href="#下載及安裝-Node-js-執行環境" class="headerlink" title="下載及安裝 Node.js 執行環境"></a>下載及安裝 Node.js 執行環境</h2><p>Node.js 這個 JavaScript 的執行平台，適用於 OS X / Linux / Windows 各作業系統，可自官網 <a href="https://nodejs.org/" target="_blank" rel="external">nodejs.org</a> 免費下載。</p>
+<p><img src="http://lh5.ggpht.com/-w_FlDf84WEo/US3sYntNrgI/AAAAAAAAKr0/KS2osrpx8f8/image_thumb%25255B1%25255D.png?imgmax=800" alt=""></p>
+<h2 id="在-IDE-工具發展-Node-js-程式碼"><a href="#在-IDE-工具發展-Node-js-程式碼" class="headerlink" title="在 IDE 工具發展 Node.js 程式碼"></a>在 IDE 工具發展 Node.js 程式碼</h2><p>基本上，開發 Node.js 的程式，只要有文字編輯器就可以撰碼。完成的 Script 程式，想要執行時，在 Windows 作業系統，可用 Command 視窗執行；於 OS X / Linux 作業系統，則改用終端機視窗執行。</p>
+<p><img src="http://lh4.ggpht.com/-vGZvnk8UwQ8/US3scHaGI3I/AAAAAAAAKsE/MDKHCpaFgok/image_thumb%25255B3%25255D.png?imgmax=800" alt=""></p>
+<p>可是以上的這種作法，對我個人而言，實在有些太刻苦。對於跟我一樣，喜歡使用 IDE 工具，進行程式開發的人，請根據自己的喜好，參考如下的資料，在您愛用的 IDE 工具安裝 Plug-in。</p>
+<ul>
+<li><a href="http://www.nodeclipse.org/" target="_blank" rel="external">Eclipse / Aptana Studio Plug-in (Nodeclipse)</a></li>
+<li><a href="http://plugins.netbeans.org/plugin/36653/nodejs" target="_blank" rel="external">NetBeans 7.2 Plug-in</a></li>
+</ul>
+<p>以下是我在 Aptana Studio 3 使用 Node.js Plug-in 的截圖：<br><img src="http://lh5.ggpht.com/-pIIq-OpWVHc/US4a-5DzrUI/AAAAAAAAKss/73MBbRjNbKI/image_thumb%25255B1%25255D.png?imgmax=800" alt=""></p>
+<h3 id="撰寫Script程式碼："><a href="#撰寫Script程式碼：" class="headerlink" title="撰寫Script程式碼："></a>撰寫Script程式碼：</h3><p><img src="http://lh5.ggpht.com/-pIIq-OpWVHc/US4a-5DzrUI/AAAAAAAAKss/73MBbRjNbKI/image_thumb%25255B1%25255D.png?imgmax=800" alt=""></p>
+<h3 id="執行Script程式碼："><a href="#執行Script程式碼：" class="headerlink" title="執行Script程式碼："></a>執行Script程式碼：</h3><p><img src="http://lh6.ggpht.com/-zDZ3f7kgOZU/US4bCdpGxAI/AAAAAAAAKs8/6WOG1Kd78s0/image_thumb%25255B5%25255D.png?imgmax=800" alt=""></p>
+<h3 id="觀察在用戶端-Web-Browser-伺服端-Console-的輸出結果："><a href="#觀察在用戶端-Web-Browser-伺服端-Console-的輸出結果：" class="headerlink" title="觀察在用戶端 Web Browser / 伺服端 Console 的輸出結果："></a>觀察在用戶端 Web Browser / 伺服端 Console 的輸出結果：</h3><p><img src="http://lh5.ggpht.com/-CEdVTe8bG-Y/US4bGWExlwI/AAAAAAAAKtM/BoSnDNq8Sps/image_thumb%25255B8%25255D.png?imgmax=800" alt=""></p>
+<p>以下做個摘要說明，提供給喜歡使用 Eclipse 的朋友，透過下列執行步驟，親身打造一個符合 Node.js 用途的 IDE 開發環境：</p>
+<ol>
+<li><p>下載與安裝 <a href="http://www.eclipse.org/downloads/" target="_blank" rel="external">Eclipse</a>：我用的 Eclipse 版本：<a href="http://www.eclipse.org/downloads/packages/eclipse-classic-421/junosr1" target="_blank" rel="external">Eclipse Classic 4.2.1 (Juno) 64 bits</a></p>
+</li>
+<li><p>啟動 Eclipse ，安裝 Plug-in：透過「Install New Software」功能，安裝「<a href="http://www.nodeclipse.org/" target="_blank" rel="external">Nodeclipse plug-in</a>。安裝的操作細節，可參考這份<a href="http://www.nodeclipse.org/updates" target="_blank" rel="external">《安裝說明》</a>。</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[如何啟用 XAMPP 中的 SMTP Server 功能]]></title>
+      <url>http://alanjui.github.io/blog/blog/2011/03/24/How-to-sue-SMTP-server-on-XAMPP/</url>
+      <content type="html"><![CDATA[<p>現在的Web應用系統，經常需要有透過e-mail發通知的功能。</p>
+<p>可在Windows作業系統環境執行的XAMPP套件，其中的Mercury/32 (以下簡稱：Mercury)，就具有SMTP Server的功能。透過這個子套件，我們就可以在程式中，使用SMTP來發送e-mail。</p>
+<p>只是…….，Mercury的使用，可沒像XAMPP中的Apache或MySQL一樣的簡單，只需輕輕鬆鬆按個 ［Start］鈕，就能將功能啟動。<br><a id="more"></a></p>
+<p>為了搞定Ｍercury的設定，可真是快把我搞瘋。今天，我的 Lucky Day 總算到來了，所以，借著好運之助，我Google到一篇文章，參考其中的作法，再加上自己的測試與摸索，終於…..，把這個我「孝想」已久的功能給安裝妥當。<br>整個安裝設定的主要程序如下：</p>
+<ol>
+<li>啟動Mercury功能</li>
+<li>設定Core Module組態</li>
+<li>設定MercuryS SMTP Server組態</li>
+<li>設定MercuryE SMTP Client組態</li>
+<li>設定PHP.INI組態</li>
+<li>重新啟動Ｍercury與Apache功能</li>
+</ol>
+<p>上述各個「程序步驟」的執行細節，詳述說明如後。</p>
+<h2 id="啟動Mercury功能"><a href="#啟動Mercury功能" class="headerlink" title="啟動Mercury功能"></a>啟動Mercury功能</h2><ol>
+<li><p>自「XAMPP Control Panel Application」啟動Ｍercury。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfu1LH_9I/AAAAAAAABEc/X-T78iNf2OA/s1600/SNAGHTML123213b%5B3%5D.png" alt=""></p>
+</li>
+<li><p>系統啟動Mercury。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfwUf2kDI/AAAAAAAABEk/X3BkCstBIUE/s1600/SNAGHTML12487f9%5B3%5D.png" alt="確定 Mercury 旁已顯示「Running」"></p>
+</li>
+<li><p>點選［Admin］鈕，啟動［Mercury/32］的管理軟體。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfx65fiDI/AAAAAAAABEs/F3ft5kZ8tWA/s1600/SNAGHTML126a2aa%5B3%5D.png" alt=""></p>
+</li>
+<li><p>Windows出現［Mercury/32］管理介面的畫面。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfzTXFE4I/AAAAAAAABE0/LT1v6G0-U_w/s1600/SNAGHTML128d34b%5B3%5D.png" alt=""></p>
+</li>
+</ol>
+<h2 id="設定Core-Module組態"><a href="#設定Core-Module組態" class="headerlink" title="設定Core Module組態"></a>設定Core Module組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［Ｍercury core module］指令。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf0ttQhhI/AAAAAAAABE8/xKTNaNbtSG8/s1600/SNAGHTML12b1dc2%5B3%5D.png" alt=""></p>
+</li>
+<li><p>在［Mercury Core Module Configuration］的對話方塊，預設的［General］活頁籤，完成下列項目設定：</p>
+<ul>
+<li><p>在［Internet name for this system］欄位，填「<strong>localhost</strong>」</p>
+</li>
+<li><p>只勾選［Send copies of all errors to the postmaster］設定<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf2BN18DI/AAAAAAAABFE/t0kuy3HvSeg/s1600/SNAGHTML12cae9c%5B3%5D.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>在［Local domains］活頁籤，確定有如下標紅框處之localhost設定：<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf3purYYI/AAAAAAAABFM/ko9OqYBgQK4/s1600/SNAGHTML135232f%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［確定］鈕，儲存設定值，並關閉［Mercury Core Module Configuration］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定MercuryS-SMTP-Server組態"><a href="#設定MercuryS-SMTP-Server組態" class="headerlink" title="設定MercuryS SMTP Server組態"></a>設定MercuryS SMTP Server組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［Ｍercury core module］指令。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf5bYg6OI/AAAAAAAABFU/1sb9h5WYAHI/s1600/SNAGHTML13a8b63%5B3%5D.png" alt=""></p>
+</li>
+<li><p>在［Mercury SMTP Server］的對話方塊，預設的［General］活頁籤，完成下列項目設定：</p>
+<ul>
+<li><p>在［Announce myself as］欄位，填「<strong>SMTP</strong>」</p>
+</li>
+<li><p>在［IP Interface to use］欄位，填「<strong>127.0.0.1</strong>」  (因為我有其它的考量，所以我在此欄填了一個Private IP)<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf7OX4fVI/AAAAAAAABFc/l8WY0KH29wE/s1600/SNAGHTML1455547%5B3%5D.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>點選［Connection control］活頁籤，看到如下畫面：<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf8WHbziI/AAAAAAAABFk/exl5pNcKTh4/s1600/SNAGHTML1486c11%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［Add restriction］鈕，準備設定 IP: 127.0.0.1 為 SMTP Server 會提供服務的 IP 網址。</p>
+</li>
+<li><p>在［IP Address reang］的［from］及［to］欄位填入「127.0.0.1」 ；確認［Attributes for this entry］的選項，設定為［Allow connections］；最後按［OK］鈕，結束此設定動作。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf9xzxclI/AAAAAAAABFs/B0IPPeuzFow/s1600/SNAGHTML14e57a7%5B3%5D.png" alt=""></p>
+</li>
+<li><p>再度回到［Connection control］活頁籤時，可在［Connection control］的清單中，看到IP Address為127.0.0.1的網址，為允許(Allow)的設定項目。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf_ZUlikI/AAAAAAAABF0/ZZ11Ms8g9PU/s1600/SNAGHTML1521aa8%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［確定］鈕，儲存設定值，並關閉［Mercury SMTP Server］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定MercuryE-SMTP-Client組態"><a href="#設定MercuryE-SMTP-Client組態" class="headerlink" title="設定MercuryE SMTP Client組態"></a>設定MercuryE SMTP Client組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［ＭercuryE SMTP Client］指令。</p>
+</li>
+<li><p>出現［MercuryE End-to-end SMTP Client Configuration］對話方塊。</p>
+</li>
+<li><p>在［Name servers］欄位，輸入「168.95.1.1」。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgA9LagAI/AAAAAAAABF8/bol4e691rg4/s1600/SNAGHTML155dc51%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［Save］鈕，儲存設定值，並關閉［MercuryE End-to-end SMTP Client Configuration］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定PHP-INI組態"><a href="#設定PHP-INI組態" class="headerlink" title="設定PHP.INI組態"></a>設定PHP.INI組態</h2><ol>
+<li><p>使用您喜愛的文字處理器(Editor) ，打開路徑應 在<strong><em>C:\xampp\php</em></strong> 的 <strong>PHP.INI</strong> 檔案。</p>
+</li>
+<li><p>加入 <code>sendmail_from = postmaster@localhost</code> 設定。<br> <img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsjinAU2ZI/AAAAAAAABGc/uXkSgKr_xWA/s1600/SNAGHTML16b095a%5B3%5D.png" alt=""></p>
+</li>
+<li><p>儲存並關閉這個檔案。</p>
+</li>
+</ol>
+<h2 id="重新啟動Mercury與Apache功能"><a href="#重新啟動Mercury與Apache功能" class="headerlink" title="重新啟動Ｍercury與Apache功能"></a>重新啟動Ｍercury與Apache功能</h2><ol>
+<li><p>切換到［XAMPP Control Panel Application］視窗。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgCScZemI/AAAAAAAABGE/V7GbZhrmg9Y/s1600/SNAGHTML15ae278%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按 Ｍercury 右邊的［Stop］鈕，結束 Mercury 的功能（等於關閉SMTP Server的功能）。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgDg6lZkI/AAAAAAAABGM/XkP50MyU5yo/s1600/SNAGHTML15cba40%5B3%5D.png" alt=""></p>
+</li>
+<li><p>如法泡製，按 Apache 右邊的［Stop］鈕，結束 Appache 的功能（等於關閉Web Server的功能）。</p>
+</li>
+<li><p>按 Apache 右邊的［Start］鈕，再次啟動 Apache 的功能（等於重新啟動Web Server的功能）。</p>
+</li>
+<li><p>按 Ｍercury 右邊的［Start］鈕，再次啟動 Mercury 的功能（等於重新啟動SMTP Server的功能，執行這個重新啟動的程序，為的是要讓剛才的設定能正常運作）。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgFNBabBI/AAAAAAAABGU/04jiP72Cnh8/s1600/SNAGHTML16069ff%5B3%5D.png" alt=""></p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[了解什麼是 Spring Web MVC]]></title>
+      <url>http://alanjui.github.io/blog/blog/2010/10/22/Introduction-of-What-is-Spring-Web-MVC/</url>
+      <content type="html"><![CDATA[<p>循前例，我還是自NetBeans的官網，取用如下之教學指引，以為自修研習用教材，開始了我對 Spring 的初步探究–「Spring是什麼東東啊？」<br><a id="more"></a></p>
+<p><a href="https://netbeans.org/kb/docs/web/quickstart-webapps-spring.html" target="_blank" rel="external">Introduction to Spring Web MVC</a></p>
+<h2 id="文件導讀"><a href="#文件導讀" class="headerlink" title="文件導讀"></a>文件導讀</h2><p>上述教材研讀及實作完畢後，摘錄心得如下，當成是自己的讀書筆記，也希望對需要了解Spring的朋友，能提供那麼一點助益。</p>
+<p>根據教材內容的說明，可知此處所探討的只是Spring Web MVC的運作原理，可能這教材裡的說明，只是讓我們了解在 Spring Framework 下，Controller、View、Model 三種類別是如何協同運作，還不能算是給了 Spring Framework 的總體概述。</p>
+<p>此教材主要的章節架構如下：</p>
+<ul>
+<li>Setting up a New Project with Spring Web MVC Support</li>
+<li>Overview of the Application</li>
+<li>Implementing a Service</li>
+<li>Implementing the Controller and Model</li>
+<li>Implementing the Views</li>
+</ul>
+<p>對於以上之章節，可將「Setting up a New Project with Spring Web MVC Support」章節視為本文章的第一篇。</p>
+<p>至於「Overview of the Application」到「Implementing the Views」的章節，則屬於本文章的第二篇。</p>
+<h2 id="第一篇內容摘要"><a href="#第一篇內容摘要" class="headerlink" title="第一篇內容摘要"></a>第一篇內容摘要</h2><h3 id="認識DispatcherServlet"><a href="#認識DispatcherServlet" class="headerlink" title="認識DispatcherServlet"></a>認識DispatcherServlet</h3><p>指導NetBeans的使用者，如何透過專案建置精靈，建立一個支援Spring Framework 3.0的NetBeans專案資料夾。</p>
+<p>完成了上述專案建置工作後，即可依據教材中的指示，體驗一下，Spring有什麼樣的特性。</p>
+<p>第一件要了解的事，偉大的DispatcherServle：從web.xml檔案內容的描述，可以發覺在Spring Framework有著一個神奇的Servlet，它的名字叫DispatcherServlet。從以下自web.xml節錄的內容，可以看出，只要有使用者對伺服器發出讀取.htm檔案的Request時，往後的處理工作，皆由偉大的DispatcherServlet來負責操盤。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;servlet&gt;</span><br><span class="line">    &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;</span><br><span class="line">    &lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;/servlet-class&gt;</span><br><span class="line">    &lt;load-on-startup&gt;2&lt;/load-on-startup&gt;</span><br><span class="line">&lt;/servlet&gt;</span><br><span class="line">&lt;servlet-mapping&gt;</span><br><span class="line">    &lt;servlet-name&gt;dispatcher&lt;/servlet-name&gt;</span><br><span class="line">    &lt;url-pattern&gt;*.htm&lt;/url-pattern&gt;</span><br><span class="line">&lt;/servlet-mapping&gt;</span><br></pre></td></tr></table></figure>
+<p>第二件要了解的事，網站的首頁是如何被找到的：別懷疑，同時，我也沒有侮辱您的專業。本來網站的首頁用腳指想也知，不是index.hm；就是index.jsp檔案。</p>
+<p>可是，從下列web.xml的設定，可知以上皆非，預設為redirect.jsp。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;welcome-file-list&gt;</span><br><span class="line">    &lt;welcome-file&gt;redirect.jsp&lt;/welcome-file&gt;</span><br><span class="line">&lt;/welcome-file-list&gt;</span><br></pre></td></tr></table></figure>
+<p>當redirect.jsp檔案打開後，可以看到如下的內容：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;% response.sendRedirect(“index.htm”); %&gt;</span><br></pre></td></tr></table></figure>
+<p>結果…..，才知，這網站的首頁仍由index.htm擔綱。但是…..，在Web Pages之下，根本沒有index.htm這個檔案啊！</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2a3TF0qI/AAAAAAAAA4s/q8rhJEdeCiM/s1600/image%5B2%5D.png" alt=""></p>
+<p>可是……，這個網站在執行時候，明明可以看到如下的網頁內容，同時，在Web瀏覽器中的URL網址，也出現了index.htm啊！</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2cLkOd7I/AAAAAAAAA40/2_UylvnIRgA/s1600/image%5B6%5D.png" alt=""></p>
+<p>如果你不死心到處找，可以在路徑「<strong><em>Web Pages\WEB-INF\jsp\</em></strong>」處，找到一個最最最標準的首頁檔案<strong>index.jsp</strong>。</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2dvrnzqI/AAAAAAAAA48/jTuOjbVwSek/s1600/image%5B12%5D.png" alt=""></p>
+<p>把這個網頁檔案打開後，可以查覺其內容，跟前述網站首頁內容是相同的。</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2fERSynI/AAAAAAAAA5E/9vG6XkB1ef8/s1600/image%5B16%5D.png" alt=""></p>
+<p>啊……！現在是怎麼回事？怎麼會這樣？</p>
+<h3 id="謎題的解答dispatcher-servlet-xml"><a href="#謎題的解答dispatcher-servlet-xml" class="headerlink" title="謎題的解答dispatcher-servlet.xml"></a>謎題的解答dispatcher-servlet.xml</h3><p>其實在網站所見的首頁內容，其來源正是出自index.jsp。但是，從要進入index.htm網頁，卻是顯示index.jsp的「無中生有」過程，是怎麼回事？以下我們來一一分解詳述：</p>
+<p>由於redirect.jsp檔案，說要將網頁轉到index.htm。所以，根據web.xml的設定，只要是*.htm檔案，通通交由DispatcherServlet負責。</p>
+<p>當DispatcherServlet這個血統純正的Java Servlet，聽說有人要求瀏覽index.htm網頁的內容時，便會查閱 <strong><em>dispatcher-servlet.xml</em></strong> 檔案中的設定，並嚴格遵循當中的規矩，照章行事。</p>
+<p>當DispatcherServlet讀到 id 為 <strong>urlMapping</strong> 的 <strong>bean</strong> 設定，它知道若有人要看 “/index.htm” 的檔案時，它要以 <strong>indexController</strong> 頂替 。</p>
+<p>於是DispatcherServlet，再到 <strong>dispatcher-servlet.xml</strong> 檔案尋找 name 為 indexController 的 bean 。結果，自 <strong>p:viewName</strong> 的屬性查出，indexController 要找主要檔名叫 index 的檔案。</p>
+<p>最後，DispatcherServlet藉由 id 為 <strong>viewResolver</strong> 的 bean ，其中的 <strong>p:prefix</strong> 、 <strong>p:suffix</strong> ，查出主檔名為 index 的檔案，要到路徑為「<strong><em>/WEB-INF/jsp/</em></strong>」處尋找；找到這個檔案後，再配以 <strong>jsp</strong> 的副檔名。</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2g4cp0mI/AAAAAAAAA5M/CKWLHGG6_OE/s1600/image%5B21%5D.png" alt=""></p>
+<p>經過上述無中生有的過程，DispatcherServlet終於完成解讀，知道有人要看 index.htm 時，就給它 /WEB-INF/jsp/index.jsp 的檔案。</p>
+<p>瞭了嗎？！</p>
+<p>只是…..，不過是要喝杯牛奶，幹啥要自行蓋個牧場來養牛，生產年奶。為什麼要把事情搞得這麼大，如此複雜？別問我，我那知！</p>
+<h2 id="第二篇內容摘要"><a href="#第二篇內容摘要" class="headerlink" title="第二篇內容摘要"></a>第二篇內容摘要</h2><h3 id="Spring-Web-MVC運作架構"><a href="#Spring-Web-MVC運作架構" class="headerlink" title="Spring Web MVC運作架構"></a>Spring Web MVC運作架構</h3><p>這篇教材真正的重點，從此處開始。它用了如下的應用例子，說明在 Spring Framework 下MVC是怎樣運作的。</p>
+<p>假設您的網站要提供一個功能，這功能會透過一個網頁向使用者詢問其姓名。當使用者輸入了姓名之後，則會用另一個網頁向使用者說聲嗨！</p>
+<p>有了上述初步的功能需求後，在設計上我們需使用 2 個 <strong>View</strong>，以 nameView.jsp 網頁來向使用者詢問，要求輸入姓名。使用者輸入的姓名，經過系統的處理後，再透過名為helloView.jsp 的網頁，向使用者 Say Hello。且此功能的啟動執行點，設計成「當使用者瀏覽 <strong>/hello.htm</strong> 網頁便執行」。</p>
+<p>在 Spring Web MVC 的設計模式下，View (可以直接想成網頁) 之間的切換係由 Controller 的類別 (亦即 MVC 中的 Control) 來控制。所以，依據上述的設計規格，我們需要有個名為 helloController ，屬 <strong>Controller</strong> 的類別，以便有人想瀏覽 /hello.htm 網頁時，便提供 nameView.jsp 給他；待取得使用者輸入的姓名後，則再顯示 helloView.jsp 網頁給使用者。</p>
+<p>關於使用者在 nameView.jsp 輸入的資料，可以使用一名為 <strong>Name</strong> ，屬 <strong>Model</strong> 的類別，用以接收輸入的結果。</p>
+<p>至於從使用者接收到的資料，該做什麼處理，完成什麼樣的輸出，這活就由屬 <strong>Service</strong> (亦即一般所謂之 <strong><em>Business Logic</em></strong>) 的類別來幹。因此，根據設計，需要一名為 <em>helloService</em> 的類別，以便能將使用者輸入的姓名進行加工處理。</p>
+<p>綜合上述，整個功能的運作過程，所需使用的網頁及類別，其設計可以用以下，UML 的穩建圖來表示：</p>
+<p><img src="http://lh4.ggpht.com/_40BYSx3mIfk/TME2jaihn8I/AAAAAAAAA5Y/3J-7uQf-RLo/image_thumb%5B12%5D.png?imgmax=800" alt=""></p>
+<p>上圖的 <strong>dispatcher-servlet.xml</strong> ，用於表示 helloController 類別須在這個檔案內做登記。同樣，helloService 類別的存在，亦須記錄相關設定在 <strong>applicationContext.xml</strong> 檔案之中。 如此，helloController 類別才能正常運作。甚至說得更白點，非得這樣做，Web Container 才有辦法，遇到有人要瀏覽 /hello.htm 時， 知道該怎麼做。</p>
+<p>根據上述設計，需要撰寫製作的網頁及各個類別(class)，在專案資料夾的放置處，則如下圖所示：</p>
+<p><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TME2kDdeB2I/AAAAAAAAA5c/gtVGg8Txwdg/s1600/image%5B34%5D.png" alt=""></p>
+<h3 id="研習須細讀重點"><a href="#研習須細讀重點" class="headerlink" title="研習須細讀重點"></a>研習須細讀重點</h3><p>有了上述 Spring Web MVC 在架構上的認知後，請再加強下列事項的研習。</p>
+<p><strong>HelloController.java 的建構子</strong>：細讀其程式碼，了解 Controller 啟動後，怎麼知道該先顯示那個網頁，然後又該顯示那個網頁。網頁輸入的資料，要用那個類別去接收；當靜態的類別(class)變成可執行的物件(object)時，要用什麼作為變數名稱。</p>
+<p><strong>HelloController.java 的 onSubmit 方法</strong>：當第一個網頁完成輸入 (nameView.jsp)，onSubmit 事件發生後，Controller 要如何接收第一個網頁所傳來的輸入；然後又如何透過 Service ，對輸入的資料進行加工，完成輸出；最後又如何將加工後輸出，餵給第二個網頁 (helloView.jsp)。</p>
+<p><strong>nameView.jsp網頁</strong>：研究網頁中，屬 Spring 專用的 Tag 如何自 Controller 接收由 Name 類別所產生的 <strong><em>name</em></strong> 物件。而使用者的輸入，如何以 Spring Tag ，將之存入 name 物件中的 value 屬性。</p>
+<p><strong>helloView.jsp網頁</strong>：研究網頁中欲輸出的內容，如何能透過 EL 表示式 <strong><em>${helloMessage}</em></strong> 顯示出來。EL 表示中的變數 helloMessage ， 與 HelloController 類別中的 onSubmit 方法，有什麼互為因果的關係。</p>
+<h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>哇！好棒！終於寫完了。這篇文章花了我 5 小時，才搞定。可是這篇文章的內容，我花了一天讀完，又再花了三天反覆思考 Spring Web MVC 運作的架構；網頁、Controller類別、Service類別、Model類別各個之間的互動關係；三個設定檔 web.xml 、 dispatcher-servlet.xml 、applicationContext.xml 各個的作用。</p>
+<p>這個研習過程，對我而言有些吃力。因此，希望我這研究心得報告，可以幫大家減少一些學習過程的障礙。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Eclipse 及 Plug-in 的下載及安裝]]></title>
+      <url>http://alanjui.github.io/blog/blog/2010/07/04/Eclipse-Java-IDE/</url>
+      <content type="html"><![CDATA[<p>常言道：「工欲善其事，必先利其器」。Java 程式語言的初學者，常被推薦：採用Eclipse 做為 Java IDE 工具。</p>
+<p>所以，踏上 Java 學習之路的第一步：下載及安裝 Eclipse；然後，為強化使用的便利性，需再加掛各種 Plug-in。</p>
+<p>上述工作，雖不需要天大的學問，但對初學者而言，卻常有不知所措的問題。以下彙集整理個人在學習路上跌跌撞撞後，歸納的心得重點，希望對 Java 的初學者，能有那麼一點助益！<br><a id="more"></a></p>
+<h2 id="下載新版或舊版"><a href="#下載新版或舊版" class="headerlink" title="下載新版或舊版"></a>下載新版或舊版</h2><p>對於下載，Eclipse 的官網，基本分：「新版下載」、「舊版下載」兩種：</p>
+<dl><br>  <dt><br>    <a href="http://eclipse.org/downloads/" target="_blank" rel="external">新版下載處：</a></dt><br>  <dd>需要最新發行的版本，自此處下載。</dd><br>  <dd><br>    <img src="https://lh3.googleusercontent.com/-jTmDtQKf1gk/VUgzGfKm4kI/AAAAAAAAhHM/pk-r6RzIoPM/s912/Eclipse-new-version-download.png" title="新版下載網頁 480 640"><br>  </dd><br><br>  <dt><br>    <a href="http://wiki.eclipse.org/Older_Versions_Of_Eclipse" target="_blank" rel="external">舊版下載處：</a></dt><br>  <dd>需要以前發行，某一個舊版本，從此處下載。</dd><br>  <dd><br>      <img src="https://lh3.googleusercontent.com/-Y4hLeWp3oZw/VUgzGQ8clFI/AAAAAAAAhHQ/lfNiUbemPjw/s912/Eclipse-old-version-download.png" title="新版下載網頁 480 640"><br>    </dd><br></dl>
+
+
+
+<h2 id="下載那個產品的識別法"><a href="#下載那個產品的識別法" class="headerlink" title="下載那個產品的識別法"></a>下載那個產品的識別法</h2><p>Eclipse 產品發展至今，衍生出不少的旁支，初學者進到「新版下載」網站的網頁後，面對一拖拉古可供下載的項目，大概都會儍眼，不知該從何處著手。</p>
+<p>對於 Java 的初學者，您需要下載的產品，應該會是下列兩項，其中的一個。各項產品的名稱，及特性說明，摘述如下：</p>
+<ul>
+<li><p><strong>Eclipse IDE for Java Developers</strong>：只需要開發傳統 Java 應用程式的朋友，則請下載這個標準版本。（初學 Java 程式語言，尚未涉及 Java 網站開發的朋友，用這個產品足矣！）</p>
+</li>
+<li><p><strong>Eclipse IDE for Java EE Developers</strong>：需要開發傳統 Java 應用程式，同時亦需開發 Serverlet 與 JSP 網頁的朋友，請下載這個企業級的產品。</p>
+</li>
+</ul>
+<p>上述兩項的 Eclipse 產品，在 Windows 作業系統的平台上，又分：32位元、64位元，兩種版本。</p>
+<p>綜合「產品」的兩個選擇，及「32/64作業系統位」的兩個分項，Windows 作業系統的使用者，可供下載的選擇就有四種。</p>
+<p>初學者往往因不清楚自己的需求，不知道該下載那個項目。所以，前前後後下載了好幾次，在硬碟裡存了好個檔案。事後，面對這些檔案，常常可能會分不清：每個檔案，誰是誰？！</p>
+<p>以下，用 Windows 作業系統的 Eclipse 3.6 (Helios) 為例，教您如何自「檔案名稱」，辨識下載的 Eclipse ：是那一個「產品」；該產品是「32/64位元」的那一種。</p>
+<table>
+<thead>
+<tr>
+<th>Eclipse產品名稱</th>
+<th>32位元版本檔案名稱</th>
+<th>64位元版本檔案名稱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eclipse IDE for Java Developers</td>
+<td>eclipse-java-helios-win32.zip</td>
+<td>eclipse-java-helios-win32-x86_64.zip</td>
+</tr>
+<tr>
+<td>Eclipse IDE for Java EE Developer</td>
+<td>eclipse-jee-helios-win32.zip</td>
+<td>eclipse-jee-helios-win32-x86_64.zip</td>
+</tr>
+</tbody>
+</table>
+<p>自上述的表格做歸納，可以發覺 Eclipse 的「檔案命名規則」如下：<br>eclipse-<code>&lt;&lt;識別一&gt;&gt;</code>-<code>&lt;&lt;識別二&gt;&gt;</code>-<code>&lt;&lt;識別三&gt;&gt;</code>.zip</p>
+<ul>
+<li><p>識別一：「java」表標準版；「jee」表 Java EE 企業級版本；</p>
+</li>
+<li><p>識別二：「helios」表版本編號為：3.6；「galileo」表版本編號為：3.5；</p>
+</li>
+<li><p>識別三：「win32」表可在 Windows 32 位元作業系統執行，如：Windows XP、Windows Server 2003；「win32-x86_64」表可在 Windows 64位元作業系統，如：Windows 7 (x64)、 Windows Server 2008 R2。</p>
+</li>
+</ul>
+<h2 id="Eclipse-的-plug-in"><a href="#Eclipse-的-plug-in" class="headerlink" title="Eclipse 的 plug-in"></a>Eclipse 的 plug-in</h2><p>寫程式的工作，檔案的版本管理，也會是重要的一環。所以 Eclipse 的使用者，可能會需要讓 Eclipse 化身成為 SVN Client，以便能直接在 Eeclipse 的環境中，直接進行 Java 程式碼的簽入 (Commit) / 簽出 (Check-out) 工作；對於「開發 Google App 雲端應用系統」的人，建立 Project 、 開發完成的程式要部署到 Google 雲端 。</p>
+<p>以上的各種需求，都可以透過 Eclipse plug-in 的下載及安裝，添加 Eclipse 原先不具有的功能。</p>
+<p>上述兩種的 Eclipse Plug-in ，其下載網址條列如下：</p>
+<ul>
+<li><p><a href="http://subclipse.tigris.org/update_1.6.x/" target="_blank" rel="external">Sublipse plug-in for eclipse</a>：令 Eclipse 化身成 SVN Client。撰寫本文時最新版本為1.6.x，經過個人的測試，這個版本的 plug-in 可在 Eclipse 3.4, 3.5, 3.6（32位元）版本執行。雖然這個版本亦可在 3.6 (64位元) 版本執行，但很容易看到 JavaHL 的錯誤警示。</p>
+</li>
+<li><p><a href="https://cloud.google.com/appengine/docs/java/tools/eclipse" target="_blank" rel="external">Google App Engine plug-in for eclipse</a>：令 Eclipse 可開發 Google App 雲端應用系統。不論是使用 Eclipse 3.4, 3.5, 3.6 那一個版本，皆可在這找到適合您使用的plug-in版本。</p>
+</li>
+</ul>
+<p>好了，報告完畢。祝各位 Eclipse 的初學者順利步上學習之路，在未來的日子，能開發出偉大的軟體 – 是幸。 ^^</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[甲你攬牢牢]]></title>
+      <url>http://alanjui.github.io/blog/blog/2010/06/27/Hold-with-heart-fulling-of-love/</url>
+      <content type="html"><![CDATA[<iframe src="https://www.youtube.com/embed/XzdtkwKgnHo?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<p>週五晚上回到家，打開我的 YouTube 頻道，看見有人分享江蕙的《甲你攬牢牢》MV。<br><a id="more"></a></p>
+<p>這首歌早已聽過 N 遍，但從不曾細聽過，歌詞在唱些什麼；MV 則是從未看過。也許是因為這一週的「失業勞工職訓課程」，整週下來讓我這中古的年青人累到不行，需要用音樂來轉換心情，於是，想都不想，影片的播放鈕就給它按下去。</p>
+<p>雙眼盯著螢幕看，耳朶聽著江蕙那如泣如訴的歌聲，心情不禁隨隨著 MV 影片的「劇情」，跟著起伏、翻騰。</p>
+<p>影片才剛播過一遍，隨即又再按下播放，如是一再重播一次、兩次、三次……。一直沈浸在歌曲的氣氛之中。</p>
+<p>隨後，在我的臉書上分享這影片，並在留言如此寫道：</p>
+<p>¸¸.•¨•♫♪•.¸¸.•♫´*¨¯`♪•.¸¸</p>
+<p>每個靈魂，總有軟弱的時候。<br>給個施無畏的熱情擁抱吧，那將是久旱後的甘霖，能讓人再度堅強，擁有面對艱難的勇氣。生命將如同黑夜看見黎明的曙光，可因此再度成長、茁壯。</p>
+<p>不過是聽首歌，幹啥反應會這麼大？！</p>
+<p>因為……</p>
+<p>今天下午，約莫在四點多的時刻，已有些倦意的我，一下忙著做筆記，抄錄 Java 程式語言老師傳授的重點；另一下子，則是忙著在電腦實作，練習寫程式，看看剛才老師教的東西，我是否真懂……。</p>
+<p>此時，在我座位左邊的同學，突然低吼了一聲。他這突然的舉動，讓我嚇了一跳，同時有些莫名其妙，心中不禁 OS –「啊～現在是花生了什麼素啊？」。</p>
+<p>將腦袋這麼一轉，往同學的那個方向看去，只見我那同學，眼睛盯著他電腦上的網頁，神情頗是激動，右手更是拳頭緊握，不人停地地揮舞著。好奇了！接著再往他那螢幕瞧去，想知道那網頁的內容有什麼神奇之處，可以讓我這平常靜默不語的同學，宊然性格大變，爆出個令人難以意料的舉動。</p>
+<p>待細看後才知，原來同學在看《捷運局員工招募的榜單》網頁 ，同學被錄取了。</p>
+<p>在這不景氣的時候，能有工作，同時又是政府單位的職位，真是好事一椿，不禁令人替他高興。不過，這正也意味著，我們這「職業技能訓練 – Java 程式設計班」的同學又將少一人了。</p>
+<p>這個禮拜剛開始，就有同學因為自覺跟不上進度，所以要求退訓。對於同學的離去，心裡不禁在問：為什麼想不開？為何不能再多撐點？班上像我這樣老芋仔以，甚至是年紀更大的「老」同學，我們即便因學硬底子的新東西，腦子感到吃力，體力覺得難以負荷，但我們都是咬著牙，設法撐下去。反觀，年輕力壯的少年郎，為何卻不願再多撐點？！</p>
+<p>為了同學的撐不過，而我們其它的同學又沒幫上忙，能及時拉他一把，這事著實令我難過一陣子。</p>
+<p>《甲你攬牢牢》有歌詞如此唱道：「世事乎人 想袂曉，需要一個肩甲頭」。</p>
+<p>打從大學畢業，步入社會工作後，工作時間一直是平均12小時左右，通宵、 在公司打地鋪過夜，更是常有的事，有陣子甚至得忙到午夜十二、一點入睡；清晨五、六點就得起床再戰。手頭有錢，就是買電腦設備；上補習班學新的 IT 技術、軟體工程、品質管理與專案管理。</p>
+<p>本以為只要隨時充實自己的技能；跟著潮流更新自己的專業知識，「沒頭路」這等事，是不可能掉在我頭上的。然而，2009 年的金融海潚餘波，所帶來的不景氣，這才讓我終於知道 – 我錯了。</p>
+<p>回想在參加這個 Java 程式設計班之前，自己一直在兩邊排徊 –「是該堅守在 IT 界，繼續努力闖出一片天」；還是應該「全盤放棄以前的所學與經歷，轉戰其它行業，另謀一片天」？為此，一直傍惶不已。</p>
+<p>這段期間，沒錢繳房貸，得靠老爹解決；對於不確定的未來，太座一直飽受生活的壓力。為人子、為人夫，不能作為他們背後的支柱，卻反倒成了他們要安慰、要擔心的對象，為此常感到自責。現在，就連我這七尺之軀，都需要有人給了我一個 “肩甲頭” ，讓我有辦法渡過這個生命的灰暗時刻。</p>
+<p>對於佛家說：「施無畏」。我的體認：「對於身處低潮時刻的人，給些關懷，給個擁抱，給個讓他可以暫時倚靠的肩甲頭，這會是一個最美，溫柔的慈悲」。</p>
+<p>在人世浮沈的朋友啊，失意時，可以抱頭痛哭一個晚上，但明朝太陽升起時，請再奮起，不要讓一時的不順，這麼容易擊倒你。</p>
+<p>同學們，為了自己、為了 Money Way (前途) ，請不要輕言放棄，大家加油啊！</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[阿媽比較口憐]]></title>
+      <url>http://alanjui.github.io/blog/blog/2010/06/20/My-funny-childs-talk/</url>
+      <content type="html"><![CDATA[<p>我家小祖宗過他的七歲大壽。</p>
+<p>阿公、阿婆疼這小孫兒。紛紛賞錢，充當生日賀禮。這孩子樂壞了，回家的時候，特別跑來，對我當面訴說此事。<br><a id="more"></a></p>
+<p>小祖宗：「把拔，把拔。我過生日，阿公、阿媽今天都有給我錢錢哦！」</p>
+<p>我：「哇！怎麼這麼好？！」</p>
+<p>小祖宗：「阿公給了我1千塊錢！」</p>
+<p>我：「好好哦…..！」</p>
+<p>小祖宗：「可是….！可是……！阿媽比較可憐，她給了我2千塊」</p>
+<p>我：「………」<br>（一隻烏鴉從我腦後飛過去，啊~！啊~！啊~！ 久久無語……）</p>
+
+<img src="https://lh3.googleusercontent.com/-mxHAdXA2sks/VURJpRV8jOI/AAAAAAAAhGA/-jpmJLGyJfQ/s842/%25E7%2583%258F%25E9%25B4%2589%25E9%25A3%259B%25E9%2581%258E.png">   
 ]]></content>
     </entry>
     

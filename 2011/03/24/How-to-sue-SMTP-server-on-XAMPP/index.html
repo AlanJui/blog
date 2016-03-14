@@ -1,0 +1,380 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>如何啟用 XAMPP 中的 SMTP Server 功能 | 阿中的生活札記</title>
+  <meta name="author" content="居正中">
+  
+  <meta name="description" content="現在的Web應用系統，經常需要有透過e-mail發通知的功能。
+可在Windows作業系統環境執行的XAMPP套件，其中的Mercury/32 (以下簡稱：Mercury)，就具有SMTP Server的功能。透過這個子套件，我們就可以在程式中，使用SMTP來發送e-mail。
+只是…….，Mercury的使用，可沒像XAMPP中的Apache或MySQL一樣的簡單，只需輕輕鬆鬆按個 ［Start］鈕，就能將功能啟動。">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="如何啟用 XAMPP 中的 SMTP Server 功能"/>
+  <meta property="og:site_name" content="阿中的生活札記"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/blog/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/blog/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/blog/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62038067-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+  <body>  
+    <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/blog/">阿中的生活札記</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/blog/archives" title="依時間排序歸檔的文章">
+			  <i class="fa fa-archive"></i>時序
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/categories" title="依「類別」歸檔的文章">
+			  <i class="fa fa-folder"></i>分類
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/tags" title="依「標籤」歸檔的文章">
+			  <i class="fa fa-tags"></i>標籤
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    <div class="container">
+      <div class="content">
+        
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> 如何啟用 XAMPP 中的 SMTP Server 功能</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>現在的Web應用系統，經常需要有透過e-mail發通知的功能。</p>
+<p>可在Windows作業系統環境執行的XAMPP套件，其中的Mercury/32 (以下簡稱：Mercury)，就具有SMTP Server的功能。透過這個子套件，我們就可以在程式中，使用SMTP來發送e-mail。</p>
+<p>只是…….，Mercury的使用，可沒像XAMPP中的Apache或MySQL一樣的簡單，只需輕輕鬆鬆按個 ［Start］鈕，就能將功能啟動。<br><a id="more"></a></p>
+<p>為了搞定Ｍercury的設定，可真是快把我搞瘋。今天，我的 Lucky Day 總算到來了，所以，借著好運之助，我Google到一篇文章，參考其中的作法，再加上自己的測試與摸索，終於…..，把這個我「孝想」已久的功能給安裝妥當。<br>整個安裝設定的主要程序如下：</p>
+<ol>
+<li>啟動Mercury功能</li>
+<li>設定Core Module組態</li>
+<li>設定MercuryS SMTP Server組態</li>
+<li>設定MercuryE SMTP Client組態</li>
+<li>設定PHP.INI組態</li>
+<li>重新啟動Ｍercury與Apache功能</li>
+</ol>
+<p>上述各個「程序步驟」的執行細節，詳述說明如後。</p>
+<h2 id="啟動Mercury功能"><a href="#啟動Mercury功能" class="headerlink" title="啟動Mercury功能"></a>啟動Mercury功能</h2><ol>
+<li><p>自「XAMPP Control Panel Application」啟動Ｍercury。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfu1LH_9I/AAAAAAAABEc/X-T78iNf2OA/s1600/SNAGHTML123213b%5B3%5D.png" alt=""></p>
+</li>
+<li><p>系統啟動Mercury。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfwUf2kDI/AAAAAAAABEk/X3BkCstBIUE/s1600/SNAGHTML12487f9%5B3%5D.png" alt="確定 Mercury 旁已顯示「Running」"></p>
+</li>
+<li><p>點選［Admin］鈕，啟動［Mercury/32］的管理軟體。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfx65fiDI/AAAAAAAABEs/F3ft5kZ8tWA/s1600/SNAGHTML126a2aa%5B3%5D.png" alt=""></p>
+</li>
+<li><p>Windows出現［Mercury/32］管理介面的畫面。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsfzTXFE4I/AAAAAAAABE0/LT1v6G0-U_w/s1600/SNAGHTML128d34b%5B3%5D.png" alt=""></p>
+</li>
+</ol>
+<h2 id="設定Core-Module組態"><a href="#設定Core-Module組態" class="headerlink" title="設定Core Module組態"></a>設定Core Module組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［Ｍercury core module］指令。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf0ttQhhI/AAAAAAAABE8/xKTNaNbtSG8/s1600/SNAGHTML12b1dc2%5B3%5D.png" alt=""></p>
+</li>
+<li><p>在［Mercury Core Module Configuration］的對話方塊，預設的［General］活頁籤，完成下列項目設定：</p>
+<ul>
+<li><p>在［Internet name for this system］欄位，填「<strong>localhost</strong>」</p>
+</li>
+<li><p>只勾選［Send copies of all errors to the postmaster］設定<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf2BN18DI/AAAAAAAABFE/t0kuy3HvSeg/s1600/SNAGHTML12cae9c%5B3%5D.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>在［Local domains］活頁籤，確定有如下標紅框處之localhost設定：<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf3purYYI/AAAAAAAABFM/ko9OqYBgQK4/s1600/SNAGHTML135232f%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［確定］鈕，儲存設定值，並關閉［Mercury Core Module Configuration］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定MercuryS-SMTP-Server組態"><a href="#設定MercuryS-SMTP-Server組態" class="headerlink" title="設定MercuryS SMTP Server組態"></a>設定MercuryS SMTP Server組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［Ｍercury core module］指令。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf5bYg6OI/AAAAAAAABFU/1sb9h5WYAHI/s1600/SNAGHTML13a8b63%5B3%5D.png" alt=""></p>
+</li>
+<li><p>在［Mercury SMTP Server］的對話方塊，預設的［General］活頁籤，完成下列項目設定：</p>
+<ul>
+<li><p>在［Announce myself as］欄位，填「<strong>SMTP</strong>」</p>
+</li>
+<li><p>在［IP Interface to use］欄位，填「<strong>127.0.0.1</strong>」  (因為我有其它的考量，所以我在此欄填了一個Private IP)<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf7OX4fVI/AAAAAAAABFc/l8WY0KH29wE/s1600/SNAGHTML1455547%5B3%5D.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>點選［Connection control］活頁籤，看到如下畫面：<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf8WHbziI/AAAAAAAABFk/exl5pNcKTh4/s1600/SNAGHTML1486c11%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［Add restriction］鈕，準備設定 IP: 127.0.0.1 為 SMTP Server 會提供服務的 IP 網址。</p>
+</li>
+<li><p>在［IP Address reang］的［from］及［to］欄位填入「127.0.0.1」 ；確認［Attributes for this entry］的選項，設定為［Allow connections］；最後按［OK］鈕，結束此設定動作。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf9xzxclI/AAAAAAAABFs/B0IPPeuzFow/s1600/SNAGHTML14e57a7%5B3%5D.png" alt=""></p>
+</li>
+<li><p>再度回到［Connection control］活頁籤時，可在［Connection control］的清單中，看到IP Address為127.0.0.1的網址，為允許(Allow)的設定項目。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsf_ZUlikI/AAAAAAAABF0/ZZ11Ms8g9PU/s1600/SNAGHTML1521aa8%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［確定］鈕，儲存設定值，並關閉［Mercury SMTP Server］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定MercuryE-SMTP-Client組態"><a href="#設定MercuryE-SMTP-Client組態" class="headerlink" title="設定MercuryE SMTP Client組態"></a>設定MercuryE SMTP Client組態</h2><ol>
+<li><p>自［Configuration］功能表，選擇［ＭercuryE SMTP Client］指令。</p>
+</li>
+<li><p>出現［MercuryE End-to-end SMTP Client Configuration］對話方塊。</p>
+</li>
+<li><p>在［Name servers］欄位，輸入「168.95.1.1」。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgA9LagAI/AAAAAAAABF8/bol4e691rg4/s1600/SNAGHTML155dc51%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按［Save］鈕，儲存設定值，並關閉［MercuryE End-to-end SMTP Client Configuration］對話方塊。</p>
+</li>
+</ol>
+<h2 id="設定PHP-INI組態"><a href="#設定PHP-INI組態" class="headerlink" title="設定PHP.INI組態"></a>設定PHP.INI組態</h2><ol>
+<li><p>使用您喜愛的文字處理器(Editor) ，打開路徑應 在<strong><em>C:\xampp\php</em></strong> 的 <strong>PHP.INI</strong> 檔案。</p>
+</li>
+<li><p>加入 <code>sendmail_from = postmaster@localhost</code> 設定。<br> <img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsjinAU2ZI/AAAAAAAABGc/uXkSgKr_xWA/s1600/SNAGHTML16b095a%5B3%5D.png" alt=""></p>
+</li>
+<li><p>儲存並關閉這個檔案。</p>
+</li>
+</ol>
+<h2 id="重新啟動Mercury與Apache功能"><a href="#重新啟動Mercury與Apache功能" class="headerlink" title="重新啟動Ｍercury與Apache功能"></a>重新啟動Ｍercury與Apache功能</h2><ol>
+<li><p>切換到［XAMPP Control Panel Application］視窗。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgCScZemI/AAAAAAAABGE/V7GbZhrmg9Y/s1600/SNAGHTML15ae278%5B3%5D.png" alt=""></p>
+</li>
+<li><p>按 Ｍercury 右邊的［Stop］鈕，結束 Mercury 的功能（等於關閉SMTP Server的功能）。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgDg6lZkI/AAAAAAAABGM/XkP50MyU5yo/s1600/SNAGHTML15cba40%5B3%5D.png" alt=""></p>
+</li>
+<li><p>如法泡製，按 Apache 右邊的［Stop］鈕，結束 Appache 的功能（等於關閉Web Server的功能）。</p>
+</li>
+<li><p>按 Apache 右邊的［Start］鈕，再次啟動 Apache 的功能（等於重新啟動Web Server的功能）。</p>
+</li>
+<li><p>按 Ｍercury 右邊的［Start］鈕，再次啟動 Mercury 的功能（等於重新啟動SMTP Server的功能，執行這個重新啟動的程序，為的是要讓剛才的設定能正常運作）。<br><img src="http://lh3.googleusercontent.com/_40BYSx3mIfk/TYsgFNBabBI/AAAAAAAABGU/04jiP72Cnh8/s1600/SNAGHTML16069ff%5B3%5D.png" alt=""></p>
+</li>
+</ol>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/blog/2013/02/27/Introduction-for-beginner-of-NodeJS/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一頁</a></li>
+  		
+
+        <li><a href="/blog/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/blog/2010/10/22/Introduction-of-What-is-Spring-Web-MVC/" class="alignright next">下一頁<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2011-03-24 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/blog/categories/InfoTech/">IT技術<span>28</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/blog/tags/XAMPP/">XAMPP<span>1</span></a></li> <li><a href="/blog/tags/SMTP/">SMTP<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'ccc99';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+      </div>
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2016 居正中
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+<script src="/blog/js/bootstrap.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="/blog/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/blog/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+  </body>
+</html>

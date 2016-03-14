@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>升級到 OS X 10.10後，再也無法自 Windows 使用 Mac 的共享資料夾 | 阿中的生活札記</title>
+  <meta name="author" content="居正中">
+  
+  <meta name="description" content="我的 MacBookPro 升級到 OS X 10.10 的另一個災難，那就是 Windows Client 再也無法使用 Mac 分享出來的「共用資料夾」！   ＝..＝">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="升級到 OS X 10.10後，再也無法自 Windows 使用 Mac 的共享資料夾"/>
+  <meta property="og:site_name" content="阿中的生活札記"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/blog/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/blog/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/blog/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62038067-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+  <body>  
+    <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/blog/">阿中的生活札記</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/blog/archives" title="依時間排序歸檔的文章">
+			  <i class="fa fa-archive"></i>時序
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/categories" title="依「類別」歸檔的文章">
+			  <i class="fa fa-folder"></i>分類
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/tags" title="依「標籤」歸檔的文章">
+			  <i class="fa fa-tags"></i>標籤
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    <div class="container">
+      <div class="content">
+        
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> 升級到 OS X 10.10後，再也無法自 Windows 使用 Mac 的共享資料夾</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>我的 MacBookPro 升級到 OS X 10.10 的另一個災難，那就是 Windows Client 再也無法使用 Mac 分享出來的「共用資料夾」！   ＝..＝<br><a id="more"></a><br>家裡有台 Windows Server 2008 R2 的電腦，經常需要透過「檔案總管」，去存取位於 Mac 電腦端的共享資料夾。</p>
+<p>當我的 MacBookPro ，其作業系統還是 OS X 10.9 的時候，自 Windows Server 2008 R2 的電腦，去存取 Mac 端共享資料夾的檔案，一切運作良好。</p>
+<p>但……，升級到 OS X 10.10 之後，我想「外甥打燈籠－照舊」，仍自 Windows Server 2008 R2 電腦的檔案總管，去存取 Mac 端的共享資料夾……</p>
+<p>這時，Windows 端會跳出以下這對話方塊，跟我做使用者身份的驗證工作。（這時心中已暗叫：不妙！）</p>
+<img src="https://lh3.googleusercontent.com/-npZgrmNxm94/VFTzcQWCftI/AAAAAAAAeL0/1bX2iV6mP7s/s429/2014-11-01_22-40-00.png">
+<p>我一再地重複輸入「使用者帳戶名」及「密碼」，無論做幾十次，通通過不了關！  QQ</p>
+<p>被這問題困擾了近兩週，今天發狠，下定決心要跟這個問題奮戰。搞了快一天，才找到問題的解決方法。</p>
+<h2 id="【問題導因】"><a href="#【問題導因】" class="headerlink" title="【問題導因】"></a>【問題導因】</h2><p>網路上的文章說：「在 OS X 10.10 ，變更了 Mac 電腦所使用的 SMB 通信協定，改為 SMB3…….」。因此個人推斷，這就是為什麼原來可正常運作的網路分享，竟會變成異常的原因。</p>
+<h2 id="【解決方案】"><a href="#【解決方案】" class="headerlink" title="【解決方案】"></a>【解決方案】</h2><p>解決上述問題的解法，就是要變更 Windows Server 2008 R2 電腦端的「網路安全性：LAN Manager驗證等級」設定，將它自原先的「傳送 LM 和 NTLM－ 如有交涉，使用 NTLMv2 工作階段安全性」，改成「只傳送 NTLMv2 回應」。</p>
+<p>其設定的操作程序，如下所示：</p>
+<ol>
+<li><p>點擊〔開始〕鈕。</p>
+<img src="https://lh3.googleusercontent.com/-qnaEsuIqJuw/VFTuwLfLDCI/AAAAAAAAeLc/pMfcW7KFiNo/s698/MacShare-01.png">
+</li>
+<li><p>點擊〔所有程式〕／〔系統管理工具〕／〔本機安全性原則〕。</p>
+<img src="https://lh3.googleusercontent.com/-OLT--5tgKK8/VFTuwKdXOfI/AAAAAAAAeLU/Z54dUHclygw/s398/MacShare-02.png">
+</li>
+<li><p>在〔本機安全性原則〕視窗，於左邊窗格，點選〔本機原則〕／〔安全性選項〕。</p>
+<img src="http://3.bp.blogspot.com/-bTiYB18k_Go/VFTuwJrqCSI/AAAAAAAAeLY/kQ04OXkF7uk/s1600/MacShare-03.png">
+</li>
+<li><p>於右窗格，透過捲軸調整清單的可視範圍，直到可以看到〔網路安全性：LAN Manager驗證等級〕項目。</p>
+</li>
+<li><p>雙擊〔網路安全性：LAN Manager驗證等級〕項目。</p>
+</li>
+<li><p>在〔網路安全性：LAN Manager驗證等級－內容〕視窗，透過下拉式選項清單，變更選項成〔只傳送 NTLMv2 回應〕。點擊〔確定〕鈕。</p>
+<img src="https://lh3.googleusercontent.com/-OK0MLr_4ZtY/VFTuwzYrHAI/AAAAAAAAeLo/3DawE5HnxuY/s465/MacShare-04.png">
+</li>
+<li><p>關閉〔本機安全性原則〕視窗。（設定到此完成）</p>
+</li>
+</ol>
+<h2 id="【後記】"><a href="#【後記】" class="headerlink" title="【後記】"></a>【後記】</h2><p>在 Mac 電腦端，如何設定資料夾的共享；如何自 Windows 端電腦連上 Mac 電腦，使用 Mac 共享的資料，對此設定仍有困惑的朋友，可參考這篇「<a href="http://www.7tutorials.com/how-share-os-x-folders-windows-7" target="_blank" rel="external">How to Share Folders from Mac OS X with Windows 7 &amp; Windows 8 PCs</a>」網路PO文。</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/blog/2015/04/14/Upload-photo-to-FB/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一頁</a></li>
+  		
+
+        <li><a href="/blog/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/blog/2015/02/08/AngularMaterial-Introduction/" class="alignright next">下一頁<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-03-24 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/blog/categories/InfoTech/">IT技術<span>28</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/blog/tags/Mac/">Mac<span>4</span></a></li> <li><a href="/blog/tags/OS-X/">OS X<span>3</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'ccc99';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+      </div>
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2016 居正中
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+<script src="/blog/js/bootstrap.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="/blog/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/blog/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+  </body>
+</html>

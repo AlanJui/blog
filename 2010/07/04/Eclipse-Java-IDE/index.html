@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Eclipse 及 Plug-in 的下載及安裝 | 阿中的生活札記</title>
+  <meta name="author" content="居正中">
+  
+  <meta name="description" content="常言道：「工欲善其事，必先利其器」。Java 程式語言的初學者，常被推薦：採用Eclipse 做為 Java IDE 工具。
+所以，踏上 Java 學習之路的第一步：下載及安裝 Eclipse；然後，為強化使用的便利性，需再加掛各種 Plug-in。
+上述工作，雖不需要天大的學問，但對初學者而言，卻常有不知所措的問題。以下彙集整理個人在學習路上跌跌撞撞後，歸納的心得重點，希望對 Java 的初學者，能有那麼一點助益！">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Eclipse 及 Plug-in 的下載及安裝"/>
+  <meta property="og:site_name" content="阿中的生活札記"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/blog/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/blog/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/blog/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62038067-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+  <body>  
+    <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/blog/">阿中的生活札記</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/blog/archives" title="依時間排序歸檔的文章">
+			  <i class="fa fa-archive"></i>時序
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/categories" title="依「類別」歸檔的文章">
+			  <i class="fa fa-folder"></i>分類
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/tags" title="依「標籤」歸檔的文章">
+			  <i class="fa fa-tags"></i>標籤
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    <div class="container">
+      <div class="content">
+        
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> Eclipse 及 Plug-in 的下載及安裝</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>常言道：「工欲善其事，必先利其器」。Java 程式語言的初學者，常被推薦：採用Eclipse 做為 Java IDE 工具。</p>
+<p>所以，踏上 Java 學習之路的第一步：下載及安裝 Eclipse；然後，為強化使用的便利性，需再加掛各種 Plug-in。</p>
+<p>上述工作，雖不需要天大的學問，但對初學者而言，卻常有不知所措的問題。以下彙集整理個人在學習路上跌跌撞撞後，歸納的心得重點，希望對 Java 的初學者，能有那麼一點助益！<br><a id="more"></a></p>
+<h2 id="下載新版或舊版"><a href="#下載新版或舊版" class="headerlink" title="下載新版或舊版"></a>下載新版或舊版</h2><p>對於下載，Eclipse 的官網，基本分：「新版下載」、「舊版下載」兩種：</p>
+<dl><br>  <dt><br>    <a href="http://eclipse.org/downloads/" target="_blank" rel="external">新版下載處：</a></dt><br>  <dd>需要最新發行的版本，自此處下載。</dd><br>  <dd><br>    <img src="https://lh3.googleusercontent.com/-jTmDtQKf1gk/VUgzGfKm4kI/AAAAAAAAhHM/pk-r6RzIoPM/s912/Eclipse-new-version-download.png" title="新版下載網頁 480 640"><br>  </dd><br><br>  <dt><br>    <a href="http://wiki.eclipse.org/Older_Versions_Of_Eclipse" target="_blank" rel="external">舊版下載處：</a></dt><br>  <dd>需要以前發行，某一個舊版本，從此處下載。</dd><br>  <dd><br>      <img src="https://lh3.googleusercontent.com/-Y4hLeWp3oZw/VUgzGQ8clFI/AAAAAAAAhHQ/lfNiUbemPjw/s912/Eclipse-old-version-download.png" title="新版下載網頁 480 640"><br>    </dd><br></dl>
+
+
+
+<h2 id="下載那個產品的識別法"><a href="#下載那個產品的識別法" class="headerlink" title="下載那個產品的識別法"></a>下載那個產品的識別法</h2><p>Eclipse 產品發展至今，衍生出不少的旁支，初學者進到「新版下載」網站的網頁後，面對一拖拉古可供下載的項目，大概都會儍眼，不知該從何處著手。</p>
+<p>對於 Java 的初學者，您需要下載的產品，應該會是下列兩項，其中的一個。各項產品的名稱，及特性說明，摘述如下：</p>
+<ul>
+<li><p><strong>Eclipse IDE for Java Developers</strong>：只需要開發傳統 Java 應用程式的朋友，則請下載這個標準版本。（初學 Java 程式語言，尚未涉及 Java 網站開發的朋友，用這個產品足矣！）</p>
+</li>
+<li><p><strong>Eclipse IDE for Java EE Developers</strong>：需要開發傳統 Java 應用程式，同時亦需開發 Serverlet 與 JSP 網頁的朋友，請下載這個企業級的產品。</p>
+</li>
+</ul>
+<p>上述兩項的 Eclipse 產品，在 Windows 作業系統的平台上，又分：32位元、64位元，兩種版本。</p>
+<p>綜合「產品」的兩個選擇，及「32/64作業系統位」的兩個分項，Windows 作業系統的使用者，可供下載的選擇就有四種。</p>
+<p>初學者往往因不清楚自己的需求，不知道該下載那個項目。所以，前前後後下載了好幾次，在硬碟裡存了好個檔案。事後，面對這些檔案，常常可能會分不清：每個檔案，誰是誰？！</p>
+<p>以下，用 Windows 作業系統的 Eclipse 3.6 (Helios) 為例，教您如何自「檔案名稱」，辨識下載的 Eclipse ：是那一個「產品」；該產品是「32/64位元」的那一種。</p>
+<table>
+<thead>
+<tr>
+<th>Eclipse產品名稱</th>
+<th>32位元版本檔案名稱</th>
+<th>64位元版本檔案名稱</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eclipse IDE for Java Developers</td>
+<td>eclipse-java-helios-win32.zip</td>
+<td>eclipse-java-helios-win32-x86_64.zip</td>
+</tr>
+<tr>
+<td>Eclipse IDE for Java EE Developer</td>
+<td>eclipse-jee-helios-win32.zip</td>
+<td>eclipse-jee-helios-win32-x86_64.zip</td>
+</tr>
+</tbody>
+</table>
+<p>自上述的表格做歸納，可以發覺 Eclipse 的「檔案命名規則」如下：<br>eclipse-<code>&lt;&lt;識別一&gt;&gt;</code>-<code>&lt;&lt;識別二&gt;&gt;</code>-<code>&lt;&lt;識別三&gt;&gt;</code>.zip</p>
+<ul>
+<li><p>識別一：「java」表標準版；「jee」表 Java EE 企業級版本；</p>
+</li>
+<li><p>識別二：「helios」表版本編號為：3.6；「galileo」表版本編號為：3.5；</p>
+</li>
+<li><p>識別三：「win32」表可在 Windows 32 位元作業系統執行，如：Windows XP、Windows Server 2003；「win32-x86_64」表可在 Windows 64位元作業系統，如：Windows 7 (x64)、 Windows Server 2008 R2。</p>
+</li>
+</ul>
+<h2 id="Eclipse-的-plug-in"><a href="#Eclipse-的-plug-in" class="headerlink" title="Eclipse 的 plug-in"></a>Eclipse 的 plug-in</h2><p>寫程式的工作，檔案的版本管理，也會是重要的一環。所以 Eclipse 的使用者，可能會需要讓 Eclipse 化身成為 SVN Client，以便能直接在 Eeclipse 的環境中，直接進行 Java 程式碼的簽入 (Commit) / 簽出 (Check-out) 工作；對於「開發 Google App 雲端應用系統」的人，建立 Project 、 開發完成的程式要部署到 Google 雲端 。</p>
+<p>以上的各種需求，都可以透過 Eclipse plug-in 的下載及安裝，添加 Eclipse 原先不具有的功能。</p>
+<p>上述兩種的 Eclipse Plug-in ，其下載網址條列如下：</p>
+<ul>
+<li><p><a href="http://subclipse.tigris.org/update_1.6.x/" target="_blank" rel="external">Sublipse plug-in for eclipse</a>：令 Eclipse 化身成 SVN Client。撰寫本文時最新版本為1.6.x，經過個人的測試，這個版本的 plug-in 可在 Eclipse 3.4, 3.5, 3.6（32位元）版本執行。雖然這個版本亦可在 3.6 (64位元) 版本執行，但很容易看到 JavaHL 的錯誤警示。</p>
+</li>
+<li><p><a href="https://cloud.google.com/appengine/docs/java/tools/eclipse" target="_blank" rel="external">Google App Engine plug-in for eclipse</a>：令 Eclipse 可開發 Google App 雲端應用系統。不論是使用 Eclipse 3.4, 3.5, 3.6 那一個版本，皆可在這找到適合您使用的plug-in版本。</p>
+</li>
+</ul>
+<p>好了，報告完畢。祝各位 Eclipse 的初學者順利步上學習之路，在未來的日子，能開發出偉大的軟體 – 是幸。 ^^</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/blog/2010/10/22/Introduction-of-What-is-Spring-Web-MVC/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一頁</a></li>
+  		
+
+        <li><a href="/blog/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/blog/2010/06/27/Hold-with-heart-fulling-of-love/" class="alignright next">下一頁<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2010-07-04 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/blog/categories/InfoTech/">IT技術<span>28</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/blog/tags/Eclipse/">Eclipse<span>1</span></a></li> <li><a href="/blog/tags/Java/">Java<span>4</span></a></li> <li><a href="/blog/tags/IDE/">IDE<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'ccc99';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+      </div>
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2016 居正中
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+<script src="/blog/js/bootstrap.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="/blog/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/blog/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+  </body>
+</html>

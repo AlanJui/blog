@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>使用 Hexo 的 new 指令，總有 Error 發生 | 阿中的生活札記</title>
+  <meta name="author" content="居正中">
+  
+  <meta name="description" content="最近，每當我在「終端機」使用 Hexo 的指令 new 建立新的 Post 檔案時，系統總是回應，有 Error 發生的問題：
+123456789101112MAC2012:hexo-01 AlanJui$ hexo new 2015-05-18_Responsive-Embed[Error: Module did not self-register.]&amp;#123; [Error: Cannot find module &amp;apos;./build/default/DTraceProviderBindings&amp;apos;] code: &amp;apos;MODULE_NOT_FOUND&amp;apos; &amp;#125;&amp;#123; [Error: Cannot find module &amp;apos;./build/Debug/DTraceProviderBindings&amp;apos;] code: &amp;apos;MODULE_NOT_FOUND&amp;apos; &amp;#125;INFO  Created:~/workspace/Hexo/hexo-01/source/_posts/2015-05-18-Responsive-Embed.mdMAC2012:hexo-01 AlanJui$">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="使用 Hexo 的 new 指令，總有 Error 發生"/>
+  <meta property="og:site_name" content="阿中的生活札記"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/blog/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/blog/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/blog/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/blog/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-62038067-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+</head>
+
+  <body>  
+    <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/blog/">阿中的生活札記</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/blog/archives" title="依時間排序歸檔的文章">
+			  <i class="fa fa-archive"></i>時序
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/categories" title="依「類別」歸檔的文章">
+			  <i class="fa fa-folder"></i>分類
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/blog/tags" title="依「標籤」歸檔的文章">
+			  <i class="fa fa-tags"></i>標籤
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    <div class="container">
+      <div class="content">
+        
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> 使用 Hexo 的 new 指令，總有 Error 發生</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <p>最近，每當我在「終端機」使用 Hexo 的指令 new 建立新的 Post 檔案時，系統總是回應，有 Error 發生的問題：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ hexo new 2015-05-18_Responsive-Embed</span><br><span class="line"></span><br><span class="line">[Error: Module did not self-register.]</span><br><span class="line"></span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/default/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br><span class="line"></span><br><span class="line">&#123; [Error: Cannot find module &apos;./build/Debug/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</span><br><span class="line">INFO  Created:</span><br><span class="line"></span><br><span class="line">~/workspace/Hexo/hexo-01/source/_posts/2015-05-18-Responsive-Embed.md</span><br><span class="line"></span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>這個使用 new 指令建立的 Post 檔案，雖然在「建立」的過程，有異常發生；但在後續完成文章內容的撰寫後，一樣可以 正常「發佈（deploy）」到我的部落格網站，後續沒再發生任何的異常狀況。</p>
+<p>這個有些異常的現象，似乎可以忽略它，不予理會。但是，每當執行 new 指令，就會看到的 Error 警告，總是叫人內心感到不痛快。</p>
+<p>今天又再 Google 了一下，找到了如下的一篇分享文章：<br><strong><a href="http://wp.huangshiyang.com/hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" target="_blank" rel="external">《Hexo常见问题解决方案》</a></strong></p>
+<p>根據作者提供的解決良方，我在 Hexo Project 的<strong>根目錄</strong>，透過終機機輸入如下的指令，再次安裝 hexo 的 NodeJS Module ：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ npm install hexo --no-optional</span><br><span class="line"></span><br><span class="line">hexo@3.0.1 node_modules/hexo</span><br><span class="line">├── hexo-front-matter@0.2.2</span><br><span class="line">├── pretty-hrtime@1.0.0</span><br><span class="line">├── abbrev@1.0.5</span><br><span class="line">├── titlecase@1.0.2</span><br><span class="line">├── archy@1.0.0</span><br><span class="line">├── text-table@0.2.0</span><br><span class="line">├── strip-indent@1.0.1 (get-stdin@4.0.1)</span><br><span class="line">├── tildify@1.0.0 (user-home@1.1.1)</span><br><span class="line">├── hexo-i18n@0.2.1 (sprintf-js@1.0.2)</span><br><span class="line">├── chalk@1.0.0 (escape-string-regexp@1.0.3, ansi-styles@2.0.1, supports-color@1.3.1, strip-ansi@2.0.1, has-ansi@1.0.3)</span><br><span class="line">├── through2@1.1.1 (xtend@4.0.0, readable-stream@1.1.13)</span><br><span class="line">├── minimatch@2.0.7 (brace-expansion@1.1.0)</span><br><span class="line">├── bunyan@1.3.5</span><br><span class="line">├── swig-extras@0.0.1 (markdown@0.5.0)</span><br><span class="line">├── bluebird@2.9.25</span><br><span class="line">├── js-yaml@3.3.1 (esprima@2.2.0, argparse@1.0.2)</span><br><span class="line">├── hexo-fs@0.1.3 (escape-string-regexp@1.0.3, graceful-fs@3.0.6, chokidar@0.12.6)</span><br><span class="line">├── nunjucks@1.3.4 (optimist@0.6.1, chokidar@0.12.6)</span><br><span class="line">├── warehouse@1.0.2 (graceful-fs@3.0.6, cuid@1.2.5, JSONStream@0.10.0)</span><br><span class="line">├── cheerio@0.19.0 (entities@1.1.1, dom-serializer@0.1.0, css-select@1.0.0, htmlparser2@3.8.2)</span><br><span class="line">├── hexo-cli@0.1.4 (minimist@1.1.1)</span><br><span class="line">├── moment@2.9.0</span><br><span class="line">├── hexo-util@0.1.6 (ent@2.2.0, highlight.js@8.5.0)</span><br><span class="line">├── moment-timezone@0.3.1</span><br><span class="line">├── lodash@3.8.0</span><br><span class="line">└── swig@1.4.2 (optimist@0.6.1, uglify-js@2.4.22)</span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<p>為驗證問題已解決了，我於終端機下指令，再次使用 Hexo 的 new 指令，建立新的 Post 檔案：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MAC2012:hexo-01 AlanJui$ hexo new 2015-05-18_Hexo-error</span><br><span class="line"></span><br><span class="line">INFO  Created: ~/workspace/Hexo/hexo-01/source/_posts/2015-05-18-Hexo-error.md</span><br><span class="line">MAC2012:hexo-01 AlanJui$</span><br></pre></td></tr></table></figure>
+<p>如上所示，問題真的已獲決了！   ^^y</p>
+	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/blog/2015/12/21/iOS-Development-With-Swift/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一頁</a></li>
+  		
+
+        <li><a href="/blog/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/blog/2015/05/18/Responsive-Embed/" class="alignright next">下一頁<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-05-18 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/blog/categories/InfoTech/">IT技術<span>28</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/blog/tags/Hexo/">Hexo<span>6</span></a></li> <li><a href="/blog/tags/Blog/">Blog<span>2</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'ccc99';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+      </div>
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2016 居正中
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/blog/js/jquery.imagesloaded.min.js"></script>
+<script src="/blog/js/gallery.js"></script>
+<script src="/blog/js/bootstrap.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="/blog/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/blog/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+  </body>
+</html>
